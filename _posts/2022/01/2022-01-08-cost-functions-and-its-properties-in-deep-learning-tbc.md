@@ -25,7 +25,7 @@ $latex \\displaystyle J(\\theta)=\\frac{1}{n} \\sum\_{i=1}^{n}\\left(y^{(i)}-\\h
 
 We could see from the graph below, the square error is increased in a quadratic way, the lowest loss is 0 and and highest loss could be infinite.
 
-![](images/screenshot-2022-01-08-at-18.45.40.png)
+![](images/2022/01/screenshot-2022-01-08-at-18.45.40.png)
 
 The MSE is very useful in regression problem, from the perspective of bias and variance perspective, we could do a bias and variance decomposition from MSE function.
 
@@ -78,7 +78,7 @@ $latex \\displaystyle J\_{\\theta}=\\frac{1}{n} \\sum\_{i=1}^{n}\\left|y\_{i}-\\
 
 The loss of mae when assumed y real is 0 could be plotted below. We could tell from the graph that the biggest loss could be infinite and the lowest is 0, and the loss increased linearly.
 
-![](images/screenshot-2022-01-10-at-21.47.47.png)
+![](images/2022/01/screenshot-2022-01-10-at-21.47.47.png)
 
 **Probabilistic interpretation of MAE**
 
@@ -102,11 +102,11 @@ MAE is more robust to outliers. We can understand this from the 2 perspectives:
 
 Firstly, the following figure shows the MAE and MSE losses drawn into the same picture. Since the MAE loss and the absolute error are linear, the MSE loss and the error have a quadratic relationship. When the error is very large, The MSE loss will be much larger than the MAE loss. Therefore, when there is an outlier with a very large error in the data, MSE will generate a very large loss, which will have a greater impact on the training of the model.
 
-![](images/screenshot-2022-01-10-at-21.21.18.png)
+![](images/2022/01/screenshot-2022-01-10-at-21.21.18.png)
 
 Secondly, when we look at the assumption of the two loss functions. MSE assumes that the error is distributed as a Gaussian distribution, and MAE assumes that the error is distributed as a Laplace distribution. The Laplace distribution by itself is more robust to outliers. when outliers appear on the right side of the right figure, the Laplace distribution is much less affected than the Gaussian distribution. Graph is from [Machine Learning A Probabilistic Perspective](https://doc.lagout.org/science/Artificial%20Intelligence/Machine%20learning/Machine%20Learning_%20A%20Probabilistic%20Perspective%20%5BMurphy%202012-08-24%5D.pdf)
 
-![](images/screenshot-2022-01-10-at-21.30.28.png)
+![](images/2022/01/screenshot-2022-01-10-at-21.30.28.png)
 
 **Code**
 
