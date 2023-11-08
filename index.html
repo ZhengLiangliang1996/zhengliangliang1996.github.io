@@ -9,7 +9,15 @@ layout: default
         <h1>{{ post.title }}</h1>
 
         <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+          <p class="post_date">
+            {{ post.date | date: "%B %e, %Y" }}
+
+            {% if post.last_modified_at %}
+            &mdash; Modified: {{ post.last_modified_at | date: "%b %-d, %Y" }} 
+            {% endif %}
+
+            {% include read-time.html content=post.content %}
+          </p>  
         </div>
       </a>
       <div class="entry">
