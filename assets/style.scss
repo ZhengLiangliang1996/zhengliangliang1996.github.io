@@ -7,13 +7,14 @@
 
 @import "reset";
 @import "variables";
+@import "fonts";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=IBM Plex Sans');
+
 
 html {
   font-size: 100%;
@@ -22,11 +23,11 @@ html {
 
 body {
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "IBM Plex Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'IBM Plex Serif', serif;
   color: #404040;
-  line-height: 1.7;
+  line-height: 1.6;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   height: 100%;
 }
 
@@ -38,14 +39,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "IBM Plex Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'IBM Plex Sans', sans-serif;
   color: $darkerGray;
   font-weight: bold;
-
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-align: center;
+  text-align: left;
 
   @include mobile {
     line-height: 1.4;
@@ -218,6 +218,11 @@ img {
   max-width: 100%;
 }
 
+img[src*='#center'] { 
+  display: block;
+  margin: auto;
+}
+
 p > img {
   text-align: center;
   display: block;
@@ -277,6 +282,7 @@ p > img {
   }
 }
 
+// No avatar 0px
 .site-avatar {
   float: left;
   width: 70px;
@@ -291,9 +297,6 @@ p > img {
 
   img {
     border-radius: 5px;
-    width: 70px;
-    height: 70px;
-    object-fit: cover;
   }
 }
 
@@ -310,8 +313,7 @@ p > img {
 .site-name {
   margin: 0;
   color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -325,6 +327,7 @@ p > img {
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
 
   @include mobile {
@@ -335,7 +338,7 @@ p > img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
 
   @include mobile {
@@ -401,6 +404,7 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
   }
 }
 
@@ -417,13 +421,14 @@ nav {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 89px;
+  height: 110px;
   background-color: $lightGray;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 body:after {
@@ -437,10 +442,10 @@ body:after {
 }
 
 #bar {
-    background: #000;
-    height: 7px;
-    background-size: cover;
-    background-position: left 60%;
+    background: rgb(167, 184, 241);
+    height: 2px;
+    // background-size: cover;
+    // background-position: left 60%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -449,38 +454,43 @@ body:after {
 }
 
 .post h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "IBM Plex Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align: center;
+  //font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'IBM Plex Sans', sans-serif;
   font-weight: bold;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
+  text-align: center;
 }
 
 .page h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "IBM Plex Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align: center;
+  //font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: left;
   font-weight: bold;
   font-kerning: auto;
   font-feature-settings: "kern","liga","dlig","hlig","cswh";
   line-height: 1.2;
+  text-align: center;
 }
 
 .author_title{
   text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
   color: #939aa1;
   letter-spacing: 2px;
 }
 
 .post_date{
-  text-align: center;
+  text-align: left;
   color: #939aa1;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .cd-container a {
   color: #30434e;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .cd-container img {
@@ -488,8 +498,29 @@ body:after {
 }
 
 .cd-container h1, .cd-container h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: bold;
+}
+
+.cookie-btn{
+  color: #000000;
+  background-color: #aeced6;
+  border-color: #000000;
+  margin: 6px;
+}
+
+.cookie-btn-ok{
+  color: #000000;
+  background-color: #1adb54;
+  border-color: #000000;
+  margin: 6px;
+}
+
+.btn-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
 }
 
 /* --------------------------------
@@ -630,7 +661,7 @@ Modules - reusable parts of our design
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "IBM Plex Sans", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   display: inline-block;
   overflow: hidden;
   max-width: 270px;
@@ -695,7 +726,7 @@ Modules - reusable parts of our design
 }
 
 .post-tags {
-  text-align: center;
+  text-align: left;
   line-height: 35px;
 }
 
@@ -703,7 +734,7 @@ Modules - reusable parts of our design
   font-size: 14.5px;
   padding: 2px 13px;
   border: none;
-  background-color: #4CAF50;
+  background-color: #0a4283;
   border-radius: 50px;
   color: #fff;
 }
@@ -1138,6 +1169,14 @@ Modules - reusable parts of our design
     transform: translateX(0);
   }
 }
+
+.btn-theme {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  margin: 4px;
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

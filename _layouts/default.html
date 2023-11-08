@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
     {% seo title=false %}
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     {% include analytics_head.html %}
@@ -20,19 +19,18 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
+           <!--
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
-
+            -->
             <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p> 
+              <h1 class="site-name">{{ site.name }}</h1>
+              <!-- <p class="site-description">{{ site.description }}</p> -->
             </div>
 
             <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
-              <a href="{{ site.baseurl }}/search">Search</a>
-              <a href="{{ site.baseurl }}/about">About</a>
+              <a href="{{ site.baseurl }}/">Blog</a>
               <a href="{{ site.baseurl }}/archive">Archive</a>
+              <a href="{{ site.baseurl }}/about">About</a>
             </nav>
           </header>
         </div>
@@ -48,11 +46,14 @@
         <div class="container">
           <footer class="footer">
             {% include svg-icons.html %}
+            <p>&copy; {{ site.author }}, {{ site.time | date: '%Y' }} </p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
           </footer>
         </div>
       </div>
     </div>
 
     {% include analytics.html %}
+    {% include cookie-consent.html %}
   </body>
 </html>
