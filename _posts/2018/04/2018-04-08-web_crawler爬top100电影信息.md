@@ -26,7 +26,7 @@ tags:
  3 content \= cateye\['content'\]
 
 webCrawler\_CatEYE.py
-
+```python
  1 
  2 def get\_one\_page(url):
  3    try:
@@ -71,7 +71,7 @@ webCrawler\_CatEYE.py
 42     p \= Pool()
 43     p.map(main,\[i\*10 for i in range(10)\])
 44 
-
+```
  
 
 稍微解释一下 第一个函数请求一个页面 用requests.get，然后进行try一下
