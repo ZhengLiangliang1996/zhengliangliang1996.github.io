@@ -13,21 +13,21 @@ During the training process, we will adjust the parameters in our model to minim
 
 Adam is a bit like RMSProp with momentum, the update rule works as below: (Sorry I wrote it by hand)
 
-![253495255.jpg](images/253495255.jpg)
+![253495255.jpg](https://zhengliangliang.files.wordpress.com/2019/08/253495255.jpg)
 
 m and v are estimates of first and second moments, if this is an unbiased estimator, the expected values of the estimators should be equal to the dx we're trying to estimate. We made the following calculation to get the expectation of m\_t, which will contain dx inside and could be used to repremsent dx later.
 
-![1276645224.jpg](images/1276645224.jpg)
+![1276645224.jpg](https://zhengliangliang.files.wordpress.com/2019/08/1276645224.jpg)
 
 Using induction to get the normal expression of mt, which sums up previous beta\_1 and times our parameter dx\_i. (There is a mistake in the accumulation term, i should starts from 1)
 
-![224847056.jpg](images/224847056.jpg)
+![224847056.jpg](https://zhengliangliang.files.wordpress.com/2019/08/224847056.jpg)
 
 We could take dx\_i out of the sum because it does not depend on i, beta\_i is always constant so it could stay outside of the expectation notion. The estimation of m\_t here is E\[dx\_i\], if we move 1 - beta\_1 to the left we could get the exact same equation in the third line.
 
 Finally the update rule will become as follows,
 
-![1891530343.jpg](images/1891530343.jpg)
+![1891530343.jpg](https://zhengliangliang.files.wordpress.com/2019/08/1891530343.jpg)
 
 Intuitively we made changes of the learning rate by scaling it, m\_t could be seen as mean and v\_t could be seen as variance.
 
@@ -35,15 +35,15 @@ Intuitively we made changes of the learning rate by scaling it, m\_t could be se
 
 RAdam is the rectifier version of Adam proposed by [Liu, Jian, He et al](https://arxiv.org/pdf/1908.03265.pdf) that provides an dynamic adjustment to the adaptive learning rate based on their detailed study into the effects of variance and momentum during training.
 
-![903133253.jpg](images/903133253.jpg)
+![903133253.jpg](https://zhengliangliang.files.wordpress.com/2019/08/903133253.jpg)
 
 In LIU's paper there is a warm up, which serves as a variance reducer, but the degree of warm up required is unknown and varies dataset to dataset.  They thus built a rectifier term, that would allow the adaptive momentum to slowly but steadily be allowed to work up to full expression as a function of the underlying variance.
 
  
 
-The followings are some detail about p and r, from [liu](https://arxiv.org/pdf/1908.03265.pdf)![Screenshot from 2019-08-27 19-38-54.png](images/screenshot-from-2019-08-27-19-38-54.png)
+The followings are some detail about p and r, from [liu](https://arxiv.org/pdf/1908.03265.pdf)![Screenshot from 2019-08-27 19-38-54.png](https://zhengliangliang.files.wordpress.com/2019/08/screenshot-from-2019-08-27-19-38-54.png)
 
-![Screenshot from 2019-08-27 19-39-13.png](images/screenshot-from-2019-08-27-19-39-13.png)
+![Screenshot from 2019-08-27 19-39-13.png](https://zhengliangliang.files.wordpress.com/2019/08/screenshot-from-2019-08-27-19-39-13.png)
 
  
 
