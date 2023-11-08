@@ -13,7 +13,7 @@ permalink: /archive/
     <ul style="list-style-type:none">
     {% endif %}
 
-    <li><class="author_title")>{{ post.date | date: "%m/%d" }}</class> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><class="author_title")>{{ post.date | date: "%m/%d" }}</class> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
     {% if forloop.last %}
     </ul>
