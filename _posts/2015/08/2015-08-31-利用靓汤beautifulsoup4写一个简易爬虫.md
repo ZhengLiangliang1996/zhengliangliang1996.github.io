@@ -24,7 +24,7 @@ coverImage: "h_large_esee_7a88000669c12f75.jpg"
 
 导入两个包  BeautifulSoup4 和  requests ,导入方法 进入 file->setting->ProjectInterpreter
 
-[![2015-08-31_184424](images/2015-08-31_184424.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_184424.png)
+[![2015-08-31_184424](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_184424.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_184424.png)
 
 右边有个绿色的加号＋，按了就可以搜索模块了 BeautifulSoup4 和 requests.
 
@@ -34,7 +34,7 @@ coverImage: "h_large_esee_7a88000669c12f75.jpg"
 
 From 维基百科：
 
-[![2015-08-31_194956](images/2015-08-31_194956.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_194956.png)
+[![2015-08-31_194956](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_194956.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_194956.png)
 
 bf4 作为python的包可以解析HTML和XML文件，包括有格式错误的标记。它创建了一颗搜索树来爬网站或者文档
 
@@ -102,15 +102,15 @@ def trade\_spider(max\_page):
 
 我们首先要找到每个页面有链接的标题:
 
-[![FastStoneEditor1](images/faststoneeditor1.jpg)](https://zhengliangliang.files.wordpress.com/2015/08/faststoneeditor1.jpg)
+[![FastStoneEditor1](https://zhengliangliang.files.wordpress.com/2015/08/faststoneeditor1.jpg)](https://zhengliangliang.files.wordpress.com/2015/08/faststoneeditor1.jpg)
 
 按右键查找源代码
 
-[![2015-08-31_203422](images/2015-08-31_203422.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203422.png)
+[![2015-08-31_203422](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203422.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203422.png)
 
 上面这一串，虽然后标题，有href链接，但是class部分是没有的，应该是被隐藏了，所以这里只能用下面这一串也含有标题链接href的代码，因为有class ,可以准确的找到
 
-[![2015-08-31_203528](images/2015-08-31_203528.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203528.png)
+[![2015-08-31_203528](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203528.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203528.png)
 
 所以在遍历的时候  for link in soup.findAll('a',{'class':'j a\_unfolder'})**:**
 
@@ -126,11 +126,11 @@ def trade\_spider(max\_page):
 
 打开刚才第一个影评做示范：
 
-[![2015-08-31_204552](images/2015-08-31_204552.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_204552.png)
+[![2015-08-31_204552](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_204552.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_204552.png)
 
 作者是 黄香蕉 我们就查找这一部分的源代码，右键——》查看页面源代码  找到黄香蕉所在的位置
 
-[![2015-08-31_204741](images/2015-08-31_204741.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_204741.png)
+[![2015-08-31_204741](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_204741.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_204741.png)
 
 它在span里面，属性是property 属性名字是  v:reviewer
 
@@ -147,7 +147,7 @@ def get\_single\_item\_data(item\_url):
 
 呈现的效果
 
-[![2015-08-31_205155](images/2015-08-31_205155.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_205155.png)
+[![2015-08-31_205155](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_205155.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_205155.png)
 
 虽然很简单，但是显示地十分漂亮整洁。
 

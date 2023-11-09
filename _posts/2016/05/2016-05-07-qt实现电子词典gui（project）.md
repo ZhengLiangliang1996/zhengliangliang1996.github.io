@@ -11,7 +11,7 @@ categories:
 
 以下是辞典的内容 dict.txt
 
-![2016-05-07_103714](images/2016-05-07_103714.png)
+![2016-05-07_103714](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_103714.png)
 
 ### 1.选定变量
 
@@ -149,7 +149,7 @@ void free\_dict(struct dict \*p, int size)
 
 运行:
 
-![2016-05-07_113649.png](images/2016-05-07_113649.png)
+![2016-05-07_113649.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_113649.png)
 
  
 
@@ -173,12 +173,12 @@ void free\_dict(struct dict \*p, int size)
 
 先制作Design界面：
 
-![2016-05-07_114248.png](images/2016-05-07_114248.png)
+![2016-05-07_114248.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114248.png)
 
 然后添加槽，对代码进行一些编码和文件名写死的修改，就可以啦
 
-![2016-05-07_114429.png](images/2016-05-07_114429.png)
+![2016-05-07_114429.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114429.png)
 
-![2016-05-07_114510.png](images/2016-05-07_114510.png)
+![2016-05-07_114510.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114510.png)
 
 项目地址：[Fork me on github!](https://github.com/charlieputh/Digital_Dictionary-Qt)
