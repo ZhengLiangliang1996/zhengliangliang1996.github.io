@@ -4,26 +4,22 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+### Who am I?
 
-## Features
+Hey there! I'm Liangliang, currently donning the hat of a software engineer in the Netherlands, I've got a  background in data science that still fuels my passion for AI, data analysis, data visualization, and even a sprinkle of robotics magic. Lately, I've been diving into the fascinating realm of large-scale distributed systems and their intricate designs.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+### Things I'm crafting   
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+1. RL Trading: An online platform for training stock market data using deep reinformcement learning.
+2. AlterAnki: An online tool for exam preparation. 
+
+### Contact me
+
+In the vast networked wilderness, you can summon me on [LinkedIn]()https://www.linkedin.com/in/liangliangzheng/
+
+### Copyright
+
+© All rights reserved.
+
+This digital grimoire is licensed under the sacred runes of [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Share the wisdom, but let's keep it non-commercial, and may the spirit of sharing be ever in your code!
