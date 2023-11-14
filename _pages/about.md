@@ -9,6 +9,7 @@ permalink: /about/
 
 Hey there! I'm Liangliang, currently donning the hat of a software engineer in the Netherlands, I've got a  background in data science that still fuels my passion for AI, data analysis, data visualization, and robotics magic. Lately, I've been diving into the fascinating realm of large-scale distributed systems and their designs.
 
+I've migrated my old [Blog](https://zhengliangliang.wordpress.com/) now here, so some of the old posts have code highlighting/formatting issue, which would be solved soon...
 
 ### Things I'm crafting   
 
@@ -24,5 +25,3 @@ In the vast networked wilderness, you can summon me on [LinkedIn](https://www.li
 ### Copyright
 
 © All rights reserved.
-
-This digital grimoire is licensed under the sacred runes of [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Share the wisdom, but let's keep it non-commercial, and may the spirit of sharing be ever in your code!
