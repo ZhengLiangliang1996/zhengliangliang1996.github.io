@@ -38,19 +38,27 @@ Over the past few days, I've immersed myself into articles, research papers, and
 
 Resveratrol (RV) is a potent polyphenolic compound found in a variety of fruits and vegetables, including grapes, skin of peanuts, mulberries, blueberries, bilberries, soybeans, pomegranates, cranberries, soy, dark chocolate, pistachios. It possesses a distinct chemical structure, primarily composed of two aromatic rings connected by a methylene bridge. Biologically when you take resveratorl, it is rapidly metabolized by phase II enzymes in the intestine and liver. The RV’s **low solubility**(< 0.05mg/ml) in water is caused by its enzymatic structure, which might affect its consumption [[1]](#1). 
 
-Resveratrol occurs naturally in two forms: trans and cis isomers, with the trans-isomer being the more commonly associated with health benefits. It is typically a white powder extracted using methanol, characterized by a melting point between 253°C and 255°C, and has a relatively low molecular weight of 228.25.[[1]](#1) While trans-resveratrol is the form primarily studied for its potential health advantages, cis-resveratrol is less prevalent and is typically produced synthetically rather than being the predominant form found in natural sources. The variation in the spatial arrangement of atoms around the double bond results in differences in the chemical and biological properties of these two isomers. Trans-resveratrol is generally considered the more biologically active and bioavailable form, making it the focal point of most research on the potential health benefits of resveratrol. 
-
 <p align="center">
   <img src="{{ site.baseurl }}/images/2023/11/2880px-Cis_and_trans_resveratrol_notext copy.svg.png" alt="Cis_and_trans_resveratrol" width="350" height="100"/>
 </p>
 
-It has been discovered that RV has many potential health benefits like antioxidant , cardioprotective, neurological, anti-inflammatory, antiplatelet, blood glucose-lowering, and anticancer activities. [[1]](#1)
+Resveratrol occurs naturally in two forms: trans and cis isomers, with the trans-isomer being the more commonly associated with health benefits. It is typically a white powder extracted using methanol, characterized by a melting point between 253°C and 255°C, and has a relatively low molecular weight of 228.25.[[1]](#1) While trans-resveratrol is the form primarily studied for its potential health advantages, cis-resveratrol is less prevalent and is typically produced synthetically rather than being the predominant form found in natural sources. The variation in the spatial arrangement of atoms around the double bond results in differences in the chemical and biological properties of these two isomers. Trans-resveratrol is generally considered the more biologically active and bioavailable form, making it the focal point of most research on the potential health benefits of resveratrol. 
 
+
+#### Mechanisms of action 
+It has been discovered that RV has many potential health benefits like antioxidant , cardioprotective, neurological, anti-inflammatory, antiplatelet, blood glucose-lowering, and anticancer activities. [[1]](#1). In another famous experiments in nonhuman primates carried out by Laboratory of Cardiovascular Science, resveratrol has been found to prevent high fat/sucrose (HFS) diet-induced central arterial wall inflammation and stiffening. [[2]](#2) 
+
+
+Resveratrol, a natural compound found in various plants, operates through several mechanisms to positively impact health. Here's a simplified summary of its actions:
+
+1. **SIRT1/3 Activation:** Resveratrol activates SIRT1 and SIRT3 enzymes (SIRT1 and SIRT3 is one of [Sirtuin](https://en.wikipedia.org/wiki/Sirtuin), which are types of proteins involved in metabolic regulation, inflammation), reducing acetylation of SOD2 and limiting ROS production by NOX4. It also activates the AMPK signaling pathway, contributing to cellular health. Nicotinamide Adenine Dinucleotide (NAD)
 
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
 
-<a id="2">[2]</a>  Mattison, Julie A., Mingyi Wang, Michel Bernier, Jing Zhang, Sung-Soo Park, Stuart Maudsley, Steven S. An, et al. ‘Resveratrol Prevents High Fat/Sucrose Diet-Induced Central Arterial Wall Inflammation and Stiffening in Nonhuman Primates’. Cell Metabolism 20, no. 1 (July 2014): 183–90. https://doi.org/10.1016/j.cmet.2014.04.018.
+<a id="2">[2]</a> Mattison, Julie A., Mingyi Wang, Michel Bernier, Jing Zhang, Sung-Soo Park, Stuart Maudsley, Steven S. An, et al. ‘Resveratrol Prevents High Fat/Sucrose Diet-Induced Central Arterial Wall Inflammation and Stiffening in Nonhuman Primates’. Cell Metabolism 20, no. 1 (July 2014): 183–90. https://doi.org/10.1016/j.cmet.2014.04.018.
 
-[^3] 
+<a id="3">[3]</a> Marques, Francine Z., M. Andrea Markus, and Brian J. Morris. ‘Resveratrol: Cellular Actions of a Potent Natural Chemical That Confers a Diversity of Health Benefits’. The International Journal of Biochemistry & Cell Biology 41, no. 11 (November 2009): 2125–28. https://doi.org/10.1016/j.biocel.2009.06.003.
+
+
