@@ -19,7 +19,7 @@ categories:
     2. [Vitamin D](#vitd)
     3. [Vitamin K2](#)
 5. [Joint Health and Inflammation](#joint)
-6. 
+6. [Summary and Concerns](#summary_and_concerns)
 
 ### Disclaimer <a name="disclaimer"></a>
 The information presented on the blog is **ONLY** intended for knowledge sharing and understanding how supplements work, it is **NOT** intended as medical advice or as a substitute for medical treatment. You should always consult with your physician or other health care professional before taking any medication or nutritional, herbal or homeopathic supplement. 
@@ -36,7 +36,7 @@ Over the past few days, I've immersed myself into articles, research papers, and
 
 ### Resveratrol <a name="Resveratrol"></a>
 
-Resveratrol (RV) is a potent polyphenolic compound found in a variety of fruits and vegetables, including grapes, skin of peanuts, mulberries, blueberries, bilberries, soybeans, pomegranates, cranberries, soy, dark chocolate, pistachios. It possesses a distinct chemical structure, primarily composed of two aromatic rings connected by a methylene bridge. Biologically when you take resveratorl, it is rapidly metabolized by phase II enzymes in the intestine and liver. The RV’s **low solubility**(< 0.05mg/ml) in water is caused by its enzymatic structure, which might affect its consumption [[1]](#1). 
+Resveratrol (RV) is a potent polyphenolic compound found in a variety of fruits and vegetables, including grapes, skin of peanuts, mulberries, blueberries, bilberries, soybeans, pomegranates, cranberries, soy, dark chocolate, pistachios. It possesses a distinct chemical structure, primarily composed of two aromatic rings connected by a methylene bridge. Biologically when you take resveratorl, it is rapidly metabolized by phase II enzymes in the intestine and liver. The RV’s **low solubility**(< 0.05mg/ml) in water is caused by its enzymatic structure, which might affect its consumption.[[1]](#1) 
 
 <p align="center">
   <img src="{{ site.baseurl }}/images/2023/11/2880px-Cis_and_trans_resveratrol_notext copy.svg.png" alt="Cis_and_trans_resveratrol" width="350" height="100"/>
@@ -46,12 +46,30 @@ Resveratrol occurs naturally in two forms: trans and cis isomers, with the trans
 
 
 #### Mechanisms of action 
-It has been discovered that RV has many potential health benefits like antioxidant , cardioprotective, neurological, anti-inflammatory, antiplatelet, blood glucose-lowering, and anticancer activities. [[1]](#1). In another famous experiments in nonhuman primates carried out by Laboratory of Cardiovascular Science, resveratrol has been found to prevent high fat/sucrose (HFS) diet-induced central arterial wall inflammation and stiffening. [[2]](#2) 
+It has been discovered that RV has many potential health benefits like antioxidant , cardioprotective, neurological, anti-inflammatory, antiplatelet, blood glucose-lowering, and anticancer activities.[[1]](#1) In another famous experiments in nonhuman primates carried out by Laboratory of Cardiovascular Science, resveratrol has been found to prevent high fat/sucrose (HFS) diet-induced central arterial wall inflammation and stiffening.[[2]](#2) Below is a simplified summary of its actions:
+
+1. **SIRT1/3 Activation:** Resveratrol activates SIRT1 and SIRT3 enzymes (SIRT1 and SIRT3 is one of [Sirtuin](https://en.wikipedia.org/wiki/Sirtuin), which are types of proteins involved in metabolic regulation, inflammation), Sirt1 has been implicated in many vital processes, such as DNA repair, cell survival, gluconeogenesis, muscle cell differentiation, cell-cycle regulation, lipid metabolism, fat mobilization and insulin sensitivity, [[3]](#3)
+
+2. **Neuroprotective Effects:** It reduces [endoplasmic reticulum](https://en.wikipedia.org/wiki/Endoplasmic_reticulum) (ER) stress, inhibits carbonyl protein activity, and supports factors associated with brain health.
+
+3. **Cardiometabolic Benefits:** Resveratrol improves mitochondrial (The mitochondria are like little workers in a factory. They take the food you eat, use the oxygen you breathe, and create energy for your body) respiratory activity in the heart, increases adenosine monophosphate kinase (p-[AMPK](https://en.wikipedia.org/wiki/AMP-activated_protein_kinase)) levels (AMPK acts as a sensor of cellular energy status and helps regulate various metabolic processes to ensure the cell has enough energy to function), and boosts [SOD2](https://en.wikipedia.org/wiki/SOD2) (a family of enzymes that play a crucial role in protecting cells from damage caused by free radicals) levels, promoting cardiovascular health.
+
+4. **Inflammation Regulation:** Resveratrol reduces inflammatory parameters, including interleukin-6 [IL-6](https://en.wikipedia.org/wiki/Interleukin_6) (IL-6 involved in promoting inflammation, regulating immune cell activity) and Tumor Necrosis Factor-Alpha [TNF-α](https://en.wikipedia.org/wiki/Tumor_necrosis_factor), which plays a significant role in managing oxidative stress. 
+
+5. **Anti-Cancer Properties:** Resveratrol inhibits the production of NADPH oxidase [NOX](https://en.wikipedia.org/wiki/NADPH_oxidase) and [myeloperoxidase](https://en.wikipedia.org/wiki/Myeloperoxidase), showing potential anti-cancer effects. 
+
+7. **Neurological Health:** Resveratrol inhibits Nitric oxide synthase [iNOS](https://en.wikipedia.org/wiki/Nitric_oxide_synthase) production, protects against lipid peroxidation, and has potential therapeutic effects for Alzheimer's disease (AD) by promoting amyloid precursor protein cleavage and overcoming oxidative stress.
+
+8. **Reproductive System Benefits:** Resveratrol improves sperm mobility, increases zinc concentration, and counteracts prooxidative effects in the reproductive system.
+
+9. **Intestinal Health:** Resveratrol reduces markers like [IL-8](https://en.wikipedia.org/wiki/Interleukin_8), Vascular Endothelial Growth Factor [VEGF](https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor) (VEGF's normal function is to create new blood vessels, but overexpression of VEGF can cause vascular disease), and Reactive oxygen species [ROS](https://en.wikipedia.org/wiki/Reactive_oxygen_species), indicating a role in managing intestinal disorders. [[4]](#4)
 
 
-Resveratrol, a natural compound found in various plants, operates through several mechanisms to positively impact health. Here's a simplified summary of its actions:
+The figure below shows the general benefits of resveratrol. 
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-17 at 10.56.54.png" alt="resveratrol_benifit"/>
+</p>
 
-1. **SIRT1/3 Activation:** Resveratrol activates SIRT1 and SIRT3 enzymes (SIRT1 and SIRT3 is one of [Sirtuin](https://en.wikipedia.org/wiki/Sirtuin), which are types of proteins involved in metabolic regulation, inflammation), reducing acetylation of SOD2 and limiting ROS production by NOX4. It also activates the AMPK signaling pathway, contributing to cellular health. Nicotinamide Adenine Dinucleotide (NAD)
 
 
 ## References
@@ -60,5 +78,7 @@ Resveratrol, a natural compound found in various plants, operates through severa
 <a id="2">[2]</a> Mattison, Julie A., Mingyi Wang, Michel Bernier, Jing Zhang, Sung-Soo Park, Stuart Maudsley, Steven S. An, et al. ‘Resveratrol Prevents High Fat/Sucrose Diet-Induced Central Arterial Wall Inflammation and Stiffening in Nonhuman Primates’. Cell Metabolism 20, no. 1 (July 2014): 183–90. https://doi.org/10.1016/j.cmet.2014.04.018.
 
 <a id="3">[3]</a> Marques, Francine Z., M. Andrea Markus, and Brian J. Morris. ‘Resveratrol: Cellular Actions of a Potent Natural Chemical That Confers a Diversity of Health Benefits’. The International Journal of Biochemistry & Cell Biology 41, no. 11 (November 2009): 2125–28. https://doi.org/10.1016/j.biocel.2009.06.003.
+
+<a id="4">[4]</a> Y. Bai, H. Yang, G. Zhang, L. Hu, Y. Lei, Y. Qin, Y. Yang, Q. Wang, R. Li, Q. Mao, Inhibitory effects of resveratrol on the adhesion, migration and invasion of human bladder cancer cells, Mol. Med. Rep. 15 (2) (2017) 885–889.
 
 
