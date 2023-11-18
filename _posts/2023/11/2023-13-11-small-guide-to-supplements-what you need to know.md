@@ -62,7 +62,7 @@ It has been discovered that RV has many potential health benefits like antioxida
 
 8. **Reproductive System Benefits:** Resveratrol improves sperm mobility, increases zinc concentration, and counteracts prooxidative effects in the reproductive system.
 
-9. **Intestinal Health:** Resveratrol reduces markers like [IL-8](https://en.wikipedia.org/wiki/Interleukin_8), Vascular Endothelial Growth Factor [VEGF](https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor) (VEGF's normal function is to create new blood vessels, but overexpression of VEGF can cause vascular disease), and Reactive oxygen species [ROS](https://en.wikipedia.org/wiki/Reactive_oxygen_species), indicating a role in managing intestinal disorders. [[4]](#4)
+9. **Intestinal Health:** Resveratrol reduces markers like [IL-8](https://en.wikipedia.org/wiki/Interleukin_8), Vascular Endothelial Growth Factor [VEGF](https://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor) (VEGF's normal function is to create new blood vessels, but overexpression of VEGF can cause vascular disease), and Reactive oxygen species [ROS](https://en.wikipedia.org/wiki/Reactive_oxygen_species) (ROS are like energetic troublemakers in your body that, when there are too many of them, can create a bit of chaos and cause damage to your cells), indicating a role in managing intestinal disorders. [[4]](#4)
 
 
 The figure below shows the general benefits of resveratrol. 
@@ -71,6 +71,37 @@ The figure below shows the general benefits of resveratrol.
 </p>
 
 
+### NMN <a name="NMN"></a>
+
+Nicotinamide Mononucleotide ([NMN](https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide)). In humans, several enzymes use NMN to generate nicotinamide adenine dinucleotide ([NADH](https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide)). (NAD+ (Nicotinamide Adenine Dinucleotide) is a crucial coenzyme in cells that plays a fundamental role in various biological processes, you can think of it as coal for energy production, NAD+ was found gradually declining during aging [[6]](#6)). NMN can be found in fruits and vegetables such as broccoli, cabbage, cucumber and avocado at a concentration of about 1 mg per 100g. In mammals most NMN is synthesized from vitamin B3 in the form of nicotinamide. [[5]](#5).
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn"/>
+</p>
+
+NMN consists of three main components: a nicotinamide group, a ribose sugar, and a phosphate group. The nicotinamide group is connected to the ribose unit, and the phosphate group is attached to the ribose, forming the complete NMN molecule. In the human body, it can be found in placenta tissue and body fluids such as blood and urine. [[7]](#7)
+
+
+#### Mechanisms of action
+
+**NAD+ Decline During Aging:**
+
+Aging is naturally associated with a decline in NAD+ levels.
+Enzymes like sirtuins, CD38/CD157, PARP, TNKS, and BST contribute to NAD+ consumption during aging [[7]](#7). Chronic inflammation and oxidative stress hinder NAD+ biosynthesis. Reduced NAD+ levels lead to interruptions in cellular communication and mitochondrial dysfunction, contributing to age-related complications.
+
+**Why NMN Could Work as a Solution:**
+
+NMN (Nicotinamide Mononucleotide) is an intermediate compound in the NAD+ biosynthesis pathway. Administering NMN can compensate for the decline in NAD+ levels during aging. NMN supplementation may activate SIRT1, a protein associated with anti-aging effects.
+Studies suggest NMN as a potential solution to restore NAD+ levels and counteract aging effects. The effect could be summarized by the figure [[7]](#7) shown below
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 16.01.41.png" alt="nmn"/>
+</p>
+
+
+## Summary and Concerns <a name="summary_and_concerns"></a>
+
+Nowadays, there are NMN products, marketed as supplements for anti-aging and longevity in the form of capsules, which are very high in dose such as 500 mg. The safety of these doses cannot be assessed since required clinical and toxicological studies have not been completed yet to establish the recommended safe levels for long term administration. Nevertheless, their safety and efficacy are uncertain and unreliable since most of them have not been backed up by rigorous scientific preclinical and clinical testing.[[7]](#7)
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
@@ -81,4 +112,8 @@ The figure below shows the general benefits of resveratrol.
 
 <a id="4">[4]</a> Y. Bai, H. Yang, G. Zhang, L. Hu, Y. Lei, Y. Qin, Y. Yang, Q. Wang, R. Li, Q. Mao, Inhibitory effects of resveratrol on the adhesion, migration and invasion of human bladder cancer cells, Mol. Med. Rep. 15 (2) (2017) 885–889.
 
+<a id="5">[5]</a> Shade C. The Science Behind NMN-A Stable, Reliable NAD+Activator and Anti-Aging Molecule. Integr Med (Encinitas). 2020 Feb;19(1):12-14. PMID: 32549859; PMCID: PMC7238909.
 
+<a id="6">[6]</a> Schultz MB et al. Why NAD+ Declines during Aging: It’s Destroyed. Cell Metab. 2016 June 14; 23(6): 965–966
+
+<a id="7">[7]</a> Nadeeshani, H., Li, J., Ying, T., Zhang, B., & Lu, J. (2021). Nicotinamide mononucleotide (NMN) as an anti-aging health product – Promises and safety concerns. Journal of Advanced Research. doi:10.1016/j.jare.2021.08.003 
