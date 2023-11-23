@@ -19,7 +19,7 @@ categories:
     2. [Vitamin D](#vitd)
     3. [Vitamin K2](#)
 5. [Joint Health and Inflammation](#joint)
-6. [Summary and Concerns](#summary_and_concerns)
+6. [Suggest Doses, Summary and Concerns](#summary_and_concerns)
 
 ### Disclaimer <a name="disclaimer"></a>
 The information presented on the blog is **ONLY** intended for knowledge sharing and understanding how supplements work, it is **NOT** intended as medical advice or as a substitute for medical treatment. You should always consult with your physician or other health care professional before taking any medication or nutritional, herbal or homeopathic supplement. 
@@ -48,7 +48,7 @@ Resveratrol occurs naturally in two forms: trans and cis isomers, with the trans
 #### Mechanisms of action 
 It has been discovered that RV has many potential health benefits like antioxidant , cardioprotective, neurological, anti-inflammatory, antiplatelet, blood glucose-lowering, and anticancer activities.[[1]](#1) In another famous experiments in nonhuman primates carried out by Laboratory of Cardiovascular Science, resveratrol has been found to prevent high fat/sucrose (HFS) diet-induced central arterial wall inflammation and stiffening.[[2]](#2) Below is a simplified summary of its actions:
 
-1. **SIRT1/3 Activation:** Resveratrol activates SIRT1 and SIRT3 enzymes (SIRT1 and SIRT3 is one of [Sirtuin](https://en.wikipedia.org/wiki/Sirtuin), which are types of proteins involved in metabolic regulation, inflammation), Sirt1 has been implicated in many vital processes, such as DNA repair, cell survival, gluconeogenesis, muscle cell differentiation, cell-cycle regulation, lipid metabolism, fat mobilization and insulin sensitivity, [[3]](#3)
+1. **SIRT1/3 Activation:** Resveratrol activates SIRT1 and SIRT3 enzymes (SIRT1 and SIRT3 is one of [Sirtuin](https://en.wikipedia.org/wiki/Sirtuin), which are types of proteins involved in metabolic regulation, inflammation), Sirt1 has been implicated in many vital processes, such as DNA repair, cell survival, gluconeogenesis, muscle cell differentiation, cell-cycle regulation, lipid metabolism, fat mobilization and insulin sensitivity. [[3]](#3)
 
 2. **Neuroprotective Effects:** It reduces [endoplasmic reticulum](https://en.wikipedia.org/wiki/Endoplasmic_reticulum) (ER) stress, inhibits carbonyl protein activity, and supports factors associated with brain health.
 
@@ -71,12 +71,13 @@ The figure below shows the general benefits of resveratrol.
 </p>
 
 
+
 ### NMN <a name="NMN"></a>
 
-Nicotinamide Mononucleotide ([NMN](https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide)). In humans, several enzymes use NMN to generate nicotinamide adenine dinucleotide ([NADH](https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide)). (NAD+ (Nicotinamide Adenine Dinucleotide) is a crucial coenzyme in cells that plays a fundamental role in various biological processes, you can think of it as coal for energy production, NAD+ was found gradually declining during aging [[6]](#6)). NMN can be found in fruits and vegetables such as broccoli, cabbage, cucumber and avocado at a concentration of about 1 mg per 100g. In mammals most NMN is synthesized from vitamin B3 in the form of nicotinamide. [[5]](#5).
+Nicotinamide Mononucleotide ([NMN](https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide)). In humans, several enzymes use NMN to generate nicotinamide adenine dinucleotide ([NADH](https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide)). (NAD+ (Nicotinamide Adenine Dinucleotide) is a crucial coenzyme in cells that plays a fundamental role in various biological processes, you can think of it as coal for energy production, NAD+ was found gradually declining during aging.[[6]](#6)) NMN can be found in fruits and vegetables such as broccoli, cabbage, cucumber and avocado at a concentration of about 1 mg per 100g. In mammals most NMN is synthesized from vitamin B3 in the form of nicotinamide. [[5]](#5)
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn" width="200" height="200"/>
 </p>
 
 NMN consists of three main components: a nicotinamide group, a ribose sugar, and a phosphate group. The nicotinamide group is connected to the ribose unit, and the phosphate group is attached to the ribose, forming the complete NMN molecule. In the human body, it can be found in placenta tissue and body fluids such as blood and urine. [[7]](#7)
@@ -87,21 +88,49 @@ NMN consists of three main components: a nicotinamide group, a ribose sugar, and
 **NAD+ Decline During Aging:**
 
 Aging is naturally associated with a decline in NAD+ levels.
-Enzymes like sirtuins, CD38/CD157, PARP, TNKS, and BST contribute to NAD+ consumption during aging [[7]](#7). Chronic inflammation and oxidative stress hinder NAD+ biosynthesis. Reduced NAD+ levels lead to interruptions in cellular communication and mitochondrial dysfunction, contributing to age-related complications.
+Enzymes like [sirtuins](https://en.wikipedia.org/wiki/Sirtuin),[CD38](https://en.wikipedia.org/wiki/CD38)/CD157, [PARP](https://en.wikipedia.org/wiki/Procyclin), [TNKS](https://en.wikipedia.org/wiki/Tankyrase), and [BST](https://en.wikipedia.org/wiki/BST1) contribute to NAD+ consumption during aging. [[7]](#7) Chronic inflammation and oxidative stress hinder NAD+ biosynthesis. Reduced NAD+ levels lead to interruptions in cellular communication and mitochondrial dysfunction, contributing to age-related complications.
 
 **Why NMN Could Work as a Solution:**
 
-NMN (Nicotinamide Mononucleotide) is an intermediate compound in the NAD+ biosynthesis pathway. Administering NMN can compensate for the decline in NAD+ levels during aging. NMN supplementation may activate SIRT1, a protein associated with anti-aging effects.
+NMN (Nicotinamide Mononucleotide) is an intermediate compound in the NAD+ [biosynthesis](https://en.wikipedia.org/wiki/Biosynthesis) (simple compounds are modified, converted into other compounds) pathway. Administering NMN can compensate for the decline in NAD+ levels during aging. NMN supplementation may activate SIRT1, a protein associated with anti-aging effects.
 Studies suggest NMN as a potential solution to restore NAD+ levels and counteract aging effects. The effect could be summarized by the figure [[7]](#7) shown below
 
 <p align="center">
   <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 16.01.41.png" alt="nmn"/>
 </p>
 
+#### Ubiquinol <a name="Ubiquinol"></a>
+The term "ubiquinol" derives from "ubiquitous," signifying its widespread presence. Ubiquinol is an electron-rich (reduced) form of coenzyme Q (ubiquinone), aka CoQ10. In 1957, Professor Frederick Crane and colleagues discovered CoQ10 from beef heart mitochondria at the University of Wisconsin-Madison Enzyme Institute.6 R.A. Morton, from the United Kingdom, isolated the compound in rat liver just after Dr. Crane’s discovery. It was Morton who named the compound ubiquinone, meaning ubiquitous quinone or one that “exists everywhere.”. In 1962, Peter D. Mitchell, PhD from University of Edinburgh determined how CoQ10 produces energy at the cellular level and in 1978 he was awarded the Nobel Prize for chemistry based on his discovery. Q10 normally could be found in Fish, Calf’s Liver (and other organ meats), Germ portion of whole grains in nature. [[8]](#8) 
 
-## Summary and Concerns <a name="summary_and_concerns"></a>
+CoQ10, also known as ubiquinone, is a necessary component of cell respiration and ATP production. Ubiquinone is a fat soluble substance used to form ubiquinol, the fully reduced form of ubiquinone and potent antioxidant. [[8]](#8) 
 
-Nowadays, there are NMN products, marketed as supplements for anti-aging and longevity in the form of capsules, which are very high in dose such as 500 mg. The safety of these doses cannot be assessed since required clinical and toxicological studies have not been completed yet to establish the recommended safe levels for long term administration. Nevertheless, their safety and efficacy are uncertain and unreliable since most of them have not been backed up by rigorous scientific preclinical and clinical testing.[[7]](#7)
+**Chemical Structure of CoQ10**: The most common form in humans is Coenzyme Q10 (CoQ10 or ubiquinone-10). CoQ10 is a 1,4-benzoquinone, where the "Q" refers to the quinone chemical group, and "10" signifies the number of isoprenyl chemical subunits in its tail. (Ubiquinone Tail Variability: In natural ubiquinones, there can be from six to ten subunits in the tail. The specific variant, ubiquinone-10, is predominantly found in humans.)
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/1600px-Ubiquinol.png" alt="ubiquinone"/>
+</p>
+
+#### Mechanisms of action
+
+Role in Energy Production: CoQ10 is a family of fat-soluble substances, resembling vitamins, and is present in all respiring eukaryotic cells, primarily in the mitochondria.
+
+Mitochondrial Function: As a vital component of the electron transport chain, CoQ10 participates in aerobic cellular respiration, a process that generates energy in the form of ATP.
+
+Energy Generation: A substantial 95% of the human body's energy is generated through aerobic cellular respiration, highlighting the significance of CoQ10.
+
+Organ-Specific Concentrations: Organs with high energy demands, such as the heart, liver, and kidney, exhibit the highest concentrations of CoQ10, emphasizing its critical role in meeting the energy requirements of these vital organs.
+
+The effect of Ubiquinol is much better than that of ordinary Q10 (ubiquinone), and currently the only supplier of Ubiquinol on the market is **Kaneka** from Japan. [[8]](#8)
+
+Moreover, CoQ10 can increase the production of key antioxidants such as [superoxide dismutase](https://en.wikipedia.org/wiki/Superoxide_dismutase), an enzyme capable of reducing vascular oxidative stress in hypertensive patients. [[9]](#9) CoQ10 reduces levels of [lipid peroxidation](https://en.wikipedia.org/wiki/Lipid_peroxidation) via the reduction of pro-oxidative compounds. [[10]](#10) So peroxidation is a chain reaction commonly found in polyunsaturated fatty acids, and its products may be carcinogenic and mutagenic. Since lipids are components of cell membranes, lipid peroxidation may have disastrous consequences if it's out of control inside body.
+
+#### Astaxanthin <a name="Astaxanthin"></a>
+
+
+## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
+
+The observed safe level (OSL) is intake up to 1,200 mg/day.
+Nowadays, there are NMN products, marketed as supplements for anti-aging and longevity in the form of capsules, which are very high in dose such as 500 mg. The safety of these doses cannot be assessed since required clinical and toxicological studies have not been completed yet to establish the recommended safe levels for long term administration. Nevertheless, their safety and efficacy are uncertain and unreliable since most of them have not been backed up by rigorous scientific preclinical and clinical testing. [[7]](#7)
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
@@ -117,3 +146,9 @@ Nowadays, there are NMN products, marketed as supplements for anti-aging and lon
 <a id="6">[6]</a> Schultz MB et al. Why NAD+ Declines during Aging: It’s Destroyed. Cell Metab. 2016 June 14; 23(6): 965–966
 
 <a id="7">[7]</a> Nadeeshani, H., Li, J., Ying, T., Zhang, B., & Lu, J. (2021). Nicotinamide mononucleotide (NMN) as an anti-aging health product – Promises and safety concerns. Journal of Advanced Research. doi:10.1016/j.jare.2021.08.003 
+
+<a id="8">[8]</a> Dyer, Andrew R. ‘CoQ10: A Literature Review’ 40, no. 1 (n.d.).
+
+<a id="9">[9]</a> Kędziora-Kornatowska K, Czuczejko J, Motyl J, Szewczyk-Golec K, Kozakiewicz M, Pawluk H, Kędziora J, Błaszczak R, Banach M, Rysz J. Effects of coenzyme Q10 supplementation on activities of selected antioxidative enzymes and lipid peroxidation in hypertensive patients treated with indapamide. A pilot study. Arch Med Sci. 2010 Aug 30;6(4):513-8.
+
+<a id="10">[10]</a> Cordero MD, Cano-García FJ, Alcocer-Gómez E, De Miguel M, Sánchez-Alcázar JA. Oxidative stress correlates with headache symptoms in fibromyalgia: coenzyme Q₁₀ effect on clinical improvement. PLoS One. 2012;7(4):e35677.
