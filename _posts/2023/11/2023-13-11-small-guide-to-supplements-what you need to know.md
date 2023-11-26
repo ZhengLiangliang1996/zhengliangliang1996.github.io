@@ -125,12 +125,79 @@ The effect of Ubiquinol is much better than that of ordinary Q10 (ubiquinone), a
 Moreover, CoQ10 can increase the production of key antioxidants such as [superoxide dismutase](https://en.wikipedia.org/wiki/Superoxide_dismutase), an enzyme capable of reducing vascular oxidative stress in hypertensive patients. [[9]](#9) CoQ10 reduces levels of [lipid peroxidation](https://en.wikipedia.org/wiki/Lipid_peroxidation) via the reduction of pro-oxidative compounds. [[10]](#10) So peroxidation is a chain reaction commonly found in polyunsaturated fatty acids, and its products may be carcinogenic and mutagenic. Since lipids are components of cell membranes, lipid peroxidation may have disastrous consequences if it's out of control inside body.
 
 #### Astaxanthin <a name="Astaxanthin"></a>
+Astaxanthin (ASX) is a [xanthophyll](https://en.wikipedia.org/wiki/Xanthophyll) carotenoid, chemically known as 3,3′-dihydroxyβ,β-carotene-4,4′-dione, It is a [lipid](https://en.wikipedia.org/wiki/Lipid)-soluble pigment with red coloring properties. It was originally isolated from lobster by Kuhn in 1938. [[11]](#11) ASX is primarily biosynthesised by various algae, bacteria and fungi and is consumed by marine animals, such as salmon, trout, crab, lobster and shrimp. [[12]](#12)
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin"/>
+</p>
+
+Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in nature. 
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Mikrofoto.de-Blutregenalgen_3.jpg" alt="mikrofoto"/>
+</p>
+
+#### Mechanisms of action
+
+The skin comprises epidermis, dermis and hypodermis, which form the protectively outermost barrier against external environmental stresses such as repeated sun UV ray exposure. [UV](https://en.wikipedia.org/wiki/Ultraviolet) radiation comprises three types: UVA(Long-wave UV, Passes largely through glass and clothing), UVB(Medium-wave UV, mostly absorbed by the ozone layer, Does not pass through 'normal' glass. but does pass through quartz glass, Causes other forms of skin cancer.) and UVC(Short-wave UV, germicidal UV, ionizing radiation at shorter wavelengths, completely absorbed by the ozone layer and atmosphere: hard UV..s very destructive to skin cells). UVC is filtered out by atmospheric ozone for the most part, while both UVA and UVB can cause a biological change in the skin. The overview could be found from the Figure [[11]](#11) below.
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto"/>
+</p>
+
+The mechanism of action of Astaxanthin (ASX) involves its multifaceted impact on cellular and molecular processes, particularly in mitigating skin aging. 
+
+1. **Antioxidant and Anti-Inflammatory Properties:**
+   - ASX acts as a potent antioxidant, capturing [singlet oxygen](https://en.wikipedia.org/wiki/Singlet_oxygen) [radicals](https://en.wikipedia.org/wiki/Radical_(chemistry)) in the [epidermis](https://en.wikipedia.org/wiki/Epidermis) and [dermis](https://en.wikipedia.org/wiki/Dermis).
+   - This scavenging ability contributes to the restoration of skin elasticity and a reduction in wrinkle depth.
+
+2. **Inhibition of Reactive Oxygen Species (ROS):**
+   - Excessive accumulation of ROS from repeated UV exposures and intrinsic aging can lead to inflammatory responses. ASX helps suppress the activation of ROS-producing enzymes and xanthine oxidase (an enzyme found in many species, including humans, and primarily functions in the catabolism of purine nucleic acids) in UV-irradiated cells.
+
+3. **Regulation of Inflammatory Cytokines and MMPs:**
+   - ASX helps modulate inflammatory cytokines (e.g., IL-1, IL-6, IL-8, TNF-α) (same as resveratrol mentioned before) released due to UV exposure and intrinsic aging. 
+   - This modulation helps inhibit the upregulation of [matrix metalloproteinases](https://en.wikipedia.org/wiki/Matrix_metalloproteinase) (MMPs: MMPs, can degrade collagen and elastic fibers, leading to wrinkles and loss of skin elasticity.), including MMP-1, MMP-3, and MMP-9.
+
+4. **Maintenance of Skin Barrier Integrity:**
+   - ASX supports skin barrier integrity by inhibiting excessive [corneocyte](https://en.wikipedia.org/wiki/Corneocyte) desquamation, maintaining the epidermal barrier functions.
+   - It decreases plasma oxidation-related [malondialdehyde](https://en.wikipedia.org/wiki/Malondialdehyde) (MDA) concentration, contributing to overall skin health.
+
+7. **DNA Protection and Inflammation Reduction:**
+   - Dietary ASX supplementation reduces DNA oxidative damage biomarkers and lowers concentrations of inflammatory markers. [[11]](#11) 
+
+### Grape Seed Extract <a name="grape_seed"></a>
+Through different and various studies, it was proved that the [proanthocyanidin](https://en.wikipedia.org/wiki/Proanthocyanidin) rich grape seed extract provides benefits against many diseases i.e. inflammation, cardiovascular disease, hypertension, diabetes, cancer, peptic ulcer, microbial infections, etc.
+
+The chemical composition of Grape Seed Extract (GSE) is rich and diverse, encompassing various components obtained through specific extraction processes. Grape seeds are manually separated from grapes, air-dried, and ground to a fine powder.The powdered grape seed is macerated in 70% ethanol, filtered, and the filtrate is dried to obtain powdered GSE. Dried grape seeds contain approximately 35% fiber, 29% extractable components, including phenolic compounds, proteins (11%), minerals (3%), and water (7%). [[13]](#13) 
+
+#### Mechanisms of action
+
+The mechanisms of action of Grape Seed Extract (GSE) are diverse and involve a range of bioactive compounds present in the extract. 
+
+1. **Polyphenols and Flavonoids, anti-oxidant:**
+   - GSE is an abundant source of polyphenols and flavonoids, known for their antioxidant properties and free radical scavenging abilities. The polyphenols in GSE act as effective free radical scavengers, protecting cells from damage caused by reactive oxygen species (ROS).
+   - Grape seed polyphenols exhibit higher antioxidant activity compared to well-known antioxidants such as vitamin C, vitamin E, and β-carotene.
+
+2. **Enzymes with Dual Properties for Anti-Inflammatory:**
+   - GSE contains enzymes that not only exhibit antioxidant properties but also catalyze the release of histamine during inflammation and allergies.
+
+3. **Fatty Acid Composition beneficial for CVD:**
+   - GSE's fatty acid composition, particularly linoleic acid, is crucial for lipid metabolism.
+   - Grape seed oil, extracted from the seeds, contains a high amount of unsaturated fatty acids (85-90%), including α-linolenic acid (ω-3) and γ-linolenic acid (ω-6). [[13]](#13)  (These fatty acids are associated with reducing the risk of cardiovascular disease, cancer, hypertension, and autoimmune disorders.)
+   - The application of grape seed oil is linked to positive effects in reducing arteriosclerosis by lowering total blood cholesterol and LDL cholesterol. [[13]](#13)
+
+4. **Dietary Fiber Content:**
+   - Grape seeds and peels contain a significant amount of dietary fiber, contributing to a lower risk of colon cancer, heart disease, diabetes, and obesity.
 
 
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
 The observed safe level (OSL) is intake up to 1,200 mg/day.
 Nowadays, there are NMN products, marketed as supplements for anti-aging and longevity in the form of capsules, which are very high in dose such as 500 mg. The safety of these doses cannot be assessed since required clinical and toxicological studies have not been completed yet to establish the recommended safe levels for long term administration. Nevertheless, their safety and efficacy are uncertain and unreliable since most of them have not been backed up by rigorous scientific preclinical and clinical testing. [[7]](#7)
+
+Astaxanthin is a fat-soluble carotenoid and should be paired with fat-containing meals for optimal absorption.
+
+Regarding dosage, most astaxanthin recommended dosage ranges currently range from 4 mg to 12 mg per day, but the optimal dosage should be determined based on the user's age, health, and several other conditions. Please also follow the dosage on the product label. For relevant instructions, or it is best to consult your local pharmacist or doctor before use.
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
@@ -152,3 +219,9 @@ Nowadays, there are NMN products, marketed as supplements for anti-aging and lon
 <a id="9">[9]</a> Kędziora-Kornatowska K, Czuczejko J, Motyl J, Szewczyk-Golec K, Kozakiewicz M, Pawluk H, Kędziora J, Błaszczak R, Banach M, Rysz J. Effects of coenzyme Q10 supplementation on activities of selected antioxidative enzymes and lipid peroxidation in hypertensive patients treated with indapamide. A pilot study. Arch Med Sci. 2010 Aug 30;6(4):513-8.
 
 <a id="10">[10]</a> Cordero MD, Cano-García FJ, Alcocer-Gómez E, De Miguel M, Sánchez-Alcázar JA. Oxidative stress correlates with headache symptoms in fibromyalgia: coenzyme Q₁₀ effect on clinical improvement. PLoS One. 2012;7(4):e35677.
+
+<a id="11">[11]</a> Zhou, Xiangyu, Qingming Cao, Caroline Orfila, Jian Zhao, and Lin Zhang. ‘Systematic Review and Meta-Analysis on the Effects of Astaxanthin on Human Skin Ageing’. Nutrients 13, no. 9 (24 August 2021): 2917. https://doi.org/10.3390/nu13092917.
+
+<a id="12">[12]</a> Higuera-Ciapara, I.; Felix-Valenzuela, L.; Goycoolea, F. Astaxanthin: A review of its chemistry and applications. Crit. Rev. Food Sci. Nutr. 2006, 46, 185–196.
+
+<a id="13">[13]</a> Gupta, Madhavi, Sanjay Dey, Daphisha Marbaniang, Paulami Pal, Subhabrata Ray, and Bhaskar Mazumder. ‘Grape Seed Extract: Having a Potential Health Benefits’. Journal of Food Science and Technology 57, no. 4 (April 2020): 1205–15. https://doi.org/10.1007/s13197-019-04113-w.
