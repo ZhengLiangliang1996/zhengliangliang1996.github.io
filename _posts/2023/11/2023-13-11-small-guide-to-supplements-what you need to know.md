@@ -14,11 +14,14 @@ categories:
     3. [Ubiquinol](#Ubiquinol)
     4. [Astaxanthin](#Astaxanthin)
     5. [Grape Seed Extract](#grape_seed)
-4. [Bone and Mineral Health](#bone)
-    1. [Calcium](#Calcium)
-    2. [Vitamin D](#vitd)
-    3. [Vitamin K2](#)
-5. [Joint Health and Inflammation](#joint)
+4. [Enzyme](#enzyme)
+    1. [Serratiopeptidase](#Serratiopeptidase)
+5. [Minerals, Vitamins & Other](#other)
+    1. [Vitamin D](#vd)
+    2. [Vitamin K2](#vk2)
+    3. [Magnesium](#magnesium)
+    3. [Omega-3 Fatty Acids](#Omega-3)
+    4. [Finndal](#finndal)
 6. [Suggest Doses, Summary and Concerns](#summary_and_concerns)
 
 ### Disclaimer <a name="disclaimer"></a>
@@ -189,6 +192,20 @@ The mechanisms of action of Grape Seed Extract (GSE) are diverse and involve a r
 4. **Dietary Fiber Content:**
    - Grape seeds and peels contain a significant amount of dietary fiber, contributing to a lower risk of colon cancer, heart disease, diabetes, and obesity.
 
+## Enzyme <a name="enzyme"></a>
+#### Serratiopeptidase <a name="Serratiopeptidase"></a>
+
+#### Mechanisms of action
+
+1. **Reduction pain and inflammation:**
+   - Break down non-living protein tisse (fibrin) that can clog artness 
+   - Binds to the macroblobulin inside the blood plasma IT protects itself from immune system 
+
+2. **Cardiovascular Disease:**
+   - Break down non-living protein tisse (fibrin) -> blood flow 
+
+3. **Ear Nose Throat Infections:**
+  - Geo target inflammation 
 
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
