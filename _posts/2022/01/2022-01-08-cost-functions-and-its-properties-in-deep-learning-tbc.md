@@ -103,7 +103,7 @@ The loss of mae when assumed y real is 0 could be plotted below. We could tell f
 
 **Probabilistic interpretation of MAE**
 
-Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $$(\mu=0, b=1)$, the error $$ {epsilon}&fg=000000$ distribution of could be written as [11](#eqlaplace)
+Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $$(\mu=0, b=1)$, the error $\epsilon$ distribution of could be written as [11](#eqlaplace)
 
 $$
 p\left(y_{i}\mid x_{i}\right)=\frac{1}{2}\exp\left(-\left|y_{i}-\hat{y}_{i}\right|\right) 
