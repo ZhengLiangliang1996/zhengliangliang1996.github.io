@@ -7,7 +7,7 @@ categories:
 
 **Loss Function and Cost Function**
 
-In supervised learning, concretely we're learning from given training set $$ {(x_i, y_i)}&fg=000000$$ and formulate our hypotheses $$ {h_theta(x)}&fg=000000$$. Here, the $$ {theta_{i}}&fg=000000$$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from $$ {mathcal{X}}&fg=000000$$ to $$ {mathcal{Y}}&fg=000000$$. When there is no risk of confusion, we will drop the $$ {theta}&fg=000000$ subscript in $$ {h_{theta}(x)}&fg=000000$$, and write it more simply as $$ {h(x)}&fg=000000$$.
+In supervised learning, concretely we're learning from given training set $\left(x_i, y_i\right)$ and formulate our hypotheses $h_\theta(x)$. Here, the $\theta_i$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from $\mathcal{X}$ to $\mathcal{Y}$. When there is no risk of confusion, we will drop the $\theta$ subscript in $h_\theta(x)$, and write it more simply as $h(x)$.
 
 The goal of our learning is to minimize the distance between hypotheses and the real y, and Loss function is a function to measure such distance.
 
@@ -21,7 +21,7 @@ The goal of our learning is to minimize the distance between hypotheses and the 
 
 Mean Squared Error is the most common cost function used in regression problems, also called L2 loss, the formula is as followed:
 
-$$ displaystyle J(theta)=frac{1}{n} sum_{i=1}^{n}left(y^{(i)}-hat{y}^{(i)})right)^{2}      (1)&fg=000000$$
+$\left.J(\theta)=\frac{1}{n} \sum_{i=1}^n\left(y^{(i)}-\hat{y}^{(i)}\right)\right)^2$
 
 We could see from the graph below, the square error is increased in a quadratic way, the lowest loss is 0 and and highest loss could be infinite.
 
@@ -29,41 +29,46 @@ We could see from the graph below, the square error is increased in a quadratic 
 
 The MSE is very useful in regression problem, from the perspective of bias and variance perspective, we could do a bias and variance decomposition from MSE function.
 
-- **Bias** indicates the distance between the expectation of predicted value and real value. Geometrically speaking, if bias is big, then predicted deviates further from the real value. It is the relationship between predicted value and real value, denotes as $$ {Bias =mathbb{E}(hat{theta})-theta}&fg=000000$$
-- **Variance** describes the variation range of the predicted value, the degree of dispersion, that is, the distance from its own expectation. The larger the variance, the more spread out the distribution of the data. It is the relationship within the predicted values, denote as $$ {Var=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]}&fg=000000$$
+- **Bias** indicates the distance between the expectation of predicted value and real value. Geometrically speaking, if bias is big, then predicted deviates further from the real value. It is the relationship between predicted value and real value, denotes as $=\mathbb{E}(\hat{\theta})-\theta$
+- **Variance** describes the variation range of the predicted value, the degree of dispersion, that is, the distance from its own expectation. The larger the variance, the more spread out the distribution of the data. It is the relationship within the predicted values, denote as $\operatorname{Var}=\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]$
 
 By using the decomposition trick in MSE equation shown in [2](#eqdecompositionmse). We could get that MSE is actually the addition of variance and the square of bias.
 
-$$ displaystyle begin{aligned} MSE(hat{theta}) &= mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta})+mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}+2((hat{theta}-mathbb{E}(hat{theta}))(mathbb{E}(hat{theta})-theta))+(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+2 mathbb{E}[(hat{theta}-mathbb{E}(hat{theta}))(mathbb{E}(hat{theta})-theta)]+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+2(mathbb{E}(hat{theta})-theta) mathbb{E}(hat{theta}-mathbb{E}(hat{theta}))^{2}+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=Var(hat{theta})+Bias(hat{theta}, theta)^{2} end{aligned}      (2)&fg=000000$$
+$\begin{aligned} M S E(\hat{\theta}) & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta})+\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2+2((\hat{\theta}-\mathbb{E}(\hat{\theta}))(\mathbb{E}(\hat{\theta})-\theta))+(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+2 \mathbb{E}[(\hat{\theta}-\mathbb{E}(\hat{\theta}))(\mathbb{E}(\hat{\theta})-\theta)]+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+2(\mathbb{E}(\hat{\theta})-\theta) \mathbb{E}(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\operatorname{Var}(\hat{\theta})+\operatorname{Bias}(\hat{\theta}, \theta)^2\end{aligned}$
 
 **Probabilistic interpretation of MSE**
 
 A better explanation for using the MSE could be derived from a probabilistic interpretation. The relationship of the target hypothesis and real value y could be formed as
 
-$$ displaystyle y^{(i)}=theta^{T} x^{(i)}+epsilon^{(i)}      (3)&fg=000000$$
+$$
+y^{(i)}=\theta^T x^{(i)}+\epsilon^{(i)}
+$$
 
-where $$ {epsilon^{(i)}}&fg=000000$$ is an error term that captures either unmodeled effects, or random noise. Let us further assume that the $$ {epsilon^{(i)}}&fg=000000$ are distributed IID (independently and identically distributed) according to a Gaussian distribution (also called a Normal distribution) with mean zero and some variance $$ {sigma^{2}}&fg=000000$$. We can write this assumption as '$$ {epsilon^{(i)} sim}&fg=000000$ $$ {mathcal{N}left(0, sigma^{2}right) . '}&fg=000000$ I.e., the density of $$ {epsilon^{(i)}}&fg=000000$$ is given by
+where $\epsilon^{(i)}$ is an error term that captures either unmodeled effects, or random noise. Let us further assume that the $\epsilon^{(i)}$ are distributed IID (independently and identically distributed) according to a Gaussian distribution (also called a Normal distribution) with mean zero and some variance $\sigma^2$. We can write this assumption as ' $\epsilon{ }^{(i)} \sim \mathcal{N}\left(0, \sigma^2\right)$.' l.e., the density of $\epsilon^{(i)}$ is given by
 
-$$ displaystyle pleft(epsilon^{(i)}right)=frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(epsilon^{(i)}right)^{2}}{2 sigma^{2}}right)      (4)&fg=000000$$
+$$
+p\left(\epsilon^{(i)}\right)=\frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(\epsilon^{(i)}\right)^2}{2 \sigma^2}\right)
+$$
 
 This implies that
 
-$$ displaystyle pleft(y^{(i)} mid x^{(i)} ; thetaright)=frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)      (5)&fg=000000$$
+$$
+p\left(y^{(i)} \mid x^{(i)} ; \theta\right)=\frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right)
+$$
 
-When we wish to explicitly view this as a function of $$ {theta}&fg=000000$, we will instead call it the likelihood function:
+When we wish to explicitly view this as a function of $\theta$, we will instead call it the likelihood function:
 
-$$ displaystyle L(theta)=L(theta ; X, vec{y})=p(vec{y} mid X ; theta)      (6)&fg=000000$$
+$L(\theta)=L(\theta ; X, \vec{y})=p(\vec{y} \mid X ; \theta)$
 
 The MLE (Maximization of Likelihood Estimation) is a method we used to do the parameter estimation, here we have the parameter theta to be estimated, in order to maximize the likelihood, normally we took the log of this likelihood function (because likelihood function involves tons of probability products, using log form to transform it to summation form), so we have:
 
-$$ displaystyle begin{aligned} L(theta) &=prod_{i=1}^{n} pleft(y^{(i)} mid x^{(i)} ; thetaright)  &=prod_{i=1}^{n} frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right) end{aligned}      (7)&fg=000000$$
+$\begin{aligned} L(\theta) & =\prod_{i=1}^n p\left(y^{(i)} \mid x^{(i)} ; \theta\right) \\ & =\prod_{i=1}^n \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right)\end{aligned}$
 
-$$ displaystyle begin{aligned} ell(theta) &=log L(theta)  &=log prod_{i=1}^{n} frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)  &=sum_{i=1}^{n} log frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)  &=n log frac{1}{sqrt{2 pi} sigma}-frac{1}{sigma^{2}} cdot frac{1}{2} sum_{i=1}^{n}left(y^{(i)}-theta^{T} x^{(i)}right)^{2} . end{aligned}      (8)&fg=000000$$
+$\begin{aligned} \ell(\theta) & =\log L(\theta) \\ & =\log \prod_{i=1}^n \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right) \\ & =\sum_{i=1}^n \log \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right) \\ & =n \log \frac{1}{\sqrt{2 \pi} \sigma}-\frac{1}{\sigma^2} \cdot \frac{1}{2} \sum_{i=1}^n\left(y^{(i)}-\theta^T x^{(i)}\right)^2 .\end{aligned}$
 
 Hence, maximizing $$ {ell(theta)}&fg=000000$ gives the same answer as minimizing
 
-$$ displaystyle frac{1}{2} sum_{i=1}^{n}left(y^{(i)}-theta^{T} x^{(i)}right)^{2}      (9)&fg=000000$$
-
+$\frac{1}{2} \sum_{i=1}^n\left(y^{(i)}-\theta^T x^{(i)}\right)^2$
 The equation [9](#eqols) is also known as ordinary least square. When linear regression model is built, you would usually use the least square error (LSE) method that is minimizing the total euclidean distance between a line and the data points.
 
 Once the model is built, in order to evaluate its performances. A metric is introduced to evaluate 'how far' is your model to the actual real data points in average. The MSE is a good estimate function.
