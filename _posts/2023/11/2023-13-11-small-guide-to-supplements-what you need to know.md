@@ -5,7 +5,6 @@ categories:
   - "general science"
 ---
 
-$\left a > b$
 
 1. [Disclaimer](#disclaimer)
 2. [Introduction: Motivataion of this blog](#motivation)
