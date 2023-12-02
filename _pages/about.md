@@ -9,7 +9,7 @@ permalink: /about/
 
 Hey there! I'm Liangliang, currently donning the hat of a software engineer in the Netherlands, I've got a  background in data science that still fuels my passion for AI, data analysis, data visualization, and robotics magic. Lately, I've been diving into the fascinating realm of large-scale distributed systems and their designs.
 
-I've migrated my old [Blog](https://zhengliangliang.wordpress.com/) now here, so some of the old posts have code highlighting/formatting issue, which would be adjusted soon...
+I've migrated my old [Blog](https://zhengliangliang.wordpress.com/) now here, so some of the old posts have code highlighting/formatting or formula latex rendering issue, which would be adjusted soon...
 
 ### Things I'm crafting   
 
