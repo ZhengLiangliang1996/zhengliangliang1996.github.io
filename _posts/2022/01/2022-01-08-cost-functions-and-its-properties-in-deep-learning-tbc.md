@@ -21,7 +21,9 @@ The goal of our learning is to minimize the distance between hypotheses and the 
 
 Mean Squared Error is the most common cost function used in regression problems, also called L2 loss, the formula is as followed:
 
-$\left.J(\theta)=\frac{1}{n} \sum_{i=1}^n\left(y^{(i)}-\hat{y}^{(i)}\right)\right)^2$
+$$
+\left.J(\theta)=\frac{1}{n} \sum_{i=1}^n\left(y^{(i)}-\hat{y}^{(i)}\right)\right)^2
+$$
 
 We could see from the graph below, the square error is increased in a quadratic way, the lowest loss is 0 and and highest loss could be infinite.
 
@@ -34,7 +36,9 @@ The MSE is very useful in regression problem, from the perspective of bias and v
 
 By using the decomposition trick in MSE equation shown in [2](#eqdecompositionmse). We could get that MSE is actually the addition of variance and the square of bias.
 
-$\begin{aligned} M S E(\hat{\theta}) & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta})+\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2+2((\hat{\theta}-\mathbb{E}(\hat{\theta}))(\mathbb{E}(\hat{\theta})-\theta))+(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+2 \mathbb{E}[(\hat{\theta}-\mathbb{E}(\hat{\theta}))(\mathbb{E}(\hat{\theta})-\theta)]+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+2(\mathbb{E}(\hat{\theta})-\theta) \mathbb{E}(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\operatorname{Var}(\hat{\theta})+\operatorname{Bias}(\hat{\theta}, \theta)^2\end{aligned}$
+$$
+\begin{aligned} M S E(\hat{\theta}) & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta})+\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2+2((\hat{\theta}-\mathbb{E}(\hat{\theta}))(\mathbb{E}(\hat{\theta})-\theta))+(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+2 \mathbb{E}[(\hat{\theta}-\mathbb{E}(\hat{\theta}))(\mathbb{E}(\hat{\theta})-\theta)]+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+2(\mathbb{E}(\hat{\theta})-\theta) \mathbb{E}(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\mathbb{E}\left[(\hat{\theta}-\mathbb{E}(\hat{\theta}))^2\right]+\mathbb{E}\left[(\mathbb{E}(\hat{\theta})-\theta)^2\right] \\ & =\operatorname{Var}(\hat{\theta})+\operatorname{Bias}(\hat{\theta}, \theta)^2\end{aligned}
+$$
 
 **Probabilistic interpretation of MSE**
 
@@ -58,17 +62,25 @@ $$
 
 When we wish to explicitly view this as a function of $\theta$, we will instead call it the likelihood function:
 
-$L(\theta)=L(\theta ; X, \vec{y})=p(\vec{y} \mid X ; \theta)$
+$$
+L(\theta)=L(\theta ; X, \vec{y})=p(\vec{y} \mid X ; \theta)
+$$
 
 The MLE (Maximization of Likelihood Estimation) is a method we used to do the parameter estimation, here we have the parameter theta to be estimated, in order to maximize the likelihood, normally we took the log of this likelihood function (because likelihood function involves tons of probability products, using log form to transform it to summation form), so we have:
 
-$\begin{aligned} L(\theta) & =\prod_{i=1}^n p\left(y^{(i)} \mid x^{(i)} ; \theta\right) \\ & =\prod_{i=1}^n \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right)\end{aligned}$
+$$
+\begin{aligned} L(\theta) & =\prod_{i=1}^n p\left(y^{(i)} \mid x^{(i)} ; \theta\right) \\ & =\prod_{i=1}^n \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right)\end{aligned}
+$$
 
-$\begin{aligned} \ell(\theta) & =\log L(\theta) \\ & =\log \prod_{i=1}^n \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right) \\ & =\sum_{i=1}^n \log \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right) \\ & =n \log \frac{1}{\sqrt{2 \pi} \sigma}-\frac{1}{\sigma^2} \cdot \frac{1}{2} \sum_{i=1}^n\left(y^{(i)}-\theta^T x^{(i)}\right)^2 .\end{aligned}$
+$$
+\begin{aligned} \ell(\theta) & =\log L(\theta) \\ & =\log \prod_{i=1}^n \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right) \\ & =\sum_{i=1}^n \log \frac{1}{\sqrt{2 \pi} \sigma} \exp \left(-\frac{\left(y^{(i)}-\theta^T x^{(i)}\right)^2}{2 \sigma^2}\right) \\ & =n \log \frac{1}{\sqrt{2 \pi} \sigma}-\frac{1}{\sigma^2} \cdot \frac{1}{2} \sum_{i=1}^n\left(y^{(i)}-\theta^T x^{(i)}\right)^2 .\end{aligned}
+$$
 
-Hence, maximizing $$ {ell(theta)}&fg=000000$ gives the same answer as minimizing
+Hence, maximizing $\ell\left(\theta\right)$ gives the same answer as minimizing
 
-$\frac{1}{2} \sum_{i=1}^n\left(y^{(i)}-\theta^T x^{(i)}\right)^2$
+$$
+\frac{1}{2} \sum_{i=1}^n\left(y^{(i)}-\theta^T x^{(i)}\right)^2
+$$
 The equation [9](#eqols) is also known as ordinary least square. When linear regression model is built, you would usually use the least square error (LSE) method that is minimizing the total euclidean distance between a line and the data points.
 
 Once the model is built, in order to evaluate its performances. A metric is introduced to evaluate 'how far' is your model to the actual real data points in average. The MSE is a good estimate function.
@@ -79,7 +91,11 @@ Therefore, LSE is a method that builds a model and MSE is a metric that evaluate
 
 Mean Absolute Error (MAE) is another class of loss function used in regression problem, also known as L1 loss, the cost function is shown in equation [10](#eqmae).
 
-$$ displaystyle J_{theta}=frac{1}{n} sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right|      (10)&fg=000000$$
+
+$$
+J_{\theta}={\frac{1}{n}}\sum_{i=1}^{n}|y_{i}-{\hat{y}}_{i} 
+$$
+
 
 The loss of mae when assumed y real is 0 could be plotted below. We could tell from the graph that the biggest loss could be infinite and the lowest is 0, and the loss increased linearly.
 
@@ -87,13 +103,26 @@ The loss of mae when assumed y real is 0 could be plotted below. We could tell f
 
 **Probabilistic interpretation of MAE**
 
-Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $$ {(mu=0, b=1)}&fg=000000$, the error $$ {epsilon}&fg=000000$ distribution of could be written as [11](#eqlaplace)
+Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $$(\mu=0, b=1)$, the error $$ {epsilon}&fg=000000$ distribution of could be written as [11](#eqlaplace)
 
-$$ displaystyle pleft(y_{i} mid x_{i}right)=frac{1}{2} exp left(-left|y_{i}-hat{y}_{i}right|right)      (11)&fg=000000$$
+$$
+p\left(y_{i}\mid x_{i}\right)=\frac{1}{2}\exp\left(-\left|y_{i}-\hat{y}_{i}\right|\right) 
+$$
+
 
 Using the Maximum Likelihood Estimation (MLE) as in mean square error example, we could have the following derivation 
 
-$$ displaystyle begin{aligned} &L(x, y)=prod_{i=1}^{n} frac{1}{2} exp left(-left|y_{i}-hat{y}_{i}right|right)  &L L(x, y)=-n log 2-sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right|  &N L L(x, y)=sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right| end{aligned}      (12)&fg=000000$$
+$$
+L(x,y)=\prod_{i=1}^{n}\frac{1}{2}\exp\left(-\left|y_{i}-\hat{y}_{i}\right|\right) 
+$$
+
+$$
+L L(x,y)=-n\log2-\sum_{i=1}^{n}|y_{i}-\hat{y_{i}}| 
+$$
+
+$$
+N L L(x,y)=\sum_{i=1}^{n}|y_{i}-\hat{y}_{i}| 
+$$
 
 As we can see after that we could get the form of MAE, by maximize the LL is the same as minimize NLL.
 
@@ -101,7 +130,7 @@ As we can see after that we could get the form of MAE, by maximize the LL is the
 
 The MSE loss (L2) generally converges faster than the MAE loss (L1), but the MAE loss is more robust to outliers.
 
-MSE generally converges faster than MAE. When using the gradient descent algorithm, and the gradient of MAE loss is $$ {-hat{y}_{i}}&fg=000000$, that is, the scale of the gradient of MSE will change with the size of the error, while the scale of the gradient of MAE will always remain 1 , Even when the absolute error is very small, the gradient scale of MAE is also 1, which is actually very unfavorable for model training. This is also the reason why MSE is more popular.
+MSE generally converges faster than MAE. When using the gradient descent algorithm, and the gradient of MAE loss is $$ -\hat{y_{i}}$, that is, the scale of the gradient of MSE will change with the size of the error, while the scale of the gradient of MAE will always remain 1 , Even when the absolute error is very small, the gradient scale of MAE is also 1, which is actually very unfavorable for model training. This is also the reason why MSE is more popular.
 
 MAE is more robust to outliers. We can understand this from the 2 perspectives:
 
