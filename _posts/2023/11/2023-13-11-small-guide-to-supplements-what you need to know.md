@@ -5,6 +5,7 @@ categories:
   - "general science"
 ---
 
+$\left a > b$
 
 1. [Disclaimer](#disclaimer)
 2. [Introduction: Motivataion of this blog](#motivation)
@@ -197,11 +198,13 @@ The mechanisms of action of Grape Seed Extract (GSE) are diverse and involve a r
 
 #### Mechanisms of action
 
-1. **Reduction pain and inflammation:**
+1. **Reduce pain and inflammation:**
    - Break down non-living protein tisse (fibrin) that can clog artness 
    - Binds to the macroblobulin inside the blood plasma IT protects itself from immune system 
+   - Geo target, site specific  
 
 2. **Cardiovascular Disease:**
+   - Plaque: Fat cholesterol, fibre, other protein 
    - Break down non-living protein tisse (fibrin) -> blood flow 
 
 3. **Ear Nose Throat Infections:**
@@ -215,6 +218,8 @@ Nowadays, there are NMN products, marketed as supplements for anti-aging and lon
 Astaxanthin is a fat-soluble carotenoid and should be paired with fat-containing meals for optimal absorption.
 
 Regarding dosage, most astaxanthin recommended dosage ranges currently range from 4 mg to 12 mg per day, but the optimal dosage should be determined based on the user's age, health, and several other conditions. Please also follow the dosage on the product label. For relevant instructions, or it is best to consult your local pharmacist or doctor before use.
+
+Serratiopeptidase 60mg/per day empty stomach, AM, 
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
