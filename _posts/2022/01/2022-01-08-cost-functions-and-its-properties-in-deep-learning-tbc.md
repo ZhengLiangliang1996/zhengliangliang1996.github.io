@@ -7,7 +7,7 @@ categories:
 
 **Loss Function and Cost Function**
 
-In supervised learning, concretely we're learning from given training set $latex {(x_i, y_i)}&fg=000000$ and formulate our hypotheses $latex {h_theta(x)}&fg=000000$. Here, the $latex {theta_{i}}&fg=000000$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from $latex {mathcal{X}}&fg=000000$ to $latex {mathcal{Y}}&fg=000000$. When there is no risk of confusion, we will drop the $latex {theta}&fg=000000$ subscript in $latex {h_{theta}(x)}&fg=000000$, and write it more simply as $latex {h(x)}&fg=000000$.
+In supervised learning, concretely we're learning from given training set $$ {(x_i, y_i)}&fg=000000$$ and formulate our hypotheses $$ {h_theta(x)}&fg=000000$$. Here, the $$ {theta_{i}}&fg=000000$$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from $$ {mathcal{X}}&fg=000000$$ to $$ {mathcal{Y}}&fg=000000$$. When there is no risk of confusion, we will drop the $$ {theta}&fg=000000$ subscript in $$ {h_{theta}(x)}&fg=000000$$, and write it more simply as $$ {h(x)}&fg=000000$$.
 
 The goal of our learning is to minimize the distance between hypotheses and the real y, and Loss function is a function to measure such distance.
 
@@ -21,7 +21,7 @@ The goal of our learning is to minimize the distance between hypotheses and the 
 
 Mean Squared Error is the most common cost function used in regression problems, also called L2 loss, the formula is as followed:
 
-$latex displaystyle J(theta)=frac{1}{n} sum_{i=1}^{n}left(y^{(i)}-hat{y}^{(i)})right)^{2}      (1)&fg=000000$
+$$ displaystyle J(theta)=frac{1}{n} sum_{i=1}^{n}left(y^{(i)}-hat{y}^{(i)})right)^{2}      (1)&fg=000000$$
 
 We could see from the graph below, the square error is increased in a quadratic way, the lowest loss is 0 and and highest loss could be infinite.
 
@@ -29,40 +29,40 @@ We could see from the graph below, the square error is increased in a quadratic 
 
 The MSE is very useful in regression problem, from the perspective of bias and variance perspective, we could do a bias and variance decomposition from MSE function.
 
-- **Bias** indicates the distance between the expectation of predicted value and real value. Geometrically speaking, if bias is big, then predicted deviates further from the real value. It is the relationship between predicted value and real value, denotes as $latex {Bias =mathbb{E}(hat{theta})-theta}&fg=000000$
-- **Variance** describes the variation range of the predicted value, the degree of dispersion, that is, the distance from its own expectation. The larger the variance, the more spread out the distribution of the data. It is the relationship within the predicted values, denote as $latex {Var=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]}&fg=000000$
+- **Bias** indicates the distance between the expectation of predicted value and real value. Geometrically speaking, if bias is big, then predicted deviates further from the real value. It is the relationship between predicted value and real value, denotes as $$ {Bias =mathbb{E}(hat{theta})-theta}&fg=000000$$
+- **Variance** describes the variation range of the predicted value, the degree of dispersion, that is, the distance from its own expectation. The larger the variance, the more spread out the distribution of the data. It is the relationship within the predicted values, denote as $$ {Var=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]}&fg=000000$$
 
 By using the decomposition trick in MSE equation shown in [2](#eqdecompositionmse). We could get that MSE is actually the addition of variance and the square of bias.
 
-$latex displaystyle begin{aligned} MSE(hat{theta}) &= mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta})+mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}+2((hat{theta}-mathbb{E}(hat{theta}))(mathbb{E}(hat{theta})-theta))+(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+2 mathbb{E}[(hat{theta}-mathbb{E}(hat{theta}))(mathbb{E}(hat{theta})-theta)]+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+2(mathbb{E}(hat{theta})-theta) mathbb{E}(hat{theta}-mathbb{E}(hat{theta}))^{2}+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=Var(hat{theta})+Bias(hat{theta}, theta)^{2} end{aligned}      (2)&fg=000000$
+$$ displaystyle begin{aligned} MSE(hat{theta}) &= mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta})+mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}+2((hat{theta}-mathbb{E}(hat{theta}))(mathbb{E}(hat{theta})-theta))+(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+2 mathbb{E}[(hat{theta}-mathbb{E}(hat{theta}))(mathbb{E}(hat{theta})-theta)]+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+2(mathbb{E}(hat{theta})-theta) mathbb{E}(hat{theta}-mathbb{E}(hat{theta}))^{2}+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=mathbb{E}left[(hat{theta}-mathbb{E}(hat{theta}))^{2}right]+mathbb{E}left[(mathbb{E}(hat{theta})-theta)^{2}right]  &=Var(hat{theta})+Bias(hat{theta}, theta)^{2} end{aligned}      (2)&fg=000000$$
 
 **Probabilistic interpretation of MSE**
 
 A better explanation for using the MSE could be derived from a probabilistic interpretation. The relationship of the target hypothesis and real value y could be formed as
 
-$latex displaystyle y^{(i)}=theta^{T} x^{(i)}+epsilon^{(i)}      (3)&fg=000000$
+$$ displaystyle y^{(i)}=theta^{T} x^{(i)}+epsilon^{(i)}      (3)&fg=000000$$
 
-where $latex {epsilon^{(i)}}&fg=000000$ is an error term that captures either unmodeled effects, or random noise. Let us further assume that the $latex {epsilon^{(i)}}&fg=000000$ are distributed IID (independently and identically distributed) according to a Gaussian distribution (also called a Normal distribution) with mean zero and some variance $latex {sigma^{2}}&fg=000000$. We can write this assumption as '$latex {epsilon^{(i)} sim}&fg=000000$ $latex {mathcal{N}left(0, sigma^{2}right) . '}&fg=000000$ I.e., the density of $latex {epsilon^{(i)}}&fg=000000$ is given by
+where $$ {epsilon^{(i)}}&fg=000000$$ is an error term that captures either unmodeled effects, or random noise. Let us further assume that the $$ {epsilon^{(i)}}&fg=000000$ are distributed IID (independently and identically distributed) according to a Gaussian distribution (also called a Normal distribution) with mean zero and some variance $$ {sigma^{2}}&fg=000000$$. We can write this assumption as '$$ {epsilon^{(i)} sim}&fg=000000$ $$ {mathcal{N}left(0, sigma^{2}right) . '}&fg=000000$ I.e., the density of $$ {epsilon^{(i)}}&fg=000000$$ is given by
 
-$latex displaystyle pleft(epsilon^{(i)}right)=frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(epsilon^{(i)}right)^{2}}{2 sigma^{2}}right)      (4)&fg=000000$
+$$ displaystyle pleft(epsilon^{(i)}right)=frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(epsilon^{(i)}right)^{2}}{2 sigma^{2}}right)      (4)&fg=000000$$
 
 This implies that
 
-$latex displaystyle pleft(y^{(i)} mid x^{(i)} ; thetaright)=frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)      (5)&fg=000000$
+$$ displaystyle pleft(y^{(i)} mid x^{(i)} ; thetaright)=frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)      (5)&fg=000000$$
 
-When we wish to explicitly view this as a function of $latex {theta}&fg=000000$, we will instead call it the likelihood function:
+When we wish to explicitly view this as a function of $$ {theta}&fg=000000$, we will instead call it the likelihood function:
 
-$latex displaystyle L(theta)=L(theta ; X, vec{y})=p(vec{y} mid X ; theta)      (6)&fg=000000$
+$$ displaystyle L(theta)=L(theta ; X, vec{y})=p(vec{y} mid X ; theta)      (6)&fg=000000$$
 
 The MLE (Maximization of Likelihood Estimation) is a method we used to do the parameter estimation, here we have the parameter theta to be estimated, in order to maximize the likelihood, normally we took the log of this likelihood function (because likelihood function involves tons of probability products, using log form to transform it to summation form), so we have:
 
-$latex displaystyle begin{aligned} L(theta) &=prod_{i=1}^{n} pleft(y^{(i)} mid x^{(i)} ; thetaright)  &=prod_{i=1}^{n} frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right) end{aligned}      (7)&fg=000000$
+$$ displaystyle begin{aligned} L(theta) &=prod_{i=1}^{n} pleft(y^{(i)} mid x^{(i)} ; thetaright)  &=prod_{i=1}^{n} frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right) end{aligned}      (7)&fg=000000$$
 
-$latex displaystyle begin{aligned} ell(theta) &=log L(theta)  &=log prod_{i=1}^{n} frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)  &=sum_{i=1}^{n} log frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)  &=n log frac{1}{sqrt{2 pi} sigma}-frac{1}{sigma^{2}} cdot frac{1}{2} sum_{i=1}^{n}left(y^{(i)}-theta^{T} x^{(i)}right)^{2} . end{aligned}      (8)&fg=000000$
+$$ displaystyle begin{aligned} ell(theta) &=log L(theta)  &=log prod_{i=1}^{n} frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)  &=sum_{i=1}^{n} log frac{1}{sqrt{2 pi} sigma} exp left(-frac{left(y^{(i)}-theta^{T} x^{(i)}right)^{2}}{2 sigma^{2}}right)  &=n log frac{1}{sqrt{2 pi} sigma}-frac{1}{sigma^{2}} cdot frac{1}{2} sum_{i=1}^{n}left(y^{(i)}-theta^{T} x^{(i)}right)^{2} . end{aligned}      (8)&fg=000000$$
 
-Hence, maximizing $latex {ell(theta)}&fg=000000$ gives the same answer as minimizing
+Hence, maximizing $$ {ell(theta)}&fg=000000$ gives the same answer as minimizing
 
-$latex displaystyle frac{1}{2} sum_{i=1}^{n}left(y^{(i)}-theta^{T} x^{(i)}right)^{2}      (9)&fg=000000$
+$$ displaystyle frac{1}{2} sum_{i=1}^{n}left(y^{(i)}-theta^{T} x^{(i)}right)^{2}      (9)&fg=000000$$
 
 The equation [9](#eqols) is also known as ordinary least square. When linear regression model is built, you would usually use the least square error (LSE) method that is minimizing the total euclidean distance between a line and the data points.
 
@@ -74,7 +74,7 @@ Therefore, LSE is a method that builds a model and MSE is a metric that evaluate
 
 Mean Absolute Error (MAE) is another class of loss function used in regression problem, also known as L1 loss, the cost function is shown in equation [10](#eqmae).
 
-$latex displaystyle J_{theta}=frac{1}{n} sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right|      (10)&fg=000000$
+$$ displaystyle J_{theta}=frac{1}{n} sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right|      (10)&fg=000000$$
 
 The loss of mae when assumed y real is 0 could be plotted below. We could tell from the graph that the biggest loss could be infinite and the lowest is 0, and the loss increased linearly.
 
@@ -82,13 +82,13 @@ The loss of mae when assumed y real is 0 could be plotted below. We could tell f
 
 **Probabilistic interpretation of MAE**
 
-Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $latex {(mu=0, b=1)}&fg=000000$, the error $latex {epsilon}&fg=000000$ distribution of could be written as [11](#eqlaplace)
+Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $$ {(mu=0, b=1)}&fg=000000$, the error $$ {epsilon}&fg=000000$ distribution of could be written as [11](#eqlaplace)
 
-$latex displaystyle pleft(y_{i} mid x_{i}right)=frac{1}{2} exp left(-left|y_{i}-hat{y}_{i}right|right)      (11)&fg=000000$
+$$ displaystyle pleft(y_{i} mid x_{i}right)=frac{1}{2} exp left(-left|y_{i}-hat{y}_{i}right|right)      (11)&fg=000000$$
 
 Using the Maximum Likelihood Estimation (MLE) as in mean square error example, we could have the following derivation 
 
-$latex displaystyle begin{aligned} &L(x, y)=prod_{i=1}^{n} frac{1}{2} exp left(-left|y_{i}-hat{y}_{i}right|right)  &L L(x, y)=-n log 2-sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right|  &N L L(x, y)=sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right| end{aligned}      (12)&fg=000000$
+$$ displaystyle begin{aligned} &L(x, y)=prod_{i=1}^{n} frac{1}{2} exp left(-left|y_{i}-hat{y}_{i}right|right)  &L L(x, y)=-n log 2-sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right|  &N L L(x, y)=sum_{i=1}^{n}left|y_{i}-hat{y}_{i}right| end{aligned}      (12)&fg=000000$$
 
 As we can see after that we could get the form of MAE, by maximize the LL is the same as minimize NLL.
 
@@ -96,7 +96,7 @@ As we can see after that we could get the form of MAE, by maximize the LL is the
 
 The MSE loss (L2) generally converges faster than the MAE loss (L1), but the MAE loss is more robust to outliers.
 
-MSE generally converges faster than MAE. When using the gradient descent algorithm, and the gradient of MAE loss is $latex {-hat{y}_{i}}&fg=000000$, that is, the scale of the gradient of MSE will change with the size of the error, while the scale of the gradient of MAE will always remain 1 , Even when the absolute error is very small, the gradient scale of MAE is also 1, which is actually very unfavorable for model training. This is also the reason why MSE is more popular.
+MSE generally converges faster than MAE. When using the gradient descent algorithm, and the gradient of MAE loss is $$ {-hat{y}_{i}}&fg=000000$, that is, the scale of the gradient of MSE will change with the size of the error, while the scale of the gradient of MAE will always remain 1 , Even when the absolute error is very small, the gradient scale of MAE is also 1, which is actually very unfavorable for model training. This is also the reason why MSE is more popular.
 
 MAE is more robust to outliers. We can understand this from the 2 perspectives:
 
