@@ -17,7 +17,7 @@ categories:
           response.addCookie(cookie);
    2.浏览器发送cookie到服务器,如何取
       1>获得所有浏览器发送的cookie
-          Cookie\[\] cookies = request.getCookies();
+          Cookie[] cookies = request.getCookies();
       2>遍历并判断我们要找的cookie
           if(cookies!=null && cookies.length>0){
               for(Cookie c : cookies){
@@ -59,7 +59,7 @@ BServlet接收遍历
 
 设置方法:
         1>设置一个正数，标示最大有效时间，单位是秒
-              cookie.setMaxAge(60\*60);
+              cookie.setMaxAge(60*60);
         2>设置为负数，负值意味着 cookie 不会被持久存储，将在 Web 浏览器退出时删除。
               cookie.setMaxAge(-1);
         3>标示cookie的有效时间为0，0 值会导致删除 cookie。这个操作可以作为删除cookie的方法
@@ -76,7 +76,7 @@ BServlet接收遍历
 **细节3：**
 
 cookie中的域
-
+```
     想要以下三个 主机和主机下的项目能共享一个cookie.
                      www.baidu.com
                      music.baidu.com
@@ -85,19 +85,22 @@ cookie中的域
         1.设置cookie的域为 ".baidu.com"
         2.设置cookie路径 为: "/" 
     以上就是跨主机访问cookie.不常用.
+```
 
 **Session简介：**
 
 Session是服务器端保存会话信息的技术.
 
 How to use it?
-        1.获得session
-               HttpSession session = request.getSession();
-        2.操作session  (CURD)
-               // session.setAttribute(arg0, arg1)
-               // session.getAttribute(arg0)
-               // session.removeAttribute(arg0)
-               // session.getAttributeNames()
+```        
+1.获得session
+        HttpSession session = request.getSession();
+2.操作session  (CURD)
+        // session.setAttribute(arg0, arg1)
+        // session.getAttribute(arg0)
+        // session.removeAttribute(arg0)
+        // session.getAttributeNames()
+```
 
 **Session原理：**
 

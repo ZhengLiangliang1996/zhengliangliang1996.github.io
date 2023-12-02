@@ -29,7 +29,7 @@ a way to record economic activity, a book or collection of accounts in which acc
 2. [Ethereum](https://finance.yahoo.com/news/ethereum-run-9000-started-174220459.html): have the mechanism to store balance
 
 1. General Ledger: a **general ledger**, also known as a nominal **ledger**, is a bookkeeping **ledger** in which **accounting** data is posted from journals and from subledgers, such as accounts payable, accounts receivable, cash management, fixed assets, purchasing and projects.
-2. Sub Ledger: A **subledger** is a **ledger** containing all of a detailed **sub**\-set of transactions.
+2. Sub Ledger: A **subledger** is a **ledger** containing all of a detailed **sub**-set of transactions.
 3. The bookkeeping system in which only one aspect of a transaction is recorded, i.e. either debit or credit, is known as **Single Entry System**. **Double Entry System**, is a system of keeping records, whereby both the aspects of a transaction are captured.
 
 What characteristics good ledgers should at least Immutable, consistent...

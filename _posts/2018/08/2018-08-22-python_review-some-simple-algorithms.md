@@ -15,7 +15,7 @@ Today, I'm gonna review some basics of python.
 
 - **List Slicing**
 
-numers = \[0, 1, 2, 3, 4, 5, 6\]       list\[start:end\]
+numers = [0, 1, 2, 3, 4, 5, 6]       list[start:end]
 
 ![2018-08-22_095130.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095130.jpg)
 
@@ -40,32 +40,34 @@ numers = \[0, 1, 2, 3, 4, 5, 6\]       list\[start:end\]
 ![2018-08-22_095839.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095839.jpg)
 
 **difference between axis = 1 and axis = 0:**
-
- 1 \# -\*- coding: utf-8 -\*-
+```python
+ 1 # -*- coding: utf-8 -*-
  2 """
  3 Created on Wed Aug 22 08:51:33 2018
  4 
  5 @author: zhengstars
  6 """
  7 import numpy as np
- 8 \# can be done by recursive
+ 8 # can be done by recursive
  9 def test():
-10     x \= np.array(\[\[1, 2\],\[3, 4\]\])
-11     print(np.max(x, axis \= 1))
-12     print(np.max(x, axis \= 0))
+10     x = np.array([[1, 2],[3, 4]])
+11     print(np.max(x, axis = 1))
+12     print(np.max(x, axis = 0))
 13     
-14     print(np.max(x, axis \= 1, keepdims \= True))
-15     print(np.max(x, axis \= 0, keepdims \= True))
+14     print(np.max(x, axis = 1, keepdims = True))
+15     print(np.max(x, axis = 0, keepdims = True))
 16         
 17 def main():
 18     test()
 19     
-20 if \_\_name\_\_ \== '\_\_main\_\_':
+20 if __name__ == '__main__':
 21     main()
+
+```
 
 output :
 
-\[2 4\] \[3 4\] \[\[2\] \[4\]\] \[\[3 4\]\]
+[2 4] [3 4] [[2] [4]] [[3 4]]
 
 Which means that when we use axis = 1 , then the operation will go according to the column(cross column), and axis = 0 will go cross rows. and keepdims will keep the dimension after this operation, default option is false(output as scalar)
 
@@ -83,7 +85,7 @@ Which means that when we use axis = 1 , then the operation will go according to 
 
 - **Some tips**
 
-format: \[func(x) for x in some\_list\]
+format: [func(x) for x in some_list]
 
 ![2018-08-22_101904.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101904.jpg)
 
@@ -98,70 +100,71 @@ Unsure of what you can do with an object? Use **_type()_** and **_dir()_**
 ![2018-08-22_102216.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_102216.jpg)
 
 - **Some simple algorithms**
-
- 1 \# -\*- coding: utf-8 -\*-
+```python
+ 1 # -*- coding: utf-8 -*-
  2 """
  3 Created on Wed Aug 22 08:51:33 2018
  4 
- 5 @author: zhengstars
+ 5 @author: 
  6 """
  7 
  8 def QuickSort(arr):
  9    if len(arr) <= 1:
 10         return arr
-11     pivot \= arr\[len(arr) // 2\]
-12     left \= \[x for x in arr if x < pivot\]
-13     middle \= \[x for x in arr if x \== pivot\]
-14     right \= \[x for x in arr if x \> pivot\]
+11     pivot = arr[len(arr) // 2]
+12     left = [x for x in arr if x < pivot]
+13     middle = [x for x in arr if x == pivot]
+14     right = [x for x in arr if x > pivot]
 15     return QuickSort(left) + middle + QuickSort(right)
 16 
 17 def main():
-18     print(QuickSort(\[4,52,4,51,3,7,23,6,7,2\]))
+18     print(QuickSort([4,52,4,51,3,7,23,6,7,2]))
 19 
-20 if \_\_name\_\_ \== '\_\_main\_\_':
+20 if __name__ == '__main__':
 21     main()
+```
 
-This a very simple Quick sort, as you can see that in this QuickSort function, we can simply get the result of left middle right in the \[x for x in arr if x <=>\] operation. and array can be concatenated by simply using '+' operation.
+This a very simple Quick sort, as you can see that in this QuickSort function, we can simply get the result of left middle right in the [x for x in arr if x <=>] operation. and array can be concatenated by simply using '+' operation.
 
-print(QuickSort(\[4, 52, 4, 51, 3, 7, 23, 6, 7, 2\]))
-
- 1 \# -\*- coding: utf-8 -\*-
+print(QuickSort([4, 52, 4, 51, 3, 7, 23, 6, 7, 2]))
+```python
+ 1 # -*- coding: utf-8 -*-
  2 """
  3 Created on Wed Aug 22 08:51:33 2018
  4 
- 5 @author: zhengstars
+ 5 @author: 
  6 """
  7 
- 8 \# can be done by recursive
+ 8 # can be done by recursive
  9 def QuickSort(arr):
 10     if len(arr) <= 1:
 11         return arr
-12     pivot \= arr\[len(arr) // 2\]
-13     left \= \[x for x in arr if x < pivot\]
-14     middle \= \[x for x in arr if x \== pivot\]
-15     right \= \[x for x in arr if x \> pivot\]
+12     pivot = arr[len(arr) // 2]
+13     left = [x for x in arr if x < pivot]
+14     middle = [x for x in arr if x == pivot]
+15     right = [x for x in arr if x > pivot]
 16     return QuickSort(left) + middle + QuickSort(right)
 17 
-18 \# 2 for loops
+18 # 2 for loops
 19 def SelectionSort(arr):
 20     for i in range(0,len(arr)):
-21         min \= i
-22         for j in range(i+1,len(arr)): \# smallest on the very right side
-23             if arr\[min\] > arr\[j\]:
-24                 min \= j
-25         arr\[min\],arr\[i\] = arr\[i\],arr\[min\]
+21         min = i
+22         for j in range(i+1,len(arr)): # smallest on the very right side
+23             if arr[min] > arr[j]:
+24                 min = j
+25         arr[min],arr[i] = arr[i],arr[min]
 26     return arr
 27 
-28 \# merge Sort
-29 def merge(a, b):  \# conquer
-30     C \= \[\]
+28 # merge Sort
+29 def merge(a, b):  # conquer
+30     C = []
 31     while len(a) != 0 and len(b) != 0:
-32         if a\[0\] < b\[0\]:
-33             C.append(a\[0\])
-34             a.remove(a\[0\])
+32         if a[0] < b[0]:
+33             C.append(a[0])
+34             a.remove(a[0])
 35         else:
-36             C.append(b\[0\])
-37             b.remove(b\[0\])
+36             C.append(b[0])
+37             b.remove(b[0])
 38     
 39     if len(a) == 0:
 40         C += b
@@ -173,17 +176,18 @@ print(QuickSort(\[4, 52, 4, 51, 3, 7, 23, 6, 7, 2\]))
 46     if len(arr) == 0 or len(arr) == 1:
 47         return arr
 48     else:
-49         middle \= len(arr) // 2
-50         a \= mergesort(arr\[:middle\])  #divide
-51         b \= mergesort(arr\[middle:\])
-52         arr \= merge(a,b)
+49         middle = len(arr) // 2
+50         a = mergesort(arr[:middle])  #divide
+51         b = mergesort(arr[middle:])
+52         arr = merge(a,b)
 53     return arr
 54         
 55 def main():
-56     print(QuickSort(\[4, 52, 4, 51, 3, 7, 23, 6, 7, 2\]))
-57     print(QuickSort(\[4, 52, 4, 51, 3, 7, 23, 6, 7, 2\]))
-58     print(mergesort(\[4, 52, 4, 51, 3, 7, 23, 6, 7, 2\]))
-59 if \_\_name\_\_ \== '\_\_main\_\_':
+56     print(QuickSort([4, 52, 4, 51, 3, 7, 23, 6, 7, 2]))
+57     print(QuickSort([4, 52, 4, 51, 3, 7, 23, 6, 7, 2]))
+58     print(mergesort([4, 52, 4, 51, 3, 7, 23, 6, 7, 2]))
+59 if __name__ == '__main__':
 60     main()
+```
 
 Above code I add the selection sort and merge sort,which are very simple compared to other programming language, and easy to understand.

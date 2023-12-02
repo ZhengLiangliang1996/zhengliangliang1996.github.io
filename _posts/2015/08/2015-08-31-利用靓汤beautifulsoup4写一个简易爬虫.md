@@ -14,7 +14,7 @@ coverImage: "h_large_esee_7a88000669c12f75.jpg"
 
 但我仍然很敬畏C++,许多高度计算效率和基本的轮子都是C++造出来的。不过学了Python让我有了一点包二奶的感觉。
 
-\------------
+------------
 
 正文：
 
@@ -40,13 +40,13 @@ bf4 作为python的包可以解析HTML和XML文件，包括有格式错误的标
 
 1.py具体使用方法
 
-\# anchor extraction from html document
+# anchor extraction from html document
 from bs4 import BeautifulSoup 
 import urllib2
 
-webpage \= urllib2.urlopen('http://en.wikipedia.org/wiki/Main\_Page')
-soup \= BeautifulSoup(webpage)
-for anchor in soup.find\_all('a'):
+webpage = urllib2.urlopen('http://en.wikipedia.org/wiki/Main_Page')
+soup = BeautifulSoup(webpage)
+for anchor in soup.find_all('a'):
     print(anchor.get('href', '/'))
 
 1.导入包：from bs4 import BeautifulSoup
@@ -61,42 +61,42 @@ for anchor in soup.find\_all('a'):
 
 具体方法：
 
-\>>> import requests
-\>>> r \= requests.get('https:/ GITHUB.com/timeline.json')
-\>>> r.text
-u'\[{"repository":{"open\_issues":0,"url":"https:/ GITHUB.com/.
+>>> import requests
+>>> r = requests.get('https:/ GITHUB.com/timeline.json')
+>>> r.text
+u'[{"repository":{"open_issues":0,"url":"https:/ GITHUB.com/.
 ..
 
 **二 爬一系列页面**
 
 我要访问的网站是豆瓣的热门影评页面：[点我](http://movie.douban.com/review/best/?start=0) .页面最后有个计数start变量第一个页面是start = 0,试着翻一下，可以发现start每次增加10，这时初始辨识某一个页面与另一个相似页面的区别，就是后面的变量值在发生变化，可以用一个自加行为产生访问页面。再用靓汤遍历，用soup.findAll来进行关键词的查找。
-
+```python
 import requests
 from bs4 import BeautifulSoup
 
-def trade\_spider(max\_page):
-    page \= 10
-    title \= 0
-    while page <= max\_page:
-        url \= 'http://movie.douban.com/review/best/?start=' \+ str(page)
-        source\_code \= requests.get(url)
-        plain\_text \= source\_code.text
-        soup \= BeautifulSoup(plain\_text,"html.parser")
+def trade_spider(max_page):
+    page = 10
+    title = 0
+    while page <= max_page:
+        url = 'http://movie.douban.com/review/best/?start=' + str(page)
+        source_code = requests.get(url)
+        plain_text = source_code.text
+        soup = BeautifulSoup(plain_text,"html.parser")
         for link in  soup.findAll('a',{'class':'j 
- a\_unfolder'}):
-            href \= link.get('href')
+ a_unfolder'}):
+            href = link.get('href')
             title += 1
             print(title)
             print(href)
-            get\_single\_item\_data(href)
+            get_single_item_data(href)
         page += 10 
-
+```
 先祭上本部分代码
 
 1. 后面的 str+（page）就是刚刚说到的页面变量参数，最后有一个 page +=10 就是一直在变化，为了能进行直接续网站而不是进行单纯的加法，将其强制转换成string类型。
 2. 再到大函数来看，利用while来进行一一遍历，遍历的页面是传入函数的参数，由用户来决定要多少个页面，只要确定每个页面+10就可以了。
-3. 在thenewboston上看这个教学视频的时候，觉得很麻烦，打开了网站要传送source\_code,再传给plain\_text觉得很麻烦，这是因为代码的可读性原因很重要，不过其实还是程序员的习惯因素决定的，可以直接打开就用beautifulsoup变成一个对象的。
-4. 这里有个很有意思的事情，我的这里的BeautifulSoup不是单纯放进去plain\_text就可以了，查看了文档说要在后面加上"html.parser"不知道大家的需不需要。
+3. 在thenewboston上看这个教学视频的时候，觉得很麻烦，打开了网站要传送source_code,再传给plain_text觉得很麻烦，这是因为代码的可读性原因很重要，不过其实还是程序员的习惯因素决定的，可以直接打开就用beautifulsoup变成一个对象的。
+4. 这里有个很有意思的事情，我的这里的BeautifulSoup不是单纯放进去plain_text就可以了，查看了文档说要在后面加上"html.parser"不知道大家的需不需要。
 
 **遍历环节：**
 
@@ -112,7 +112,7 @@ def trade\_spider(max\_page):
 
 [![2015-08-31_203528](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203528.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_203528.png)
 
-所以在遍历的时候  for link in soup.findAll('a',{'class':'j a\_unfolder'})**:**
+所以在遍历的时候  for link in soup.findAll('a',{'class':'j a_unfolder'})**:**
 
 可以准确找到这个地方，记得for循环后面有冒号！
 
@@ -137,14 +137,14 @@ def trade\_spider(max\_page):
 所以查找的时候  for link in soup.findAll('span',{'property':'v:reivewer'})
 
 所以整一串代码是：
-
-def get\_single\_item\_data(item\_url):
-    source\_code \= requests.get(item\_url)
-    plain\_text \= source\_code.text
-    soup \= BeautifulSoup(plain\_text,"html.parser")
-    for item\_name in soup.findAll('span',{'property':'v:reviewer'}):
-        print(item\_name.string)
-
+```python
+def get_single_item_data(item_url):
+    source_code = requests.get(item_url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text,"html.parser")
+    for item_name in soup.findAll('span',{'property':'v:reviewer'}):
+        print(item_name.string)
+```
 呈现的效果
 
 [![2015-08-31_205155](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_205155.png)](https://zhengliangliang.files.wordpress.com/2015/08/2015-08-31_205155.png)
@@ -155,37 +155,37 @@ def get\_single\_item\_data(item\_url):
 
 总代码：
 
+```python
 import requests
 from bs4 import BeautifulSoup
 
-def trade\_spider(max\_page):
-    page \= 10
-    title \= 0
-    while page <= max\_page:
-        url \= 'http://movie.douban.com/review/best/?start=' +
+def trade_spider(max_page):
+    page = 10
+    title = 0
+    while page <= max_page:
+        url = 'http://movie.douban.com/review/best/?start=' +
         str(page)
-        source\_code \= requests.get(url)
-        plain\_text \= source\_code.text
-        soup \= BeautifulSoup(plain\_text,"html.parser")
+        source_code = requests.get(url)
+        plain_text = source_code.text
+        soup = BeautifulSoup(plain_text,"html.parser")
         for link in  soup.findAll('a',{'class':'j 
- a\_unfolder'}):
-            href \= link.get('href')
+ a_unfolder'}):
+            href = link.get('href')
             title += 1
             print(title)
             print(href)
-            get\_single\_item\_data(href)
+            get_single_item_data(href)
         page += 10
 
-def get\_single\_item\_data(item\_url):
-    source\_code \= requests.get(item\_url)
-    plain\_text \= source\_code.text
-    soup \= BeautifulSoup(plain\_text,"html.parser")
-    for item\_name in soup.findAll('span',{'property':'v:
+def get_single_item_data(item_url):
+    source_code = requests.get(item_url)
+    plain_text = source_code.text
+    soup = BeautifulSoup(plain_text,"html.parser")
+    for item_name in soup.findAll('span',{'property':'v:
  reviewer'}):
-        print(item\_name.string)
+        print(item_name.string)
 
-trade\_spider(40)
-
+trade_spider(40)
+```
 快开学咯，大家一起加油哇！
 
- **speak now.**

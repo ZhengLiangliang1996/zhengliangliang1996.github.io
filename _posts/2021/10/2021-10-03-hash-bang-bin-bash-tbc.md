@@ -26,11 +26,11 @@ categories:
 
 When the script fails, it is a very distinctive behavior to record the processed content, but it is inconvenient to destroy the execution. The existence of the trap command in Bash is probably to solve this problem. It can attract the termination signal of the script and solve this problem in the way you want.
 
-- trap \[-lp\] \[\[arg\] signal\_spec ...\]
-    - \-l print signal name and corresponding number
-    - \-p show any trap command that is related to each signal
+- trap [-lp] [[arg] signal_spec ...]
+    - -l print signal name and corresponding number
+    - -p show any trap command that is related to each signal
     - arg：command to execute when getting signal
-    - signal\_spec：signal name or number
+    - signal_spec：signal name or number
     - 'trap' could be used d for the actions that need to be taken when the corresponding signal is obtained, and it can be used to perform clean-up work when the program is interrupted
 
 [![](https://zhengliangliang.files.wordpress.com/2021/09/screenshot-2021-09-29-at-21.44.02.png?w=1024)](https://zhengliangliang.files.wordpress.com/2021/09/screenshot-2021-09-29-at-21.44.02.png)
@@ -54,14 +54,14 @@ Example of trap:
     - placeholder
 - Some useful variables in bash:
     - `**$@**` refers to all of a shell script’s command-line arguments.
-    - **$\*** refers to all the shell script's command-line arguments, it could be the same as $@ if not without "", with quoting, all of the arguments are viewed separately but $\* will be one batch of data. means $@ need to run n times if there are n arguments using for loop, but $\* only need to for once to get all the arguments.
+    - **$*** refers to all the shell script's command-line arguments, it could be the same as $@ if not without "", with quoting, all of the arguments are viewed separately but $* will be one batch of data. means $@ need to run n times if there are n arguments using for loop, but $* only need to for once to get all the arguments.
     - **$$** refers to the process id of the shell
     - **$!** refers to **shebang**, the part after the #! tells Unix what program to use to run it.
     - **!!** refers to your previous shell command , called **bang-bang**
     - **$#** refers to the number of arguments passed to the shell
     - **$0** refers to the filename of the filename of the script
-    - **${BASH\_SOURCE\[0\]}** contains the (potentially relative) path of the containing script in _all_ invocation scenarios, notably also when the script is _sourced_, which is not true for `$0`.
-        - Difference between $0 and ${BASH\_SOURCE\[0\]}: [here](https://www.junmajinlong.com/shell/bash_source/)
+    - **${BASH_SOURCE[0]}** contains the (potentially relative) path of the containing script in _all_ invocation scenarios, notably also when the script is _sourced_, which is not true for `$0`.
+        - Difference between $0 and ${BASH_SOURCE[0]}: [here](https://www.junmajinlong.com/shell/bash_source/)
     - **$1** to $n refers to each argument added to the shell script, $1 is the first one, and $n is the nth one.
 
 My personal shell script template: [here](https://github.com/ZhengLiangliang1996/BashPractice/blob/master/BashPractice/template.sh)

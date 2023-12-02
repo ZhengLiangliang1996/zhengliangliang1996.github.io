@@ -17,9 +17,9 @@ Discussion:
 
 **Byzantine Generals Problem:**
 
-The term takes its name from an [allegory](https://en.wikipedia.org/wiki/Allegory), the "Byzantine Generals Problem",[\[2\]](https://en.wikipedia.org/wiki/Byzantine_fault#cite_note-2) developed to describe a situation in which, in order to avoid catastrophic failure of the system, the system's actors must agree on a concerted strategy, but some of these actors are unreliable.
+The term takes its name from an [allegory](https://en.wikipedia.org/wiki/Allegory), the "Byzantine Generals Problem",[[2]](https://en.wikipedia.org/wiki/Byzantine_fault#cite_note-2) developed to describe a situation in which, in order to avoid catastrophic failure of the system, the system's actors must agree on a concerted strategy, but some of these actors are unreliable.
 
-\----- From Wikipedia
+----- From Wikipedia
 
 **Proof-of-work:**
 

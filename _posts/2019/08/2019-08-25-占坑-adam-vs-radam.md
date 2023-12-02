@@ -15,21 +15,21 @@ Adam is a bit like RMSProp with momentum, the update rule works as below: (Sorry
 
 ![253495255.jpg](https://zhengliangliang.files.wordpress.com/2019/08/253495255.jpg)
 
-m and v are estimates of first and second moments, if this is an unbiased estimator, the expected values of the estimators should be equal to the dx we're trying to estimate. We made the following calculation to get the expectation of m\_t, which will contain dx inside and could be used to repremsent dx later.
+m and v are estimates of first and second moments, if this is an unbiased estimator, the expected values of the estimators should be equal to the dx we're trying to estimate. We made the following calculation to get the expectation of m_t, which will contain dx inside and could be used to repremsent dx later.
 
 ![1276645224.jpg](https://zhengliangliang.files.wordpress.com/2019/08/1276645224.jpg)
 
-Using induction to get the normal expression of mt, which sums up previous beta\_1 and times our parameter dx\_i. (There is a mistake in the accumulation term, i should starts from 1)
+Using induction to get the normal expression of mt, which sums up previous beta_1 and times our parameter dx_i. (There is a mistake in the accumulation term, i should starts from 1)
 
 ![224847056.jpg](https://zhengliangliang.files.wordpress.com/2019/08/224847056.jpg)
 
-We could take dx\_i out of the sum because it does not depend on i, beta\_i is always constant so it could stay outside of the expectation notion. The estimation of m\_t here is E\[dx\_i\], if we move 1 - beta\_1 to the left we could get the exact same equation in the third line.
+We could take dx_i out of the sum because it does not depend on i, beta_i is always constant so it could stay outside of the expectation notion. The estimation of m_t here is E[dx_i], if we move 1 - beta_1 to the left we could get the exact same equation in the third line.
 
 Finally the update rule will become as follows,
 
 ![1891530343.jpg](https://zhengliangliang.files.wordpress.com/2019/08/1891530343.jpg)
 
-Intuitively we made changes of the learning rate by scaling it, m\_t could be seen as mean and v\_t could be seen as variance.
+Intuitively we made changes of the learning rate by scaling it, m_t could be seen as mean and v_t could be seen as variance.
 
 - RAdam
 

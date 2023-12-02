@@ -18,25 +18,28 @@ categories:
 
 - **Homestead Install：(PS:安装vagrant需要vpn，国内镜像慢成狗)**
 
- 1 mkdir vagrant\_getting\_started  
- 2 cd vagrant\_getting\_started    
+``` 
+ 1 mkdir vagrant_getting_started  
+ 2 cd vagrant_getting_started    
  3 vagrant init  laravel/homestead    
  4 vagrant box add laravel/homestead   
  5 vagrant up
+ ```
 
 **在以上的 vagrant box add laravel/homestead之中，会有如下的显示**
-
+```
  1 ~  vagrant box add laravel/homestead
- 2 \==> box: Loading metadata for box 'laravel/homestead'
+ 2 ==> box: Loading metadata for box 'laravel/homestead'
  3    box: URL: https://atlas.hashicorp.com/laravel/homestead
  4 This box can work with multiple providers! The providers that it
  5 can work with are listed below. Please review the list and choose
  6 the provider you will be working with.
  7 
  8 1) virtualbox
- 9 2) vmware\_desktop
+ 9 2) vmware_desktop
 10 
 11 Enter your choice: 1
+```
 
 **选择1**
 
@@ -52,17 +55,18 @@ categories:
 
 **在所安装位置里**
 
- homestead init
- homestead edit
+``` homestead init```
+
 
 ![2016-11-23_222814.jpg](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_222814.jpg)
 
 **红色圈住的位置是映射地址 就用默认的不需要改变**
 
 - **Mysql数据库的账号和密码是**
-
+```
  1 user: homestead
  2 password: secret
+```
 
 - **配置nginx**
 
@@ -73,37 +77,39 @@ categories:
 **vim /etc/nginx/sites-enable/伪站点** 
 
 **例如**       **vim /etc/nginx/sites-enabled/dev.lucy.com.conf**
-
+```javascript
  1 server {
  2  listen        80;
- 3  server\_name   dev.lucy.com;
- 4  root          /vagrant\_data/lucy/public;
+ 3  server_name   dev.lucy.com;
+ 4  root          /vagrant_data/lucy/public;
  5  index         index.php index.html index.htm;
  6 
  7  location / {
  8    index  index.php index.html index.htm;
- 9    try\_files $uri @rewrite;
+ 9    try_files $uri @rewrite;
 10   }
 11 
 12   location @rewrite {
 13     rewrite ^ /index.php;
 14   }
 15 
-16   location ~ \\.php$ {
-17     fastcgi\_pass 127.0.0.1:9000;
-18     fastcgi\_index index.php;
+16   location ~ .php$ {
+17     fastcgi_pass 127.0.0.1:9000;
+18     fastcgi_index index.php;
 19     include fastcgi.conf;
 20   }
-21 access\_log /vagrant\_data/logs/lucy.access.log;
-22  error\_log /vagrant\_data/logs/lucy.error.log;
+21 access_log /vagrant_data/logs/lucy.access.log;
+22  error_log /vagrant_data/logs/lucy.error.log;
 23 }
+```
+**新建一个php项目在/vagrant_data目录下叫 lucy 命令行是** 
 
-**新建一个php项目在/vagrant\_data目录下叫 lucy 命令行是** 
-
+``` 
  1 $laravel new lucy
  2 //creaye log files without wirting anything
  3 $vim lucy.access.log
  4 $vim lucy.error.log
+```
 
 ![2016-11-23_231451.jpg](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_231451.jpg)![2016-11-23_231433.jpg](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_231433.jpg) 
 
@@ -113,10 +119,8 @@ categories:
 
 **然后去自己的windows下面的host文件下修改配置**
 
-192.168.33.11  dev.lucy.com
+```192.168.33.11  dev.lucy.com```
 
 **最后可以看到自己的美丽的界面**
 
 ![2016-11-24_233135.png](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-24_2331351.png)
-
- **Written by:charlie**
