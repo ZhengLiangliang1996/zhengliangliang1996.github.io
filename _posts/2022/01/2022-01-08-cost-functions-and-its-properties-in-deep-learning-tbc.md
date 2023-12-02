@@ -7,6 +7,23 @@ categories:
 
 **Loss Function and Cost Function**
 
+$$
+\begin{aligned}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{aligned}
+$$
+
 In supervised learning, concretely we're learning from given training set $$ {(x_i, y_i)}&fg=000000$$ and formulate our hypotheses $$ {h_theta(x)}&fg=000000$$. Here, the $$ {theta_{i}}&fg=000000$$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from $$ {mathcal{X}}&fg=000000$$ to $$ {mathcal{Y}}&fg=000000$$. When there is no risk of confusion, we will drop the $$ {theta}&fg=000000$ subscript in $$ {h_{theta}(x)}&fg=000000$$, and write it more simply as $$ {h(x)}&fg=000000$$.
 
 The goal of our learning is to minimize the distance between hypotheses and the real y, and Loss function is a function to measure such distance.
