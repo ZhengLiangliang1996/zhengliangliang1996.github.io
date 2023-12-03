@@ -7,7 +7,7 @@ categories:
 
 
 1. [Disclaimer](#disclaimer)
-2. [Introduction: Motivataion of this blog](#motivation)
+2. [Introduction: Motivaton of this blog](#motivation)
 3. [Anti-aging Supplements](#anti-aging)
     1. [Resveratrol](#Resveratrol)
     2. [NMN](#NMN)
@@ -194,12 +194,22 @@ The mechanisms of action of Grape Seed Extract (GSE) are diverse and involve a r
 
 ## Enzyme <a name="enzyme"></a>
 #### Serratiopeptidase <a name="Serratiopeptidase"></a>
+Serratiopeptidase is a zinc containing [metalloprotease](https://en.wikipedia.org/wiki/Metalloproteinase#:~:text=A%20metalloproteinase%2C%20or%20metalloprotease%2C%20is,Identifiers) of molecular weight 45–60 kDa. ($1Da = 1.66053906660(50) \times 10^{-27}kg$). It is originally obtained from [Serratia marcescens](https://en.wikipedia.org/wiki/Serratia_marcescens) isolated from the intestine of the silkworm [Bombyx mori](https://en.wikipedia.org/wiki/Bombyx_mori). [[14]](#14)
+
+The graph below is Serratia marcescens: 
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia"/>
+</p>
+
+While errapeptase and other proteolytic enzymes break down proteins by [hydrolyzing](https://en.wikipedia.org/wiki/Hydrolysis) them, breaking the [peptide](https://en.wikipedia.org/wiki/Peptide) bonds between amino acids (the building blocks of proteins). It is well documented that oral administration of proteolytic enzymes, including serrapeptase, is fully absorbed into the bloodstream and exerts effects throughout the body. 
 
 #### Mechanisms of action
 
 1. **Reduce pain and inflammation:**
-   - Break down non-living protein tisse (fibrin) that can clog artness 
-   - Binds to the macroblobulin inside the blood plasma IT protects itself from immune system 
+   - Hydrolyses [bradykinin](https://en.wikipedia.org/wiki/Bradykinin), [histamine](histamine), and [serotonin](serotonin) which helps to decrease pain and swelling and improve microcirculation, which in turn supports the wound healing process. [[15]](#15)
+   - Break down non-living protein tisse ([fibrin](https://en.wikipedia.org/wiki/Fibrin) that can clog artness) 
+   - Binds to the macroblobulin inside the blood plasma IT protects itself from immune system. 
    - Geo target, site specific  
 
 2. **Cardiovascular Disease:**
@@ -207,7 +217,19 @@ The mechanisms of action of Grape Seed Extract (GSE) are diverse and involve a r
    - Break down non-living protein tisse (fibrin) -> blood flow 
 
 3. **Ear Nose Throat Infections:**
-  - Geo target inflammation 
+    - Geo target inflammation 
+
+4. **Antibiofilm**
+    - The anti-biofilm ability of serratiopeptidase is accredited to its capability of modulating the expression of adhesion molecules and reduces cell surface proteins of bacteria. [[14]](#14)
+
+## Minerals, Vitamins & Other <a name="other"></a>
+### Vitamin D <a name="vd"></a>
+
+
+### Vitamin K2 <a name="vk2"></a>
+### Magnesium <a name="magnesium"></a>
+### Omega-3 Fatty Acids <a name="Omega-3"></a>
+### Finndal <a name="finndal"></a>
 
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
@@ -246,3 +268,9 @@ Serratiopeptidase 60mg/per day empty stomach, AM,
 <a id="12">[12]</a> Higuera-Ciapara, I.; Felix-Valenzuela, L.; Goycoolea, F. Astaxanthin: A review of its chemistry and applications. Crit. Rev. Food Sci. Nutr. 2006, 46, 185–196.
 
 <a id="13">[13]</a> Gupta, Madhavi, Sanjay Dey, Daphisha Marbaniang, Paulami Pal, Subhabrata Ray, and Bhaskar Mazumder. ‘Grape Seed Extract: Having a Potential Health Benefits’. Journal of Food Science and Technology 57, no. 4 (April 2020): 1205–15. https://doi.org/10.1007/s13197-019-04113-w.
+
+<a id="14">[14]</a> Jadhav, Swati B., Neha Shah, Ankit Rathi, Vic Rathi, and Abhijit Rathi. ‘Serratiopeptidase: Insights into the Therapeutic Applications’. Biotechnology Reports 28 (December 2020): e00544. https://doi.org/10.1016/j.btre.2020.e00544.
+
+<a id="15">[15]</a> L. Desser, A. Rehberger, E. Kokron, W. Paukovits, Cytokine synthesis in human peripheral blood mononuclear cells after oral administration of polyenzyme preparations, Oncology. 50 (1993) 403–407.
+
+<a id="16">[16]</a> Basit, S. ‘Vitamin D in Health and Disease: A Literature Review’. British Journal of Biomedical Science 70, no. 4 (1 January 2013): 161–72. https://doi.org/10.1080/09674845.2013.11669951.

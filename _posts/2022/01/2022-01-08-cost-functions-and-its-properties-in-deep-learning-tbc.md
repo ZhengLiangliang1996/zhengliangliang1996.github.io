@@ -93,7 +93,7 @@ Mean Absolute Error (MAE) is another class of loss function used in regression p
 
 
 $$
-J_{\theta}={\frac{1}{n}}\sum_{i=1}^{n}|y_{i}-{\hat{y}}_{i} 
+J_{\theta}={\frac{1}{n}}\sum_{i=1}^{n}|y_{i}-{\hat{y}}_{i}|
 $$
 
 
@@ -103,7 +103,7 @@ The loss of mae when assumed y real is 0 could be plotted below. We could tell f
 
 **Probabilistic interpretation of MAE**
 
-Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $$(\mu=0, b=1)$, the error $\epsilon$ distribution of could be written as [11](#eqlaplace)
+Same as the derivation of MSE, when we're considering the loss of MAE, we assumed that the error is distributed as Laplace distribution $(\mu=0, b=1)$, the error $\epsilon$ distribution of could be written as [11](#eqlaplace)
 
 $$
 p\left(y_{i}\mid x_{i}\right)=\frac{1}{2}\exp\left(-\left|y_{i}-\hat{y}_{i}\right|\right) 
@@ -130,7 +130,7 @@ As we can see after that we could get the form of MAE, by maximize the LL is the
 
 The MSE loss (L2) generally converges faster than the MAE loss (L1), but the MAE loss is more robust to outliers.
 
-MSE generally converges faster than MAE. When using the gradient descent algorithm, and the gradient of MAE loss is $$ -\hat{y_{i}}$, that is, the scale of the gradient of MSE will change with the size of the error, while the scale of the gradient of MAE will always remain 1 , Even when the absolute error is very small, the gradient scale of MAE is also 1, which is actually very unfavorable for model training. This is also the reason why MSE is more popular.
+MSE generally converges faster than MAE. When using the gradient descent algorithm, and the gradient of MAE loss is $-\hat{y_{i}}$, that is, the scale of the gradient of MSE will change with the size of the error, while the scale of the gradient of MAE will always remain 1 , Even when the absolute error is very small, the gradient scale of MAE is also 1, which is actually very unfavorable for model training. This is also the reason why MSE is more popular.
 
 MAE is more robust to outliers. We can understand this from the 2 perspectives:
 
