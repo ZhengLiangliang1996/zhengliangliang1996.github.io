@@ -80,7 +80,7 @@ The figure below shows the general benefits of resveratrol.
 Nicotinamide Mononucleotide ([NMN](https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide)). In humans, several enzymes use NMN to generate nicotinamide adenine dinucleotide ([NADH](https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide)). (NAD+ (Nicotinamide Adenine Dinucleotide) is a crucial coenzyme in cells that plays a fundamental role in various biological processes, you can think of it as coal for energy production, NAD+ was found gradually declining during aging.[[6]](#6)) NMN can be found in fruits and vegetables such as broccoli, cabbage, cucumber and avocado at a concentration of about 1 mg per 100g. In mammals most NMN is synthesized from vitamin B3 in the form of nicotinamide. [[5]](#5)
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn" width="200" height="200"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn" width="80%" height="auto"/>
 </p>
 
 NMN consists of three main components: a nicotinamide group, a ribose sugar, and a phosphate group. The nicotinamide group is connected to the ribose unit, and the phosphate group is attached to the ribose, forming the complete NMN molecule. In the human body, it can be found in placenta tissue and body fluids such as blood and urine. [[7]](#7)
@@ -99,7 +99,7 @@ NMN (Nicotinamide Mononucleotide) is an intermediate compound in the NAD+ [biosy
 Studies suggest NMN as a potential solution to restore NAD+ levels and counteract aging effects. The effect could be summarized by the figure [[7]](#7) shown below
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 16.01.41.png" alt="nmn" width="400" height="500"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 16.01.41.png" alt="nmn" width="80%" height="auto"/>
 </p>
 
 #### Ubiquinol <a name="Ubiquinol"></a>
@@ -131,7 +131,7 @@ Moreover, CoQ10 can increase the production of key antioxidants such as [superox
 Astaxanthin (ASX) is a [xanthophyll](https://en.wikipedia.org/wiki/Xanthophyll) carotenoid, chemically known as 3,3′-dihydroxyβ,β-carotene-4,4′-dione, It is a [lipid](https://en.wikipedia.org/wiki/Lipid)-soluble pigment with red coloring properties. It was originally isolated from lobster by Kuhn in 1938. [[11]](#11) ASX is primarily biosynthesised by various algae, bacteria and fungi and is consumed by marine animals, such as salmon, trout, crab, lobster and shrimp. [[12]](#12)
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin" width="500" height="100"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin"/>
 </p>
 
 Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in nature. 
@@ -145,7 +145,7 @@ Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in 
 The skin comprises epidermis, dermis and hypodermis, which form the protectively outermost barrier against external environmental stresses such as repeated sun UV ray exposure. [UV](https://en.wikipedia.org/wiki/Ultraviolet) radiation comprises three types: UVA(Long-wave UV, Passes largely through glass and clothing), UVB(Medium-wave UV, mostly absorbed by the ozone layer, Does not pass through 'normal' glass. but does pass through quartz glass, Causes other forms of skin cancer.) and UVC(Short-wave UV, germicidal UV, ionizing radiation at shorter wavelengths, completely absorbed by the ozone layer and atmosphere: hard UV..s very destructive to skin cells). UVC is filtered out by atmospheric ozone for the most part, while both UVA and UVB can cause a biological change in the skin. The overview could be found from the Figure [[11]](#11) below.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto" width="400" height="300"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto" width="80" height="auto"/>
 </p>
 
 The mechanism of action of Astaxanthin (ASX) involves its multifaceted impact on cellular and molecular processes, particularly in mitigating skin aging. 
@@ -199,7 +199,7 @@ Serratiopeptidase is a zinc containing [metalloprotease](https://en.wikipedia.or
 The graph below is Serratia marcescens: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia" width="300" height="300"/>/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia" width="60%" height="auto"/>
 </p>
 
 While errapeptase and other proteolytic enzymes break down proteins by [hydrolyzing](https://en.wikipedia.org/wiki/Hydrolysis) them, breaking the [peptide](https://en.wikipedia.org/wiki/Peptide) bonds between amino acids (the building blocks of proteins). It is well documented that oral administration of proteolytic enzymes, including serrapeptase, is fully absorbed into the bloodstream and exerts effects throughout the body. 
@@ -291,36 +291,8 @@ Regarding dosage, most astaxanthin recommended dosage ranges currently range fro
 
 Serratiopeptidase 60mg/per day empty stomach, AM, 
 
-Vitamin D is a fat-soluble vitamin that plays a crucial role in several physiological processes within the body. The mechanisms of action of vitamin D are primarily associated with its role in calcium homeostasis, bone health, and various other biological functions. Here are some key mechanisms of action:
 
-1. **Calcium Absorption:**
-   - One of the primary functions of vitamin D is to enhance the absorption of calcium in the small intestine. It facilitates the active transport of calcium across the intestinal lining into the bloodstream.
-
-2. **Bone Health:**
-   - Vitamin D is essential for the development and maintenance of healthy bones. It works in conjunction with calcium to support bone mineralization and prevent conditions like rickets in children and osteomalacia in adults.
-
-3. **Calcium Homeostasis:**
-   - Vitamin D helps regulate calcium levels in the blood by promoting its absorption in the intestines, reducing excretion by the kidneys, and mobilizing calcium from bones when needed.
-
-4. **Immune System Modulation:**
-   - Vitamin D has immunomodulatory effects, influencing both the innate and adaptive immune systems. It plays a role in the regulation of immune cell functions and the production of antimicrobial peptides.
-
-5. **Cell Growth and Differentiation:**
-   - Vitamin D is involved in the regulation of cell growth, proliferation, and differentiation. It has been implicated in the control of various cellular processes and may have anti-proliferative effects in certain tissues.
-
-6. **Anti-Inflammatory Properties:**
-   - Vitamin D has anti-inflammatory effects and may help modulate inflammatory responses. It can influence the production of cytokines and other immune system mediators.
-
-7. **Muscle Function:**
-   - Adequate levels of vitamin D are associated with improved muscle function. It may help prevent muscle weakness and improve overall muscle performance.
-
-8. **Cardiovascular Health:**
-   - Some studies suggest that vitamin D may have cardiovascular benefits, including a potential role in blood pressure regulation and the reduction of cardiovascular risks.
-
-9. **Neurological Function:**
-   - There is emerging research on the role of vitamin D in neurological function. It may have neuroprotective effects and is being investigated in relation to conditions like multiple sclerosis and cognitive decline.
-
-It's important to note that while vitamin D can be obtained through exposure to sunlight, it can also be obtained from dietary sources (such as fatty fish and fortified foods) and supplements. Maintaining adequate vitamin D levels is crucial for overall health, and deficiencies can lead to various health issues. However, excessive vitamin D intake can also have adverse effects, so it's essential to balance intake within recommended levels. Always consult with a healthcare professional for personalized advice on vitamin D supplementation.
+For the vitamin maintainence, Maintaining adequate vitamin D levels is crucial for overall health, and deficiencies can lead to various health issues. However, excessive vitamin D intake can also have adverse effects, so it's essential to balance intake within recommended levels. Always consult with a healthcare professional for personalized advice on vitamin D supplementation.
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
