@@ -234,42 +234,32 @@ The figure below is from [Catalyst University](https://www.youtube.com/watch?v=D
 
 Starting from the up-left of the graph above, the synthesis of vitamin D starts with the oxidation of cholesterol to [7-dehydrocholesterol](https://en.wikipedia.org/wiki/7-Dehydrocholesterol) (7-DHC). (7-dehydrocholesterol is part of the metabolic pathway that controls the synthesis of cholesterol in human cells.) 7-DHC is then transported to the skin and is stored in the cell membranes of [keratinocytes](https://en.wikipedia.org/wiki/Keratinocyte) and [fibroblasts](https://en.wikipedia.org/wiki/Fibroblast) in the epidermis of skin. [[16]](#16) In the skin, 7-DHC is [photolysed](https://en.wikipedia.org/wiki/Photodissociation) by UVB (290–315 nm) to previtamin $D_3$, which is converted to **inactive** vitamin D ([Cholecalciferol](https://en.wikipedia.org/wiki/Cholecalciferol)) by photolysis-mediated thermo-isomerisation. ([What is thermal isomerization?](https://chemistry.stackexchange.com/questions/107505/what-is-thermal-isomerization))
 
-To become biologically **active**, the vitamin D originating from dermal production or dietary sources undergoes a series of enzymatic conversions in the liver and kidney. Vitamin D is transported to the **liver** by vitamin D binding protein (DBP), together they are transported to the liver where the [cytochrome P450](https://en.wikipedia.org/wiki/Cytochrome_P450) enzyme 25-hydroxylase ([CYP2R1]) adds a hydroxylgroup on carbon 25 to produce a major circulating form of vitamin D, this process on the chemical level can be seen from the graph below: 
+To become biologically **active**, the vitamin D originating from dermal production or dietary sources undergoes a series of enzymatic conversions in the liver and kidney. Vitamin D is transported to the **liver** by vitamin D binding protein (DBP), together they are transported to the liver where the [cytochrome P450](https://en.wikipedia.org/wiki/Cytochrome_P450) enzyme 25-hydroxylase ([CYP2R1]) adds a hydroxylgroup on carbon 25 to produce a major circulating form of vitamin D (25-(OH)D), aka [Calcifediol](https://en.wikipedia.org/wiki/Calcifediol), this process on the chemical level can be seen from the graph below: 
 
 <p align="center">
   <img src="{{ site.baseurl }}/images/2023/11/Reaction_-_cholecalciferol_to_calcidiol_(vertical).png" alt="CYP2R1" width="50%" height="auto"/>
 </p>
 
-The inactive 25-(OH)D metabolite also circulates in the bloodstream bound to DBP and it must be further hydroxylated at a different site in the kidney tubules to gain hormonal bioactivity
+The Calcifediol then circulates in the bloodstream bound to DBP and it must be further hydroxylated at a different site in the **kidney** tubules to gain hormonal bioactivity. Hydroxylation at position $1\alpha$ by the mitochondrial cytochrome P450 enzyme 25-hydroxyvitamin D-$1\alpha$-hydroxylase (CYP27B1) of kidney converts Calcifediol to 1α,25-dihydroxyvitamin D (aka calcitriol, is the most active form of Vitamin D, 'trio' because it has 3 hydroxl groups), the *active form* of vitamin D that plays an essential role in mineral [homeostasis](https://en.wikipedia.org/wiki/Homeostasis).
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-04 at 22.33.00.png" alt="vitdgene" width="90%" height="auto"/>
+</p>
+
+As the graph (from [Catalyst University](https://www.youtube.com/watch?v=DP9RHWgNZ2U&ab_channel=CatalystUniversity)) shown above, the receptor of Calcifediol is not existed in the plasma membrane since it is hydrophobic, instead it is inside nucleus. Calcifediol is bound with [Vitamin D receptor](https://en.wikipedia.org/wiki/Vitamin_D_receptor) (VDR) VDR thens binds to DNA as VDR/VDR homodimers or VDR/RXR [heterodimers](https://en.wikipedia.org/wiki/Protein_dimer) in order to regulate gene expression. [[16]](#16). The dimers subsequently recognise and bind with transcription factor IIB (TFIIB) to a [vitamin D response element](https://en.wikipedia.org/wiki/VDRE) (VDRE) located in the promoter region of target genes and leads to transcriptional suppression or activation of vitamin D response genes.
 
 #### Mechanisms of action
 
-1. **Calcium Absorption:**
-   - One of the primary functions of vitamin D is to enhance the absorption of calcium in the small intestine. It facilitates the active transport of calcium across the intestinal lining into the bloodstream.
-
-2. **Bone Health:**
+1. **Calcium Absorption & Bone Health::**
+   - The association of low vitamin D and bone diseases such as rickets and osteoporosis is well known. [[16]](#16)
    - Vitamin D is essential for the development and maintenance of healthy bones. It works in conjunction with calcium to support bone mineralization and prevent conditions like rickets in children and osteomalacia in adults.
 
-3. **Calcium Homeostasis:**
-   - Vitamin D helps regulate calcium levels in the blood by promoting its absorption in the intestines, reducing excretion by the kidneys, and mobilizing calcium from bones when needed.
-
-4. **Immune System Modulation:**
+2. **Immune System Modulation:**
    - Vitamin D has immunomodulatory effects, influencing both the innate and adaptive immune systems. It plays a role in the regulation of immune cell functions and the production of antimicrobial peptides.
+   - The ability to combat infections, in particular, tuberculosis, viral infections and influenza. [[17]](#17)
 
-5. **Cell Growth and Differentiation:**
-   - Vitamin D is involved in the regulation of cell growth, proliferation, and differentiation. It has been implicated in the control of various cellular processes and may have anti-proliferative effects in certain tissues.
-
-6. **Anti-Inflammatory Properties:**
-   - Vitamin D has anti-inflammatory effects and may help modulate inflammatory responses. It can influence the production of cytokines and other immune system mediators.
-
-7. **Muscle Function:**
-   - Adequate levels of vitamin D are associated with improved muscle function. It may help prevent muscle weakness and improve overall muscle performance.
-
-8. **Cardiovascular Health:**
-   - Some studies suggest that vitamin D may have cardiovascular benefits, including a potential role in blood pressure regulation and the reduction of cardiovascular risks.
-
-9. **Neurological Function:**
-   - There is emerging research on the role of vitamin D in neurological function. It may have neuroprotective effects and is being investigated in relation to conditions like multiple sclerosis and cognitive decline.
+3. **Anti-Inflammatory Properties:**
+   - Vitamin D has anti-inflammatory effects and may help modulate inflammatory responses. e.g. inflammatory bowel disease. [[16]](#16)
 
 ### Vitamin K2 <a name="vk2"></a>
 
@@ -326,3 +316,5 @@ For the vitamin maintainence, Maintaining adequate vitamin D levels is crucial f
 <a id="15">[15]</a> L. Desser, A. Rehberger, E. Kokron, W. Paukovits, Cytokine synthesis in human peripheral blood mononuclear cells after oral administration of polyenzyme preparations, Oncology. 50 (1993) 403–407.
 
 <a id="16">[16]</a> Basit, S. ‘Vitamin D in Health and Disease: A Literature Review’. British Journal of Biomedical Science 70, no. 4 (1 January 2013): 161–72. https://doi.org/10.1080/09674845.2013.11669951.
+
+<a id="17">[17]</a> Ginde AA, Mansbach JM, Camargo CA Jr. Association between serum 25-hydroxyvitamin D level and upper respiratory tract infection in the Third National Health and Nutrition Examination Survey. Arch Intern Med 2009; 169: 384–90.
