@@ -16,12 +16,12 @@ categories:
     5. [Grape Seed Extract](#grape_seed)
 4. [Enzyme](#enzyme)
     1. [Serratiopeptidase](#Serratiopeptidase)
-5. [Minerals, Vitamins & Other](#other)
+5. [Minerals, Vitamins & Mental Fit Supplement](#other)
     1. [Vitamin D](#vd)
     2. [Vitamin K2](#vk2)
     3. [Magnesium](#magnesium)
     3. [Omega-3 Fatty Acids](#Omega-3)
-    4. [Finndal](#finndal)
+    4. [Mental Fit Supplement](#finndal)
 6. [Suggest Doses, Summary and Concerns](#summary_and_concerns)
 
 ### Disclaimer <a name="disclaimer"></a>
@@ -99,7 +99,7 @@ NMN (Nicotinamide Mononucleotide) is an intermediate compound in the NAD+ [biosy
 Studies suggest NMN as a potential solution to restore NAD+ levels and counteract aging effects. The effect could be summarized by the figure [[7]](#7) shown below
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 16.01.41.png" alt="nmn"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 16.01.41.png" alt="nmn" width="400" height="500"/>
 </p>
 
 #### Ubiquinol <a name="Ubiquinol"></a>
@@ -131,13 +131,13 @@ Moreover, CoQ10 can increase the production of key antioxidants such as [superox
 Astaxanthin (ASX) is a [xanthophyll](https://en.wikipedia.org/wiki/Xanthophyll) carotenoid, chemically known as 3,3′-dihydroxyβ,β-carotene-4,4′-dione, It is a [lipid](https://en.wikipedia.org/wiki/Lipid)-soluble pigment with red coloring properties. It was originally isolated from lobster by Kuhn in 1938. [[11]](#11) ASX is primarily biosynthesised by various algae, bacteria and fungi and is consumed by marine animals, such as salmon, trout, crab, lobster and shrimp. [[12]](#12)
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin" width="500" height="100"/>
 </p>
 
 Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in nature. 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Mikrofoto.de-Blutregenalgen_3.jpg" alt="mikrofoto"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Mikrofoto.de-Blutregenalgen_3.jpg" alt="mikrofoto" width="300" height="200"/>
 </p>
 
 #### Mechanisms of action
@@ -145,7 +145,7 @@ Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in 
 The skin comprises epidermis, dermis and hypodermis, which form the protectively outermost barrier against external environmental stresses such as repeated sun UV ray exposure. [UV](https://en.wikipedia.org/wiki/Ultraviolet) radiation comprises three types: UVA(Long-wave UV, Passes largely through glass and clothing), UVB(Medium-wave UV, mostly absorbed by the ozone layer, Does not pass through 'normal' glass. but does pass through quartz glass, Causes other forms of skin cancer.) and UVC(Short-wave UV, germicidal UV, ionizing radiation at shorter wavelengths, completely absorbed by the ozone layer and atmosphere: hard UV..s very destructive to skin cells). UVC is filtered out by atmospheric ozone for the most part, while both UVA and UVB can cause a biological change in the skin. The overview could be found from the Figure [[11]](#11) below.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto" width="400" height="300"/>
 </p>
 
 The mechanism of action of Astaxanthin (ASX) involves its multifaceted impact on cellular and molecular processes, particularly in mitigating skin aging. 
@@ -199,7 +199,7 @@ Serratiopeptidase is a zinc containing [metalloprotease](https://en.wikipedia.or
 The graph below is Serratia marcescens: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia" width="300" height="300"/>/>
 </p>
 
 While errapeptase and other proteolytic enzymes break down proteins by [hydrolyzing](https://en.wikipedia.org/wiki/Hydrolysis) them, breaking the [peptide](https://en.wikipedia.org/wiki/Peptide) bonds between amino acids (the building blocks of proteins). It is well documented that oral administration of proteolytic enzymes, including serrapeptase, is fully absorbed into the bloodstream and exerts effects throughout the body. 
@@ -224,15 +224,64 @@ While errapeptase and other proteolytic enzymes break down proteins by [hydrolyz
 
 ## Minerals, Vitamins & Other <a name="other"></a>
 ### Vitamin D <a name="vd"></a>
+Vitamin D is a lipid-soluble [prohormone](https://en.wikipedia.org/wiki/Prohormone) that is vital for the maintenance of bone and muscle health by promoting the absorption and metabolism of calcium and [phosphate](https://en.wikipedia.org/wiki/Phosphate). [[16]](#16) In addition to food sources such as fatty fish, eggs, fortified milk and cod liver oil, the human body uses ultraviolet B (UVB) radiation from sunlight to synthesise a significant portion of vitamin D requirements.
 
+The figure below is from [Catalyst University](https://www.youtube.com/watch?v=DP9RHWgNZ2U&ab_channel=CatalystUniversity), which shows the process of biosynthesis of Vitamin D.
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-04 at 10.11.11.png" alt="vitd" width="500" height="300"/>
+</p>
+
+Starting from the up-left of the graph above, the synthesis of vitamin D starts with the oxidation of cholesterol to [7-dehydrocholesterol](https://en.wikipedia.org/wiki/7-Dehydrocholesterol) (7-DHC). (7-dehydrocholesterol is part of the metabolic pathway that controls the synthesis of cholesterol in human cells.) 7-DHC is then transported to the skin and is stored in the cell membranes of [keratinocytes](https://en.wikipedia.org/wiki/Keratinocyte) and [fibroblasts](https://en.wikipedia.org/wiki/Fibroblast) in the epidermis of skin. [[16]](#16) In the skin, 7-DHC is [photolysed](https://en.wikipedia.org/wiki/Photodissociation) by UVB (290–315 nm) to previtamin $D_3$, which is converted to **inactive** vitamin D ([Cholecalciferol](https://en.wikipedia.org/wiki/Cholecalciferol)) by photolysis-mediated thermo-isomerisation. ([What is thermal isomerization?](https://chemistry.stackexchange.com/questions/107505/what-is-thermal-isomerization))
+
+To become biologically **active**, the vitamin D originating from dermal production or dietary sources undergoes a series of enzymatic conversions in the liver and kidney. Vitamin D is transported to the **liver** by vitamin D binding protein (DBP), together they are transported to the liver where the [cytochrome P450](https://en.wikipedia.org/wiki/Cytochrome_P450) enzyme 25-hydroxylase ([CYP2R1]) adds a hydroxylgroup on carbon 25 to produce a major circulating form of vitamin D, this process on the chemical level can be seen from the graph below: 
+
+<p align="center">
+  <img src="{{ site.baseurl }}/images/2023/11/Reaction_-_cholecalciferol_to_calcidiol_(vertical).png" alt="CYP2R1" width="250" height="600"/>
+</p>
+
+The inactive 25-(OH)D metabolite also circulates in the bloodstream bound to DBP and it must be further hydroxylated at a different site in the kidney tubules to gain hormonal bioactivity
+
+#### Mechanisms of action
+
+1. **Calcium Absorption:**
+   - One of the primary functions of vitamin D is to enhance the absorption of calcium in the small intestine. It facilitates the active transport of calcium across the intestinal lining into the bloodstream.
+
+2. **Bone Health:**
+   - Vitamin D is essential for the development and maintenance of healthy bones. It works in conjunction with calcium to support bone mineralization and prevent conditions like rickets in children and osteomalacia in adults.
+
+3. **Calcium Homeostasis:**
+   - Vitamin D helps regulate calcium levels in the blood by promoting its absorption in the intestines, reducing excretion by the kidneys, and mobilizing calcium from bones when needed.
+
+4. **Immune System Modulation:**
+   - Vitamin D has immunomodulatory effects, influencing both the innate and adaptive immune systems. It plays a role in the regulation of immune cell functions and the production of antimicrobial peptides.
+
+5. **Cell Growth and Differentiation:**
+   - Vitamin D is involved in the regulation of cell growth, proliferation, and differentiation. It has been implicated in the control of various cellular processes and may have anti-proliferative effects in certain tissues.
+
+6. **Anti-Inflammatory Properties:**
+   - Vitamin D has anti-inflammatory effects and may help modulate inflammatory responses. It can influence the production of cytokines and other immune system mediators.
+
+7. **Muscle Function:**
+   - Adequate levels of vitamin D are associated with improved muscle function. It may help prevent muscle weakness and improve overall muscle performance.
+
+8. **Cardiovascular Health:**
+   - Some studies suggest that vitamin D may have cardiovascular benefits, including a potential role in blood pressure regulation and the reduction of cardiovascular risks.
+
+9. **Neurological Function:**
+   - There is emerging research on the role of vitamin D in neurological function. It may have neuroprotective effects and is being investigated in relation to conditions like multiple sclerosis and cognitive decline.
 
 ### Vitamin K2 <a name="vk2"></a>
+
 ### Magnesium <a name="magnesium"></a>
+
 ### Omega-3 Fatty Acids <a name="Omega-3"></a>
-### Finndal <a name="finndal"></a>
+
+### Mental Fit Supplement <a name="finndal"></a>
 
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
+Lots of the suppliments are hydrophobic. lipid-soluble
 The observed safe level (OSL) is intake up to 1,200 mg/day.
 Nowadays, there are NMN products, marketed as supplements for anti-aging and longevity in the form of capsules, which are very high in dose such as 500 mg. The safety of these doses cannot be assessed since required clinical and toxicological studies have not been completed yet to establish the recommended safe levels for long term administration. Nevertheless, their safety and efficacy are uncertain and unreliable since most of them have not been backed up by rigorous scientific preclinical and clinical testing. [[7]](#7)
 
@@ -241,6 +290,37 @@ Astaxanthin is a fat-soluble carotenoid and should be paired with fat-containing
 Regarding dosage, most astaxanthin recommended dosage ranges currently range from 4 mg to 12 mg per day, but the optimal dosage should be determined based on the user's age, health, and several other conditions. Please also follow the dosage on the product label. For relevant instructions, or it is best to consult your local pharmacist or doctor before use.
 
 Serratiopeptidase 60mg/per day empty stomach, AM, 
+
+Vitamin D is a fat-soluble vitamin that plays a crucial role in several physiological processes within the body. The mechanisms of action of vitamin D are primarily associated with its role in calcium homeostasis, bone health, and various other biological functions. Here are some key mechanisms of action:
+
+1. **Calcium Absorption:**
+   - One of the primary functions of vitamin D is to enhance the absorption of calcium in the small intestine. It facilitates the active transport of calcium across the intestinal lining into the bloodstream.
+
+2. **Bone Health:**
+   - Vitamin D is essential for the development and maintenance of healthy bones. It works in conjunction with calcium to support bone mineralization and prevent conditions like rickets in children and osteomalacia in adults.
+
+3. **Calcium Homeostasis:**
+   - Vitamin D helps regulate calcium levels in the blood by promoting its absorption in the intestines, reducing excretion by the kidneys, and mobilizing calcium from bones when needed.
+
+4. **Immune System Modulation:**
+   - Vitamin D has immunomodulatory effects, influencing both the innate and adaptive immune systems. It plays a role in the regulation of immune cell functions and the production of antimicrobial peptides.
+
+5. **Cell Growth and Differentiation:**
+   - Vitamin D is involved in the regulation of cell growth, proliferation, and differentiation. It has been implicated in the control of various cellular processes and may have anti-proliferative effects in certain tissues.
+
+6. **Anti-Inflammatory Properties:**
+   - Vitamin D has anti-inflammatory effects and may help modulate inflammatory responses. It can influence the production of cytokines and other immune system mediators.
+
+7. **Muscle Function:**
+   - Adequate levels of vitamin D are associated with improved muscle function. It may help prevent muscle weakness and improve overall muscle performance.
+
+8. **Cardiovascular Health:**
+   - Some studies suggest that vitamin D may have cardiovascular benefits, including a potential role in blood pressure regulation and the reduction of cardiovascular risks.
+
+9. **Neurological Function:**
+   - There is emerging research on the role of vitamin D in neurological function. It may have neuroprotective effects and is being investigated in relation to conditions like multiple sclerosis and cognitive decline.
+
+It's important to note that while vitamin D can be obtained through exposure to sunlight, it can also be obtained from dietary sources (such as fatty fish and fortified foods) and supplements. Maintaining adequate vitamin D levels is crucial for overall health, and deficiencies can lead to various health issues. However, excessive vitamin D intake can also have adverse effects, so it's essential to balance intake within recommended levels. Always consult with a healthcare professional for personalized advice on vitamin D supplementation.
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
