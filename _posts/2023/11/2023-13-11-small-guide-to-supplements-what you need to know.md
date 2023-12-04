@@ -80,7 +80,7 @@ The figure below shows the general benefits of resveratrol.
 Nicotinamide Mononucleotide ([NMN](https://en.wikipedia.org/wiki/Nicotinamide_mononucleotide)). In humans, several enzymes use NMN to generate nicotinamide adenine dinucleotide ([NADH](https://en.wikipedia.org/wiki/Nicotinamide_adenine_dinucleotide)). (NAD+ (Nicotinamide Adenine Dinucleotide) is a crucial coenzyme in cells that plays a fundamental role in various biological processes, you can think of it as coal for energy production, NAD+ was found gradually declining during aging.[[6]](#6)) NMN can be found in fruits and vegetables such as broccoli, cabbage, cucumber and avocado at a concentration of about 1 mg per 100g. In mammals most NMN is synthesized from vitamin B3 in the form of nicotinamide. [[5]](#5)
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn" width="80%" height="auto"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-18 at 15.57.20.png" alt="nmn" width="50%" height="auto"/>
 </p>
 
 NMN consists of three main components: a nicotinamide group, a ribose sugar, and a phosphate group. The nicotinamide group is connected to the ribose unit, and the phosphate group is attached to the ribose, forming the complete NMN molecule. In the human body, it can be found in placenta tissue and body fluids such as blood and urine. [[7]](#7)
@@ -131,7 +131,7 @@ Moreover, CoQ10 can increase the production of key antioxidants such as [superox
 Astaxanthin (ASX) is a [xanthophyll](https://en.wikipedia.org/wiki/Xanthophyll) carotenoid, chemically known as 3,3′-dihydroxyβ,β-carotene-4,4′-dione, It is a [lipid](https://en.wikipedia.org/wiki/Lipid)-soluble pigment with red coloring properties. It was originally isolated from lobster by Kuhn in 1938. [[11]](#11) ASX is primarily biosynthesised by various algae, bacteria and fungi and is consumed by marine animals, such as salmon, trout, crab, lobster and shrimp. [[12]](#12)
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Astaxanthin.svg.png" alt="astaxanthin" width="80%" height="auto"/>
 </p>
 
 Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in nature. 
@@ -237,7 +237,7 @@ Starting from the up-left of the graph above, the synthesis of vitamin D starts 
 To become biologically **active**, the vitamin D originating from dermal production or dietary sources undergoes a series of enzymatic conversions in the liver and kidney. Vitamin D is transported to the **liver** by vitamin D binding protein (DBP), together they are transported to the liver where the [cytochrome P450](https://en.wikipedia.org/wiki/Cytochrome_P450) enzyme 25-hydroxylase ([CYP2R1]) adds a hydroxylgroup on carbon 25 to produce a major circulating form of vitamin D, this process on the chemical level can be seen from the graph below: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Reaction_-_cholecalciferol_to_calcidiol_(vertical).png" alt="CYP2R1" width="90%" height="auto"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Reaction_-_cholecalciferol_to_calcidiol_(vertical).png" alt="CYP2R1" width="50%" height="auto"/>
 </p>
 
 The inactive 25-(OH)D metabolite also circulates in the bloodstream bound to DBP and it must be further hydroxylated at a different site in the kidney tubules to gain hormonal bioactivity
