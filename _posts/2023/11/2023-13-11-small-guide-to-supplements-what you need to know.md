@@ -145,7 +145,7 @@ Haematococcus pluvialis, is reported to accumulate the highest levels of ASX in 
 The skin comprises epidermis, dermis and hypodermis, which form the protectively outermost barrier against external environmental stresses such as repeated sun UV ray exposure. [UV](https://en.wikipedia.org/wiki/Ultraviolet) radiation comprises three types: UVA(Long-wave UV, Passes largely through glass and clothing), UVB(Medium-wave UV, mostly absorbed by the ozone layer, Does not pass through 'normal' glass. but does pass through quartz glass, Causes other forms of skin cancer.) and UVC(Short-wave UV, germicidal UV, ionizing radiation at shorter wavelengths, completely absorbed by the ozone layer and atmosphere: hard UV..s very destructive to skin cells). UVC is filtered out by atmospheric ozone for the most part, while both UVA and UVB can cause a biological change in the skin. The overview could be found from the Figure [[11]](#11) below.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto" width="80" height="auto"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-11-26 at 12.41.17.png" alt="mikrofoto" width="80%" height="auto"/>
 </p>
 
 The mechanism of action of Astaxanthin (ASX) involves its multifaceted impact on cellular and molecular processes, particularly in mitigating skin aging. 
@@ -199,7 +199,7 @@ Serratiopeptidase is a zinc containing [metalloprotease](https://en.wikipedia.or
 The graph below is Serratia marcescens: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia" width="60%" height="auto"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-03 at 21.55.16.png" alt="Serratia" width="50%" height="auto"/>
 </p>
 
 While errapeptase and other proteolytic enzymes break down proteins by [hydrolyzing](https://en.wikipedia.org/wiki/Hydrolysis) them, breaking the [peptide](https://en.wikipedia.org/wiki/Peptide) bonds between amino acids (the building blocks of proteins). It is well documented that oral administration of proteolytic enzymes, including serrapeptase, is fully absorbed into the bloodstream and exerts effects throughout the body. 
@@ -229,7 +229,7 @@ Vitamin D is a lipid-soluble [prohormone](https://en.wikipedia.org/wiki/Prohormo
 The figure below is from [Catalyst University](https://www.youtube.com/watch?v=DP9RHWgNZ2U&ab_channel=CatalystUniversity), which shows the process of biosynthesis of Vitamin D.
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-04 at 10.11.11.png" alt="vitd" width="500" height="300"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Screenshot 2023-12-04 at 10.11.11.png" alt="vitd" width="90%" height="auto"/>
 </p>
 
 Starting from the up-left of the graph above, the synthesis of vitamin D starts with the oxidation of cholesterol to [7-dehydrocholesterol](https://en.wikipedia.org/wiki/7-Dehydrocholesterol) (7-DHC). (7-dehydrocholesterol is part of the metabolic pathway that controls the synthesis of cholesterol in human cells.) 7-DHC is then transported to the skin and is stored in the cell membranes of [keratinocytes](https://en.wikipedia.org/wiki/Keratinocyte) and [fibroblasts](https://en.wikipedia.org/wiki/Fibroblast) in the epidermis of skin. [[16]](#16) In the skin, 7-DHC is [photolysed](https://en.wikipedia.org/wiki/Photodissociation) by UVB (290–315 nm) to previtamin $D_3$, which is converted to **inactive** vitamin D ([Cholecalciferol](https://en.wikipedia.org/wiki/Cholecalciferol)) by photolysis-mediated thermo-isomerisation. ([What is thermal isomerization?](https://chemistry.stackexchange.com/questions/107505/what-is-thermal-isomerization))
@@ -237,7 +237,7 @@ Starting from the up-left of the graph above, the synthesis of vitamin D starts 
 To become biologically **active**, the vitamin D originating from dermal production or dietary sources undergoes a series of enzymatic conversions in the liver and kidney. Vitamin D is transported to the **liver** by vitamin D binding protein (DBP), together they are transported to the liver where the [cytochrome P450](https://en.wikipedia.org/wiki/Cytochrome_P450) enzyme 25-hydroxylase ([CYP2R1]) adds a hydroxylgroup on carbon 25 to produce a major circulating form of vitamin D, this process on the chemical level can be seen from the graph below: 
 
 <p align="center">
-  <img src="{{ site.baseurl }}/images/2023/11/Reaction_-_cholecalciferol_to_calcidiol_(vertical).png" alt="CYP2R1" width="250" height="600"/>
+  <img src="{{ site.baseurl }}/images/2023/11/Reaction_-_cholecalciferol_to_calcidiol_(vertical).png" alt="CYP2R1" width="90%" height="auto"/>
 </p>
 
 The inactive 25-(OH)D metabolite also circulates in the bloodstream bound to DBP and it must be further hydroxylated at a different site in the kidney tubules to gain hormonal bioactivity
