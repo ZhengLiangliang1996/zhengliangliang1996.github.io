@@ -32,7 +32,7 @@ Last week, I had a thought-provoking discussion with my colleagues. The topic of
 
 A pill that promises health improvements, anti-aging effects, but to be honest I had very limited knowledge of those small pills I'm taking, I yearn for comprehension.What exactly are these supplements composed of at a molecular level? How do these minuscule pills exert their influence within our bodies biologically? Moreover, is there an optimal approach to taking these supplements to maximize their potential benefits for our health and well-being?
 
-Over the past few days, I've immersed myself into articles, research papers, and scientific literature. My aim was clear: to understand these tiny capsules that promise health. In the sections to come, I included () different supplements and introduced them each from the very essence of these their chemical identities, their categorizations, their mechanisms of action with the academic evidence. In the end a 
+Over the past few days, I've immersed myself into articles, research papers, and scientific literature. My aim was clear: to understand these tiny capsules that promise health. In the sections to come, I included 10 different supplements and introduced them each from the very essence of these their chemical identities, their categorizations, their mechanisms of action with the academic evidence. In the end a suggest dose for those supplements was given.
 
 ## Anti-aging Supplements <a name="anti-aging"></a>
 
@@ -365,8 +365,6 @@ Omega-6 fatty acids are another group of polyunsaturated fats that include linol
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
 Supplements come in various forms, and understanding their safe levels is crucial. The following is a brief corresponding supplement suggested dosage based on Observed Safe Level (OSL) of human body.
-
-### Dive into Specific Supplements:
 
 1. **NMN (Nicotinamide Mononucleotide):**
    - NMN products, popular for anti-aging, are available in high doses (e.g., 500 mg).
