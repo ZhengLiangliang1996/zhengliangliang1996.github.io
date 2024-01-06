@@ -391,7 +391,7 @@ Supplements come in various forms, and understanding their safe levels is crucia
 
 Understanding the motivation behind exploring supplements is essential. However, it's equally important to approach these substances with caution. Many supplements listed here are best absorbed when taken with a fatty meal. This enhances their bioavailability, ensuring your body can make the most of their benefits. 
 
-Remember, the decision to supplement should not be taken lightly. Always consult with a healthcare professional before introducing any new supplements into your regimen. In such cases, seeking guidance from a doctor or checking a reliable drug interaction website (e.g. https://reference.medscape.com/drug-interactionchecker) is advisable to ensure compatibility and prevent any potential adverse effects.  
+Remember, the decision to supplement should not be taken lightly. Always consult with a healthcare professional before introducing any new supplements into your meal. In such cases, seeking guidance from a doctor or checking a reliable drug interaction website (e.g. https://reference.medscape.com/drug-interactionchecker) is advisable to ensure compatibility and prevent any potential adverse effects.  
 
 ## Useful links 
 1. Drug interation: https://reference.medscape.com/drug-interactionchecker
