@@ -277,36 +277,124 @@ Vitamin K1 is involved in the activation of other clotting factors, including Fa
    -  Some vitamin-K dependent proteins are dependent on vitamin-K carboxylation for functionality. [[20]](#20) Vitamin K acts as a cofactor in the conversion of [glutamate](https://en.wikipedia.org/wiki/Glutamate_(neurotransmitter)) into [Matrix Gla Protein](https://en.wikipedia.org/wiki/Matrix_Gla_protein) (MGP). MGP regulate many anticalcification and bone-forming processes in the body, which are dependent on vitamin K in order to be produced. [[18]](#18)
 
 ### Magnesium <a name="magnesium"></a>
-Electrolytes such as sodium, potassium, calcium, and magnesium are physiologically important due to their integral roles in metabolic and biologic processes. [[20]](#20) Magnesium (${Mg}^{2+}$) possesses two [hydration shells](https://en.wikipedia.org/wiki/Solvation_shell), making its hydrated radius larger than that of other cations (${Na}^+$, $K^+$, and ${Ca}^{2+}$). 
+Electrolytes such as sodium, potassium, calcium, and magnesium are physiologically important due to their integral roles in metabolic and biologic processes. [[21]](#21) Magnesium (${Mg}^{2+}$) possesses two [hydration shells](https://en.wikipedia.org/wiki/Solvation_shell), making its hydrated radius larger than that of other cations (${Na}^+$, $K^+$, and ${Ca}^{2+}$). 
 
-The 'hydrated radius' is the effective size of the ion when surrounded by water molecules. In the case of magnesium, it has two layers or shells of water molecules around it. Because magnesium has two hydration shells, the presence of these water layers makes the effective size or radius of the hydrated magnesium ion larger compared to other cations (positively charged ions).    
+The 'hydrated radius' is the effective size of the ion when surrounded by water molecules. In the case of magnesium, it has two layers or shells of water molecules around it. Because magnesium has two hydration shells, the presence of these water layers makes the effective size or radius of the hydrated magnesium ion larger compared to other cations (positively charged ions).   
 
-Magnesium is an essential mineral which is a cofactor in over 300 enzymatic reactions for protein synthesis such as muscle contraction. [[21]](#21)
+Magnesium is an essential mineral which is a cofactor in over 300 enzymatic reactions for protein synthesis such as muscle contraction, nerve function, blood pressure and hormone binding. [[22]](#22). Magnesium is required for energy production, oxidative phosphorylation, and glycolysis. It contributes to the structural development of bone and is required for the synthesis of DNA, RNA, and the antioxidant glutathione. Magnesium also plays a role in the active transport of calcium and potassium ions across cell membranes, a process that is important to nerve impulse conduction, muscle contraction, and normal heart rhythm. [[23]](#23)
+
+As we discussed in the Vitamin D section,  vitamin D can’t work without first being converted into a form your body can absorb. The level to which a vitamin or mineral can be absorbed is known as its "bioavailability." Vitamin D’s bioavailability depends on magnesium. The enzymes (in the liver and kidneys) that enable vitamin D metabolism—converting it into its active form, calcitriol — can’t work without sufficient amounts of magnesium to draw upon.
+
+Early signs of magnesium deficiency include loss of appetite, nausea, vomiting, fatigue, and weakness. Therefore proper intake of magnesium from food or supplements is important. Magnesium supplements are available in a variety of forms. The following information comes from Dr. Jin W. Sung. 's YouTube Channel [[23]](#23).
+
+1. **Magnesium Citrate:**
+   - Absorption Rate: 30%
+   - Benefits: Good for constipation.
+   - Additional Info: More completely absorbed in the gut; considered more bioavailable.
+
+2. **Magnesium Aspartate:**
+   - Absorption Rate: 42%
+   - Benefits: Excites neural transmitter activity.
+   - Additional Info: May enhance neural functions; higher absorption rate.
+
+3. **Magnesium Glycinate:**
+   - Absorption Rate: 24%
+   - Benefits: Glycine is a precursor to GABA (inhibitory neurotransmitter), useful for calming effects.
+   - Additional Info: Supports [GABA](https://en.wikipedia.org/wiki/%CE%93-Aminobutyric_acid) production; suitable for relaxation.
+
+4. **Magnesium Chloride:**
+   - Absorption Rate: 20%
+   - Benefits: Suitable for individuals with low stomach acid issues.
+   - Additional Info: May be helpful for those with digestive concerns.
+
+5. **Magnesium Sulfate:**
+   - Absorption Rate: 4%-7%
+   - Benefits: Limited information provided.
+   - Additional Info: Slightly lower absorption rate compared to other forms.
+
+6. **Magnesium Oxide:**
+   - Absorption Rate: 4%
+   - Benefits: Limited information provided.
+   - Additional Info: One of the less soluble forms; lower absorption rate.
+
+7. **Magnesium Theonate:**
+   - Absorption Rate: High
+   - Benefits: Suggested for sleep.
+   - Additional Info: May have specific benefits for sleep support.
 
 
 ### Omega-3 Fatty Acids <a name="Omega-3"></a>
 
 
+**Fish Oil:**
+Fish oil is a dietary supplement derived from the tissues of fatty fish, such as salmon, mackerel, and sardines. It is rich in omega-3 fatty acids, which are essential for various physiological functions in the body.
+
+**Omega-3 Fatty Acids:**
+Omega-3 fatty acids are a type of [polyunsaturated](https://en.wikipedia.org/wiki/Polyunsaturated_fat) fat that includes three main types: eicosapentaenoic acid ([EPA](https://en.wikipedia.org/wiki/Eicosapentaenoic_acid)), docosahexaenoic acid ([DHA](https://en.wikipedia.org/wiki/Docosahexaenoic_acid)), and alpha-linolenic acid ([ALA](https://en.wikipedia.org/wiki/%CE%91-Linolenic_acid)). EPA and DHA are commonly found in fish oil, while ALA is present in plant-based sources like flaxseeds and walnuts.
+
+**Omega-6 Fatty Acids:**
+Omega-6 fatty acids are another group of polyunsaturated fats that include linoleic acid ([LA](https://en.wikipedia.org/wiki/Linoleic_acid)) and arachidonic acid ([AA](https://en.wikipedia.org/wiki/Arachidonic_acid)). These fats are found in various vegetable oils and nuts.
+
+### Mechanism of Action:
+
+1. **Anti-Inflammatory Properties:**
+   - **Omega-3s:** EPA and DHA from fish oil have anti-inflammatory effects. They can compete with omega-6 fatty acids for the same enzymes, leading to the production of less inflammatory molecules.
+
+2. **Cardiovascular Health:**
+   - **Omega-3s:** EPA and DHA contribute to cardiovascular health by reducing triglycerides, lowering blood pressure, and preventing the formation of blood clots. They also have a positive impact on heart rhythm.
+
+3. **Brain Health:**
+   - **Omega-3s:** DHA, in particular, is crucial for brain health and development. It makes up a significant portion of the brain's structure and plays a role in cognitive function.
+
+4. **Joint Health:**
+   - **Omega-3s:** Fish oil's anti-inflammatory properties may benefit joint health, reducing symptoms in conditions like rheumatoid arthritis.
+
+5. **Immune System Support:**
+   - **Omega-3s:** EPA and DHA support the immune system by promoting the activity of immune cells.
+
+6. **Cellular Function:**
+   - **Balancing Omega-3 and Omega-6:** Maintaining a balance between omega-3 and omega-6 fatty acids is essential. An imbalance, often seen in Western diets, may contribute to chronic inflammation and various health issues.
+
+7. **Neuroprotective Effects:**
+   - **DHA:** DHA has neuroprotective effects and is crucial for the development and function of the nervous system.
+
+8. **ALA Conversion:**
+   - **ALA:** ALA, found in plant-based sources, can be converted into EPA and DHA in the body, although the conversion rate is relatively low.
+
 
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
-Lots of the suppliments are hydrophobic. lipid-soluble
-The observed safe level (OSL) is intake up to 1,200 mg/day.
-Nowadays, there are NMN products, marketed as supplements for anti-aging and longevity in the form of capsules, which are very high in dose such as 500 mg. The safety of these doses cannot be assessed since required clinical and toxicological studies have not been completed yet to establish the recommended safe levels for long term administration. Nevertheless, their safety and efficacy are uncertain and unreliable since most of them have not been backed up by rigorous scientific preclinical and clinical testing. [[7]](#7)
+Supplements come in various forms, and understanding their safe levels is crucial. The following is a brief corresponding supplement suggested dosage based on Observed Safe Level (OSL) of human body.
 
-Astaxanthin is a fat-soluble carotenoid and should be paired with fat-containing meals for optimal absorption.
+### Dive into Specific Supplements:
 
-Regarding dosage, most astaxanthin recommended dosage ranges currently range from 4 mg to 12 mg per day, but the optimal dosage should be determined based on the user's age, health, and several other conditions. Please also follow the dosage on the product label. For relevant instructions, or it is best to consult your local pharmacist or doctor before use.
+1. **NMN (Nicotinamide Mononucleotide):**
+   - NMN products, popular for anti-aging, are available in high doses (e.g., 500 mg).
+   - Safety is uncertain; rigorous scientific studies are essential for establishing long-term administration levels. [[7]](#7)
 
-Serratiopeptidase 60mg/per day empty stomach, AM, 
+2. **Astaxanthin:**
+   - This fat-soluble carotenoid is best absorbed with fat-containing meals.
+   - Dosages range from 4 mg to 12 mg daily, with the ideal amount tailored to age, health, and individual conditions.
+   - Always follow product label dosages or consult a healthcare professional.
 
-The adequate intake (AI) for vitamin K has been proposed to be 90 μg/day for women and 120 μg/day for men. [[18]](#18)
+3. **Serratiopeptidase:**
+   - Recommended dosage is 60 mg/day on an empty stomach in the morning.
 
-For the vitamin maintainence, Maintaining adequate vitamin D levels is crucial for overall health, and deficiencies can lead to various health issues. However, excessive vitamin D intake can also have adverse effects, so it's essential to balance intake within recommended levels. Always consult with a healthcare professional for personalized advice on vitamin D supplementation.
+4. **Vitamin K:**
+   - Adequate intake (AI) is suggested at 90 μg/day for women and 120 μg/day for men. [[18]](#18)
 
-https://reference.medscape.com/drug-interactionchecker
+5. **Vitamin D:**
+   - The recommended daily amount of vitamin D is 400 international units (IU) for children up to age 12 months, 600 IU for people ages 1 to 70 years, and 800 IU for people over 70 years.
 
-In humans, the average requirement for magnesium intake is 300–400 mg/ day depending on gender, age, body habitus, physiologic need as well as individual variation in absorption
+6. **Magnesium:**
+   - The average requirement is 300–400 mg/day, varying based on factors like gender, age, and individual needs.
+
+Understanding the motivation behind exploring supplements is essential. However, it's equally important to approach these substances with caution. Many supplements listed here are best absorbed when taken with a fatty meal. This enhances their bioavailability, ensuring your body can make the most of their benefits. 
+
+Remember, the decision to supplement should not be taken lightly. Always consult with a healthcare professional before introducing any new supplements into your regimen. In such cases, seeking guidance from a doctor or checking a reliable drug interaction website (e.g. https://reference.medscape.com/drug-interactionchecker) is advisable to ensure compatibility and prevent any potential adverse effects.  
+
+## Useful links 
+1. Drug interation: https://reference.medscape.com/drug-interactionchecker
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
@@ -352,3 +440,8 @@ In humans, the average requirement for magnesium intake is 300–400 mg/ day dep
 <a id="21">[21]</a> L.L. Yu, W.C. Davis, Y. Nuevo Ordonez, S.E. Long, Fast and accurate determination of K, Ca, and Mg in human serum by sector field ICP-MS, Anal. Bioanal. Chem. 405 (27) (2013) 8761–8768.
 
 <a id="22">[22]</a> Author Dr. Jin W. Sung. "Magnesium----Comprehensive Guide. Forms of magnesium, benefits, dosages, impact on Vitamin D." YouTube, uploaded by Dr. Jin W. Sung, June 2023,https://www.youtube.com/watch?v=Z4ohSzChgII&ab_channel=Dr.JinW.Sung
+
+<a id="23">[23]</a> Rude RK. Magnesium. In: Ross AC, Caballero B, Cousins RJ, Tucker KL, Ziegler TR, eds. Modern Nutrition in Health and Disease. 11th ed. Baltimore, Mass: Lippincott Williams & Wilkins; 2012:159-75.
+
+<a id="24">[24]</a> Simopoulos, Ap. ‘Omega-3 Fatty Acids in Health and Disease and in Growth and Development’. The American Journal of Clinical Nutrition 54, no. 3 (September 1991): 438–63. https://doi.org/10.1093/ajcn/54.3.438.
+
