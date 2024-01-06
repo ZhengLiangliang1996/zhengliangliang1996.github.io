@@ -16,12 +16,11 @@ categories:
     5. [Grape Seed Extract](#grape_seed)
 4. [Enzyme](#enzyme)
     1. [Serratiopeptidase](#Serratiopeptidase)
-5. [Minerals, Vitamins & Mental Fit Supplement](#other)
+5. [Minerals, Vitamins & Fatty Acids](#other)
     1. [Vitamin D](#vd)
-    2. [Vitamin K2](#vk2)
+    2. [Vitamin K](#vk2)
     3. [Magnesium](#magnesium)
     3. [Omega-3 Fatty Acids](#Omega-3)
-    4. [Mental Fit Supplement](#finndal)
 6. [Suggest Doses, Summary and Concerns](#summary_and_concerns)
 
 ### Disclaimer <a name="disclaimer"></a>
@@ -261,13 +260,33 @@ As the graph (from [Catalyst University](https://www.youtube.com/watch?v=DP9RHWg
 3. **Anti-Inflammatory Properties:**
    - Vitamin D has anti-inflammatory effects and may help modulate inflammatory responses. e.g. inflammatory bowel disease. [[16]](#16)
 
-### Vitamin K2 <a name="vk2"></a>
+### Vitamin K <a name="vk2"></a>
+Vitamin K is a family of structurally similar, fat-soluble vitamers found in foods and marketed as dietary supplements. Vitamin K is important for the function of numerous proteins within the body, such as the [coagulation factors](https://en.wikipedia.org/wiki/Coagulation). [[18]](#18)
+
+Vitamin K exists naturally as vitamin K1 ([phylloquinone](https://en.wikipedia.org/wiki/Phytomenadione)) and vitamin K2 ([menaquinone](https://en.wikipedia.org/wiki/Vitamin_K2)(), MK-4 through MK-10). Vitamin K1 is mainly found in green leafy vegetables as well as olive oil and soyabean oil, whereas vitamin K2 (menaquinone) is found in small amounts in chicken, butter, egg yolks, cheese and fermented soyabeans (better known as natto).
+
+Vitamin K1 is involved in the activation of other clotting factors, including Factors VII, IX, and X. These factors play roles in the coagulation process, preventing excessive bleeding. The absorption rate of vitamin K1 from kale and spinach – foods identified as having a high vitamin K content – are on the order of [4% to 17%](https://en.wikipedia.org/wiki/Vitamin_K) regardless of whether raw or cooked. Vitamin K2 is synthesized by bacteria in the human gut. Some of the vitamin K1 from dietary sources is converted into vitamin K2 by these gut bacteria. 
+
+
+#### Mechanisms of action
+
+1. **Bone Health:**
+   - [Osteoporosis](https://en.wikipedia.org/wiki/Osteoporosis) is a leading contributor of fractures worldwide. Vitamin K is required for the gamma-carboxylation of osteocalcin in bone. A broad amount of data seems to indicate substantial potential for supplementary vitamin K. vitamin K1 on its own has already been shown to reduce fractures and cancer in a clinical trial. [[19]](#19)
+
+2. **Vascular Calcufications:**
+   -  Some vitamin-K dependent proteins are dependent on vitamin-K carboxylation for functionality. [[20]](#20) Vitamin K acts as a cofactor in the conversion of [glutamate](https://en.wikipedia.org/wiki/Glutamate_(neurotransmitter)) into [Matrix Gla Protein](https://en.wikipedia.org/wiki/Matrix_Gla_protein) (MGP). MGP regulate many anticalcification and bone-forming processes in the body, which are dependent on vitamin K in order to be produced. [[18]](#18)
 
 ### Magnesium <a name="magnesium"></a>
+Electrolytes such as sodium, potassium, calcium, and magnesium are physiologically important due to their integral roles in metabolic and biologic processes. [[20]](#20) Magnesium (${Mg}^{2+}$) possesses two [hydration shells](https://en.wikipedia.org/wiki/Solvation_shell), making its hydrated radius larger than that of other cations (${Na}^+$, $K^+$, and ${Ca}^{2+}$). 
+
+The 'hydrated radius' is the effective size of the ion when surrounded by water molecules. In the case of magnesium, it has two layers or shells of water molecules around it. Because magnesium has two hydration shells, the presence of these water layers makes the effective size or radius of the hydrated magnesium ion larger compared to other cations (positively charged ions).    
+
+Magnesium is an essential mineral which is a cofactor in over 300 enzymatic reactions for protein synthesis such as muscle contraction. [[21]](#21)
+
 
 ### Omega-3 Fatty Acids <a name="Omega-3"></a>
 
-### Mental Fit Supplement <a name="finndal"></a>
+
 
 ## Suggest Doses, Summary and Concerns <a name="summary_and_concerns"></a>
 
@@ -281,8 +300,13 @@ Regarding dosage, most astaxanthin recommended dosage ranges currently range fro
 
 Serratiopeptidase 60mg/per day empty stomach, AM, 
 
+The adequate intake (AI) for vitamin K has been proposed to be 90 μg/day for women and 120 μg/day for men. [[18]](#18)
 
 For the vitamin maintainence, Maintaining adequate vitamin D levels is crucial for overall health, and deficiencies can lead to various health issues. However, excessive vitamin D intake can also have adverse effects, so it's essential to balance intake within recommended levels. Always consult with a healthcare professional for personalized advice on vitamin D supplementation.
+
+https://reference.medscape.com/drug-interactionchecker
+
+In humans, the average requirement for magnesium intake is 300–400 mg/ day depending on gender, age, body habitus, physiologic need as well as individual variation in absorption
 
 ## References
 <a id="1">[1]</a> Zhang, Li-Xue, Chang-Xing Li, Mohib Ullah Kakar, Muhammad Sajjad Khan, Pei-Feng Wu, Rai Muhammad Amir, Dong-Fang Dai, et al. ‘Resveratrol (RV): A Pharmacological Review and Call for Further Research’. Biomedicine & Pharmacotherapy 143 (November 2021): 112164. https://doi.org/10.1016/j.biopha.2021.112164.
@@ -318,3 +342,13 @@ For the vitamin maintainence, Maintaining adequate vitamin D levels is crucial f
 <a id="16">[16]</a> Basit, S. ‘Vitamin D in Health and Disease: A Literature Review’. British Journal of Biomedical Science 70, no. 4 (1 January 2013): 161–72. https://doi.org/10.1080/09674845.2013.11669951.
 
 <a id="17">[17]</a> Ginde AA, Mansbach JM, Camargo CA Jr. Association between serum 25-hydroxyvitamin D level and upper respiratory tract infection in the Third National Health and Nutrition Examination Survey. Arch Intern Med 2009; 169: 384–90.
+
+<a id="18">[18]</a> DiNicolantonio, James J, Jaikrit Bhutani, and James H O’Keefe. ‘The Health Benefits of Vitamin K’. Open Heart 2, no. 1 (October 2015): e000300. https://doi.org/10.1136/openhrt-2015-000300.
+
+<a id="19">[19]</a> Cockayne S, Adamson J, Lanham-New S, et al. Vitamin K and the prevention of fractures: systematic review and meta-analysis of randomized controlled trials. Arch Intern Med 2006;166:1256–61.
+
+<a id="20">[20]</a> Berkner KL. The vitamin K-dependent carboxylase. Annu Rev Nutr 2005;25:127–49.
+
+<a id="21">[21]</a> L.L. Yu, W.C. Davis, Y. Nuevo Ordonez, S.E. Long, Fast and accurate determination of K, Ca, and Mg in human serum by sector field ICP-MS, Anal. Bioanal. Chem. 405 (27) (2013) 8761–8768.
+
+<a id="22">[22]</a> Author Dr. Jin W. Sung. "Magnesium----Comprehensive Guide. Forms of magnesium, benefits, dosages, impact on Vitamin D." YouTube, uploaded by Dr. Jin W. Sung, June 2023,https://www.youtube.com/watch?v=Z4ohSzChgII&ab_channel=Dr.JinW.Sung
