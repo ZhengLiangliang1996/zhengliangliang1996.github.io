@@ -1,5 +1,5 @@
 ---
-title: "Small guide to supplements: What you need to know"
+title: "A small guide to supplements: What you need to know"
 date: "2023-11-12"
 categories: 
   - "general science"
