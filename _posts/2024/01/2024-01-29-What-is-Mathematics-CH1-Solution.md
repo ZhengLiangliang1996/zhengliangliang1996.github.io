@@ -14,7 +14,7 @@ The solution presented on the blog is my personal solutions for the exercises in
 
 ## Chapter 1: The Natural Numbers 
 
-#### 1. Calculation with Integers 
+### 1. Calculation with Integers 
 1. Set up the addition and multiplication tables in the duodecimal system and work some examples of the same sort.
 
     The duodecimal system (also known as base 12 or dozenal) is the number system with a base of twelve.
@@ -78,36 +78,36 @@ The solution presented on the blog is my personal solutions for the exercises in
         &\text{Converting } 11111 \text{ from various bases to decimal:} \\
         &\text{Base 5:} \\
         &11111_5 = 1 \cdot 5^4 + 1 \cdot 5^3 + 1 \cdot 5^2 + 1 \cdot 5^1 + 1 \cdot 5^0 \\
-        &11111_5 = 1 \cdot 625 + 1 \cdot 125 + 1 \cdot 25 + 1 \cdot 5 + 1 \cdot 1 = 625 + 125 + 25 + 5 + 1 = 781 \\[10pt]
+        &11111_5 = 1 \cdot 625 + 1 \cdot 125 + 1 \cdot 25 + 1 \cdot 5 + 1 \cdot 1 = 625 + 125 + 25 + 5 + 1 = 781 \$$10pt]
         &\text{Base 7:} \\
         &11111_7 = 1 \cdot 7^4 + 1 \cdot 7^3 + 1 \cdot 7^2 + 1 \cdot 7^1 + 1 \cdot 7^0 \\
-        &11111_7 = 1 \cdot 2401 + 1 \cdot 343 + 1 \cdot 49 + 1 \cdot 7 + 1 \cdot 1 = 2401 + 343 + 49 + 7 + 1 = 2801 \\[10pt]
+        &11111_7 = 1 \cdot 2401 + 1 \cdot 343 + 1 \cdot 49 + 1 \cdot 7 + 1 \cdot 1 = 2401 + 343 + 49 + 7 + 1 = 2801 \$$10pt]
         &\text{Base 11:} \\
         &11111_{11} = 1 \cdot 11^4 + 1 \cdot 11^3 + 1 \cdot 11^2 + 1 \cdot 11^1 + 1 \cdot 11^0 \\
-        &11111_{11} = 1 \cdot 14641 + 1 \cdot 1331 + 1 \cdot 121 + 1 \cdot 11 + 1 \cdot 1 = 14641 + 1331 + 121 + 11 + 1 = 16105 \\[10pt]
+        &11111_{11} = 1 \cdot 14641 + 1 \cdot 1331 + 1 \cdot 121 + 1 \cdot 11 + 1 \cdot 1 = 14641 + 1331 + 121 + 11 + 1 = 16105 \$$10pt]
         &\text{Base 12:} \\
         &11111_{12} = 1 \cdot 12^4 + 1 \cdot 12^3 + 1 \cdot 12^2 + 1 \cdot 12^1 + 1 \cdot 12^0 \\
-        &11111_{12} = 1 \cdot 20736 + 1 \cdot 1728 + 1 \cdot 144 + 1 \cdot 12 + 1 \cdot 1 = 20736 + 1728 + 144 + 12 + 1 = 22621 \\[20pt]
+        &11111_{12} = 1 \cdot 20736 + 1 \cdot 1728 + 1 \cdot 144 + 1 \cdot 12 + 1 \cdot 1 = 20736 + 1728 + 144 + 12 + 1 = 22621 \$$20pt]
         &\text{Converting } 21212 \text{ from various bases to decimal:} \\
         &\text{Base 5:} \\
         &21212_5 = 2 \cdot 5^4 + 1 \cdot 5^3 + 2 \cdot 5^2 + 1 \cdot 5^1 + 2 \cdot 5^0 \\
-        &21212_5 = 2 \cdot 625 + 1 \cdot 125 + 2 \cdot 25 + 1 \cdot 5 + 2 \cdot 1 = 1250 + 125 + 50 + 5 + 2 = 1432 \\[10pt]
+        &21212_5 = 2 \cdot 625 + 1 \cdot 125 + 2 \cdot 25 + 1 \cdot 5 + 2 \cdot 1 = 1250 + 125 + 50 + 5 + 2 = 1432 \$$10pt]
         &\text{Base 7:} \\
         &21212_7 = 2 \cdot 7^4 + 1 \cdot 7^3 + 2 \cdot 7^2 + 1 \cdot 7^1 + 2 \cdot 7^0 \\
-        &21212_7 = 2 \cdot 2401 + 1 \cdot 343 + 2 \cdot 49 + 1 \cdot 7 + 2 \cdot 1 = 4802 + 343 + 98 + 7 + 2 = 5252 \\[10pt]
+        &21212_7 = 2 \cdot 2401 + 1 \cdot 343 + 2 \cdot 49 + 1 \cdot 7 + 2 \cdot 1 = 4802 + 343 + 98 + 7 + 2 = 5252 \$$10pt]
         &\text{Base 11:} \\
         &21212_{11} = 2 \cdot 11^4 + 1 \cdot 11^3 + 2 \cdot 11^2 + 1 \cdot 11^1 + 2 \cdot 11^0 \\
-        &21212_{11} = 2 \cdot 14641 + 1 \cdot 1331 + 2 \cdot 121 + 1 \cdot 11 + 2 \cdot 1 = 29282 + 1331 + 242 + 11 + 2 = 30868 \\[10pt]
+        &21212_{11} = 2 \cdot 14641 + 1 \cdot 1331 + 2 \cdot 121 + 1 \cdot 11 + 2 \cdot 1 = 29282 + 1331 + 242 + 11 + 2 = 30868 \$$10pt]
         &\text{Base 12:} \\
         &21212_{12} = 2 \cdot 12^4 + 1 \cdot 12^3 + 2 \cdot 12^2 + 1 \cdot 12^1 + 2 \cdot 12^0 \\
-        &21212_{12} = 2 \cdot 20736 + 1 \cdot 1728 + 2 \cdot 144 + 1 \cdot 12 + 2 \cdot 1 = 41472 + 1728 + 288 + 12 + 2 = 43502 \\[20pt]
+        &21212_{12} = 2 \cdot 20736 + 1 \cdot 1728 + 2 \cdot 144 + 1 \cdot 12 + 2 \cdot 1 = 41472 + 1728 + 288 + 12 + 2 = 43502 \$$20pt]
         \end{aligned}
     \\$$
 
 
     $$\\
         \begin{aligned}
-        &\text{Summary of conversions:} \\[10pt]
+        &\text{Summary of conversions:} \$$10pt]
         &\begin{array}{|c|c|c|}
         \hline
         \text{Number} & \text{Base} & \text{Decimal Equivalent} \\
@@ -272,7 +272,7 @@ The solution presented on the blog is my personal solutions for the exercises in
 
     This shows that 4 uses the fewest words.
 
-#### 2. The Infinite of number system, mathematical induction.
+### 2. The Infinite of number system, mathematical induction.
 
 Exercise: Prove by mathematical induction
 
@@ -297,7 +297,7 @@ Exercise: Prove by mathematical induction
     
     $$\begin{aligned}\frac{k}{k+1} + \frac{1}{(k+1)(k+2)} &= \frac{k(k+2) + 1}{(k+1)(k+2)}\\ &= \frac{k^2 + 2k + 1}{(k+1)(k+2)}\\ &= \frac{(k+1)^2}{(k+1)(k+2)}\\ &= \frac{k+1}{k+2}.\end{aligned}$$
 
-    Therefore, by mathematical induction, the statement is proven for all positive integers n.
+    Q.E.D.
 
 2. $$\frac{1}{2}+\frac{2}{2^n}+\frac{3}{2^n}+\cdots+\frac{n}{2^n}=2-\frac{n+2}{2^n}$$.
 
@@ -325,7 +325,7 @@ Exercise: Prove by mathematical induction
         \end{aligned}
     $$
 
-    Therefore, by mathematical induction, the statement is proven for all positive integers n.
+    Q.E.D.
 
 3. $$1+2 q+3 q^2+\cdots+n q^{n-1}=\frac{1-(n+1) q^n+n q^{n+1}}{(1-q)^2}$$.
 
@@ -371,7 +371,7 @@ Exercise: Prove by mathematical induction
     \end{aligned}
     \\$$
 
-    proof complete. 
+    Q.E.D.
 
 4. $$(1+q)\left(1+q^2\right)\left(1+q^4\right) \cdots\left(1+q^{2^n}\right)=\frac{1-q^{2^{n+1}}}{1-q}$$.
     
@@ -396,7 +396,7 @@ Exercise: Prove by mathematical induction
         \end{aligned}
     $$
 
-    Proof complete. 
+    Q.E.D.
 
 Find sum of the following: 
 
@@ -464,12 +464,12 @@ Find sum of the following:
     $$
 
 
-7. $$\frac{x^2-y^2}{x^2+y^2}+\left(\frac{x^2-y^2}{x^2+y^2}\right)^3+\cdots+\left(\frac{x^2-y^2}{x^2+y^2}\right)^x$$.
+7. $$\frac{x^2-y^2}{x^2+y^2}+\left(\frac{x^2-y^2}{x^2+y^2}\right)^2+\cdots+\left(\frac{x^2-y^2}{x^2+y^2}\right)^n$$.
 
     The common ratio of the geometric progression is $$q = \frac{x^2-y^2}{x^2+y^2}$$
 
     Based on the formula of summation for geometric sequence:
-    
+
     $$
         S_n = a_1\frac{1-q^n}{1-q}
     $$
@@ -480,10 +480,100 @@ Find sum of the following:
         S_n = \frac{x^2-y^2}{x^2+y^2}\frac{1-(\frac{x^2-y^2}{x^2+y^2})^n}{1-\frac{x^2-y^2}{x^2+y^2}} \\
     $$
 
-Using formulas 4 and 5 prove:
 
-8. $$1^2+3^2+\cdots+(2 n+1)^2=\frac{(n+1)(2 n+1)(2 n+3)}{3}$$.
 
-9. $$1^2+3^2+\cdots+(2 n+1)^2=(n+1)^2\left(2 n^2+4 n+1\right)$$.
+Using formulas (4) and (5) in the book to prove:
+
+8. $$1^2+3^2+\cdots+(2n+1)^2=\frac{(n+1)(2n+1)(2n+3)}{3}$$.
+   
+   What we've already known: $$1^2+2^2+\cdots+n^2=\frac{n(n+1)(2n+1)}{6}$$.
+
+   If $$S_n$$ is the original progression, notice that each base is odd, we can construct it by using $$2n+1$$ terms and subtract it with the progress where each base is even. 
+    
+    $$
+        \begin{aligned}
+        Sn &= [1^2+2^2+\cdots+(2n+1)^2=] - (2^2+4^2+6^2+\cdots+(2n)^2) \\
+           &= \frac{(2n+1)(2n+2)(4n+3)}{6} - 2^2[1^2+2^2+\cdots+(n)^2] \\
+           &= \frac{(2n+1)(2n+2)(4n+3)}{6} - \frac{4n(n+1)(2n+1)}{3} \\
+           &= \frac{(2n+1)(2n+2)(4n+3)}{6} - \frac{2n(2n+2)(2n+1)}{6} \\
+           &= \frac{(2n+1)(2n+2)[(4n+3)-2n]}{6}\\
+           &= \frac{(n+1)(2n+1)(2n+3)}{3}
+        \end{aligned}
+    $$
+
+9. $$1^3+3^3+\cdots+(2 n+1)^2=(n+1)^2\left(2 n^2+4 n+1\right)$$.
+
+    Using the same trick as above.
+
+    Known: $$(1^3+2^3+3^3+\cdots+n^3)=[\frac{n(n+1)}{2}]^2$$
+
+    If $$ S_n $$ is the original progression:
+
+    $$
+        \begin{aligned}
+        S_n &= \left[ 1^3 + 2^3 + \ldots + (2n+1)^3 \right] - \left[ 2^3 + 4^3 + \ldots + (2n)^3 \right]\\
+            &= \left[ \frac{(2n+1)(2n+2)}{2} \right]^2 - 2^3 \left[ \frac{n(n+1)}{2} \right]^2\\
+            &= \frac{(2n+1)^2 (2n+2)^2}{4} - 2^3 \cdot \frac{n^2 (n+1)^2}{4}\\
+            &= (4n^4 + 12n^3 + 13n^2 + 6n + 1) - (2n^4 + 4n^3 + 2n^2)\\
+            &= 2n^4 + 8n^3 + 11n^2 + 6n + 1 \\
+            &= (n+1)^2\left(2 n^2+4 n+1\right)
+        \end{aligned}
+    $$
 
 10. Prove the same results directly by mathematical induction.
+
+    To prove $$1^3+3^3+\cdots+(2n+1)^3=\frac{(n+1)(2n+1)(2n+3)}{3}$$.
+
+    Base Case: 
+    
+    $$
+    S_1 = \frac{2 \times 3 \times 5}{3} = 10 \quad \text{True.}
+    $$
+
+    Assume $$S_n$$ holds
+
+    $$
+    S_n = \frac{(n+1)(2n+1)(2n+3)}{3}
+    $$
+
+    For $$S_{n+1}$$
+
+    $$
+    \begin{aligned}
+    S_{n+1} &= \frac{(n+1)(2n+1)(2n+3)}{3} + (2n+3)^2 \\
+    &= \frac{(2n+3)\left[(n+1)(2n+1)+3(2n+3)\right]}{3} \\
+    &= \frac{(2n+3)\left[2n^2 + n + 2n + 1 + 6n + 9\right]}{3} \\
+    &= \frac{(2n+3)(n+2)(2n+5)}{3} 
+    \end{aligned}
+    $$
+
+    Q.E.D.
+
+
+    To prove $$1^2+3^2+\cdots+(2 n+1)^2=(n+1)^2\left(2 n^2+4 n+1\right)$$.
+
+    Base Case: 
+
+    $$
+    S_1 = 2^2 (2 + 4 + 1) = 28 \quad \text{True}
+    $$
+
+    Assume $$S_n$$ holds
+
+    $$
+    S_n = (n+1)^2 (2n^2 + 4n + 1)
+    $$
+
+    For $$S_{n+1}$$
+
+    $$
+    \begin{aligned}
+    S_{n+1} &= (n+1)^2 (2n^2 + 4n + 1) + (2n+1)^3 \\
+    &= (n+1)^2 (2n^2 + 4n + 1) + (2n+1)^3\\
+    &= (2n^4 + 8n^3 + 12n^2 + 6n + 1)\\
+    &= 2n^4 + 8n^3 + 11n^2 + 6n + 1 + (8n^3 + 12n^2 + 6n + 1)\\
+    &= 2n^4 + 16n^3 + 23n^2 + 12n + 1\\
+    &= \frac{2n^4 + 16n^3 + 23n^2 + 12n + 1}{n^2 + 4n + 4}\\
+    \end{aligned}
+    $$
+
