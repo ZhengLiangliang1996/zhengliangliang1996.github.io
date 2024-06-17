@@ -385,7 +385,7 @@ Exercise: Prove by mathematical induction
         \end{aligned}
     $$
 
-    Simpily the left them we have $$1-q^4 = 1-q^4$$. therefore $$n=1$$ is true.
+    Simpily the left term we have $$1-q^4 = 1-q^4$$. therefore $$n=1$$ is true.
 
     Assume for n case is correct, for n+1 case: 
     $$
@@ -398,7 +398,7 @@ Exercise: Prove by mathematical induction
 
     Proof complete. 
 
-Find the sum of the following geometrical progressions:
+Find sum of the following: 
 
 5. $$\frac{1}{1+x^2}+\frac{1}{\left(1+x^2\right)^2}+\cdots+\frac{1}{\left(1+x^2\right)^n}$$.
 
@@ -409,7 +409,7 @@ Find the sum of the following geometrical progressions:
     S_n = \frac{1}{1+x^2}+\frac{1}{\left(1+x^2\right)^2}+\cdots+\frac{1}{\left(1+x^2\right)^n}
     \end{equation}
 
-    Construct another sum: 
+    Construct another sum
     \begin{equation}
     \label{sum_5_2}
     \frac{1}{1+x^2}S_n = \frac{1}{\left(1+x^2\right)^2}+\cdots+\frac{1}{\left(1+x^2\right)^n}+\frac{1}{\left(1+x^2\right)^{n+1}}
@@ -419,7 +419,7 @@ Find the sum of the following geometrical progressions:
 
     $$
     \begin{aligned}
-    Sn - \frac{1}{1+x^2}S_n &= \frac{1}{\left(1+x^2\right)}-\frac{1}{\left(1+x^2\right)^{n+1}} \\
+    S_n - \frac{1}{1+x^2}S_n &= \frac{1}{\left(1+x^2\right)}-\frac{1}{\left(1+x^2\right)^{n+1}} \\
     \frac{(1+x^2)S_n-S_n}{1+x^2} &=\frac{1}{\left(1+x^2\right)}-\frac{1}{\left(1+x^2\right)^{n+1}} \\
     \frac{x^2}{1+x^2}S_n &=\frac{1}{\left(1+x^2\right)}-\frac{1}{\left(1+x^2\right)^{n+1}} \\
     Sn &=\frac{1}{x^2} -  \frac{1}{\left(1+x^2\right)^{n}x^2}
@@ -430,9 +430,55 @@ Find the sum of the following geometrical progressions:
 
     $$S_n = \frac{1}{x^2} \left(1 - \frac{1}{(1+x^2)^n}\right)$$
 
-6. $$1+\frac{x}{1+x^2}+\frac{x^2}{\left(1+x^2\right)^2}+\cdots+\frac{x^n}{\left(1+x^3\right)^n}$$.
+6. $$1+\frac{x}{1+x^2}+\frac{x^2}{\left(1+x^2\right)^2}+\cdots+\frac{x^n}{\left(1+x^2\right)^n}$$.
+
+    we denote the sum by $$ S_{n+1} $$.
+    \begin{equation}
+    \label{sum_6_1}
+    1+\frac{x}{1+x^2}+\frac{x^2}{\left(1+x^2\right)^2}+\cdots+\frac{x^n}{\left(1+x^2\right)^n}
+    \end{equation}
+
+    Construct another sum $$\frac{x}{1+x^2}S_{n+1}$$. 
+    \begin{equation}
+    \label{sum_6_2}
+    \begin{aligned}
+    1+\frac{x}{1+x^2}+\frac{x^2}{\left(1+x^2\right)^2}+\cdots+\frac{x^n}{\left(1+x^2\right)^n}
+    \end{aligned}
+    \end{equation}
+
+    By using \eqref{sum_6_1} - \eqref{sum_6_2} we can have 
+
+    $$
+    \begin{aligned}
+    S_{n+1} - \frac{x}{1+x^2}S_{n+1} &= 1 -\frac{x^n}{\left(1+x^2\right)^{n+1}} \\
+    \frac{1+x^2-x}{1+x^2}S_{n+1} &= 1 -\frac{x^n}{\left(1+x^2\right)^{n+1}}  \\
+    S_{n+1} &= \frac{1+x^2}{1+x^2-x} - \frac{x^n}{\left(1+x^2\right)^{n+1}}\frac{1+x^2}{1+x^2-x}     \\
+    S_{n+1} &= \frac{\left(1+x^2\right)^{n+1}}{(1+x^2-x)(\left(1+x^2\right)^{n})} - \frac{x^{n+1}}{(1+x^2-x)(\left(1+x^2\right)^{n})}
+    \end{aligned}
+    $$
+
+    Thus, the sum of the series is:
+
+    $$
+    S_{n+1} = \frac{\left(1+x^2\right)^{n+1}-x^{n+1}}{(1+x^2-x)(\left(1+x^2\right)^{n})}
+    $$
+
 
 7. $$\frac{x^2-y^2}{x^2+y^2}+\left(\frac{x^2-y^2}{x^2+y^2}\right)^3+\cdots+\left(\frac{x^2-y^2}{x^2+y^2}\right)^x$$.
+
+    The common ratio of the geometric progression is $$q = \frac{x^2-y^2}{x^2+y^2}$$
+
+    Based on the formula of summation for geometric sequence:
+    
+    $$
+        S_n = a_1\frac{1-q^n}{1-q}
+    $$
+
+    By substituting $$q = \frac{x^2-y^2}{x^2+y^2}$$, we can have 
+
+    $$
+        S_n = \frac{x^2-y^2}{x^2+y^2}\frac{1-(\frac{x^2-y^2}{x^2+y^2})^n}{1-\frac{x^2-y^2}{x^2+y^2}} \\
+    $$
 
 Using formulas 4 and 5 prove:
 
