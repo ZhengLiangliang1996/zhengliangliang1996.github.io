@@ -78,36 +78,36 @@ The solution presented on the blog is my personal solutions for the exercises in
         &\text{Converting } 11111 \text{ from various bases to decimal:} \\
         &\text{Base 5:} \\
         &11111_5 = 1 \cdot 5^4 + 1 \cdot 5^3 + 1 \cdot 5^2 + 1 \cdot 5^1 + 1 \cdot 5^0 \\
-        &11111_5 = 1 \cdot 625 + 1 \cdot 125 + 1 \cdot 25 + 1 \cdot 5 + 1 \cdot 1 = 625 + 125 + 25 + 5 + 1 = 781 \$$10pt]
+        &11111_5 = 1 \cdot 625 + 1 \cdot 125 + 1 \cdot 25 + 1 \cdot 5 + 1 \cdot 1 = 625 + 125 + 25 + 5 + 1 = 781 \\[10pt]
         &\text{Base 7:} \\
         &11111_7 = 1 \cdot 7^4 + 1 \cdot 7^3 + 1 \cdot 7^2 + 1 \cdot 7^1 + 1 \cdot 7^0 \\
-        &11111_7 = 1 \cdot 2401 + 1 \cdot 343 + 1 \cdot 49 + 1 \cdot 7 + 1 \cdot 1 = 2401 + 343 + 49 + 7 + 1 = 2801 \$$10pt]
+        &11111_7 = 1 \cdot 2401 + 1 \cdot 343 + 1 \cdot 49 + 1 \cdot 7 + 1 \cdot 1 = 2401 + 343 + 49 + 7 + 1 = 2801 \\[10pt]
         &\text{Base 11:} \\
         &11111_{11} = 1 \cdot 11^4 + 1 \cdot 11^3 + 1 \cdot 11^2 + 1 \cdot 11^1 + 1 \cdot 11^0 \\
-        &11111_{11} = 1 \cdot 14641 + 1 \cdot 1331 + 1 \cdot 121 + 1 \cdot 11 + 1 \cdot 1 = 14641 + 1331 + 121 + 11 + 1 = 16105 \$$10pt]
+        &11111_{11} = 1 \cdot 14641 + 1 \cdot 1331 + 1 \cdot 121 + 1 \cdot 11 + 1 \cdot 1 = 14641 + 1331 + 121 + 11 + 1 = 16105 \\[10pt]
         &\text{Base 12:} \\
         &11111_{12} = 1 \cdot 12^4 + 1 \cdot 12^3 + 1 \cdot 12^2 + 1 \cdot 12^1 + 1 \cdot 12^0 \\
-        &11111_{12} = 1 \cdot 20736 + 1 \cdot 1728 + 1 \cdot 144 + 1 \cdot 12 + 1 \cdot 1 = 20736 + 1728 + 144 + 12 + 1 = 22621 \$$20pt]
+        &11111_{12} = 1 \cdot 20736 + 1 \cdot 1728 + 1 \cdot 144 + 1 \cdot 12 + 1 \cdot 1 = 20736 + 1728 + 144 + 12 + 1 = 22621 \\[20pt]
         &\text{Converting } 21212 \text{ from various bases to decimal:} \\
         &\text{Base 5:} \\
         &21212_5 = 2 \cdot 5^4 + 1 \cdot 5^3 + 2 \cdot 5^2 + 1 \cdot 5^1 + 2 \cdot 5^0 \\
-        &21212_5 = 2 \cdot 625 + 1 \cdot 125 + 2 \cdot 25 + 1 \cdot 5 + 2 \cdot 1 = 1250 + 125 + 50 + 5 + 2 = 1432 \$$10pt]
+        &21212_5 = 2 \cdot 625 + 1 \cdot 125 + 2 \cdot 25 + 1 \cdot 5 + 2 \cdot 1 = 1250 + 125 + 50 + 5 + 2 = 1432 \\[10pt]
         &\text{Base 7:} \\
         &21212_7 = 2 \cdot 7^4 + 1 \cdot 7^3 + 2 \cdot 7^2 + 1 \cdot 7^1 + 2 \cdot 7^0 \\
-        &21212_7 = 2 \cdot 2401 + 1 \cdot 343 + 2 \cdot 49 + 1 \cdot 7 + 2 \cdot 1 = 4802 + 343 + 98 + 7 + 2 = 5252 \$$10pt]
+        &21212_7 = 2 \cdot 2401 + 1 \cdot 343 + 2 \cdot 49 + 1 \cdot 7 + 2 \cdot 1 = 4802 + 343 + 98 + 7 + 2 = 5252 \\[10pt]
         &\text{Base 11:} \\
         &21212_{11} = 2 \cdot 11^4 + 1 \cdot 11^3 + 2 \cdot 11^2 + 1 \cdot 11^1 + 2 \cdot 11^0 \\
-        &21212_{11} = 2 \cdot 14641 + 1 \cdot 1331 + 2 \cdot 121 + 1 \cdot 11 + 2 \cdot 1 = 29282 + 1331 + 242 + 11 + 2 = 30868 \$$10pt]
+        &21212_{11} = 2 \cdot 14641 + 1 \cdot 1331 + 2 \cdot 121 + 1 \cdot 11 + 2 \cdot 1 = 29282 + 1331 + 242 + 11 + 2 = 30868 \\[10pt]
         &\text{Base 12:} \\
         &21212_{12} = 2 \cdot 12^4 + 1 \cdot 12^3 + 2 \cdot 12^2 + 1 \cdot 12^1 + 2 \cdot 12^0 \\
-        &21212_{12} = 2 \cdot 20736 + 1 \cdot 1728 + 2 \cdot 144 + 1 \cdot 12 + 2 \cdot 1 = 41472 + 1728 + 288 + 12 + 2 = 43502 \$$20pt]
+        &21212_{12} = 2 \cdot 20736 + 1 \cdot 1728 + 2 \cdot 144 + 1 \cdot 12 + 2 \cdot 1 = 41472 + 1728 + 288 + 12 + 2 = 43502 \\[20pt]
         \end{aligned}
     \\$$
 
 
     $$\\
         \begin{aligned}
-        &\text{Summary of conversions:} \$$10pt]
+        &\text{Summary of conversions:} \\[10pt]
         &\begin{array}{|c|c|c|}
         \hline
         \text{Number} & \text{Base} & \text{Decimal Equivalent} \\
