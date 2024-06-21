@@ -284,7 +284,7 @@ Exercise: Prove by mathematical induction
 
     So, the base case holds.
 
-    Inductive Step: Assume the statement is true for some arbitrary positive integer \( k \), i.e.,
+    Inductive Step: Assume the statement is true for some arbitrary positive integer $$ k $$, i.e.,
 
     $$\frac{1}{1 \cdot 2} + \frac{1}{2 \cdot 3} + \cdots + \frac{1}{k(k+1)} = \frac{k}{k+1}.$$
 
@@ -309,7 +309,7 @@ Exercise: Prove by mathematical induction
     
     So, the base case holds.
 
-    Inductive Step:Assume the statement is true for some arbitrary positive integer \( k \) sum denoted as $A_k$
+    Inductive Step:Assume the statement is true for some arbitrary positive integer $$ k $$ sum denoted as $A_k$
     
     $$
     A_k = \frac{1}{2} + \frac{2}{2^2} + \frac{3}{2^2} + \cdots + \frac{k}{2^2} = 2 - \frac{k+2}{2^k}.
@@ -329,7 +329,7 @@ Exercise: Prove by mathematical induction
 
 3. $$1+2 q+3 q^2+\cdots+n q^{n-1}=\frac{1-(n+1) q^n+n q^{n+1}}{(1-q)^2}$$.
 
-    Base Case: \( n = 1 \)
+    Base Case: $$ n = 1 $$
 
     $$
     \frac{1 - 2q + q^2}{(1-q)^2} = \frac{(1-q)^2}{(1-q)^2} = 1.
@@ -337,19 +337,19 @@ Exercise: Prove by mathematical induction
 
     Inductive Step:
 
-    Assume the identity holds for some arbitrary \( n = k \):
+    Assume the identity holds for some arbitrary $$ n = k $$:
 
     $$\\
     1 + 2q + 3q^2 + \cdots + kq^{k-1} = \frac{1 - (k+1)q^k + kq^{k+1}}{(1-q)^2}.
     \\$$
 
-    Now, we need to show it holds for \( n = k + 1 \):
+    Now, we need to show it holds for $$ n = k + 1 $$:
 
     $$\\
     1 + 2q + 3q^2 + \cdots + (k+1)q^k = \frac{1 - ((k+1)+1)q^{k+1} + (k+1)q^{k+2}}{(1-q)^2}.
     \\$$
 
-    To prove this, consider the sum up to \( k+1 \):
+    To prove this, consider the sum up to $$ k+1 $$:
 
     $$\\
     1 + 2q + 3q^2 + \cdots + (k+1)q^k = \left( 1 + 2q + 3q^2 + \cdots + kq^{k-1} \right) + (k+1)q^k.
@@ -577,3 +577,263 @@ Using formulas (4) and (5) in the book to prove:
     \end{aligned}
     $$
 
+### 3. The prime numbers 
+1. Exercise: Carry out this construction starting with $$p_1 = 2$$, $$p_2$$= 3 and find 5 more primes
+    The construction of proving that prime numbers are infinite is as followed: 
+    
+    $$
+        A = p_1p_2\ldots p_n + 1
+    $$
+
+    Based on this constrction, the next 5 primes is 
+
+    $$
+    \begin{aligned}
+        p_3 &= p_1p_2 + 1 = 7 \\
+        p_4 &= p_1p_2p_3 + 1 = 43 \\
+        p_5 &= p_1p_2p_3p_4 + 1 = 1807\\
+        p_6 &= p_1p_2p_3p_4p_5 + 1 = 3263443 \\ 
+        p_7 &= p_1p_2p_3p_4p_5p_6 + 1 = 10650056950807
+    \end{aligned}
+    $$
+
+    side note: This is the famous [Sylvester's sequence](https://en.wikipedia.org/wiki/Sylvester%27s_sequence)
+
+2. Exercise: In order to find all the divisors of any number a we need only decompose a into a product
+
+    $$a = p_1^{\alpha_1} p_2^{\alpha_2} \cdots p_r^{\alpha_r},$$
+
+    where the $$p$$'s are distinct primes, each raised to a certain power. All the divisors of $a$ are the numbers
+
+    $$b = p_1^{\beta_1} p_2^{\beta_2} \cdots p_r^{\beta_r},$$
+
+    where the $$\beta$$'s are any integers satisfying the inequalities
+
+    $$0 \leq \beta_1 \leq \alpha_1, \quad 0 \leq \beta_2 \leq \alpha_2, \quad \cdots, \quad 0 \leq \beta_r \leq \alpha_r.$$
+
+    Prove this statement. As a consequence, show that the number of different divisors of $$a$$ (including the divisors $$a$$ and 1) is given by the product
+
+    $$(\alpha_1 + 1)(\alpha_2 + 1) \cdots (\alpha_r + 1).$$
+
+    For example,
+
+    $$144 = 2^4 \cdot 3^2$$
+
+    has $$5 \cdot 3$$ divisors. They are 1, 2, 4, 8, 16, 3, 6, 12, 24, 48, 9, 18, 36, 72, 144.
+
+
+    Proof: 
+
+    For the form of b that is divisors of a, every prime $$p_i$$ in a must appear in b with an exponent that is less than or equal to the exponent in a. 
+    For example: $$b_1 = p_1^1$$ is a divisor where $$\beta_1$$ is 1 and the rest are 0
+    
+    Hence, $$0 \leq \beta_i \leq \alpha_i$$.
+
+    To find the total number of distinct divisors, we need to count all possible combinations of the exponents $$\beta_i$$ where $$0 \leq \beta_i \leq \alpha_i$$.
+
+    For each prime $$p_i$$, the exponent $$\beta_i$$ can take any integer value from 0 to $$\alpha_i$$. This gives $$\alpha_i + 1$$ possible values (including 0).
+
+    Since the exponents are independent for different primes, the total number of distinct divisors is the product of the number of choices for each $$\beta_i$$:
+
+    $$
+    (\alpha_1 + 1)(\alpha_2 + 1) \cdots (\alpha_r + 1).
+    $$
+
+3. Prove the corresponding theorem for the progression $$6n+5$$ that there are infinitely number of primes inside.
+
+    Assume there are only infinit amount of prime numbers inside $$6n+5$$
+
+    Any prime greater than 2 is odd. And all of the odds greater than 2 can be described by
+    
+    $$
+        6n+3, 6n+5, 6n+7
+    $$
+
+    Furthermore, the product of 2 numbers of the form $$6n+3$$ and $$6n+7$$ are again of that form
+    
+    $$
+        \begin{aligned}
+        (6a+3)(6b+3) = 36ab + 18a + 18b + 9 = 6(6ab+3a+3b+1) + 3
+        \end{aligned}
+    $$
+    $$
+        \begin{aligned}
+        (6a+7)(6b+7) = 36ab + 42a + 42b + 49 = 6(6ab+7a+7b+7) + 7
+        \end{aligned}
+    $$
+
+    Construct N where:
+    $$
+        N = 6(p_1p_2\cdots p_n) - 1 = 6(p_1\cdots p_n - 1) + 5 
+    $$
+
+    None of the product from $$p_1$$ to $$p_n$$ could be N's factor since it always remains with 1
+
+    And the factor can not be $$6n+3$$ or $$6n+7$$ because the product of them is still the form of themselves.
+
+    So it can only be 6n+5, which contractdicts with the assumption, therefore there are infinit number of primes inside it.s
+
+    Related proof:  [Dirichlet's theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions). if gcd(a, b) = 1 in the progression $$an+b$$, then there are infinite number of prime numbers inside. 
+
+### 4. Congruences 
+0. Find a similar rule for divisibility by 13.
+
+    For congruences modulo 13 we have: 
+
+    $$
+    \begin{aligned}
+    10^0 \equiv 1 \pmod{13} \\
+    10^1 \equiv 10 \pmod{13} \\ 
+    10^2 \equiv 100 \equiv 100 - 7 \cdot 13 \equiv 100 - 91 \equiv 9 \pmod{13}\\ 
+    10^3 \equiv 10 \cdot 10^2 \equiv 10 \cdot 9 \equiv 90 \equiv 90 - 7 \cdot 13 \equiv 90 - 91 \equiv -1 \equiv 12 \pmod{13}\\
+    10^4 \equiv 10 \cdot 10^3 \equiv 10 \cdot 12 \equiv 120 \equiv 120 - 9 \cdot 13 \equiv 120 - 117 \equiv 3 \pmod{13} \\
+    10^5 \equiv 10 \cdot 10^4 \equiv 10 \cdot 3 \equiv 30 \equiv 30 - 2 \cdot 13 \equiv 30 - 26 \equiv 4 \pmod{13} \\
+    10^6 \equiv 10 \cdot 10^5 \equiv 10 \cdot 4 \equiv 40 \equiv 40 - 3 \cdot 13 \equiv 40 - 39 \equiv 1 \pmod{13} \\
+    \end{aligned}
+    $$
+
+    the successive remainders then repeat,
+    for the expression 
+    
+    $$
+        z = a_0 + a_110 + a2_10^2 + \cdots + a_n10^n 
+    $$
+
+    z is divisible by 13 if the following expression is divisible by 13.
+
+    $$
+        r = a_0 + 10a_1 + 9a_2 + 12a_3 + 3a_4 + 4a_5 + a_6 + \cdots
+    $$
+
+0. Show that the following law of cancellation holds for congruences with respect to a prime modulus: If $$ab \equiv ac$$ and $$a\not\equiv0$$, then $$b \equiv c$$.
+
+    Using law of subtraction:
+
+    $$
+    \begin{aligned}
+    ab-ac \equiv 0 \pmod{p} \\
+    a(b-c) \equiv 0 \pmod{p}
+    \end{aligned}
+    $$
+
+    By applying the law 7 stated in the book, since $$a\not\equiv0 \pmod{p}$$, therefore 
+
+    $$(b-c) \equiv 0 \pmod{p}$$
+    
+    which leads to 
+
+    $$b \equiv c \pmod{p}$$.
+
+    Q.E.D.
+
+1. To what number between 0 and 6 inclusive is the product $$11\times 18\times 2322\times 13\times 19$$ congruent modulo 7?
+    By computing the smaller congruences from the factors in the product.
+
+    $$
+    \begin{aligned}
+        11 \equiv 4 \pmod{7} \\
+        18 \equiv 4 \pmod{7} \\ 
+        2322 \equiv 5 \pmod{7} \\
+        13 \equiv 6 \pmod{7} \\
+        19 \equiv 5 \pmod{7} \\
+    \end{aligned}
+    $$
+
+    Then we have $$11\times 18\times 2322\times 13\times 19 \equiv 4\times 4\times 5\times 6\times 5 \pmod{7}$$
+
+    $$
+    \begin{aligned}
+    4\times 4 \equiv 2 \pmod{7} \\
+    5\times 6 \equiv 2 \pmod{7} \\
+    \end{aligned}
+    $$
+
+    Therefore we have $$2\times 2 \times 5 \equiv 6\pmod{7}$$, 6 the congruence of the product.
+
+2. To what number between 0 and 12 inclusive is $$3\cdot7\cdot11\cdot17\cdot19\cdot23\cdot29\cdot113$$ congruent modulo 13?
+    By computing the smaller congruences from the factors in the product.
+
+    $$
+        \begin{aligned}
+        17 \equiv 4 \pmod{13} \\
+        19 \equiv 6 \pmod{13} \\ 
+        23 \equiv 10 \pmod{13} \\
+        29 \equiv 3 \pmod{13} \\
+        113 \equiv 9 \pmod{13} \\
+        \end{aligned}
+    $$
+
+    To furthur make it smaller 
+
+    $$
+        \begin{aligned}
+        3\times 7 \equiv 8 \pmod{13} \\
+        11\times 4 \equiv 5 \pmod{13} \\
+        6\times 10 \equiv 8 \pmod{13} \\
+        3\times 9 \equiv 1 \pmod{13} \\
+        \end{aligned}
+    $$
+
+
+    Therefore we have $$9\times 8 \times 5 \times 8 \equiv 8 \pmod{13}$$, 8 is the congruence of the product.
+
+
+3. To what number between 0 and 4 inclusive is the sum $$1 + 2 + 2^2 +\cdots +2^19 $$ congruent modulo 5?
+
+    We can observe from the following that the form 1,2,4,3 is repeated for the congruence in each term.
+
+    $$
+        \begin{aligned}
+        1 \equiv 1 \pmod{5} \\
+        2 \equiv 2 \pmod{7} \\ 
+        2^2 \equiv 4 \pmod{5} \\
+        2^3 \equiv 3 \pmod{5} \\
+        2^4 \equiv 1 \pmod{5} \\
+        2^5 \equiv 2 \pmod{5} \\
+        \cdots 
+        \end{aligned}
+    $$
+
+    Therefore the original sum can be rewritten as: 
+
+    $$1 + 2 + 4 + 3 + \cdots  $$
+
+    There are 20 terms inside, for every 4 terms $$1+2+4+3 \equiv 0 \pod{5}$$, so the congrence is 0.
+
+4. Show by similar computation that 
+
+    $$
+    \begin{align*}
+    2^8 &\equiv 1 \pmod{17}; \\
+    3^8 &\equiv -1 \pmod{17}; \\
+    3^{14} &\equiv \pmod{29}; \\
+    2^{14} &\equiv -1 \pmod{29}; \\
+    4^{14} &\equiv 1 \pmod{29}; \\
+    5^{14} &\equiv 1 \pmod{29}\\
+    \end{align*}
+    $$
+
+    $$
+        \begin{align*}
+        2^8 &\equiv 2^4 \dot 2^4 \equiv (-1)\dot(-1) \equiv 1 \pmod{71} \\
+        3^8 &\equiv 3^4 \dot 3^4 \cdot (-4)\dot(-4) \equiv -1 \pmod{17} \\
+        \end{align*}
+    $$
+
+5. Check Fermat's theorem for p = 5, 7, 11, 17, and 23 with different values of a.
+
+6. Prove the general theorem: The smallest positive integer e for which a* = 1 (mod p) must be a divisor of p — 1. (Hint: Divide p — 1 by e t obtaining
+
+### 5. Pythegorean Numbers and Fermat's Last Theorem 
+
+1. 6 a — 36 » 13 (mod 23). Is 23 a quadratic residue (mod 13)?
+
+2. We have seen that x* ■■ (p — x) a (mod p). Show that these are the only congruences among the numbers l 1 , 2 a , 3 1 , ■ * • , (p — 1)
+
+### 6. The Euclidean Algorithm 
+
+1. *Bxercite: Prove the last statement
+
+10. Exercise : Find the continued fraction developments of
+
+11. Solve the Diophantine equations (a) 3x — \y = 29. (b)llx 4* 12 y = 58. (c) 153s - 34 y = 51
