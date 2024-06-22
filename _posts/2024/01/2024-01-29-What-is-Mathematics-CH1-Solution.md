@@ -682,13 +682,13 @@ Using formulas (4) and (5) in the book to prove:
 
     $$
     \begin{aligned}
-    10^0 \equiv 1 \pmod{13} \\
-    10^1 \equiv 10 \pmod{13} \\ 
-    10^2 \equiv 100 \equiv 100 - 7 \cdot 13 \equiv 100 - 91 \equiv 9 \pmod{13}\\ 
-    10^3 \equiv 10 \cdot 10^2 \equiv 10 \cdot 9 \equiv 90 \equiv 90 - 7 \cdot 13 \equiv 90 - 91 \equiv -1 \equiv 12 \pmod{13}\\
-    10^4 \equiv 10 \cdot 10^3 \equiv 10 \cdot 12 \equiv 120 \equiv 120 - 9 \cdot 13 \equiv 120 - 117 \equiv 3 \pmod{13} \\
-    10^5 \equiv 10 \cdot 10^4 \equiv 10 \cdot 3 \equiv 30 \equiv 30 - 2 \cdot 13 \equiv 30 - 26 \equiv 4 \pmod{13} \\
-    10^6 \equiv 10 \cdot 10^5 \equiv 10 \cdot 4 \equiv 40 \equiv 40 - 3 \cdot 13 \equiv 40 - 39 \equiv 1 \pmod{13} \\
+    10^0 &\equiv 1 \pmod{13} \\
+    10^1 &\equiv 10 \pmod{13} \\ 
+    10^2 &\equiv 100 \equiv 100 - 7 \cdot 13 \equiv 100 - 91 \equiv 9 \pmod{13}\\ 
+    10^3 &\equiv 10 \cdot 10^2 \equiv 10 \cdot 9 \equiv 90 \equiv 90 - 7 \cdot 13 \equiv 90 - 91 \equiv -1 \equiv 12 \pmod{13}\\
+    10^4 &\equiv 10 \cdot 10^3 \equiv 10 \cdot 12 \equiv 120 \equiv 120 - 9 \cdot 13 \equiv 120 - 117 \equiv 3 \pmod{13} \\
+    10^5 &\equiv 10 \cdot 10^4 \equiv 10 \cdot 3 \equiv 30 \equiv 30 - 2 \cdot 13 \equiv 30 - 26 \equiv 4 \pmod{13} \\
+    10^6 &\equiv 10 \cdot 10^5 \equiv 10 \cdot 4 \equiv 40 \equiv 40 - 3 \cdot 13 \equiv 40 - 39 \equiv 1 \pmod{13} \\
     \end{aligned}
     $$
 
@@ -722,7 +722,11 @@ Using formulas (4) and (5) in the book to prove:
     
     which leads to 
 
-    $$b \equiv c \pmod{p}$$.
+    $$b 
+    \begin{aligned}
+    \equiv c \pmod{p}
+    \end{aligned}
+    $$.
 
     Q.E.D.
 
@@ -778,7 +782,7 @@ Using formulas (4) and (5) in the book to prove:
     Therefore we have $$9\times 8 \times 5 \times 8 \equiv 8 \pmod{13}$$, 8 is the congruence of the product.
 
 
-3. To what number between 0 and 4 inclusive is the sum $$1 + 2 + 2^2 +\cdots +2^19 $$ congruent modulo 5?
+3. To what number between 0 and 4 inclusive is the sum $$1 + 2 + 2^2 +\cdots +2^{19} $$ congruent modulo 5?
 
     We can observe from the following that the form 1,2,4,3 is repeated for the congruence in each term.
 
@@ -814,21 +818,94 @@ Using formulas (4) and (5) in the book to prove:
     $$
 
     $$
-        \begin{align*}
-        2^8 &\equiv 2^4 \dot 2^4 \equiv (-1)\dot(-1) \equiv 1 \pmod{71} \\
-        3^8 &\equiv 3^4 \dot 3^4 \cdot (-4)\dot(-4) \equiv -1 \pmod{17} \\
-        \end{align*}
+        \begin{aligned}
+        2^8 &\equiv 2^4 \cdot 2^4 \equiv (-1)\cdot(-1) \equiv 1 \pmod{17} \\
+        3^8 &\equiv 3^4 \cdot 3^4 \cdot (-4)\cdot(-4) \equiv -1 \pmod{17} \\
+        3^{14} &\equiv 3^4 \cdot 3^4 \cdot 3^4 \cdot 3^2 \equiv (-6) \cdot (-6) \cdot(-6) \cdot(9) \\
+               &\equiv 7 \cdot 9 \cdot (-6)  \equiv -1 \pmod{29} \\
+        2^{14} &\equiv 2^5 \cdot 2^5 \cdot 2^4 \equiv 3 \cdot 3 \cdot 16 \equiv 28 \equiv -1 \pmod{29} \\
+        4^{14} &\equiv 4^3 \cdot 4^3 \cdot 4^3 \cdot 4^3 \cdot 4^2 \equiv 6 \cdot 6 \cdot 6 \cdot 6 \cdot 16 \equiv 1  \pmod{29} \\
+        5^{14} &\equiv 5^2 \cdot 5^4 \cdot 5^8 \equiv 4 \cdot 16 \dot 24 \equiv 1 \pmod{29} \\
+        \end{aligned}
     $$
 
 5. Check Fermat's theorem for p = 5, 7, 11, 17, and 23 with different values of a.
 
-6. Prove the general theorem: The smallest positive integer e for which a* = 1 (mod p) must be a divisor of p — 1. (Hint: Divide p — 1 by e t obtaining
+    For a = 3 
+
+    $$
+        \begin{aligned}
+        3^4 &\equiv 3^2 \cdot 3^2 \equiv 9 \cdot 9 \equiv 4 \cdot 4 \equiv 1 \pmod{5} \\
+        3^6 &\equiv 3^2 \cdot 3^2 \cdot 3^2 \equiv 2 \cdot 2\cdot 2 \equiv 1 \pmod{7} \\
+        3^{10} &\equiv 3^2 \cdot 3^4 \cdot 3^4 \equiv 9 \cdot 4 \cdot 4 \equiv 1 \pmod{11} \\
+        3^{16} &\equiv 3^4 \cdot 3^4 \cdot 3^4 \cdot 3^4 \equiv 13^4 \equiv 1 \pmod{17}\\
+        3^{22} &\equiv 3^8 \cdot 3^8 \cdot 3^4 \cdot 3^2 \equiv (-6) \cdot (-6) \cdot 12 \cdot 9 \equiv 1 \pmod{23}\\
+        \end{aligned}
+    $$
+
+6. Prove the general theorem: The smallest positive integer e for which $$a^e \equiv 1 \pmod{p}$$ must be a divisor of p-1. (Hint: Divide p — 1 by e, obtaining:
+
+    $$
+        p-1 = ke + r
+    $$
+
+    where $$0 < r < e$$, and use the fact that $$a^{p-1} \equiv a^e \equiv 1 \pmod{p}$$ )
+
+    Proof: 
+    Based on Fermat's Little theorem, we have 
+    $$
+    a^{p-1} \equiv 1 \pmod{p}
+    $$
+
+    Dividing p-1 by e and obtain: 
+
+    $$
+    p-1 = ke + r
+    $$
+
+    where k is the quotient, r is the remainder, $$0 \leq r < e $$.
+
+    Substitute it in the Fermat's Little theorem
+
+    $$
+    a^{p-1} = a^{ke + r} \equiv 1 \pmod{p}
+    $$
+
+    Simplify using the fact that $$ a^e \equiv 1 \pmod{p}$$ :
+
+    $$
+    (a^e)^k \equiv 1^k \equiv 1 \pmod{p}
+    $$
+
+    Therefore,
+
+    $$
+    a^{ke + r} \equiv 1 \cdot a^r \equiv a^r \pmod{p}
+    $$
+    
+    And this implies 
+
+    $$
+    a^r \equiv 1 \pmod{p}
+    $$
+
+    r can only be 0 because e  is defined as the smallest positive integer for which $$0 \leq r < e$$
+
+    Therefore,  r  must be 0, meaning:
+
+    $$
+    p-1 = ke
+    $$
+
+    Q.E.D.
+
 
 ### 5. Pythegorean Numbers and Fermat's Last Theorem 
 
-1. 6 a — 36 » 13 (mod 23). Is 23 a quadratic residue (mod 13)?
+1. $$6^2 = 36 \equiv 13 pmod{23}$$. Is 23 a quadratic residue (mod 13)?
 
-2. We have seen that x* ■■ (p — x) a (mod p). Show that these are the only congruences among the numbers l 1 , 2 a , 3 1 , ■ * • , (p — 1)
+2. 2. We have seen that $$ x^2 \equiv (p - x)^2 \pmod{p} $$. Show that these are the only congruences among the numbers $$ 1^2, 2^2, 3^2, \ldots, (p - 1)^2 $$.
+
 
 ### 6. The Euclidean Algorithm 
 
