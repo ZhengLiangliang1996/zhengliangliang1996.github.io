@@ -902,15 +902,182 @@ Using formulas (4) and (5) in the book to prove:
 
 ### 5. Pythegorean Numbers and Fermat's Last Theorem 
 
-1. $$6^2 = 36 \equiv 13 pmod{23}$$. Is 23 a quadratic residue (mod 13)?
+1. $$6^2 = 36 \equiv 13 \pmod{23}$$. Is 23 a quadratic residue (mod 13)?
 
-2. 2. We have seen that $$ x^2 \equiv (p - x)^2 \pmod{p} $$. Show that these are the only congruences among the numbers $$ 1^2, 2^2, 3^2, \ldots, (p - 1)^2 $$.
+    Based on the definition of quadratic resudule, 23 is a quadratic residule if that:
+
+    $$
+    x^2 \equiv 23 \pmod{13}
+    $$
+
+    First, we can simplify $$ 23 \pmod{13}$$:
+    $$
+    23 \equiv 10 \pmod{13}
+    $$
+
+    The integers modulo 13 are $$ 0, 1, 2, \ldots, 12 $$. By calculating the squares of each of these integers modulo 13:
+    
+    $$
+    \begin{aligned}
+    1^2 &\equiv 1 \pmod{13} \\
+    2^2 &\equiv 4 \pmod{13} \\
+    3^2 &\equiv 9 \pmod{13} \\
+    4^2 &\equiv 16 \equiv 3 \pmod{13} \\
+    5^2 &\equiv 25 \equiv 12 \pmod{13} \\
+    6^2 &\equiv 36 \equiv 10 \pmod{13} \\
+    7^2 &\equiv 49 \equiv 10 \pmod{13} \\
+    8^2 &\equiv 64 \equiv 12 \pmod{13} \\
+    9^2 &\equiv 81 \equiv 3 \pmod{13} \\
+    10^2 &\equiv 100 \equiv 9 \pmod{13} \\
+    11^2 &\equiv 121 \equiv 4 \pmod{13} \\
+    12^2 &\equiv 144 \equiv 1 \pmod{13}
+    \end{aligned}
+    $$
+
+    we have 
+
+    $$
+    6^2 \equiv 10 \pmod{13} \quad \text{and} \quad 7^2 \equiv 10 \pmod{13}
+    $$
+
+    Thus, there exist integers $$ x $$ specifically $$ x = 6 $$ and $$ x = 7 $$ such that $$ x^2 \equiv 10 \pmod{13}$$. Therefore, 10 is a quadratic residue modulo 13.
+
+    Also we could use the law of [Quadratic reciprocity](https://en.wikipedia.org/wiki/Quadratic_reciprocity)
+
+    $$
+        \frac{p-1}{2} \cdot \frac{q-1}{2} =  \frac{13-1}{2} \cdot \frac{23-1}{2} = 66
+    $$
+
+    66 is even, therefore 23 is a quadratic residue modulo 13.
+
+
+
+2. We have seen that $$ x^2 \equiv (p - x)^2 \pmod{p} $$. Show that these are the only congruences among the numbers $$ 1^2, 2^2, 3^2, \ldots, (p - 1)^2 $$.
+
+    Let's construct another variable y, we have distinct x and y where $$x,y \in \{1,2,...;p-1\}$$
+
+    The goal of this proof is to claim if we can have $$x^2 \equiv y^2 \pmod{p}$$ leads to $$y=p-x$$
+
+    rewrite the equation and we have
+
+    $$
+        (x-y)(x+y) \equiv 0 \pmod{p}
+    $$ 
+
+    since p is a prime, it must devide either $$x-y \equiv 0$$ where |x-y| < p-2 < p or $$x+y \equiv 0$$ where 
+    
+    $$2 \leq x+y < 2p$$.
+
+    x-y can only be divisible by p is $$x - y = 0$$ which contradicts to the distinct consurtcion, therefore 
+
+    $$
+        x+y = p
+    $$
+
+    which leads to $$y = p-x$$. 
+
+3. Prove the last statement. Page 41.
+
+    Prove the last statement: \(u, v\) have no common factor and are not both odd, yield all primitive Pythagorean number triples.
+
+    The statement has: 
+
+    $$
+    \gcd(u, v) = 1
+    $$
+
+    To cover all primitive Pythagorean triples:
+
+    Construct  $$u = n $$,  $$v = n + 1 $$. where n is any positive integer. 
+
+    It satisfis both are not odd, and $$\gcd(n, n+1) = 1$$.
+
+    $$
+    \begin{aligned}
+        a &= (n+1)^2 - n^2 = 2n + 1 \\
+        b &= 2(n+1)n = 2n^2 + 2n \\
+        c &= (n+1)^2 + n^2 = 2n^2 + 2n + 1
+    \end{aligned}
+    $$
+
+
+    $$
+    \begin{aligned}
+        a^2 + b^2 &= (2n+1)^2 + (2n^2+2n)^2 \\
+                  &= 4n^2 + 4n + 1 + 4n^4 + 8n^3 + 8n^2 + 4n^2 \\
+        c^2 &= (2n^2+2n+1)^2 = 4n^4 + 8n^3 + 8n^2 + 4n + 1 \\
+    \end{aligned}
+    $$
+
+    and it satisfied $$a^2 + b^2 = c^2$$.
 
 
 ### 6. The Euclidean Algorithm 
+1. Carry out the Euclidean algorithm for finding the greatest common divisor of (a) 187, 77. (b) 105, 385. (c) 245, 193.
+    
+    $$
+    \gcd(187, 77) = 11
+    $$
 
-1. *Bxercite: Prove the last statement
+    $$
+    \begin{array}{r|r}
+    187 & 77 \\
+    77 & 33 \\
+    33 & 11 \\
+    11 & 0 \\
+    \end{array}
+    $$
 
-10. Exercise : Find the continued fraction developments of
+    $$
+    \gcd(105, 385) = 35
+    $$
 
-11. Solve the Diophantine equations (a) 3x — \y = 29. (b)llx 4* 12 y = 58. (c) 153s - 34 y = 51
+    $$
+    \begin{array}{r|r}
+    385 & 105 \\
+    105 & 70 \\
+    70 & 35 \\
+    35 & 0 \\
+    \end{array}
+    $$
+
+    $$
+    \gcd(245, 193) = 1
+    $$
+
+    $$
+    \begin{array}{r|r}
+    245 & 193 \\
+    193 & 52 \\
+    52 & 37 \\
+    37 & 15 \\
+    15 & 7 \\
+    7 & 1 \\
+    1 & 0 \\
+    \end{array}
+    $$
+
+2. The extension of this argument to products of any number n of integers requires the explicit or implicit use of the principle of mathematical induction. Supply the details of this argument. Page 47.
+
+    Assume that the statement is true for some integer $$n \geq 2$$. That is, if $p$ divides the product $$a_1 a_2 \cdots a_n$$, then $p$ must divide at least one of the integers $$a_1, a_2, \ldots, a_n$$.
+
+    We need to show that the statement is also true for $n+1$. After adding a new term $$a_{n+1}$$
+
+    Consider the product $$a_1 a_2 \cdots a_n$$. There are two cases to consider:
+
+    - Case 1: $$p$$ divides $$a_1 a_2 \cdots a_n$$: By the inductive hypothesis, since $$p$$ divides $$a_1 a_2 \cdots a_n$$, $p$ must divide at least one of the integers $$a_1, a_2, \ldots, a_n$$. Adding another term $$a_{n+1}$$ is the same. 
+
+    - Case 2: $$p$$ does not divide $$a_1 a_2 \cdots a_n$$: Since $$p$$ divides $$a_1 a_2 \cdots a_n a_{n+1}$$ and does not divide $$a_1 a_2 \cdots a_n$$, it must be the case that $$$p$$$ divides $$a_{n+1}$$.
+
+    In both cases, $p$ divides at least one of the integers $$a_1, a_2, \ldots, a_n, a_{n+1}$$.
+
+    By the principle of mathematical induction, the statement is true for all integers $$n \geq 2$$.
+
+
+3. Prove the theorem : If an integer r divides a product ab and is relatively prim* to a, then r must divide b, (Hint* if r is relatively prime to a then we can find integers k and l such that
+
+4. Using Euler’s
+
+5. Examples: The equation 3x 4*6y ” 22 has no integral solution, since (3, 6) = 3, which does not divide 22
+
+6. Solve the Diophantine equations (a) 3x — \y = 29. (b)llx 4* 12 y = 58. (c) 153s - 34 y = 51,
