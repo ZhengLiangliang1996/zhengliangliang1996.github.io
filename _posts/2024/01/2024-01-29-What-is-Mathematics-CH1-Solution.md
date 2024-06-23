@@ -1061,15 +1061,15 @@ Using formulas (4) and (5) in the book to prove:
 
     Assume that the statement is true for some integer $$n \geq 2$$. That is, if $p$ divides the product $$a_1 a_2 \cdots a_n$$, then $p$ must divide at least one of the integers $$a_1, a_2, \ldots, a_n$$.
 
-    We need to show that the statement is also true for $n+1$. After adding a new term $$a_{n+1}$$
+    We need to show that the statement is also true for $$n+1$$. After adding a new term $$a_{n+1}$$
 
     Consider the product $$a_1 a_2 \cdots a_n$$. There are two cases to consider:
 
     - Case 1: $$p$$ divides $$a_1 a_2 \cdots a_n$$: By the inductive hypothesis, since $$p$$ divides $$a_1 a_2 \cdots a_n$$, $p$ must divide at least one of the integers $$a_1, a_2, \ldots, a_n$$. Adding another term $$a_{n+1}$$ is the same. 
 
-    - Case 2: $$p$$ does not divide $$a_1 a_2 \cdots a_n$$: Since $$p$$ divides $$a_1 a_2 \cdots a_n a_{n+1}$$ and does not divide $$a_1 a_2 \cdots a_n$$, it must be the case that $$$p$$$ divides $$a_{n+1}$$.
+    - Case 2: $$p$$ does not divide $$a_1 a_2 \cdots a_n$$: Since $$p$$ divides $$a_1 a_2 \cdots a_n a_{n+1}$$ and does not divide $$a_1 a_2 \cdots a_n$$, it must be the case that $$p$$ divides $$a_{n+1}$$.
 
-    In both cases, $p$ divides at least one of the integers $$a_1, a_2, \ldots, a_n, a_{n+1}$$.
+    In both cases, $$p$$ divides at least one of the integers $$a_1, a_2, \ldots, a_n, a_{n+1}$$.
 
     By the principle of mathematical induction, the statement is true for all integers $$n \geq 2$$.
 
