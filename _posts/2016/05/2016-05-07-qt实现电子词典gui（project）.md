@@ -15,7 +15,9 @@ categories:
 
 以下是辞典的内容 dict.txt
 
-![2016-05-07_103714](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_103714.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_103714.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 ### 1.选定变量
 
@@ -155,7 +157,9 @@ void free_dict(struct dict *p, int size)
 
 运行:
 
-![2016-05-07_113649.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_113649.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_113649.png" alt="screenshot" width="80%" height="auto">
+</p>
 
  
 
@@ -170,12 +174,18 @@ void free_dict(struct dict *p, int size)
 
 先制作Design界面：
 
-![2016-05-07_114248.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114248.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114248.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 然后添加槽，对代码进行一些编码和文件名写死的修改，就可以啦
 
-![2016-05-07_114429.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114429.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114429.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2016-05-07_114510.png](https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114510.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/05/2016-05-07_114510.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 项目地址：[Fork me on github!](https://github.com/charlieputh/Digital_Dictionary-Qt)

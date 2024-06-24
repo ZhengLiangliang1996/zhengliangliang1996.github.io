@@ -124,7 +124,7 @@ The solution presented on the blog is my personal solutions for the exercises in
         \hline
         \end{array}
         \end{aligned}
-    $$\\
+    $$
     
 
 4. Form the addition and multiplication tables for the bases 5, 11, 13.
@@ -964,7 +964,7 @@ Using formulas (4) and (5) in the book to prove:
         (x-y)(x+y) \equiv 0 \pmod{p}
     $$ 
 
-    since p is a prime, it must devide either $$x-y \equiv 0$$ where |x-y| < p-2 < p or $$x+y \equiv 0$$ where 
+    since p is a prime, it must devide either $$x-y \equiv 0$$ where $$\abs{x-y} < p-2 < p$$ or $$x+y \equiv 0$$ where 
     
     $$2 \leq x+y < 2p$$.
 
@@ -975,6 +975,8 @@ Using formulas (4) and (5) in the book to prove:
     $$
 
     which leads to $$y = p-x$$. 
+
+    Q.E.D
 
 3. Prove the last statement. Page 41.
 
@@ -1059,7 +1061,7 @@ Using formulas (4) and (5) in the book to prove:
 
 2. The extension of this argument to products of any number n of integers requires the explicit or implicit use of the principle of mathematical induction. Supply the details of this argument. Page 47.
 
-    Assume that the statement is true for some integer $$n \geq 2$$. That is, if $p$ divides the product $$a_1 a_2 \cdots a_n$$, then $p$ must divide at least one of the integers $$a_1, a_2, \ldots, a_n$$.
+    Assume that the statement is true for some integer $$n \geq 2$$. That is, if $p$ divides the product $$a_1 a_2 \cdots a_n$$, then $$p$$ must divide at least one of the integers $$a_1, a_2, \ldots, a_n$$.
 
     We need to show that the statement is also true for $$n+1$$. After adding a new term $$a_{n+1}$$
 
@@ -1073,10 +1075,48 @@ Using formulas (4) and (5) in the book to prove:
 
     By the principle of mathematical induction, the statement is true for all integers $$n \geq 2$$.
 
+    Q.E.D
 
-3. Prove the theorem : If an integer r divides a product ab and is relatively prim* to a, then r must divide b, (Hint* if r is relatively prime to a then we can find integers k and l such that
 
-4. Using Euler’s
+3. Exercise: Prove the theorem: If an integer r divides a product ab and is relatively prime to a,  then r must divide b. 
+
+    r is relatively prime to a, we can have integers k and l such that 
+
+    $$ kr + la = 1$$
+
+    Multiply both sides of this equation by b.
+
+    $$ bkr + lab = b$$
+
+    If r divides ab, we can have
+
+    $$rq = ab$$
+
+    Therefore we have 
+
+    $$
+        \begin{aligned}
+            bkr + lrq &= b \\   
+            r(bk + lq) & = b
+        \end{aligned}
+    $$
+
+    from which it is evident that r divides b.
+
+    Q.E.D
+
+4.  Using Euler's $$\phi$$ function, generalize Fermat's theorem of page 37. The general theorem states: If n is any integer, and a is relatively prime to n, then
+
+    $$
+    a^{\phi(n)} \equiv 1 \ (\text{mod } n).
+    $$
+
+    
+
+5. Exercise: Find the continued fraction developments of
+    $$
+    \frac{2}{5}, \quad \frac{43}{30}, \quad \frac{169}{70}.
+    $$
 
 5. Examples: The equation 3x 4*6y ” 22 has no integral solution, since (3, 6) = 3, which does not divide 22
 

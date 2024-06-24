@@ -62,7 +62,9 @@ categories:
 ``` homestead init```
 
 
-![2016-11-23_222814.jpg](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_222814.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_222814.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 **红色圈住的位置是映射地址 就用默认的不需要改变**
 
@@ -115,11 +117,15 @@ categories:
  4 $vim lucy.error.log
 ```
 
-![2016-11-23_231451.jpg](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_231451.jpg)![2016-11-23_231433.jpg](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_231433.jpg) 
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/11/2016-11-23_231433.jpg" alt="screenshot" width="80%" height="auto">
+</p> 
 
 **在Homestead所在同级目录下有VagrantFile，可以配置只有本虚拟机可以访问和修改的私有地址。**
 
-![2016-11-24_232226.png](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-24_232226.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/11/2016-11-24_232226.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 **然后去自己的windows下面的host文件下修改配置**
 
@@ -127,4 +133,6 @@ categories:
 
 **最后可以看到自己的美丽的界面**
 
-![2016-11-24_233135.png](https://zhengliangliang.files.wordpress.com/2016/11/2016-11-24_2331351.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2016/11/2016-11-24_2331351.png" alt="screenshot" width="80%" height="auto">
+</p>

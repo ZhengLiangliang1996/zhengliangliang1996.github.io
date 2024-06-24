@@ -92,11 +92,15 @@ webCrawler_CatEYE.py
 
 运行结果
 
-![图片1](https://zhengliangliang.files.wordpress.com/2018/04/e59bbee789871.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/04/e59bbee789871.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 数据库
 
-![图片1](https://zhengliangliang.files.wordpress.com/2018/04/e59bbee7898711.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/04/e59bbee7898711.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 之后想看看根据类别爬1000部电影，然后可视化数据出来，画一些fancy的图，就这样。
 

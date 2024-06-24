@@ -17,7 +17,9 @@ Before getting into the word2vec part, let's talk about how do you understand a 
 
 Then a linguist called J. R. Firth came up with an idea that a word can be understood through its context, it's the basic idea of NLP statistics. it is also called distributed representations.
 
-![hankcs.com 2017-06-07 上午11.04.07.png](https://zhengliangliang.files.wordpress.com/2018/08/006Fmjmcly1fgcgiwa1j4j317w08mtaj.jpg "hankcs.com 2017-06-07 上午11.04.07.png")
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/006Fmjmcly1fgcgiwa1j4j317w08mtaj.jpg "hankcs.com 2017-06-07 上午11.04.07.png"" alt="screenshot" width="80%" height="auto">
+</p>
 
 So the word2vec means we're using "center words" and its context to predict each other. In cs224n there are 2 algorithms:
 
@@ -28,31 +30,43 @@ Anther algorithm will be more efficient called **Negative Sampling**.
 
 **Skip-gram:** 
 
-![hankcs.com 2017-06-07 下午2.47.31.png](https://zhengliangliang.files.wordpress.com/2018/08/006Fmjmcly1fgcmzglo19j31ay0n41kx.jpg "hankcs.com 2017-06-07 下午2.47.31.png")
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/006Fmjmcly1fgcmzglo19j31ay0n41kx.jpg "hankcs.com 2017-06-07 下午2.47.31.png"" alt="screenshot" width="80%" height="auto">
+</p>
 
 We are using conditional probability to describe how precise we can predict its context, our task is to maximize all of the conditional probabilities, when doing so, we can get its context well. then we can write down its (Likelihood function)
 
-![2018-08-17_205348.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205348.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205348.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 Then the objective function will be :
 
-![2018-08-17_205501.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205501.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205501.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 We take the negative log likelihood of the likelihood function, then we need to minimize the objective function.
 
 So, how to calculate all the conditional probabilities?  we use softmax(the reason we use softmax is that it can map arbitrary values Xi to a probability ditribution Pi)
 
-![2018-08-17_205806.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205806.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205806.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 Uo is one context word(outside word) and Vc is the vector of center words, and Uw is the whoe contexts words.
 
 some fundamental math:
 
-![2018-08-17_210256.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_210256.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_210256.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 And a ppt from manning can show all the stages of Skipgram:
 
-![2017-06-07_15-24-56.png](https://zhengliangliang.files.wordpress.com/2018/08/006Fmjmcly1fgco3v2ca7j30pq0j7drt.jpg "2017-06-07_15-24-56.png")
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/006Fmjmcly1fgco3v2ca7j30pq0j7drt.jpg "2017-06-07_15-24-56.png"" alt="screenshot" width="80%" height="auto">
+</p>
 
 First we look up the center word from word embedding using one hot vector * word embedding matrix, the dot product result can be the representation of center word Vc, and then it times the output representation to calculate the similarity of every words with respect to Vc. then we doing the softmax to get the right probability.
 
@@ -77,13 +91,17 @@ Then comes the softmaxCostAndGradient: First we calculate the dot product of the
 
 - take the derivative wrt vc
 
-![2018-08-21_143055.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_143055.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_143055.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 U = [u1,u2,....uw] means the matrix made of all word vectors, y_hat - y means the probability vector.
 
 - tkae the derivative wrt U
 
-![2018-08-21_143328.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_143328.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_143328.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 ```python
  1 def softmaxCostAndGradient(predicted, target, outputVectors, dataset):
  2    """ Softmax cost function for word2vec models
@@ -142,9 +160,13 @@ Then we implemented the skipgram part, all we have to do is also compute all the
 
 Recalled that the objective function is a neg log of the likelihood function:
 
-![2018-08-17_205501.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205501.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-17_205501.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
-in the for loop, we just scan all the contextWords and calculate the gradient![2018-08-21_144422.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_144422.jpg)
+in the for loop, we just scan all the contextWords and calculate the gradient<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_144422.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 and all of the cost and gradient will be summation:
 ```python
@@ -298,4 +320,6 @@ And for the training part: 1 . initiliaze ierator and variables,  and in each e
 ```
 After training on spyder, the result:
 
-![2018-08-21_163627.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_163627.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-21_163627.jpg" alt="screenshot" width="80%" height="auto">
+</p>

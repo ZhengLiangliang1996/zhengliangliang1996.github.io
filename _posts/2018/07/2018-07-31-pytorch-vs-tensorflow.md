@@ -52,7 +52,9 @@ When we process the fully connected layer, we need to flatten the C * H *W value
 
 Nomally, the function contains 2 parameters, which are input x and params, and the params are specified based on how many layers and what type of architecture you're using.
 
-Notice that this architecture includes 2 convolutional layer, we need the conv2d function from torch.nn.functional.conv2d![2018-07-31_123127.jpg](https://zhengliangliang.files.wordpress.com/2018/07/2018-07-31_123127.jpg)
+Notice that this architecture includes 2 convolutional layer, we need the conv2d function from torch.nn.functional.conv2d<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/07/2018-07-31_123127.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 And the core functions are conv2d,relu and mm
 ```python
@@ -420,7 +422,9 @@ Using training_part34 and Sequential API, it's super easy to set to the layers a
 
 In this Tensorflow introduction, we gonna do the same structure as we do in the introduction of Pytorch
 
-![2018-07-31_135946.jpg](https://zhengliangliang.files.wordpress.com/2018/07/2018-07-31_135946.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/07/2018-07-31_135946.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 All of the packages we imported:
 ```python

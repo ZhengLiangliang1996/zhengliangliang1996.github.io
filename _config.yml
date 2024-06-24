@@ -110,7 +110,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can rearch  out on Linkedin: https://www.linkedin.com/in/liangliangzheng/
+  You can rearch me out on LinkedIn: https://www.linkedin.com/in/liangliangzheng/
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Liangliang Zheng # blog_name will be displayed in your blog page
+blog_name: Salvation Lies Within # blog_name will be displayed in your blog page
 blog_description: $ ls -a 
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -166,11 +166,11 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+    rss_url: 
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Collections

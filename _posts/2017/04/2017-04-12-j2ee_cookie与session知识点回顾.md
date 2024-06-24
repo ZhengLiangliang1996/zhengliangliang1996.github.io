@@ -33,11 +33,15 @@ categories:
 
 例子：
 
-![1.JPG](https://zhengliangliang.files.wordpress.com/2017/04/11.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2017/04/11.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 BServlet接收遍历
 
-![2.JPG](https://zhengliangliang.files.wordpress.com/2017/04/21.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2017/04/21.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 **Cookie原理：**
 
@@ -51,7 +55,9 @@ BServlet接收遍历
 
  **浏览器记录多久？**
 
-![Cookie生命周期.JPG](https://zhengliangliang.files.wordpress.com/2017/04/cookiee7949fe591bde591a8e69c9f.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2017/04/cookiee7949fe591bde591a8e69c9f.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 例子：Google浏览器一般的Cookie持续时间是一年
 
@@ -59,7 +65,9 @@ BServlet接收遍历
 
 **细节1：**
 
-1.有效时间的设置 ， 根据查看JDK1.6 ![setMax.JPG](https://zhengliangliang.files.wordpress.com/2017/04/setmax.jpg)
+1.有效时间的设置 ， 根据查看JDK1.6 <p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2017/04/setmax.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 设置方法:
         1>设置一个正数，标示最大有效时间，单位是秒

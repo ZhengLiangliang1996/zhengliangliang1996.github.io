@@ -1,41 +1,41 @@
 import os
 import re
+import glob
 
-def convert_markdown_images(directory):
-    # Regex pattern to match [![](image_url)](link_url) format
-    img_link_regex = re.compile(r'\[!\[\]\((.*?)\)\]\((.*?)\)')
+# Directory containing the .md files
+directory = '2019'
 
-    # Walk through all directories and subdirectories
-    for root, _, files in os.walk(directory):
+# Regex pattern to find markdown image links
+pattern = re.compile(r'\!\[.*\]\((.*?)\)')
+
+# Function to create replacement HTML string
+def create_replacement(link):
+    return f'''<p align="center">
+  <img src="{link}" alt="screenshot" width="80%" height="auto">
+</p>'''
+
+# Function to process each file
+def process_file(filepath):
+    with open(filepath, 'r', encoding='utf-8') as file:
+        content = file.read()
+    
+    new_content = re.sub(pattern, lambda m: create_replacement(m.group(1)), content)
+    
+    if content != new_content:
+        print(f"Updated file: {filepath}")
+    else:
+        print(f"No changes made to file: {filepath}")
+
+    with open(filepath, 'w', encoding='utf-8') as file:
+        file.write(new_content)
+
+# Loop over all .md files in the directory
+for root, _, files in os.walk(directory):
         for filename in files:
             # Process only .md files
             if filename.endswith(".md"):
-                filepath = os.path.join(root, filename)
-                with open(filepath, 'r', encoding='utf-8') as file:
-                    content = file.read()
+                print("process file: ", filename)
+                process_file(os.path.join(root, filename))
 
-                def replace_img_link(match):
-                    full_match = match.group(0)
-                    image_url = match.group(1)
-                    link_url = match.group(2)
 
-                    # Construct the HTML img tag with optional link and width/height attributes
-                    if link_url.strip():
-                        img_tag = f'<a href="{link_url}"><img src="{image_url}" alt="Image" width="80%" height="auto"></a>'
-                    else:
-                        img_tag = f'<img src="{image_url}" alt="Image" width="80%" height="auto">'
-
-                    return img_tag
-
-                # Replace [![]()]() with <img> format including width/height attributes
-                new_content = img_link_regex.sub(replace_img_link, content)
-
-                # Write the updated content back to the file if changes were made
-                if new_content != content:
-                    with open(filepath, 'w', encoding='utf-8') as file:
-                        file.write(new_content)
-                    print(f"Updated {filepath}")
-
-if __name__ == "__main__":
-    directory = '.'  # Specify the directory containing the .md files
-    convert_markdown_images(directory)
+        

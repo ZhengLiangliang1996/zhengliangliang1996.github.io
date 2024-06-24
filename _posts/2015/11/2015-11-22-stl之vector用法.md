@@ -17,7 +17,9 @@ categories:
 
 - **Vector介绍**
 
-![2015-11-22_212712](https://zhengliangliang.files.wordpress.com/2015/11/2015-11-22_212712.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2015/11/2015-11-22_212712.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Vector实际上也是一个数组，但是可以自动扩展，伸缩性比较好。Vector是C++标准模板库中的部分内容，它是一个多功能的，能够操作多种数据结构和算法的模板类和函数库。vector之所以被认为是一个容器，是因为它能够像容器一样存放各种类型的对象，简单地说，vector是一个能够存放任意类型的动态数组，能够增加和压缩数据。
 

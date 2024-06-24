@@ -15,33 +15,47 @@ Today, I'm gonna review some basics of python.
 
 - **List can be mix types** 
 
-![2018-08-22_094806.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_094806.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_094806.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **List Slicing**
 
 numers = [0, 1, 2, 3, 4, 5, 6]       list[start:end]
 
-![2018-08-22_095130.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095130.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095130.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Tuple**
 
-![2018-08-22_095316.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095316.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095316.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Dictionary**
 
-![2018-08-22_095407.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095407.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095407.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Some loops we may ignore**
 
-![2018-08-22_095519.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095519.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095519.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **shape of array in numpy you might be confused!**
 
-![2018-08-22_095646.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095646.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095646.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **axis in numpy (important!!!!) & keepdims** 
 
-![2018-08-22_095839.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095839.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_095839.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 **difference between axis = 1 and axis = 0:**
 ```python
@@ -77,21 +91,29 @@ Which means that when we use axis = 1 , then the operation will go according to 
 
 - **Element-wise operation and dot product (对应元素相称与矩阵乘法的区别)**
 
-![2018-08-22_101023.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101023.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101023.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **indexing**
 
-![2018-08-22_101556.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101556.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101556.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Broadcasting**
 
-![2018-08-22_101719.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101719.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101719.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Some tips**
 
 format: [func(x) for x in some_list]
 
-![2018-08-22_101904.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101904.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_101904.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 we will use this format in the following **Some simple algorithms** part
 
@@ -99,9 +121,13 @@ we will use this format in the following **Some simple algorithms** part
 
 Unsure of what you can do with an object? Use **_type()_** and **_dir()_**
 
-![2018-08-22_102155.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_102155.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_102155.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-08-22_102216.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_102216.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-22_102216.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Some simple algorithms**
 ```python

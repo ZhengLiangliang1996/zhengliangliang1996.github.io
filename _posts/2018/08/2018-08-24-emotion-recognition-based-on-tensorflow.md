@@ -20,7 +20,9 @@ Input a facial image, ouput the emotion( 0 = anger , 1 = disgust , 2 = fear , 3 
 
 **For example:** 
 
-![fear.jpg](https://zhengliangliang.files.wordpress.com/2018/08/fear.jpg)          ![2018-08-24_085215.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_085215.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_085215.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **Dataset, input shape and label shape**
 
@@ -28,17 +30,23 @@ From kaggle , click this [link](https://www.kaggle.com/c/facial-keypoints-detect
 
 **Training Input shape**: 3761 grayscale images of 48 * 48 pixels (3761, 48, 48, 1) **Training Label shape**: 3761 class images, seven elements label(mentioned above). **Test Set**:(1312, 48, 48, 1) **Single Image shape**:(48, 48, 1) (The following test img will be resize to 48*48) **label set** = [0. 0. 1. 0. 0. 0. 0.]  (FEAR)
 
-![Figure_1.png](https://zhengliangliang.files.wordpress.com/2018/08/figure_1.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/figure_1.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 - **CNN architecture**
 
- **conv layer**![2018-08-24_090035.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_090035.jpg)
+ **conv layer**<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_090035.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 Original x_image size (48,48,1), through a CNN layer with filter (5, 5, 32) stride = 1, padding = same, then h_conv1 will be (48, 48, 32), then passed to max pooling 2*2, stride = 2 and the shape will be shrunk to(24, 24, 32), then another cnn with filter (3, 3, 64), then again, the max poling, the resulting images are downsampled to 12 * 12 pixels
 
 **fully connected layer**
 
-![2018-08-24_090833.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_090833.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_090833.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 The (12, 12, 64) will be flatten and passed through 2 fc layers, the final label will be 7 labels.
 
@@ -212,15 +220,21 @@ In the main function, not only should we load data (**read_data** function in th
 
 - Result:
 
-![fear.jpg](https://zhengliangliang.files.wordpress.com/2018/08/fear.jpg)               ![2018-08-24_085215.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_085215.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_085215.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
  
 
-![gavin_fakesmile.jpg](https://zhengliangliang.files.wordpress.com/2018/08/gavin_fakesmile1.jpg)                              ![2018-08-24_100845.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_1008451.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_1008451.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
  
 
-![smile.jpg](https://zhengliangliang.files.wordpress.com/2018/08/smile.jpg)                           ![2018-08-24_100832.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_100832.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-24_100832.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 * * *
 

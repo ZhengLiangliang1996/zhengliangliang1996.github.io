@@ -15,25 +15,37 @@ The corresponding contents and materials of this blog are from Stanford Online C
 
 * * *
 
-**Training Neural Networks:![2018-06-07_140234.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_140234.png)**
+**Training Neural Networks:<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_140234.png" alt="screenshot" width="80%" height="auto">
+</p>**
 
 This is a fundamental one layer network, and the following one is 2-layer Neural Network
 
-![2018-06-07_140557.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_140557.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_140557.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Convolutional Neural Networks, I think the best way to imagine CNN is that: say the task is to let computer know if a picture with a mouse(The input) is mouse(mouse)
 
-![2018-06-07_140933.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_140933.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_140933.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 In the computer's vision, we need to use a small rectangle to scan the whole picture like this:
 
-![2018-06-07_141045.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_141045.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_141045.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Knowing that a picture is composed with hundreds of thousands of pixels, in every step where the small rectangle scanned, it can get the original pixel matrix, then we put the original matrix to a filter( which is get the pixel representation), after filtering, we can get a filtering matrix,then we apply the multiplication and summation operation:
 
-![2018-06-07_141523.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_141523.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_141523.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-07_141721.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_141721.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_141721.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 After scanning, we can get a activation map, if we have 6 filters, then the image will be transferred into a "new image" of size 28 * 28 * 6
 
@@ -49,7 +61,9 @@ Neural Science is a very complex field for humans nowadays , so it's still a mys
 
 some activation functions and there advantages and disadvantages:
 
-![2018-06-07_142942.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_142942.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_142942.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Problems with Sigmod : 1 . Saturated neurons "kill" the gradients 2 . Sigmoid outputs are not zero-centered(if the input to a neuron is always positive, then the hypothetical optimal w vector will be zig-zag path) 3 . exp() is a bit compute expensive
 
@@ -57,13 +71,17 @@ Problems with tanh(x) 1 . Saturated neurons "kill" the gradients But zero center
 
 well, in ReLU, things are better :
 
-![2018-06-07_144248.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_144248.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_144248.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 * * *
 
 **Preprocess the data**
 
-![2018-06-07_144430.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_144430.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_144430.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 **Weight Initialization**
 
@@ -71,7 +89,9 @@ What would happen if the weight is constant, then all activations would become z
 
 then we should use a resonable initialization, which is Xavier initialization:
 
-![2018-06-07_145004.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_145004.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_145004.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Remember: Nice distribution of activations at all layers will make the learning proceeds nicely.
 
@@ -81,7 +101,9 @@ Remember: Nice distribution of activations at all layers will make the learning 
 
 We want zero-mean unit-variance activations
 
-![2018-06-07_145709.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_145709.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-07_145709.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 You may ask, why batch normalization: The introduction of Batch Normalization is to overcome the difficulty of training big and deep NNs, bn can also prevent the gradient dispersion,in this way the gradient can flow through the network.
 
@@ -94,19 +116,27 @@ You may ask, why batch normalization: The introduction of Batch Normalization is
 
 Cross-Validation Strategy:
 
-![2018-06-08_092710.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_092710.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_092710.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 It's best to optimize in log space
 
-![2018-06-08_092838.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_092838.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_092838.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Monitoring and visualizing the loss curve will make it easy for programmers to debug.
 
 Some normal problems occurs when visualizing the loss curve:
 
-![2018-06-08_093255.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_093255.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_093255.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-08_093333.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_093333.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_093333.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 * * *
 
@@ -114,51 +144,77 @@ Some normal problems occurs when visualizing the loss curve:
 
 We can't use the formal batch normalization for calculating mean and variance in the test time, so instead of using it, we replace it as the following:
 
-![2018-06-08_094121.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094121.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094121.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 There are different kinds of normalization in training partG:
 
-![2018-06-08_094301.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094301.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094301.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-08_094313.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094313.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094313.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-08_094332.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094332.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094332.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-08_094341.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094341.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094341.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 **Optimization:**
 
 Previous classes we've learnt the SGD optimization, but there are problems with SGD:
 
-![2018-06-08_094542.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094542.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094542.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-08_094636.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094636.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094636.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 So scientist come up with SGD + Momontum Optimization"
 
-![2018-06-08_094751.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094751.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_094751.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 Let's get into the most important 2 optimization ways:
 
-![2018-06-08_095001.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095001.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095001.png" alt="screenshot" width="80%" height="auto">
+</p>
 
-![2018-06-08_095117.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095117.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095117.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 **Regularization : Dropout**
 
 randomly set some neurons to zero Probability of dropping is a hyperparameter, and 0.5 is common
 
-![2018-06-08_095505.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095505.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095505.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 More common is the "Inverted Dropout"
 
-![2018-06-08_095740.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095740.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_095740.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 * * *
 
 Transfer Learning:
 
-![2018-06-08_120359.png](https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_120359.png)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/06/2018-06-08_120359.png" alt="screenshot" width="80%" height="auto">
+</p>
 
 and I will write some introductions about this in later blogs ,stay tuned.
 

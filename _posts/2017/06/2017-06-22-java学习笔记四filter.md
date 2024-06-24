@@ -85,7 +85,9 @@ _A filter is an object that performs filtering tasks on either the request to a 
 
 - 执行过程
 
-![333.jpg](https://zhengliangliang.files.wordpress.com/2017/06/333.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2017/06/333.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 - 串联过滤器
 

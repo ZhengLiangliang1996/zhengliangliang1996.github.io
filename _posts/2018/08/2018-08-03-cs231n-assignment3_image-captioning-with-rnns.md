@@ -11,17 +11,23 @@ categories:
 
 Yesterday I finished a vanilla recurrent neural networks and used them to train a model that could generate novel captions for images. It's really excited that as the the domain of NLP, word embedding can be combining with Computer Vision CNN for image captioning,which is sort of like Lego construction.(All the images drawn in draft are from [link](https://www.cnblogs.com/hellcat/p/7191967.html) )
 
-![2018-08-03_112358.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_112358.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_112358.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 The whole process will be pretty much as following:
 
-![2018-08-03_112636](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_112636.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_112636.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 * * *
 
 Vanilla RNN single step forward:
 
-![2018-08-03_100635.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_100635.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_100635.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 ```python
  1 def rnn_step_forward(x, prev_h, Wx, Wh, b):
  2  """
@@ -59,7 +65,9 @@ Vanilla RNN single step forward:
 
 Notice these two parameters: - Wx: Weight matrix for input-to-hidden connections, of shape (D, H) - Wh: Weight matrix for hidden-to-hidden connections, of shape (H, H)
 
-RNN one step backward, according to their size and pay attention to the transpose.![2018-08-03_101459.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_101459.jpg)
+RNN one step backward, according to their size and pay attention to the transpose.<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_101459.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 ```python
  1 def rnn_step_backward(dnext_h, cache):
  2    """
@@ -96,7 +104,11 @@ RNN one step backward, according to their size and pay attention to the transpos
 ```
 After single step, we need to finish the reccurent loop part
 
-![](https://zhengliangliang.files.wordpress.com/2018/08/1161096-20170716200928128-376197048.jpg)![2018-08-03_102633.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_102633.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/1161096-20170716200928128-376197048.jpg" alt="screenshot" width="80%" height="auto">
+</p><p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_102633.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 ```python
  1 def rnn_forward(x, h0, Wx, Wh, b):
@@ -139,7 +151,9 @@ After single step, we need to finish the reccurent loop part
 38     return h, cache
 ```
 
-For the Backward RNN: ![2018-08-03_104145.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_104145.jpg)
+For the Backward RNN: <p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_104145.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 ```python
  1 def rnn_backward(dh, cache):
@@ -189,7 +203,9 @@ For the Backward RNN: ![2018-08-03_104145.jpg](https://zhengliangliang.files.wor
 45     return dx, dh0, dWx, dWh, db
 ```
 
-Word_embedding : FORWARD , In deep learning systems, we commonly represent words using vectors. Each word of the vocabulary will be associated with a vector, and these vectors will be learned jointly with the rest of the system. The whole process will be like this one , from caption_in to the X is the word_embedding process: ![2018-08-03_110902.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_110902.jpg)
+Word_embedding : FORWARD , In deep learning systems, we commonly represent words using vectors. Each word of the vocabulary will be associated with a vector, and these vectors will be learned jointly with the rest of the system. The whole process will be like this one , from caption_in to the X is the word_embedding process: <p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_110902.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 ```python
  1 def word_embedding_forward(x, W):
@@ -346,15 +362,21 @@ This function basically implement the process shown in the image that we saw in 
 
 AFTER finishing this function, in the cs231n assignment3 file, they also present a function that is used for overfitting small data, only in this way can we know that this model can be used. So don't forget to overfit small data first right after finishing your model!
 
-![2018-08-03_120908.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_120908.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_120908.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
 If you see this image showing then you should have a big smile on your face : )
 
-And the description of the image will be start with the <start> tp=token and end with <END> token, the result will be like : ![2018-08-03_121318.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_1213181.jpg)
+And the description of the image will be start with the <start> tp=token and end with <END> token, the result will be like : <p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_1213181.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
  
 
-![2018-08-03_121341.jpg](https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_1213411.jpg)
+<p align="center">
+  <img src="https://zhengliangliang.files.wordpress.com/2018/08/2018-08-03_1213411.jpg" alt="screenshot" width="80%" height="auto">
+</p>
 
  
 
