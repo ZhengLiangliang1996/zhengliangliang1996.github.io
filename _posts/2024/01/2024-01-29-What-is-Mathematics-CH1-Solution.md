@@ -976,7 +976,7 @@ Using formulas (4) and (5) in the book to prove:
 
     which leads to $$y = p-x$$. 
 
-    Q.E.D
+    Q.E.D.
 
 3. Prove the last statement. Page 41.
 
@@ -1075,7 +1075,7 @@ Using formulas (4) and (5) in the book to prove:
 
     By the principle of mathematical induction, the statement is true for all integers $$n \geq 2$$.
 
-    Q.E.D
+    Q.E.D.
 
 
 3. Exercise: Prove the theorem: If an integer r divides a product ab and is relatively prime to a,  then r must divide b. 
@@ -1103,7 +1103,7 @@ Using formulas (4) and (5) in the book to prove:
 
     from which it is evident that r divides b.
 
-    Q.E.D
+    Q.E.D.
 
 4.  Using Euler's $$\phi$$ function, generalize Fermat's theorem of page 37. The general theorem states: If n is any integer, and a is relatively prime to n, then
 
@@ -1111,9 +1111,35 @@ Using formulas (4) and (5) in the book to prove:
     a^{\phi(n)} \equiv 1 \ (\text{mod } n).
     $$
 
-    
+    To generalize Fermat's theorem, first consider the multiplies (set A) the number of intergers $$\phi{n}$$ with n, the
+    multiplies (or the modulo n if it is larger than n) are again belongs to $$\phi(n)$$.
+
+    $$
+         \{m_1 = a \cdot A_1 , m_2 = a \cdot A_2 , \cdots m_{A_{\phi{(n)}}}\}
+    $$
+
+    Since a is coprime to n, $$gcd(n, a)=1$$
+
+    $$
+         \{A_1 \equiv a \cdot A_1 \pmod{n}, A_2 \equiv a \cdot A_2 \pmod{n}, \cdots... A_i \equiv a \cdot A_i \cdot \phi{(n)}\pmod{n}\}
+    $$
+
+    Therefore, the products of the elements of the two sets are congruent modulo n, we have 
+
+    $$
+         \{A_1 \cdot A_2 \cdots A_n \equiv A_1 \pmod{n}, A_2 \equiv a \cdot A_2 \pmod{n}, \cdots... A_i \equiv a \cdot A_i \cdot \phi{(n)}\pmod{n}\}
+    $$
+
+    Using cancellation rule we can have 
+
+    $$
+    a^{\phi(n)} \equiv 1 \ (\text{mod } n).
+    $$
+
+    Q.E.D.
 
 5. Exercise: Find the continued fraction developments of
+
     $$
     \frac{2}{5}, \quad \frac{43}{30}, \quad \frac{169}{70}.
     $$
