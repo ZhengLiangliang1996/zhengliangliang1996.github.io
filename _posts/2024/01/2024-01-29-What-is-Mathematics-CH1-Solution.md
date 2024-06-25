@@ -10,7 +10,7 @@ toc:
 ---
 
 ### Before the solutions :) 
-The solution presented on the blog is my personal solutions for the exercises in the book 'What is Mathematics: An Elementary Approach To Ideas And Methods' by Herbert Robbins and Richard Courant,  please leave a comment if you spot any mistakes in the solution or calculations. Thanks in advance! 
+The solution presented on the blog is my personal solutions for the exercises in the book 'What is Mathematics: An Elementary Approach To Ideas And Methods' by Herbert Robbins and Richard Courant,  please leave a comment if you spot any mistakes or you have questions on the solution. Thanks in advance! 
 
 ## Chapter 1: The Natural Numbers 
 
@@ -964,7 +964,7 @@ Using formulas (4) and (5) in the book to prove:
         (x-y)(x+y) \equiv 0 \pmod{p}
     $$ 
 
-    since p is a prime, it must devide either $$x-y \equiv 0$$ where $$\abs{x-y} < p-2 < p$$ or $$x+y \equiv 0$$ where 
+    since p is a prime, it must devide either $$x-y \equiv 0$$ where $$\left|x-y\right| < p-2 < p$$ or $$x+y \equiv 0$$ where 
     
     $$2 \leq x+y < 2p$$.
 
@@ -1144,6 +1144,18 @@ Using formulas (4) and (5) in the book to prove:
     \frac{2}{5}, \quad \frac{43}{30}, \quad \frac{169}{70}.
     $$
 
+    By applying the same procedure in the book page 49, we can have 
+
+    $$\frac{2}{5} = 0+\frac{1}{2+\frac{1}{2}}$$
+
+    $$\frac{43}{30} = 1+\frac{1}{2+\frac{1}{3+\frac{1}{4}}}$$
+
+    $$2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2}}}}}$$
+
 5. Examples: The equation 3x 4*6y ” 22 has no integral solution, since (3, 6) = 3, which does not divide 22
+
+
+    
+
 
 6. Solve the Diophantine equations (a) 3x — \y = 29. (b)llx 4* 12 y = 58. (c) 153s - 34 y = 51,
