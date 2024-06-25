@@ -550,7 +550,7 @@ Using formulas (4) and (5) in the book to prove:
     Q.E.D.
 
 
-    To prove $$1^2+3^2+\cdots+(2 n+1)^2=(n+1)^2\left(2 n^2+4 n+1\right)$$.
+    To prove $$1^3+3^3+\cdots+(2 n+1)^3=(n+1)^2\left(2 n^2+4 n+1\right)$$.
 
     Base Case: 
 
@@ -560,22 +560,63 @@ Using formulas (4) and (5) in the book to prove:
 
     Assume $$S_n$$ holds
 
+    We need to show that the statement holds for n+1 That is, we need to prove:
     $$
-    S_n = (n+1)^2 (2n^2 + 4n + 1)
+    1^3 + 3^3 + \cdots + (2n+1)^3 + (2(n+1)+1)^3 = ((n+1)+1)^2 (2(n+1)^2 + 4(n+1) + 1)
     $$
 
-    For $$S_{n+1}$$
+    Simplify the left hand we have 
+
+    $$
+    (n+1)^2 (2n^2 + 4n + 1) + (2n + 3)^3
+    $$
+
+    So we need to show:
+    $$
+    (n+1)^2 (2n^2 + 4k + 1) + (2n + 3)^3 = (n+2)^2 (2(n+1)^2 + 4(n+1) + 1)
+    $$
+
+    Expand it and we can get: 
 
     $$
     \begin{aligned}
-    S_{n+1} &= (n+1)^2 (2n^2 + 4n + 1) + (2n+1)^3 \\
-    &= (n+1)^2 (2n^2 + 4n + 1) + (2n+1)^3\\
-    &= (2n^4 + 8n^3 + 12n^2 + 6n + 1)\\
-    &= 2n^4 + 8n^3 + 11n^2 + 6n + 1 + (8n^3 + 12n^2 + 6n + 1)\\
-    &= 2n^4 + 16n^3 + 23n^2 + 12n + 1\\
-    &= \frac{2n^4 + 16n^3 + 23n^2 + 12n + 1}{n^2 + 4n + 4}\\
+    2(n+1)^2 + 4(n+1) + 1 &= 2(n^2 + 2n + 1) + 4n + 4 + 1 \\
+                          &= 2n^2 + 4n + 2 + 4n + 4 + 1 = 2n^2 + 8n + 7 \\
     \end{aligned}
     $$
+
+    Then,
+
+    $$
+    \begin{aligned}
+    S_{n+1} &=(n+2)^2 (2n^2 + 8n + 7) \\
+    &= (n^2 + 4n + 4)(2n^2 + 8n + 7) \\
+    &= n^2(2n^2 + 8n + 7) + 4n(2n^2 + 8n + 7) + 4(2n^2 + 8n + 7) \\
+    &= 2n^4 + 8n^3 + 7n^2 + 8n^3 + 32n^2 + 28n + 8n^2 + 32n + 28 \\
+    &= 2n^4 + 16n^3 + 47n^2 + 60n + 28 \\
+    \end{aligned}
+
+    $$
+
+    Now, let's expand the left-hand side:
+    $$
+    \begin{aligned}
+        S_{n+1} &=(n+1)^2(2n^2 + 4n + 1) + (2n+3)^3 \\
+        &= (n^2 + 2n + 1)(2n^2 + 4n + 1) + (2n + 3)^3 \\
+        &= 2n^4 + 4n^3 + n^2 + 4n^3 + 8n^2 + 2n + 2n^2 + 4n + 1 + (2n+3)^3 \\
+        &= 2n^4 + 8n^3 + 11n^2 + 6n + 1 + (8n^3 + 36n^2 + 54n + 27) \\
+        &= 2n^4 + 16n^3 + 47n^2 + 60n + 28 \\
+    \end{aligned}
+    $$
+
+    Both sides are equal, so the inductive step holds.
+
+    By mathematical induction, the statement is proven:
+
+    $$
+        1^3 + 3^3 + \cdots + (2n+1)^3 = (n+1)^2 (2n^2 + 4n + 1)
+    $$
+
 
 ### 3. The prime numbers 
 1. Exercise: Carry out this construction starting with $$p_1 = 2$$, $$p_2$$= 3 and find 5 more primes
@@ -1150,12 +1191,91 @@ Using formulas (4) and (5) in the book to prove:
 
     $$\frac{43}{30} = 1+\frac{1}{2+\frac{1}{3+\frac{1}{4}}}$$
 
-    $$2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2}}}}}$$
+    $$\frac{169}{70} =2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2}}}}}$$
 
-5. Examples: The equation 3x 4*6y ” 22 has no integral solution, since (3, 6) = 3, which does not divide 22
+6. Solve the Diophantine equations $$(a) 3x — 4y = 29. (b)3 - 4y = 58. (c) 11x - 12 y = 51$$.
+
+
+    $$
+    (a). 3x - 4y = 29
+    $$
+
+    $$
+    \gcd(3, 4) = 1 \quad \text{it has integer solutions}
+    $$
+
+    $$
+    \begin{aligned}
+        4 - 3 &= 1 \\
+        3(-1) - 4(-1) &= 1 \\
+    \end{aligned}
+    $$
+
+    And we can have 
+
+    $$
+        3(-29) - 4(-29) = 29
+    $$
+
+    Based on tge general solution of linear diophantinue equation we can have 
+
+    $$
+        \begin{aligned}
+        x &= -29 + 4k \\
+        y &= -29 + 3k \\
+        \end{aligned}
+    $$
+
+
+    $$
+    (b). 11x + 12y = 58
+    $$
+
+    $$
+    \gcd(11, 12) = 1
+    $$
+
+    $$
+    11(-1) + 12(1) = 1
+    $$
+
+    $$
+    11(-58) + 12(58) = 58
+    $$
+
+    Based on tge general solution of linear diophantinue equation we can have 
+
+    $$
+    \begin{aligned}
+    x &= -58 + 12k \\
+    y &= 58 - 11k \\
+    \end{aligned}
+    $$
+
+    $$
+    (c). 153x - 34y = 51
+    $$
+
+    $$
+    \gcd(153, 34) = 17
+    $$
+
+    $$
+    153 + 4 \times 34(1) = 17
+    $$
+
+    $$
+    153(3) + 4 \times 34(3) = 51
+    $$
+
+    Based on tge general solution of linear diophantinue equation we can have 
+
+    $$
+    \begin{aligned}
+    x &= 3 + 2k \\
+    y &= 12 + 9k \\
+    \end{aligned}
+    $$
 
 
     
-
-
-6. Solve the Diophantine equations (a) 3x — \y = 29. (b)llx 4* 12 y = 58. (c) 153s - 34 y = 51,
