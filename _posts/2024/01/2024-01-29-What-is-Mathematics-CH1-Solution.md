@@ -4,17 +4,16 @@ layout: post
 title: "What is Mathematics: Solution Chapter 1"
 date: "2024-01-29"
 categories: 
-  - "general science"
+  - "math"
 toc:
   sidebar: true
 ---
 
-### Before the solutions :) 
+## Before the solutions :) 
 The solution presented on the blog is my personal solutions for the exercises in the book 'What is Mathematics: An Elementary Approach To Ideas And Methods' by Herbert Robbins and Richard Courant,  please leave a comment if you spot any mistakes or you have questions on the solution. Thanks in advance! 
 
-## Chapter 1: The Natural Numbers 
 
-### 1. Calculation with Integers 
+## Calculation with Integers 
 1. Set up the addition and multiplication tables in the duodecimal system and work some examples of the same sort.
 
     The duodecimal system (also known as base 12 or dozenal) is the number system with a base of twelve.
@@ -272,7 +271,7 @@ The solution presented on the blog is my personal solutions for the exercises in
 
     This shows that 4 uses the fewest words.
 
-### 2. The Infinite of number system, mathematical induction.
+## The Infinite of number system, mathematical induction.
 
 Exercise: Prove by mathematical induction
 
@@ -618,7 +617,7 @@ Using formulas (4) and (5) in the book to prove:
     $$
 
 
-### 3. The prime numbers 
+## The prime numbers 
 1. Exercise: Carry out this construction starting with $$p_1 = 2$$, $$p_2$$= 3 and find 5 more primes
     The construction of proving that prime numbers are infinite is as followed: 
     
@@ -716,7 +715,7 @@ Using formulas (4) and (5) in the book to prove:
 
     Related proof:  [Dirichlet's theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions). if gcd(a, b) = 1 in the progression $$an+b$$, then there are infinite number of prime numbers inside. 
 
-### 4. Congruences 
+## Congruences 
 0. Find a similar rule for divisibility by 13.
 
     For congruences modulo 13 we have: 
@@ -941,7 +940,7 @@ Using formulas (4) and (5) in the book to prove:
     Q.E.D.
 
 
-### 5. Pythegorean Numbers and Fermat's Last Theorem 
+## Pythagorean Numbers and Fermat's Last Theorem 
 
 1. $$6^2 = 36 \equiv 13 \pmod{23}$$. Is 23 a quadratic residue (mod 13)?
 
@@ -1055,7 +1054,7 @@ Using formulas (4) and (5) in the book to prove:
     and it satisfied $$a^2 + b^2 = c^2$$.
 
 
-### 6. The Euclidean Algorithm 
+## The Euclidean Algorithm 
 1. Carry out the Euclidean algorithm for finding the greatest common divisor of (a) 187, 77. (b) 105, 385. (c) 245, 193.
     
     $$
