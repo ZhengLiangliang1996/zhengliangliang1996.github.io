@@ -383,15 +383,184 @@
 
 <ol>
   <li>
-    <p>Prove that \(\sqrt{2}, \sqrt{3}, \sqrt{5}, \sqrt{6}\) are not rational. (Hint: Use the lemma of p. 47).</p>
+    <p>Prove that \(\sqrt[3]{2}, \sqrt{3}, \sqrt{5}, \sqrt[3]{3}\) are not rational. (Hint: Use the lemma of p. 47).</p>
+
+    <p>(1). \(\sqrt[3]{2}\)</p>
+
+    <p>Assume \(\sqrt[3]{2}\) is rational:</p>
+
+\[\sqrt[3]{2} = \frac{p}{q} \quad \text{gcd}(p, q) = 1\]
+
+\[\begin{aligned}
+ 2 = \frac{p^3}{q^3} \Rightarrow 2q^3 = p^3
+ \end{aligned}\]
+
+    <p>Based on the lemma, p divdes ab, therefore p divides a or b. since \(\text{gcd}(p, q) = 1\), Therefore</p>
+
+\[2 \left| p^3 \Rightarrow 2\right|p\]
+
+    <p>therefore p is some even number, and can be denoted as 2k</p>
+
+\[2q^3 = (2k)^3\]
+
+\[q^3 = 4k^3 \quad \text{and q} \quad \text{is even}, \quad \text{contradicting gcd}(p, q) = 1.\]
+
+    <p>Therefore \(\sqrt[3]{2}\) is irrational number.</p>
+
+    <p>(2). \(\sqrt{3}\)</p>
+
+    <p>Assume \(\sqrt{3}\) is rational:</p>
+
+\[\sqrt{3} = \frac{p}{q} \quad \text{gcd}(p, q) = 1\]
+
+\[\begin{aligned}
+ 3 = \frac{p^2}{q^2} \Rightarrow 3q^2 = p^2
+ \end{aligned}\]
+
+    <p>Based on the lemma, p divdes ab, therefore p divides a or b. since \(\text{gcd}(p, q) = 1\), Therefore</p>
+
+\[3 \left| p^2 \Rightarrow 3\right|p\]
+
+    <p>therefore can be denoted as 3k</p>
+
+\[3q^2 = (3k)^2\]
+
+\[q^2 = 3k^2 \quad \Rightarrow 3\left|q^2 \Rightarrow 3\right|q, \quad \text{which contradicting gcd}(p, q) = 1.\]
+
+    <p>Therefore \(\sqrt{3}\) is irrational number.</p>
+
+    <p>(3). \(\sqrt{5}\)</p>
+
+    <p>Assume \(\sqrt{5}\) is rational:</p>
+
+\[\sqrt{5} = \frac{p}{q} \quad \text{gcd}(p, q) = 1\]
+
+\[\begin{aligned}
+ 5 = \frac{p^2}{q^2} \Rightarrow 5q^2 = p^2
+ \end{aligned}\]
+
+    <p>Based on the lemma, p divdes ab, therefore p divides a or b. since \(\text{gcd}(p, q) = 1\), Therefore</p>
+
+\[5 \left| p^2 \Rightarrow 3\right|p\]
+
+    <p>therefore can be denoted as 3k</p>
+
+\[5q^2 = (5k)^2\]
+
+\[q^2 = 5k^2 \quad \Rightarrow 5\left|q^2 \Rightarrow 5\right|q, \quad \text{which contradicting gcd}(p, q) = 1.\]
+
+    <p>Therefore \(\sqrt{5}\) is irrational number.</p>
+
+    <p>(4). \(\sqrt[3]{3}\)</p>
+
+    <p>Assume \(\sqrt[3]{3}\) is rational:</p>
+
+\[\sqrt[3]{3} = \frac{p}{q} \quad \text{gcd}(p, q) = 1\]
+
+\[\begin{aligned}
+ 3 = \frac{p^3}{q^3} \Rightarrow 3q^3 = p^3
+ \end{aligned}\]
+
+    <p>Based on the lemma, p divdes ab, therefore p divides a or b. since \(\text{gcd}(p, q) = 1\), Therefore</p>
+
+\[3 \left| p^3 \Rightarrow 2\right|p\]
+
+    <p>therefore p can be denoted as 3k</p>
+
+\[3q^3 = (3k)^3\]
+
+\[q^3 = 9k^3 \quad \Rightarrow 9\left|q^2 \Rightarrow 9\right|q\]
+
+    <p>if a number can divides 9, it can also divdes 3, which contradicting with \(\text{gcd}(p,d)=1\).</p>
+
+    <p>Therefore \(\sqrt[3]{3}\) is irrational number.</p>
   </li>
   <li>
-    <p>Prove that \(\sqrt{2} + \sqrt{3}\) and \(\sqrt{2} + \sqrt{5}\) are not rational. (Hint: If e.g. the first of these numbers were equal to a rational number ( r ), then, writing \(\sqrt{3} = r - \sqrt{2}\) and squaring, \(\sqrt{2}\) would be rational.)</p>
+    <p>Prove that \(\sqrt{2} + \sqrt{3}\) and \(\sqrt{2} + \sqrt[3]{2}\) are not rational. (Hint: If e.g. the first of these numbers were equal to a rational number ( r ), then, writing \(\sqrt{3} = r - \sqrt{2}\) and squaring, \(\sqrt{2}\) would be rational.)</p>
+
+    <p>(1). \(\sqrt{2} + \sqrt{3}\)
+ If \(r = \sqrt{2} + \sqrt{3}\) is rational:</p>
+
+\[\sqrt{3} = r - \sqrt{2}, \quad \sqrt{3} \quad \text{is irrational}.\]
+
+    <p>squaring both side, we have</p>
+
+\[\begin{aligned}
+ 3 &amp;= (r - \sqrt{2})^2 \\
+ 3 &amp;= r^2 - 2r\sqrt{2} + 2 \\
+ 1 &amp;= r^2 - r\sqrt{2} \\
+ 1 &amp;= r(r - 2\sqrt{2})
+ \end{aligned}\]
+
+    <p>1 is rational number, and we assume r is rational number, by subtracting an irrational number, it is impossible to gain 1. Therefore it contradicts the assumption, r should be irrational.</p>
+
+    <p>(2). \(\sqrt{2} + \sqrt[3]{2}\)</p>
+
+    <p>If \(\sqrt{2} + \sqrt[3]{2}\) is rational:</p>
   </li>
   <li>
     <p>Prove that \(\sqrt{2} + \sqrt{3} + \sqrt{5}\) is irrational. Try to make up similar and more general examples.</p>
+
+    <p>If \(\sqrt{2} + \sqrt{3} + \sqrt{5}\) is rational,</p>
+
+\[\begin{aligned}
+ r = \sqrt{2} + \sqrt{3} + \sqrt{5}
+ (r - \sqrt{5}) &amp;= \sqrt{2} + \sqrt{3} \\
+ (r - \sqrt{5})^2 &amp;= (\sqrt{2} + \sqrt{3})^2 \\
+ r^2 - 2r\sqrt{5} + 5 &amp;= 2 + 2\sqrt{6} + 3 \\
+ r^2 &amp;= 2\sqrt{6} + 2\sqrt{5}r \\
+ 2\sqrt{6} &amp;= r^2 - 2\sqrt{5}r \\
+ 24 &amp;= r^4 - 6\sqrt{5}r^3 + 20r^2 \\
+ \end{aligned}\]
+
+    <p>24 is rational, but it contains \(6(\sqrt{5})\) on the right side, this is absurdly impossible.</p>
+
+    <p>Therefore, \(\sqrt{2} + \sqrt{3} + \sqrt{5}\) is irrational.</p>
+  </li>
+  <li>
+    <p>Calculate \(\sqrt[3]{2}\) and \(\sqrt[3]{5}\) with an accuracy of at least \(10^{-2}\)</p>
+
+    <p>By appling Newton’s Method</p>
+
+\[\begin{aligned}
+ x &amp;= \sqrt[3]{2} \\
+ x^3 &amp;= 2 \\
+ \end{aligned}\]
+
+\[f(x) = x^3 - 2\]
+
+\[x_1 = x_0 - \frac{f(x_0)}{f'(x_0)}= 1 - \frac{1^3 - 2}{3\cdot 1^2} = 1.33\]
+
+\[x_2 = x_1 - \frac{f(x_1)}{f'(x_1)}= 1.33 - \frac{1.33 - 2}{3\cdot (1.33)^2} \approx 1.26\]
+
+    <p>By using Interval (binary search).</p>
+
+\[a &lt; \sqrt[3]{5} &lt; b, \quad a = 1, \quad b = 2\]
+
+\[c = \frac{a+b}{2} = 1.5\]
+
+\[(1.5)^3 &lt; 5\]
+
+    <p>Therefore it should be inside interval \(1.5 \sim 2\)</p>
+
+\[\frac{1.5 + 2}{2} = 1.75\]
+
+\[(1.75)^3 = 5.3579 &gt; 5\]
+
+    <p>Therefore it should be inside interval \(1.5 \sim 1.75\)</p>
+
+\[1.75 + 1.5 = 1.625\]
+
+\[(1.625)^3 \approx 4.29 &lt; 5\]
+
+    <p>Therefore it should be inside interval \(1.625 \sim 1.75\)</p>
+
+\[(\frac{1.625 + 1.75}{2})^3 \approx 4.80 &lt; 5\]
+
+\[\therefore \text{between } 1.625 \text{ and } 1.75\]
   </li>
 </ol>
+
 
     </div>
   </article>
