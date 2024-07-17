@@ -4,17 +4,16 @@ layout: post
 title: "What is Mathematics: Solution Chapter 1"
 date: "2024-01-29"
 categories: 
-  - "general science"
+  - "math"
 toc:
   sidebar: true
 ---
 
-### Before the solutions :) 
-The solution presented on the blog is my personal solutions for the exercises in the book 'What is Mathematics: An Elementary Approach To Ideas And Methods' by Herbert Robbins and Richard Courant,  please leave a comment if you spot any mistakes in the solution or calculations. Thanks in advance! 
+## Before the solutions :) 
+The solution presented on the blog is my personal solutions for the exercises in the book 'What is Mathematics: An Elementary Approach To Ideas And Methods' by Herbert Robbins and Richard Courant,  please leave a comment if you spot any mistakes or you have questions on the solution. Thanks in advance! 
 
-## Chapter 1: The Natural Numbers 
 
-### 1. Calculation with Integers 
+## Calculation with Integers 
 1. Set up the addition and multiplication tables in the duodecimal system and work some examples of the same sort.
 
     The duodecimal system (also known as base 12 or dozenal) is the number system with a base of twelve.
@@ -272,7 +271,7 @@ The solution presented on the blog is my personal solutions for the exercises in
 
     This shows that 4 uses the fewest words.
 
-### 2. The Infinite of number system, mathematical induction.
+## The Infinite of number system, mathematical induction.
 
 Exercise: Prove by mathematical induction
 
@@ -550,7 +549,7 @@ Using formulas (4) and (5) in the book to prove:
     Q.E.D.
 
 
-    To prove $$1^2+3^2+\cdots+(2 n+1)^2=(n+1)^2\left(2 n^2+4 n+1\right)$$.
+    To prove $$1^3+3^3+\cdots+(2 n+1)^3=(n+1)^2\left(2 n^2+4 n+1\right)$$.
 
     Base Case: 
 
@@ -560,24 +559,65 @@ Using formulas (4) and (5) in the book to prove:
 
     Assume $$S_n$$ holds
 
+    We need to show that the statement holds for n+1 That is, we need to prove:
     $$
-    S_n = (n+1)^2 (2n^2 + 4n + 1)
+    1^3 + 3^3 + \cdots + (2n+1)^3 + (2(n+1)+1)^3 = ((n+1)+1)^2 (2(n+1)^2 + 4(n+1) + 1)
     $$
 
-    For $$S_{n+1}$$
+    Simplify the left hand we have 
+
+    $$
+    (n+1)^2 (2n^2 + 4n + 1) + (2n + 3)^3
+    $$
+
+    So we need to show:
+    $$
+    (n+1)^2 (2n^2 + 4k + 1) + (2n + 3)^3 = (n+2)^2 (2(n+1)^2 + 4(n+1) + 1)
+    $$
+
+    Expand it and we can get: 
 
     $$
     \begin{aligned}
-    S_{n+1} &= (n+1)^2 (2n^2 + 4n + 1) + (2n+1)^3 \\
-    &= (n+1)^2 (2n^2 + 4n + 1) + (2n+1)^3\\
-    &= (2n^4 + 8n^3 + 12n^2 + 6n + 1)\\
-    &= 2n^4 + 8n^3 + 11n^2 + 6n + 1 + (8n^3 + 12n^2 + 6n + 1)\\
-    &= 2n^4 + 16n^3 + 23n^2 + 12n + 1\\
-    &= \frac{2n^4 + 16n^3 + 23n^2 + 12n + 1}{n^2 + 4n + 4}\\
+    2(n+1)^2 + 4(n+1) + 1 &= 2(n^2 + 2n + 1) + 4n + 4 + 1 \\
+                          &= 2n^2 + 4n + 2 + 4n + 4 + 1 = 2n^2 + 8n + 7 \\
     \end{aligned}
     $$
 
-### 3. The prime numbers 
+    Then,
+
+    $$
+    \begin{aligned}
+    S_{n+1} &=(n+2)^2 (2n^2 + 8n + 7) \\
+    &= (n^2 + 4n + 4)(2n^2 + 8n + 7) \\
+    &= n^2(2n^2 + 8n + 7) + 4n(2n^2 + 8n + 7) + 4(2n^2 + 8n + 7) \\
+    &= 2n^4 + 8n^3 + 7n^2 + 8n^3 + 32n^2 + 28n + 8n^2 + 32n + 28 \\
+    &= 2n^4 + 16n^3 + 47n^2 + 60n + 28 \\
+    \end{aligned}
+
+    $$
+
+    Now, let's expand the left-hand side:
+    $$
+    \begin{aligned}
+        S_{n+1} &=(n+1)^2(2n^2 + 4n + 1) + (2n+3)^3 \\
+        &= (n^2 + 2n + 1)(2n^2 + 4n + 1) + (2n + 3)^3 \\
+        &= 2n^4 + 4n^3 + n^2 + 4n^3 + 8n^2 + 2n + 2n^2 + 4n + 1 + (2n+3)^3 \\
+        &= 2n^4 + 8n^3 + 11n^2 + 6n + 1 + (8n^3 + 36n^2 + 54n + 27) \\
+        &= 2n^4 + 16n^3 + 47n^2 + 60n + 28 \\
+    \end{aligned}
+    $$
+
+    Both sides are equal, so the inductive step holds.
+
+    By mathematical induction, the statement is proven:
+
+    $$
+        1^3 + 3^3 + \cdots + (2n+1)^3 = (n+1)^2 (2n^2 + 4n + 1)
+    $$
+
+
+## The prime numbers 
 1. Exercise: Carry out this construction starting with $$p_1 = 2$$, $$p_2$$= 3 and find 5 more primes
     The construction of proving that prime numbers are infinite is as followed: 
     
@@ -675,7 +715,7 @@ Using formulas (4) and (5) in the book to prove:
 
     Related proof:  [Dirichlet's theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions). if gcd(a, b) = 1 in the progression $$an+b$$, then there are infinite number of prime numbers inside. 
 
-### 4. Congruences 
+## Congruences 
 0. Find a similar rule for divisibility by 13.
 
     For congruences modulo 13 we have: 
@@ -900,7 +940,7 @@ Using formulas (4) and (5) in the book to prove:
     Q.E.D.
 
 
-### 5. Pythegorean Numbers and Fermat's Last Theorem 
+## Pythagorean Numbers and Fermat's Last Theorem 
 
 1. $$6^2 = 36 \equiv 13 \pmod{23}$$. Is 23 a quadratic residue (mod 13)?
 
@@ -964,7 +1004,7 @@ Using formulas (4) and (5) in the book to prove:
         (x-y)(x+y) \equiv 0 \pmod{p}
     $$ 
 
-    since p is a prime, it must devide either $$x-y \equiv 0$$ where $$\abs{x-y} < p-2 < p$$ or $$x+y \equiv 0$$ where 
+    since p is a prime, it must devide either $$x-y \equiv 0$$ where $$\left|x-y\right| < p-2 < p$$ or $$x+y \equiv 0$$ where 
     
     $$2 \leq x+y < 2p$$.
 
@@ -976,7 +1016,7 @@ Using formulas (4) and (5) in the book to prove:
 
     which leads to $$y = p-x$$. 
 
-    Q.E.D
+    Q.E.D.
 
 3. Prove the last statement. Page 41.
 
@@ -1014,7 +1054,7 @@ Using formulas (4) and (5) in the book to prove:
     and it satisfied $$a^2 + b^2 = c^2$$.
 
 
-### 6. The Euclidean Algorithm 
+## The Euclidean Algorithm 
 1. Carry out the Euclidean algorithm for finding the greatest common divisor of (a) 187, 77. (b) 105, 385. (c) 245, 193.
     
     $$
@@ -1075,7 +1115,7 @@ Using formulas (4) and (5) in the book to prove:
 
     By the principle of mathematical induction, the statement is true for all integers $$n \geq 2$$.
 
-    Q.E.D
+    Q.E.D.
 
 
 3. Exercise: Prove the theorem: If an integer r divides a product ab and is relatively prime to a,  then r must divide b. 
@@ -1103,7 +1143,7 @@ Using formulas (4) and (5) in the book to prove:
 
     from which it is evident that r divides b.
 
-    Q.E.D
+    Q.E.D.
 
 4.  Using Euler's $$\phi$$ function, generalize Fermat's theorem of page 37. The general theorem states: If n is any integer, and a is relatively prime to n, then
 
@@ -1111,13 +1151,130 @@ Using formulas (4) and (5) in the book to prove:
     a^{\phi(n)} \equiv 1 \ (\text{mod } n).
     $$
 
-    
+    To generalize Fermat's theorem, first consider the multiplies (set A) the number of intergers $$\phi{n}$$ with n, the
+    multiplies (or the modulo n if it is larger than n) are again belongs to $$\phi(n)$$.
+
+    $$
+         \{m_1 = a \cdot A_1 , m_2 = a \cdot A_2 , \cdots m_{A_{\phi{(n)}}}\}
+    $$
+
+    Since a is coprime to n, $$gcd(n, a)=1$$
+
+    $$
+         \{A_1 \equiv a \cdot A_1 \pmod{n}, A_2 \equiv a \cdot A_2 \pmod{n}, \cdots... A_i \equiv a \cdot A_i \cdot \phi{(n)}\pmod{n}\}
+    $$
+
+    Therefore, the products of the elements of the two sets are congruent modulo n, we have 
+
+    $$
+         \{A_1 \cdot A_2 \cdots A_n \equiv A_1 \pmod{n}, A_2 \equiv a \cdot A_2 \pmod{n}, \cdots... A_i \equiv a \cdot A_i \cdot \phi{(n)}\pmod{n}\}
+    $$
+
+    Using cancellation rule we can have 
+
+    $$
+    a^{\phi(n)} \equiv 1 \ (\text{mod } n).
+    $$
+
+    Q.E.D.
 
 5. Exercise: Find the continued fraction developments of
+
     $$
     \frac{2}{5}, \quad \frac{43}{30}, \quad \frac{169}{70}.
     $$
 
-5. Examples: The equation 3x 4*6y ” 22 has no integral solution, since (3, 6) = 3, which does not divide 22
+    By applying the same procedure in the book page 49, we can have 
 
-6. Solve the Diophantine equations (a) 3x — \y = 29. (b)llx 4* 12 y = 58. (c) 153s - 34 y = 51,
+    $$\frac{2}{5} = 0+\frac{1}{2+\frac{1}{2}}$$
+
+    $$\frac{43}{30} = 1+\frac{1}{2+\frac{1}{3+\frac{1}{4}}}$$
+
+    $$\frac{169}{70} =2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2+\frac{1}{2}}}}}$$
+
+6. Solve the Diophantine equations $$(a) 3x — 4y = 29. (b)3 - 4y = 58. (c) 11x - 12 y = 51$$.
+
+
+    $$
+    (a). 3x - 4y = 29
+    $$
+
+    $$
+    \gcd(3, 4) = 1 \quad \text{it has integer solutions}
+    $$
+
+    $$
+    \begin{aligned}
+        4 - 3 &= 1 \\
+        3(-1) - 4(-1) &= 1 \\
+    \end{aligned}
+    $$
+
+    And we can have 
+
+    $$
+        3(-29) - 4(-29) = 29
+    $$
+
+    Based on tge general solution of linear diophantinue equation we can have 
+
+    $$
+        \begin{aligned}
+        x &= -29 + 4k \\
+        y &= -29 + 3k \\
+        \end{aligned}
+    $$
+
+
+    $$
+    (b). 11x + 12y = 58
+    $$
+
+    $$
+    \gcd(11, 12) = 1
+    $$
+
+    $$
+    11(-1) + 12(1) = 1
+    $$
+
+    $$
+    11(-58) + 12(58) = 58
+    $$
+
+    Based on tge general solution of linear diophantinue equation we can have 
+
+    $$
+    \begin{aligned}
+    x &= -58 + 12k \\
+    y &= 58 - 11k \\
+    \end{aligned}
+    $$
+
+    $$
+    (c). 153x - 34y = 51
+    $$
+
+    $$
+    \gcd(153, 34) = 17
+    $$
+
+    $$
+    153 + 4 \times 34(1) = 17
+    $$
+
+    $$
+    153(3) + 4 \times 34(3) = 51
+    $$
+
+    Based on tge general solution of linear diophantinue equation we can have 
+
+    $$
+    \begin{aligned}
+    x &= 3 + 2k \\
+    y &= 12 + 9k \\
+    \end{aligned}
+    $$
+
+
+    
