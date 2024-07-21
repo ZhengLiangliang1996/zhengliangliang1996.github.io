@@ -19,8 +19,19 @@ $$
 $$
 (with $$ n $$ square roots) converges to 2 as $$ n \rightarrow \infty $$.
 
+    $$
+    \begin{align*}
+    x &= \sqrt{2 + \sqrt{2 + \sqrt{2 + \cdots}}} \\
+    x^2 &= 2 + \sqrt{2 + \sqrt{2 + \sqrt{2 + \cdots}}} \\
+    x^2 &= 2 + x
+    \end{align*}
+    $$
+
+    And we can get x = 2.
+
 
 2. Show that every field contains all the rational numbers at least. (Hint: If $$a \neq 0$$ is a number in the field $$F$$ , then $$a/a = 1$$ belongs to F , and from 1 we can obtain any rational number by rational operations.)
+
 
 
 3. Ex: From $$p=1+\sqrt{2}, q=2-\sqrt{2}, r=-3+\sqrt{2}$$ obtain the numbers
@@ -29,60 +40,82 @@ $$
 $$
 in the form $$a+b\sqrt{2}$$.
 
+
     $$
-    \frac{p}{q} = \frac{1+\sqrt{2}}{2-\sqrt{2}} = \frac{(1+\sqrt{2})(2+\sqrt{2})}{(2-\sqrt{2})(2+\sqrt{2})} = \frac{2+2\sqrt{2}+\sqrt{2}+2}{4-2} = \frac{4+3\sqrt{2}}{2} = 2 + \frac{3\sqrt{2}}{2}
+    \begin{aligned}
+    \frac{p}{q} &= \frac{1+\sqrt{2}}{2-\sqrt{2}} \\
+    &= \frac{(1+\sqrt{2})(2+\sqrt{2})}{(2-\sqrt{2})(2+\sqrt{2})} \\
+    &= \frac{2+2\sqrt{2}+\sqrt{2}+2}{4-2} \\
+    &= \frac{4+3\sqrt{2}}{2} \\
+    &= 2 + \frac{3\sqrt{2}}{2}
+    \end{aligned}
+    $$
+
+
+    $$
+    \begin{aligned}
+    p + p^2 &= (1+\sqrt{2}) + (1+\sqrt{2})^2 \\ 
+    &= (1+\sqrt{2} + 1 + 2\sqrt{2} + 2) \\
+    &= 4 + 3\sqrt{2}
+    \end{aligned}
+    $$
+
+
+    $$
+    \begin{aligned}
+    (p-p^2)\frac{q}{r} &= \left[(1+\sqrt{2}) - (1+\sqrt{2})^2\right]\frac{2-\sqrt{2}}{-3+\sqrt{2}} \\
+    &= \left[1+\sqrt{2} - (1+2\sqrt{2} + 2)\right]\frac{(2-\sqrt{2})(\sqrt{2}+3)}{(-3+\sqrt{2})(\sqrt{2}+3)} \\
+    &= \left[-2-\sqrt{2}\right]\frac{2\sqrt{2}+6-2+3\sqrt{2}}{2-9} \\
+    &= \left[-2-\sqrt{2}\right]\frac{4-\sqrt{2}}{-7} \\
+    &= \frac{6}{7} + \frac{2\sqrt{2}}{7}
+    \end{aligned}
     $$
 
     $$
-    p + p^2 = (1+\sqrt{2}) + (1+\sqrt{2})^2 = (1+\sqrt{2} + 1 + 2\sqrt{2} + 2) = 4 + 3\sqrt{2}
+    \begin{aligned}
+    \frac{pqr}{1+r^2} 
+    &= \frac{(1+\sqrt{2})(2-\sqrt{2})(-3+\sqrt{2})}{1+(-3+\sqrt{2})^2} \\
+    &= \frac{\sqrt{2}(-3+\sqrt{2})}{1+9-6\sqrt{2}+2} \\
+    &= \frac{2-3\sqrt{2}}{12-6\sqrt{2}} \\
+    &= \frac{(2-3\sqrt{2})(12+6\sqrt{2})}{(12-6\sqrt{2})(12+6\sqrt{2})} \\
+    &= \frac{24+12\sqrt{2}-36\sqrt{2}-36}{144-72} \\
+    &= \frac{-12-24\sqrt{2}}{72} \\
+    &= -\frac{1}{6}-\frac{1}{3}\sqrt{2} \\ 
+    \end{aligned}
     $$
 
     $$
-    (p-p^2)\frac{q}{r} = \left[(1+\sqrt{2}) - (1+\sqrt{2})^2\right]\frac{2-\sqrt{2}}{-3+\sqrt{2}}
-    $$
-
-    $$
-    = \left[1+\sqrt{2} - (1+2\sqrt{2} + 2)\right]\frac{2-\sqrt{2}}{-3+\sqrt{2}} = \left[-2-\sqrt{2}\right]\frac{2-\sqrt{2}}{-3+\sqrt{2}}
-    $$
-
-    $$
-    = \frac{(-2-\sqrt{2})(2-\sqrt{2})}{(-3+\sqrt{2})^2} = \frac{(-2)(2) + (-2)(-\sqrt{2}) + (-\sqrt{2})(2) + (-\sqrt{2})(-\sqrt{2})}{9 - 6\sqrt{2} + 2} = \frac{-4 - 2\sqrt{2} - 2\sqrt{2} + 2}{-7}
-    $$
-
-    $$
-    = \frac{-4\sqrt{2}}{-7} = \frac{4\sqrt{2}}{7}
+    \begin{aligned}
+    \frac{p+qp}{q+pr^2} 
+    &= \frac{(1+\sqrt{2})+(2-\sqrt{2})(-3+\sqrt{2})}{(2-\sqrt{2})+(1+\sqrt{2})(-3+\sqrt{2})^2} \\
+    &= \frac{(1+\sqrt{2})+(-6+2\sqrt{2}+3\sqrt{2}-2)}{(2-\sqrt{2})+(1+\sqrt{2})(11-6\sqrt{2})} \\
+    &= \frac{-7+6\sqrt{2}}{(2-\sqrt{2})+(5\sqrt{2}-1)}\\
+    &= \frac{-7+6\sqrt{2}}{1+4\sqrt{2}} \\
+    &= \frac{(-7+6\sqrt{2})(1-4\sqrt{2})}{(1+4\sqrt{2})(1-4\sqrt{2})} \\
+    &= \frac{-7+28\sqrt{2}+6\sqrt{2}-48}{1-32} \\
+    &= \frac{-55+34\sqrt{2}}{-31} \\
+    &= \frac{55}{31}-\frac{34}{31}\sqrt{2}\\
+    \end{aligned}
     $$
 
 4.  Represent 
     $$
-    \frac{\sqrt{k}^3 \cdot \sqrt{1+\sqrt{k}} - \sqrt{k} \cdot \sqrt{1-\sqrt{k}}}{(\sqrt{k})^3 - 3}
+    (\sqrt{k})^3 , \frac{1+(\sqrt{k})^2}{1+\sqrt{k}} , \frac{\sqrt{2}\sqrt{k}+\frac{1}{\sqrt{2}}}{(\sqrt{k})^3-3}, \frac{(1+\sqrt{k})(2-\sqrt{k})(\sqrt{2}+\frac{1}{\sqrt{k}})}{1+\sqrt{2}k}
     $$
     in the form $$p+q\sqrt{k}$$.
 
     $$
-    \frac{\sqrt{k^3} \left( 1+\sqrt{k} - (1-\sqrt{k}) \right)}{(\sqrt{k})^3 - 3}
-    = \frac{\sqrt{k^3} \cdot 2\sqrt{k}}{\sqrt{k^3} - 3}
-    = \frac{2k^2 \sqrt{k}}{k^3 - 3}
-    = \frac{2 \sqrt{k^3}}{k^3 - 3}
-    = \frac{2 \sqrt{k}}{k - \frac{3}{k^2}}
-    = \frac{2 \sqrt{k}}{k - \frac{3}{k^2}}
-    = \frac{2 \sqrt{k}}{k - \frac{3}{k^2}}
-    = \frac{2 \sqrt{k}}{k - \frac{3}{k^2}}
+    (\sqrt{k})^3 = k\sqrt{k}
+    $$
+
+    $$
+    \begin{aligned}
+    \frac{1+(\sqrt{k})^2}{1+\sqrt{k}} &= 
+    \end{aligned}
     $$
 
 5. If two segments of lengths $l$ and $a$ are given, give actual constructions for $$1 + a + a^2$$, $$1 + a + a^2 + a^3$$, $$(1+a)^2$$, and $$(1-a)^2$$, $$a^3$$.
 
-    <script type="text/tikz">
-    \begin{tikzpicture}
-        \draw[thick] (0,0) node[left] {$O$} -- (4,0) node[right] {$A$} -- (3,2) node[above] {$B$} -- cycle;
-        \draw[dashed] (0,0) -- (2.5,1) node[above] {$D$} -- (4,0);
-        \node at (2.5,1) {$a$};
-        \node at (3.5,1) {$1$};
-        \node at (1.25,0.5) {$a$};
-    \end{tikzpicture}
-    </script>
   
-
-
 ## Constructible Number and Number Fields 
 
