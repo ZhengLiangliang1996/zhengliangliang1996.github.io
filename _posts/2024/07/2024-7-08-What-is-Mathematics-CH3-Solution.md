@@ -110,9 +110,29 @@ in the form $$a+b\sqrt{2}$$.
 
     $$
     \begin{aligned}
-    \frac{1+(\sqrt{k})^2}{1+\sqrt{k}} &= 
+    \frac{1+(\sqrt{k})^2}{1+\sqrt{k}} &= \frac{(1+k)(1-\sqrt{k})}{(1+\sqrt{k})(1-\sqrt{k})} \\
+    &= \frac{1+\sqrt{k}+k-k\sqrt{k}}{1-k}  \\
+    &= \frac{1+k}{1-k} - \frac{1+k}{1-k}\sqrt{k}
     \end{aligned}
     $$
+
+    $$
+    \begin{aligned}
+    \frac{\sqrt{2}\sqrt{k}+\frac{1}{\sqrt{2}}}{(\sqrt{k})^3-3} &= \frac{(\sqrt{2}\sqrt{k} + \frac{\sqrt{2}}{2})(k \sqrt{k} + 3)}{(k \sqrt{k} - 3)(k \sqrt{k} + 3)} \\
+    &= \frac{k^2\sqrt{2} + 3\sqrt{2} \sqrt{k} + \frac{\sqrt{2}}{2} k \sqrt{k} + 2 \frac{\sqrt{2}}{2}}{k^3 - 9} \\
+    &= \frac{k^2\sqrt{2}}{k^3 - 9} +  \frac{3\sqrt{2} + \frac{\sqrt{2}}{2} k}{k^3 - 9}\sqrt{k}
+    \end{aligned}
+    $$
+
+    $$
+    \begin{aligned}
+    \frac{(1+\sqrt{k})(2-\sqrt{k})(\sqrt{2}+\frac{1}{\sqrt{k}})}{1+\sqrt{2}k} &= \frac{(2 - \sqrt{k}+ \sqrt{2k} - \sqrt{k})(\sqrt{2} + \frac{1}{\sqrt{k}})}{1 + \sqrt{2k}} \\
+    &= \frac{2 \sqrt{2} + \frac{2 \sqrt{k}}{k}  + 2 \sqrt{k} - 1 + 2\sqrt{k} + \sqrt{2} - \sqrt{2}k - \sqrt{k}}{1 + \sqrt{2k}} \\
+    &= \frac{2 \sqrt{2} + \sqrt{k} - \sqrt{2}k - 1}{1 + \sqrt{2}k} + \frac{\frac{2}{k}-\sqrt{2}+1}{1+\sqrt{2}k}\sqrt{k}
+
+    \end{aligned}
+    $$
+
 
 5. If two segments of lengths $l$ and $a$ are given, give actual constructions for $$1 + a + a^2$$, $$1 + a + a^2 + a^3$$, $$(1+a)^2$$, and $$(1-a)^2$$, $$a^3$$.
 
