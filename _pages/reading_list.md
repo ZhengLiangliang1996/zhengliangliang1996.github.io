@@ -12,6 +12,7 @@ toc:
 - **[🔗 CS Complete Self Learning](https://csdiy.wiki/en/)**
 
 ## 🔗 Machine Learning & Deep Learning
+  - **[🔗 Machine Learning 50 to read paper](https://www.latent.space/p/2025-papers)**
 
 ## 🔗 Math
 ### 🔗 
