@@ -52,7 +52,9 @@ toc:
 - **[🎥 粉雪／レミオロメン（Cover）](https://www.youtube.com/watch?v=HJg7WkOHxMs&list=LL&index=31)**
 - **[🎥 Motion Picture Soundtrack - In Memory of Mackenzie May](https://www.youtube.com/watch?v=ZeI0PXj7LIw&list=LL&index=70)**
 - **[🎥 House Of Cards - Radiohead Acoustic Cover](https://www.youtube.com/watch?v=keYUJfGn1EI&list=LL&index=82)**
-
+- **[🎥 Pogorelich: Chopin Sonata No.2 (live from Chopin Competition)](https://www.youtube.com/watch?v=V0GVaJq_CTM&t=279s)**
+- **[🎥 Yuja Wang: Chopin Piano Sonata No. 2 in B-flat minor Op. 35 'Funeral March'](https://www.youtube.com/watch?v=KUQX-eAOWw0&t=51s)**
+- **[🎥 Yuja Wang Rhapsody on a theme by Paganini (Rachmaninoff)](https://www.youtube.com/watch?v=93YckYs2nU0)**
 
 
 ### 🔗 Recipes  
