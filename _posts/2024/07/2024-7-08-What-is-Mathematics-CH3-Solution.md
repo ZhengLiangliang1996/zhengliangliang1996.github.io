@@ -151,6 +151,132 @@ in the form $$a+b\sqrt{2}$$.
 
     5.3: To construct $$\alpha^3$$, construct $$\alpha^2$$ by using the step in 5.1 and then construct $$\alpha^3$$ by using the same way using triangle similarity $$\triangle OCD \sim \triangle OAB$$.
 
+6.  The lines $$x + \sqrt{2}y - 1 = 0$$, $$2x - y + \sqrt{2} = 0$$, have coefficients in the field $$ a + b\sqrt{2} $$.
+Calculate the coordinates of their point of intersection, and verify that these have the form $$ a + b\sqrt{2} $$. Join points $$(1, \sqrt{2})$$ and $$(\sqrt{2}, 1 - \sqrt{2})$$ by a line $$ ax + by + c = 0 $$, and verify that the coefficients are of the form $$ a + b\sqrt{2} $$. Same with respect to field $$ p + q\sqrt{k} $$ for the lines $$ \sqrt{(1+\sqrt{2})x} + \sqrt{2} y = 1 $$, $$(1+\sqrt{2})x - y = 1 - \sqrt{1+\sqrt{2}} $$, and the points $$ (\sqrt{2}, -1) $$, $$(1+\sqrt{2}, \sqrt{1+\sqrt{2}})$$ respectively.
+
+    To find intersection:
+    
+    $$
+      \begin{cases}
+          x + \sqrt{2}y - 1 &= 0 \\
+          2x - y + \sqrt{2} &= 0
+      \end{cases}
+    $$
+    
+      Easily get:
+
+    $$
+      \begin{cases}
+          x &= \frac{7}{7} - \frac{3}{7} \sqrt{2} \\
+          y &= \frac{2}{7} + \frac{3}{7} \sqrt{2}
+      \end{cases}
+    $$
+
+    And they are both in the filed of $$ a + b\sqrt{2} $$.
+      
+    Join 2 points $$(1, \sqrt{2})$$ and $$(\sqrt{2}, 1-\sqrt{2})$$, The line is $$ ax + b = y $$. Then we can have: 
+
+    $$
+      \begin{cases}
+          a + b &= \sqrt{2} \\
+          \sqrt{2} a + b &= 1 - \sqrt{2}
+      \end{cases}
+    $$
+
+    Easily get:
+
+    $$
+      \begin{align*}
+          a &= -3 + \sqrt{2} \\
+          b &= 3 + \sqrt{2}
+      \end{align*}
+    $$
+    
+    And they are both in the form of $$ a + b\sqrt{2} $$.
+      
+    To find intersection of:
+
+    $$
+      \begin{cases}
+          (1 + \sqrt{2})x + \sqrt{2} y &= 1 \\
+          (1 + \sqrt{2})x - y &= 1 - (1 + \sqrt{2})
+      \end{cases}
+    $$
+
+    Say $$k=1+\sqrt{2}$$
+
+    $$
+      \begin{cases}
+          \sqrt{(k-1)x+1} + \sqrt{2}y &= 1 \\
+          kx-y&=1-\sqrt{k}
+      \end{cases}
+    $$
+
+      Then we can get 
+
+    $$
+      \begin{cases}
+          x &= \\
+          y &= 
+      \end{cases}
+    $$
+
+    Which are in the form of $$p+q\sqrt{k}$$
+
+    Join $$(\sqrt{2}, -1)$$, $$(1+\sqrt{2}, \sqrt{1+\sqrt{2}})$$, with $$ k = 1+\sqrt{2} $$:
+
+    $$
+      \begin{cases}
+          \sqrt{2} a + b &= -1 \\
+          k a + b &= \sqrt{2} k
+      \end{cases}
+    $$
+
+      Say $$ k=1+\sqrt{2}$$ Easily get:
+
+    $$
+      \begin{cases}
+          a &= \frac{-1 - \sqrt{k}}{\sqrt{2} - k} \\
+          b &= \frac{-1  \sqrt{k}}{\sqrt{2} - k}\sqrt{2}+1
+      \end{cases}
+    $$
+
+      which is of the form $$ p + q\sqrt{k} $$.
+
+
+7.  Let $$F$$ be the field $$ p + q\sqrt{2} + \sqrt{2}$$, where p and q are of the form $$ a + b\sqrt{2}$$, a, b rational. Represent $$\frac{1 + \sqrt{2 + \sqrt{2}}}{2 - 3\sqrt{2 + \sqrt{2}}}$$ in this form.
+
+
+    Say $$ k = 2 + \sqrt{2} $$, we can get:
+
+    $$
+    \frac{1 + \sqrt{k}}{2 - 3k}
+    $$
+
+    Rewriting:
+
+    $$
+    \frac{(1 + \sqrt{k})}{(2 - 3\sqrt{k})}
+    $$
+
+    Multiplying numerator and denominator by $$ (2 + 3\sqrt{k}) $$:
+
+    $$
+    \frac{(1 + \sqrt{k})(2 + 3\sqrt{k})}{(2 - 3\sqrt{k})(2 + 3\sqrt{k})}
+    $$
+
+    Expanding:
+
+    $$
+    \frac{2 + 5\sqrt{k} + 3k}{4 - 9k}
+    $$
+
+    $$
+    = \frac{2 + 3k}{4 - 9k} + \frac{5}{4 - 9k} \cdot \sqrt{k}
+    $$
+
+    Therefore it is the form of field $$p+q\sqrt{2+\sqrt{2}}$$
+
 
 
 
