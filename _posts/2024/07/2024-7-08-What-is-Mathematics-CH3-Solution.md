@@ -1,5 +1,6 @@
 ---
 giscus_comments: true
+tikzjax: true
 layout: post
 title: "What is Mathematics: Solution Chapter 3"
 date: "2024-07-08"
@@ -134,8 +135,24 @@ in the form $$a+b\sqrt{2}$$.
     $$
 
 
-5. If two segments of lengths $l$ and $a$ are given, give actual constructions for $$1 + a + a^2$$, $$1 + a + a^2 + a^3$$, $$(1+a)^2$$, and $$(1-a)^2$$, $$a^3$$.
+5. If two segments of lengths $$1$$ and $$a$$ are given, give actual constructions for $$1 + \alpha + \alpha^2$$, $$(1+\alpha)/(1-\alpha)$$, $$\alpha^3$$.
 
-  
+    5.1: To construct $$1 + a + a^2$$, first let's assume $$\alpha>1$$ first construct 1 as OA, then extend from A to B with length $$\alpha$$, therefore we have $$1+\alpha$$.
+
+    the next is to construct $$\alpha^2$$. We first construct a right triangle OCD, where angle OCD is right angle, OC is 1, and OD is $$\alpha$$, and then extend OC to OA, the length of OA is $$\alpha$$, then construct a line from A that is perpendicular to OA, exten OD and the line will intersect with previouly contsructed line on point B. then obviously we have $$\triangle OCD \sim \triangle OAB$$.
+          
+    Therefore we can eaisly have the ratio equation that is $$\frac{OC}{OA}=\frac{OD}{OB}$$, where we can see OB is $$\alpha^2$$, using compass we then can construct another extension on the basis of $$1+\alpha$$ and get $$1 + a + a^2$$.
+    
+    5.2: To construct $$(1+\alpha)/(1-\alpha)$$, first let's assume $$0<\alpha<1$$construct $$1+\alpha$$, using the same way as described in 5.1, and then construct $$1-\alpha$$ by constructing unit length 1 OA and OB with length $$\alpha$$, then we can get $$1-\alpha$$
+
+    Then we construct right triangle, first one side is $$OB=1+\alpha$$, and another side OA with length $$1-\alpha$$ which is perpendicular to AB, then we construct OC which is $$1$$, from point C construct a line CD that is parallel to CD. then we can get $$\triangle OAB \sim \triangle OCD$$.
+
+    Therefore we can eaisly have the ratio equation that is $$\frac{OD}{OB}=\frac{OC}{OA}$$, which we can gete $$\frac{OD}{1+\alpha}=\frac{1}{1-\alpha}$$, then we can get OD is $$(1+\alpha)/(1-\alpha)$$.
+
+    5.3: To construct $$\alpha^3$$, construct $$\alpha^2$$ by using the step in 5.1 and then construct $$\alpha^3$$ by using the same way using triangle similarity $$\triangle OCD \sim \triangle OAB$$.
+
+
+
+
 ## Constructible Number and Number Fields 
 
