@@ -137,19 +137,19 @@ in the form $$a+b\sqrt{2}$$.
 
 5. If two segments of lengths $$1$$ and $$a$$ are given, give actual constructions for $$1 + \alpha + \alpha^2$$, $$(1+\alpha)/(1-\alpha)$$, $$\alpha^3$$.
 
-    5.1: To construct $$1 + a + a^2$$, first let's assume $$\alpha>1$$ first construct 1 as OA, then extend from A to B with length $$\alpha$$, therefore we have $$1+\alpha$$.
+    $$5.1$$: To construct $$1 + a + a^2$$, first let's assume $$\alpha>1$$ first construct 1 as OA, then extend from A to B with length $$\alpha$$, therefore we have $$1+\alpha$$.
 
     the next is to construct $$\alpha^2$$. We first construct a right triangle OCD, where angle OCD is right angle, OC is 1, and OD is $$\alpha$$, and then extend OC to OA, the length of OA is $$\alpha$$, then construct a line from A that is perpendicular to OA, exten OD and the line will intersect with previouly contsructed line on point B. then obviously we have $$\triangle OCD \sim \triangle OAB$$.
           
     Therefore we can eaisly have the ratio equation that is $$\frac{OC}{OA}=\frac{OD}{OB}$$, where we can see OB is $$\alpha^2$$, using compass we then can construct another extension on the basis of $$1+\alpha$$ and get $$1 + a + a^2$$.
     
-    5.2: To construct $$(1+\alpha)/(1-\alpha)$$, first let's assume $$0<\alpha<1$$construct $$1+\alpha$$, using the same way as described in 5.1, and then construct $$1-\alpha$$ by constructing unit length 1 OA and OB with length $$\alpha$$, then we can get $$1-\alpha$$
+    $$5.2$$: To construct $$(1+\alpha)/(1-\alpha)$$, first let's assume $$0<\alpha<1$$construct $$1+\alpha$$, using the same way as described in 5.1, and then construct $$1-\alpha$$ by constructing unit length 1 OA and OB with length $$\alpha$$, then we can get $$1-\alpha$$
 
     Then we construct right triangle, first one side is $$OB=1+\alpha$$, and another side OA with length $$1-\alpha$$ which is perpendicular to AB, then we construct OC which is $$1$$, from point C construct a line CD that is parallel to CD. then we can get $$\triangle OAB \sim \triangle OCD$$.
 
     Therefore we can eaisly have the ratio equation that is $$\frac{OD}{OB}=\frac{OC}{OA}$$, which we can gete $$\frac{OD}{1+\alpha}=\frac{1}{1-\alpha}$$, then we can get OD is $$(1+\alpha)/(1-\alpha)$$.
 
-    5.3: To construct $$\alpha^3$$, construct $$\alpha^2$$ by using the step in 5.1 and then construct $$\alpha^3$$ by using the same way using triangle similarity $$\triangle OCD \sim \triangle OAB$$.
+    $$5.3$$: To construct $$\alpha^3$$, construct $$\alpha^2$$ by using the step in 5.1 and then construct $$\alpha^3$$ by using the same way using triangle similarity $$\triangle OCD \sim \triangle OAB$$.
 
 6.  The lines $$x + \sqrt{2}y - 1 = 0$$, $$2x - y + \sqrt{2} = 0$$, have coefficients in the field $$ a + b\sqrt{2} $$.
 Calculate the coordinates of their point of intersection, and verify that these have the form $$ a + b\sqrt{2} $$. Join points $$(1, \sqrt{2})$$ and $$(\sqrt{2}, 1 - \sqrt{2})$$ by a line $$ ax + by + c = 0 $$, and verify that the coefficients are of the form $$ a + b\sqrt{2} $$. Same with respect to field $$ p + q\sqrt{k} $$ for the lines $$ \sqrt{(1+\sqrt{2})x} + \sqrt{2} y = 1 $$, $$(1+\sqrt{2})x - y = 1 - \sqrt{1+\sqrt{2}} $$, and the points $$ (\sqrt{2}, -1) $$, $$(1+\sqrt{2}, \sqrt{1+\sqrt{2}})$$ respectively.
@@ -244,7 +244,7 @@ Calculate the coordinates of their point of intersection, and verify that these 
       which is of the form $$ p + q\sqrt{k} $$.
 
 
-7.  Let $$F$$ be the field $$ p + q\sqrt{2} + \sqrt{2}$$, where p and q are of the form $$ a + b\sqrt{2}$$, a, b rational. Represent $$\frac{1 + \sqrt{2 + \sqrt{2}}}{2 - 3\sqrt{2 + \sqrt{2}}}$$ in this form.
+7.  Let $$F$$ be the field $$ p + q\sqrt{2 + \sqrt{2}}$$, where p and q are of the form $$ a + b\sqrt{2}$$, a, b rational. Represent $$\frac{1 + \sqrt{2 + \sqrt{2}}}{2 - 3\sqrt{2 + \sqrt{2}}}$$ in this form.
 
 
     Say $$ k = 2 + \sqrt{2} $$, we can get:
@@ -276,6 +276,74 @@ Calculate the coordinates of their point of intersection, and verify that these 
     $$
 
     Therefore it is the form of field $$p+q\sqrt{2+\sqrt{2}}$$
+
+
+8. Consider the circle with radius $$2\sqrt{2}$$ about the origin, and the line joining the points $$ (\frac{1}{2}, 0) $$, $$ (4\sqrt{2}, \frac{\sqrt{2}}{2}) $$. Find the field $$ F' $$ determined by the coordinates of intersection of the circle and the line. Do the same with respect to the intersection of the given circle with the circle with radius $$ \frac{\sqrt{2}}{2} $$ and center $$ (0, 2\sqrt{2}) $$.
+
+    $$8.1$$: Say the line is $$ ax + b = y $$,
+
+    $$
+    \begin{cases}
+    \frac{1}{2} a + b = 0, \\
+    4\sqrt{2} a + b = \frac{\sqrt{2}}{2}.
+    \end{cases}
+    $$
+
+    Easily get the equation of the line,
+
+    $$
+    \left( \frac{32}{127} + \frac{2\sqrt{2}}{127} \right) x - \frac{16}{127} - \frac{\sqrt{2}}{127} = y. \quad 
+    $$
+
+    The equation of the circle is
+
+    $$
+    x^2 + y^2 = 8.
+    $$
+
+    With (1) and (2), we get
+
+    $$
+    x^2 + \left[ \left( \frac{32}{127} + \frac{2\sqrt{2}}{127} \right) x - \frac{16}{127} - \frac{\sqrt{2}}{127} \right]^2 = 8.
+    $$
+
+    Define k
+
+    $$
+    k = \frac{16}{127} + \frac{\sqrt{2}}{127}
+    $$
+
+    The original equation could be written as: 
+
+    $$
+    (1+4k^2)x^2 -4k^2x+k^2-8=0
+    $$
+
+    Let's define 
+
+    $$
+    k^2 = \frac{2(129 + 16\sqrt{2})}{16129}.
+    $$
+
+    Based on quadratic formula, we can get
+    $$
+    x = \frac{2k^2 \pm \sqrt{3k^2 + 18}}{4k^2 + 1}.
+    $$
+
+    $$\frac{2 k^2 + \sqrt{3 k^2 + 18}}{4 k^2 + 1} = \frac{516 + 64 \sqrt{2} + 254 \sqrt{72774 + 24 \sqrt{2}}}{17161 + 128 \sqrt{2}}$$
+
+    Therefore the field extension F is needed to accommodate these two values is 
+    
+    $$F = \mathbb{Q}(\sqrt{2}, \sqrt{72774 + 24 \sqrt{2}})$$
+
+    $$ y $$ can be gained by the coefficient with $$\sqrt{2}$$ therefore $$y$$ is also in the same filed $$ F $$. 
+
+    $$8.2$$: For the circle with radius $$ \frac{\sqrt{2}}{2} $$ and center $$ (0, 2\sqrt{2}) $$. 
+
+    With the same step we can get the Field $$F=\mathbb{Q}(\sqrt{2}, \sqrt{8873706710 + 458743936 \sqrt{2}})$$
+
+    Detail computation can be found [here](https://www.wolframalpha.com/input?i=x%5E2+%2B+%28y-2%5Csqrt%7B2%7D%29%5E2+%3D+1%2F2%2C+%2832%2F127+%2B+2%5Csqrt%7B2%7D%2F127%29x+-+16%2F127+-+%5Csqrt%7B2%7D%2F127+%3D+y).
+
 
 
 
