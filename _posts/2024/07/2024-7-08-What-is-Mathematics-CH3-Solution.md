@@ -307,45 +307,122 @@ Calculate the coordinates of their point of intersection, and verify that these 
     x^2 + \left[ \left( \frac{32}{127} + \frac{2\sqrt{2}}{127} \right) x - \frac{16}{127} - \frac{\sqrt{2}}{127} \right]^2 = 8.
     $$
 
-    Define k
+    By calculating it we can get: 
 
     $$
-    k = \frac{16}{127} + \frac{\sqrt{2}}{127}
+    \begin{cases}
+      x_1 &= \frac{548 + 64 \sqrt{2} - \sqrt{2501773094 - 19209248 \sqrt{2}}}{18257}\\
+      y_1 &= (-16/2318639 - \sqrt{2}/2318639) (17161 - 128 \sqrt{2} + 2 \sqrt{2501773094 - 19209248 \sqrt{2}}) \\
+      x_2 &= \frac{548 + 64 \sqrt{2} - \sqrt{2501773094 - 19209248 \sqrt{2}}}{18257} \\
+      y_2 &= (16/2318639 + \sqrt{2}/2318639) (-17161 + 128 \sqrt{2} + 2 \sqrt{2501773094 - 19209248 \sqrt{2}}) \\
+    \end{cases}
     $$
-
-    The original equation could be written as: 
-
-    $$
-    (1+4k^2)x^2 -4k^2x+k^2-8=0
-    $$
-
-    Let's define 
-
-    $$
-    k^2 = \frac{2(129 + 16\sqrt{2})}{16129}.
-    $$
-
-    Based on quadratic formula, we can get
-    $$
-    x = \frac{2k^2 \pm \sqrt{3k^2 + 18}}{4k^2 + 1}.
-    $$
-
-    $$\frac{2 k^2 + \sqrt{3 k^2 + 18}}{4 k^2 + 1} = \frac{516 + 64 \sqrt{2} + 254 \sqrt{72774 + 24 \sqrt{2}}}{17161 + 128 \sqrt{2}}$$
 
     Therefore the field extension F is needed to accommodate these two values is 
     
-    $$F = \mathbb{Q}(\sqrt{2}, \sqrt{72774 + 24 \sqrt{2}})$$
+    $$F = \mathbb{Q}(\sqrt{2}, \sqrt{2501773094 - 19209248 \sqrt{2}})$$
 
     $$ y $$ can be gained by the coefficient with $$\sqrt{2}$$ therefore $$y$$ is also in the same filed $$ F $$. 
 
     $$8.2$$: For the circle with radius $$ \frac{\sqrt{2}}{2} $$ and center $$ (0, 2\sqrt{2}) $$. 
 
-    With the same step we can get the Field $$F=\mathbb{Q}(\sqrt{2}, \sqrt{8873706710 + 458743936 \sqrt{2}})$$
+    $$
+    \begin{cases}
+      C_1 &= x^2 + y^2 = 8 \\
+      C_2 &= x^2 + (y-2\sqrt{2})^2 = \frac{1}{2}
+    \end{cases}
+    $$
 
-    Detail computation can be found [here](https://www.wolframalpha.com/input?i=x%5E2+%2B+%28y-2%5Csqrt%7B2%7D%29%5E2+%3D+1%2F2%2C+%2832%2F127+%2B+2%5Csqrt%7B2%7D%2F127%29x+-+16%2F127+-+%5Csqrt%7B2%7D%2F127+%3D+y).
+    Therefore we can get: 
+
+    $$
+    \begin{cases}
+      x_1 &= \frac{-3 \sqrt{\frac{7}{2}}}{8} \\
+      y_1 &= \frac{31}{8 \sqrt{2}}\\
+      x_2 &= \frac{3 \sqrt{\frac{7}{2}}}{8} \\
+      y_1 &= \frac{31}{8 \sqrt{2}}
+    \end{cases}
+    $$
+
+    The field is $$F = \mathbb{Q}(\sqrt{2}, \sqrt{7})$$
+    
 
 
+9. Verify that, starting with the rational field, the side of the regular $$2^m$$-gon is a constructible number, with $$n = m - 1$$. Determine the sequence of extension fields. Do the same for the numbers:
+    $$
+      \begin{align*}
+          &\sqrt{1+ \sqrt{2}+ \sqrt{3} + \sqrt{5}}, \\
+          &\frac{(\sqrt{5} + 11)}{(1+\sqrt{7-\sqrt{3}})} \\
+          &(\sqrt{2} + 3)(\sqrt[3]{2} + \sqrt{1+\sqrt{2+\sqrt{5}}} + \sqrt{3-\sqrt{7}})
+      \end{align*}
+    $$
 
+
+      The side of a regular $$2^m$$-gon is given as:
+    $$
+      \begin{equation*}
+          2^n \cdot \sqrt{2+\sqrt{2+\sqrt{2+\dots+\sqrt{2}}}}
+      \end{equation*}
+    $$
+
+    where there are $$n$$ square roots.
+
+    Starting with the rational field $F_0$, let $k_0 = 2$, obtaining:
+    $$
+    \begin{equation*}
+        F_1 = 2 + \sqrt{2}.
+    \end{equation*}
+    $$
+    Similarly, setting $$k_1 = \sqrt{2 + \sqrt{2}}$$, we obtain $$F_2$$, and continuing this process iteratively $n$ times, we reach the desired expression.
+
+    Since $$2^n$$ is inside the field $F_n$ by a product of $2$, the number is constructible.
+
+
+    Let $$F_0$$ denote the rational field.
+    $$
+    \begin{align*}
+        &F_0: \text{rational numbers}, \\
+        &k_0 = 2 \Rightarrow F_1 = 1 + \sqrt{2}, \\
+        &k_1 = \sqrt{3} \Rightarrow F_2 = 1 + \sqrt{2} + \sqrt{3}, \\
+        &k_2 = 3 \Rightarrow F_3 = 1 + \sqrt{2} + \sqrt{3} + \sqrt{5}.
+    \end{align*}
+    $$
+
+    Thus, continuing this extension process, we obtain a constructible number.
+
+    Find the equations with rational coefficients for:
+    $$
+    \begin{cases}
+        x &= \sqrt{2} + \sqrt{3} \\
+        x &= \sqrt{2} + \sqrt{3}\\
+        x &= \frac{1}{\sqrt{5} + \sqrt{3}} \\
+    \end{cases}
+    $$
+
+    For example, considering $$x = \sqrt{2} + \sqrt{3}$$:
+
+    $$
+    \begin{equation*}
+        x^2 = 2 + 2\sqrt{6} + 3 = 5 + 2\sqrt{6}.
+    \end{equation*}
+    $$
+
+    Squaring again:
+    $$
+    \begin{equation*}
+        (x^2 - 5)^2 = 24 \Rightarrow x^4 - 10x^2 + 25 = 24.
+    \end{equation*}
+    $$
+
+    Rearrange:
+    $$
+    \begin{equation*}
+        x^4 - 10x^2 + 1 = 0.
+    \end{equation*}
+    $$
+
+
+10. To prove the theorem for $$x$$ in a field $F_k$ with arbitrary $$k$$, we use induction. The goal is to show $$x$$satisfies an equation of degree $$2^k$$ with coefficients in $$F_k$$. The statement for $$k=l$$ completes the proof.
 
 
 ## Constructible Number and Number Fields 
