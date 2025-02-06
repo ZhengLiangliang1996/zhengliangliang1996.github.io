@@ -375,7 +375,7 @@ Calculate the coordinates of their point of intersection, and verify that these 
     $$
     Similarly, setting $$k_1 = \sqrt{2 + \sqrt{2}}$$, we obtain $$F_2$$, and continuing this process iteratively $n$ times, we reach the desired expression.
 
-    Since $$2^n$$ is inside the field $F_n$ by a product of $2$, the number is constructible.
+    Since $$2^n$$ is inside the field $$F_n$$ by a product of $$2$$, the number is constructible.
 
 
     Let $$F_0$$ denote the rational field.
@@ -390,40 +390,221 @@ Calculate the coordinates of their point of intersection, and verify that these 
 
     Thus, continuing this extension process, we obtain a constructible number.
 
-    Find the equations with rational coefficients for:
-    $$
-    \begin{cases}
-        x &= \sqrt{2} + \sqrt{3} \\
-        x &= \sqrt{2} + \sqrt{3}\\
-        x &= \frac{1}{\sqrt{5} + \sqrt{3}} \\
-    \end{cases}
-    $$
-
-    For example, considering $$x = \sqrt{2} + \sqrt{3}$$:
+10. Find the equations with rational coefficients for:
 
     $$
-    \begin{equation*}
-        x^2 = 2 + 2\sqrt{6} + 3 = 5 + 2\sqrt{6}.
-    \end{equation*}
+        (a) x &= \sqrt{2} + \sqrt{3} \\
+        (b) x &= \sqrt{2} + \sqrt{3} \\
+        (c) x &= \frac{1}{\sqrt{5} + \sqrt{3}} \\
+    $$
+
+    $$ (a) x = \sqrt{2} + \sqrt{3} $$
+
+    $$
+    x - \sqrt{2} = \sqrt{3}
+    $$
+
+    Squaring both sides:
+
+    $$
+    (x - \sqrt{2})^2 = (\sqrt{3})^2
+    $$
+
+    $$
+    x^2 - 4x + 4 = 3
+    $$
+
+    $$
+    x^2 - 4x + 1 = 0
+    $$
+
+    $$ (b) x = \sqrt{2} + \sqrt{3} $$
+
+    $$
+    x^2 = 2 + 2\sqrt{2} + 3
+    $$
+
+    $$
+    (x^2 - 5) = 2\sqrt{2}
     $$
 
     Squaring again:
+
     $$
-    \begin{equation*}
-        (x^2 - 5)^2 = 24 \Rightarrow x^4 - 10x^2 + 25 = 24.
-    \end{equation*}
+    (x^2 - 5)^2 = 24
+    $$
+
+    $$
+    x^4 - 10x^2 + 25 = 24
+    $$
+
+    $$
+    x^4 - 10x^2 + 1 = 0
+    $$
+
+    $$ (c) x = \frac{1}{\sqrt{5} + \sqrt{3}} $$
+
+    Multiply by the conjugate:
+
+    $$
+    x \cdot (\sqrt{5} - \sqrt{3}) = \frac{\sqrt{5} - \sqrt{3}}{(\sqrt{5} + \sqrt{3})(\sqrt{5} - \sqrt{3})}
+    $$
+
+    $$
+    x \cdot (\sqrt{5} - \sqrt{3}) = \frac{\sqrt{5} - \sqrt{3}}{5 - 3} = \frac{\sqrt{5} - \sqrt{3}}{2}
+    $$
+
+    $$
+    2x = \sqrt{5} - \sqrt{3}
+    $$
+
+    Squaring both sides:
+
+    $$
+    (2x)^2 = (\sqrt{5} - \sqrt{3})^2
+    $$
+
+    $$
+    4x^2 = 5 - 2\sqrt{15} + 3
+    $$
+
+    $$
+    4x^2 = 8 - 2\sqrt{15}
+    $$
+
+    Squaring again:
+
+    $$
+    (4x^2 - 8)^2 = (2\sqrt{15})^2
+    $$
+
+    $$
+    16x^4 - 128x^2 + 64 = 60
+    $$
+
+    $$
+    16x^4 - 128x^2 + 4 = 0
+    $$
+
+    Dividing by 4:
+
+    $$
+    4x^4 - 32x^2 + 1 = 0
+    $$
+
+
+11. Find by a similar method equations of the eighth degree for:
+
+    $$
+        (a) x &= \sqrt{2} + \sqrt{2 + \sqrt{2}} \\
+        (b) x &= \sqrt{2} + \sqrt{1 + \sqrt{3}} \\
+        (c) x &= 1 + \sqrt{3} + \sqrt{2} \\
+    $$
+
+
+    $$ (a) x = \sqrt{2} + \sqrt{2 + \sqrt{2}} $$
+
+    $$
+    x^2 = 2 + 2\sqrt{2} + 2 + \sqrt{2}
+    $$
+
+    $$
+    (x^2 - 2) = 2\sqrt{2} + \sqrt{2}
+    $$
+
+    Squaring:
+
+    $$
+    (x^2 - 2)^2 = 2 + 2\sqrt{2}
+    $$
+
+    $$
+    x^4 - 4x^2 + 4 = 2 + 2\sqrt{2}
+    $$
+
+    Squaring again:
+
+    $$
+    (x^4 - 4x^2 + 2)^2 = 2
     $$
 
     Rearrange:
+
     $$
-    \begin{equation*}
-        x^4 - 10x^2 + 1 = 0.
-    \end{equation*}
+    x^8 - 8x^6 + 20x^4 - 16x^2 + 2 = 0
     $$
 
+    $$ (b) x = \sqrt{2} + \sqrt{1 + \sqrt{3}} $$
 
-10. To prove the theorem for $$x$$ in a field $F_k$ with arbitrary $$k$$, we use induction. The goal is to show $$x$$satisfies an equation of degree $$2^k$$ with coefficients in $$F_k$$. The statement for $$k=l$$ completes the proof.
+    Let $$ k = \sqrt{1 + \sqrt{3}} $$, then
 
+    $$
+    k^2 = 1 + \sqrt{3}
+    $$
+
+    $$
+    x = \sqrt{2} + k
+    $$
+
+    Squaring:
+
+    $$
+    x^2 = 2 + 2\sqrt{2} + k^2
+    $$
+
+    $$
+    x^2 - 2 - k^2 = 2\sqrt{2}
+    $$
+
+    Squaring:
+
+    $$
+    (x^2 - 2 - k^2)^2 = 8
+    $$
+
+    $$ (c) x = 1 + \sqrt{3} + \sqrt{2} $$
+
+
+12. To prove the theorem for $$x$$ in a field $F_k$ with arbitrary $$k$$, we use induction. The goal is to show $$x$$satisfies an equation of degree $$2^k$$ with coefficients in $$F_k$$. The statement for $$k=l$$ completes the proof.
+
+    Base Case $$ l = 1 $$: 
+
+    For $$ l = 1 $$, we need to show that $$ x $$ satisfies a quadratic equation over $$ F_{k-1} $$. Since $$ F_k $$ is a quadratic extension of $$ F_{k-1} $$, any element $$ x \in F_k $$ can be written as $$ a + b\sqrt{w} $$, where $$ a, b \in F_{k-1} $$. This element $$ x $$ satisfies the quadratic equation:  
+
+    $$  
+    (x - a)^2 = b^2 w  
+    $$  
+
+    which is a degree $$ 2^1 $$ equation over $$ F_{k-1} $$. Thus, the base case holds.
+
+    Inductive Step: $$l=k$$
+    Assume that for some $$ l \geq 1 $$, every element $$ x \in F_k $$ satisfies an equation of degree $$ 2^l $$ over $$ F_{k-l} $$. We need to show that $$ x $$ satisfies an equation of degree $$ 2^{l+1} $$ over $$ F_{k-(l+1)} $$.
+
+    Since $$ F_{k-l} $$ is a quadratic extension of $$ F_{k-l-1} $$, we can write $$ F_{k-l} = F_{k-l-1}(\sqrt{w}) $$ for some $$ w \in F_{k-l-1} $$. By the induction hypothesis, $$ x $$ satisfies a polynomial $$ P(x) = 0 $$ of degree $$ 2^l $$ with coefficients in $$ F_{k-l} $$. Each coefficient of $$ P(x) $$ can be written as $$ c_i + d_i \sqrt{w} $$, where $$ c_i, d_i \in F_{k-l-1} $$. Separating the polynomial into terms with and without $$ \sqrt{w} $$, we get:  
+
+    $$  
+    Q(x) + \sqrt{w} R(x) = 0  
+    $$  
+
+    where $$ Q(x) $$ and $$ R(x) $$ are polynomials with coefficients in $$ F_{k-l-1} $$. Applying the automorphism $$ \sigma $$ (which sends $$ \sqrt{w} $$ to $$ -\sqrt{w} $$) gives:  
+    
+    $$  
+    Q(x) - \sqrt{w} R(x) = 0  
+    $$  
+
+    Multiplying these two equations eliminates $$ \sqrt{w} $$:  
+
+    $$  
+    (Q(x))^2 - w (R(x))^2 = 0  
+    $$  
+
+    This results in a polynomial equation of degree $$ 2 \cdot 2^l = 2^{l+1} $$ over $$ F_{k-l-1} $$. Thus, the inductive step holds.
+
+    By induction, for each $$ l $$ from $$ 1 $$ to $$ k $$, $$ x $$ satisfies an equation of degree $$ 2^l $$ over $$ F_{k-l} $$. When $$ l = k $$, this gives an equation of degree $$ 2^k $$ over $$ F_0 $$, which is the desired theorem.  
+
+    $$  
+    \boxed{2^k}  
+    $$  
 
 ## Constructible Number and Number Fields 
 
