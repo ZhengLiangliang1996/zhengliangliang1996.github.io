@@ -546,7 +546,7 @@ Calculate the coordinates of their point of intersection, and verify that these 
 
 
 
-12. To prove the theorem for $$x$$ in a field $F_k$ with arbitrary $$k$$, we use induction. The goal is to show $$x$$satisfies an equation of degree $$2^k$$ with coefficients in $$F_k$$. The statement for $$k=l$$ completes the proof.
+12. To prove the theorem for $$x$$ in a field $$F_k$$ with arbitrary $$k$$, we use induction. The goal is to show $$x$$ satisfies an equation of degree $$2^k$$ with coefficients in $$F_k$$. The statement for $$k=l$$ completes the proof.
 
     Base Case $$ l = 1 $$: 
 
@@ -583,9 +583,42 @@ Calculate the coordinates of their point of intersection, and verify that these 
 
     By induction, for each $$ l $$ from $$ 1 $$ to $$ k $$, $$ x $$ satisfies an equation of degree $$ 2^l $$ over $$ F_{k-l} $$. When $$ l = k $$, this gives an equation of degree $$ 2^k $$ over $$ F_0 $$, which is the desired theorem.  
 
-    $$  
-    \boxed{2^k}  
-    $$  
+13. Exercise: Show that this construction actually yields $$y =x/3$$.
+
+    Based on the graph in page 138:
+
+    $$\angle BOA + \angle BOC + \angle COD = 180^\circ$$
+    
+    $$\angle OBC = \angle OCB = 2y$$
+
+    So we can have:
+
+    $$
+    \begin{aligned}
+    y  + (180^\circ-4y)+x&=180^\circ\\
+    y&=x/3
+    \end{aligned}
+    $$
+
+14. Exercises: The following ia a description of Mohr’s constructions. Check their vadility, Wht do they solve the Mascheroni problem? 
+
+    1). On a segment AB of length p erect a perpendicular segment BC. (Hint: Extend AB by a point D such that AB = BD. Draw arbitrary circles around A and D and thus determine C .)
+
+    2). Two segments of length $$p$$ and $$q$$ with $$p > q$$ are given somewhere in the plane. Find a segment of the length $$x=\sqrt{p^2-q^2}$$ by making use of 1).
+
+    3). From a given segment a construct the segment $$a/ \sqrt{2}$$. (Hint: Observe that $$(a\sqrt{2})^2 = (a\sqrt{3})^2 -a^2$$.)
+
+    4). With given segments p and q find a segment $$x=\sqrt{p^2-q^2}$$. (Hint: Use the relation $$x^2 =2p^2 — (p^2 — (p^2-q^2)$$.) Find other similar constructions.
+
+    5) Using the previous results, find segments of length $$p + q$$ and $$p — q$$ if segments of length $$p$$ and $$q$$ are given somewhere in the plane.
+
+    6) Check and prove the following construction for the midpoint $$M$$ of a given segment $$AB$$ of length $$a$$. On the extension of $$AB$$ find $$C$$ and $$D$$ such that $$CA = AB = BD$$. Construct the isosceles triangle $$ECD$$ with $$EC = ED = 2a$$, and find $$M$$ as the intersection of the circles with diameters $$EC$$ and $$ED$$.
+
+    7) Find the orthogonal projection of a point $$A$$ on a line $$BC$$.
+
+    8) Find $$x$$ such that $$x:a=p:q$$. if $$a$$, $$p$$ and $$q$$ are given segments. 
+
+    9) Find $$x = ab$$, if $$a$$ and $$b$$ are given segments.
 
 ## Constructible Number and Number Fields 
 
