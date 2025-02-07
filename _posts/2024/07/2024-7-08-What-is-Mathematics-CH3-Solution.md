@@ -390,24 +390,18 @@ Calculate the coordinates of their point of intersection, and verify that these 
 
     Thus, continuing this extension process, we obtain a constructible number.
 
-10. Find the equations with rational coefficients for:
+10. Find the equations with rational coefficients for:$$(a) x = 2 + \sqrt{3}$$, $$(b) x = \sqrt{2} + \sqrt{3}$$, $$(c) x = \frac{1}{\sqrt{5} + \sqrt{3}}$$ 
+
+    (a) $$ x = 2 + \sqrt{3} $$
 
     $$
-        (a) x &= \sqrt{2} + \sqrt{3} \\
-        (b) x &= \sqrt{2} + \sqrt{3} \\
-        (c) x &= \frac{1}{\sqrt{5} + \sqrt{3}} \\
-    $$
-
-    $$ (a) x = \sqrt{2} + \sqrt{3} $$
-
-    $$
-    x - \sqrt{2} = \sqrt{3}
+      x - \sqrt{2} = \sqrt{3}
     $$
 
     Squaring both sides:
 
     $$
-    (x - \sqrt{2})^2 = (\sqrt{3})^2
+    (x - 2)^2 = (\sqrt{3})^2
     $$
 
     $$
@@ -418,14 +412,10 @@ Calculate the coordinates of their point of intersection, and verify that these 
     x^2 - 4x + 1 = 0
     $$
 
-    $$ (b) x = \sqrt{2} + \sqrt{3} $$
+    (b) $$  x = \sqrt{2} + \sqrt{3} $$
 
     $$
-    x^2 = 2 + 2\sqrt{2} + 3
-    $$
-
-    $$
-    (x^2 - 5) = 2\sqrt{2}
+    x^2 = 2 + 2\sqrt{6} + 3
     $$
 
     Squaring again:
@@ -442,80 +432,46 @@ Calculate the coordinates of their point of intersection, and verify that these 
     x^4 - 10x^2 + 1 = 0
     $$
 
-    $$ (c) x = \frac{1}{\sqrt{5} + \sqrt{3}} $$
+    (c) $$ x = \frac{1}{\sqrt{5} + \sqrt{3}} $$
 
-    Multiply by the conjugate:
-
-    $$
-    x \cdot (\sqrt{5} - \sqrt{3}) = \frac{\sqrt{5} - \sqrt{3}}{(\sqrt{5} + \sqrt{3})(\sqrt{5} - \sqrt{3})}
-    $$
 
     $$
-    x \cdot (\sqrt{5} - \sqrt{3}) = \frac{\sqrt{5} - \sqrt{3}}{5 - 3} = \frac{\sqrt{5} - \sqrt{3}}{2}
+    \frac{1}{x^2} = 5 + \sqrt{3}
     $$
 
     $$
-    2x = \sqrt{5} - \sqrt{3}
-    $$
-
-    Squaring both sides:
-
-    $$
-    (2x)^2 = (\sqrt{5} - \sqrt{3})^2
+    \frac{1}{x^2} - 5= \sqrt{3}
     $$
 
     $$
-    4x^2 = 5 - 2\sqrt{15} + 3
+    \frac{1}{x^4} - 10\frac{1}{x^2} + 25=3
     $$
 
-    $$
-    4x^2 = 8 - 2\sqrt{15}
-    $$
-
-    Squaring again:
+    Rearrange: 
 
     $$
-    (4x^2 - 8)^2 = (2\sqrt{15})^2
-    $$
-
-    $$
-    16x^4 - 128x^2 + 64 = 60
-    $$
-
-    $$
-    16x^4 - 128x^2 + 4 = 0
-    $$
-
-    Dividing by 4:
-
-    $$
-    4x^4 - 32x^2 + 1 = 0
+    22x^4 - 10x^2 + 1=0
     $$
 
 
-11. Find by a similar method equations of the eighth degree for:
+
+11. Find by a similar method equations of the eighth degree for:$$ (a) x = \sqrt{2 + \sqrt{2 + \sqrt{2}}},
+        (b) x = \sqrt{2} + \sqrt{1 + \sqrt{3}}, 
+        (c) x = 1 + \sqrt{5 + \sqrt{3+\sqrt{2}}}$$ 
+
+
+    (a) $$  x = \sqrt{2 + \sqrt{2 + \sqrt{2}}} $$
 
     $$
-        (a) x &= \sqrt{2} + \sqrt{2 + \sqrt{2}} \\
-        (b) x &= \sqrt{2} + \sqrt{1 + \sqrt{3}} \\
-        (c) x &= 1 + \sqrt{3} + \sqrt{2} \\
-    $$
-
-
-    $$ (a) x = \sqrt{2} + \sqrt{2 + \sqrt{2}} $$
-
-    $$
-    x^2 = 2 + 2\sqrt{2} + 2 + \sqrt{2}
+    x^2 = 2 + \sqrt{2 + \sqrt{2}}
     $$
 
     $$
-    (x^2 - 2) = 2\sqrt{2} + \sqrt{2}
+    (x^2 - 2)^2 = 2 + \sqrt{2}
     $$
 
-    Squaring:
-
     $$
-    (x^2 - 2)^2 = 2 + 2\sqrt{2}
+    x^4-4x^2+4-2=\sqrt{2}
     $$
 
     $$
@@ -534,35 +490,60 @@ Calculate the coordinates of their point of intersection, and verify that these 
     x^8 - 8x^6 + 20x^4 - 16x^2 + 2 = 0
     $$
 
-    $$ (b) x = \sqrt{2} + \sqrt{1 + \sqrt{3}} $$
+    (b) $$ x = \sqrt{2} + \sqrt{1 + \sqrt{3}} $$
 
-    Let $$ k = \sqrt{1 + \sqrt{3}} $$, then
-
-    $$
-    k^2 = 1 + \sqrt{3}
-    $$
 
     $$
-    x = \sqrt{2} + k
-    $$
-
-    Squaring:
-
-    $$
-    x^2 = 2 + 2\sqrt{2} + k^2
+    (x-\sqrt{2})^2 = 1+\sqrt{3}
     $$
 
     $$
-    x^2 - 2 - k^2 = 2\sqrt{2}
+    x^2-2\sqrt{2}x+1=\sqrt{3}
     $$
 
-    Squaring:
-
     $$
-    (x^2 - 2 - k^2)^2 = 8
+    x^2 +1 - \sqrt{3} = 2\sqrt{2}x
     $$
 
-    $$ (c) x = 1 + \sqrt{3} + \sqrt{2} $$
+    $$
+    (x^2+1-\sqrt{3})^2 = 8x^2 
+    $$
+
+    Rearrange: 
+
+    $$
+    (x^2+1)^2-2\sqrt{3}(x+1)+3=8x^2
+    $$
+
+    $$
+    (x^4-6x^2+4)^2 = 3[2(x+1)]^2
+    $$
+
+    Rearrange:
+
+    $$
+    x^8-12x^6+32^4-72x  x^2+4=0
+    $$
+
+    (c) $$ x = 1 + \sqrt{5 + \sqrt{3 + \sqrt{2}}} $$
+
+    $$
+    (x-1)^2= 5 + \sqrt{3 + \sqrt{2}}
+    $$
+
+    $$
+    (x^2-2x-4)^2 = 3 + \sqrt{2}
+    $$
+
+    $$
+    ((x^2-2x-4)^2-3)^2 = 2 
+    $$
+
+    Rearrange: 
+
+    $$x^8-8x^7+8x^6+64x^5-86x^4-232x^3+152x^2+416x+167=0$$
+
+
 
 
 12. To prove the theorem for $$x$$ in a field $F_k$ with arbitrary $$k$$, we use induction. The goal is to show $$x$$satisfies an equation of degree $$2^k$$ with coefficients in $$F_k$$. The statement for $$k=l$$ completes the proof.
