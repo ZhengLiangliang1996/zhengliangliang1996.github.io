@@ -34,7 +34,7 @@ $$
 2. Show that every field contains all the rational numbers at least. (Hint: If $$a \neq 0$$ is a number in the field $$F$$ , then $$a/a = 1$$ belongs to F , and from 1 we can obtain any rational number by rational operations.)
 
 
-
+## Constructible Number and Number Fields 
 3. Ex: From $$p=1+\sqrt{2}, q=2-\sqrt{2}, r=-3+\sqrt{2}$$ obtain the numbers
 $$
 \frac{p}{q}, \quad p^2, \quad (p-p^2)\frac{q}{r}, \quad \frac{p+qr}{p-r}, \quad \frac{p+r}{q+pr}
@@ -348,47 +348,72 @@ Calculate the coordinates of their point of intersection, and verify that these 
     
 
 
-9. Verify that, starting with the rational field, the side of the regular $$2^m$$-gon is a constructible number, with $$n = m - 1$$. Determine the sequence of extension fields. Do the same for the numbers:
-    $$
-      \begin{align*}
-          &\sqrt{1+ \sqrt{2}+ \sqrt{3} + \sqrt{5}}, \\
-          &\frac{(\sqrt{5} + 11)}{(1+\sqrt{7-\sqrt{3}})} \\
-          &(\sqrt{2} + 3)(\sqrt[3]{2} + \sqrt{1+\sqrt{2+\sqrt{5}}} + \sqrt{3-\sqrt{7}})
-      \end{align*}
-    $$
+9. Verify that, starting with the rational field, the side of the regular $$2^m$$-gon is a constructible number, with $$n = m - 1$$. Determine the sequence of extension fields. Do the same for the numbers: $$\sqrt{1+ \sqrt{2}+ \sqrt{3} + \sqrt{5}}$$, $$\frac{(\sqrt{5} + 11)}{(1+\sqrt{7-\sqrt{3}})} $$, $$(\sqrt{2} + 3)(\sqrt[3]{2} + \sqrt{1+\sqrt{2+\sqrt{5}}} + \sqrt{3-\sqrt{7}})$$
 
+    - The side of a regular $$2^m$$-gon is given as:
 
-      The side of a regular $$2^m$$-gon is given as:
     $$
       \begin{equation*}
-          2^n \cdot \sqrt{2+\sqrt{2+\sqrt{2+\dots+\sqrt{2}}}}
+          2^n \cdot \sqrt{2-\sqrt{2+\sqrt{2+\dots+\sqrt{2}}}}
       \end{equation*}
     $$
 
     where there are $$n$$ square roots.
 
-    Starting with the rational field $F_0$, let $k_0 = 2$, obtaining:
+    Starting with the rational field $$F_0$$, let $$k_0 = 2$$, obtaining:
+
     $$
     \begin{equation*}
         F_1 = 2 + \sqrt{2}.
     \end{equation*}
     $$
-    Similarly, setting $$k_1 = \sqrt{2 + \sqrt{2}}$$, we obtain $$F_2$$, and continuing this process iteratively $n$ times, we reach the desired expression.
 
-    Since $$2^n$$ is inside the field $$F_n$$ by a product of $$2$$, the number is constructible.
+    Similarly, setting $$k_1 = \sqrt{2 + \sqrt{2}}$$, we obtain 
 
+    $$
+    \begin{equation*}
+        F_1 = 2 + \sqrt{2}.
+    \end{equation*}
+    $$ 
 
-    Let $$F_0$$ denote the rational field.
+    and continuing this process iteratively $n$ times, we reach the desired expression 
+    
+    $$\sqrt{2-\sqrt{2+\sqrt{2+\dots+\sqrt{2}}}}$$
+
+    Since $$2^n$$ is inside the field $$F_0$$ by n product of $$2$$. The expression is a product of $$F_0$$ and $$F_n$$, therefore the number is constructible. 
+
+    - Let $$F_0$$ denote the rational field.
+
     $$
     \begin{align*}
         &F_0: \text{rational numbers}, \\
         &k_0 = 2 \Rightarrow F_1 = 1 + \sqrt{2}, \\
-        &k_1 = \sqrt{3} \Rightarrow F_2 = 1 + \sqrt{2} + \sqrt{3}, \\
-        &k_2 = 3 \Rightarrow F_3 = 1 + \sqrt{2} + \sqrt{3} + \sqrt{5}.
+        &k_1 = 1+\sqrt{2} \Rightarrow F_2 = 1 + \sqrt{2} + \sqrt{3}, \\
+        &k_2 = 3 \Rightarrow F_3 = 1 + \sqrt{2} + \sqrt{3}, \\
+        &k_3 = 1 + \sqrt{2} + \sqrt{3}.\\
+        &k_4 = 5 \Rightarrow F_4 = 1 + \sqrt{2} + \sqrt{3} + \sqrt{5},\\
+        &k_5 = 1 + \sqrt{2} + \sqrt{3} + \sqrt{5} \Rightarrow F_5 = \sqrt{1+ \sqrt{2}+ \sqrt{3} + \sqrt{5}} \\
     \end{align*}
     $$
 
-    Thus, continuing this extension process, we obtain a constructible number.
+    - Let $$F_0$$ denote the rational field.
+
+    $$
+    \begin{align*}
+        &F_0: \text{rational numbers}, \\
+        &k_0 = 5 \Rightarrow F_1 = \sqrt{5}, \\
+        &k_1 = \sqrt{5}, \\
+        &k_2 = 11 \Rightarrow F_2 = \sqrt{11}, \\
+        &k_3 = \sqrt{5} + \sqrt{11} \Rightarrow F_3 = \sqrt{5} + \sqrt{11},\\
+        &k_4 = 3 \Rightarrow F_4 = \sqrt{3},\\
+        &k_5 = 7 + \sqrt{3} \Rightarrow F_5 = \sqrt{7+\sqrt{3}}, \\
+        \text{1 is in F_1} \Rightarrow 1+\sqrt{7+\sqrt{3}}
+    \end{align*}
+    $$
+
+    And $$\frac{(\sqrt{5} + 11)}{(1+\sqrt{7-\sqrt{3}})} $$ is an operation within the same field, therefore also constructible.
+
+    - $$\sqrt[3]{2}$$ is not constructible using only a compass and straightedge. See Doubling the Cube part in the book for more about the proof.
 
 10. Find the equations with rational coefficients for:$$(a) x = 2 + \sqrt{3}$$, $$(b) x = \sqrt{2} + \sqrt{3}$$, $$(c) x = \frac{1}{\sqrt{5} + \sqrt{3}}$$ 
 
@@ -600,25 +625,45 @@ Calculate the coordinates of their point of intersection, and verify that these 
     \end{aligned}
     $$
 
+## Restriction to use of compass alone 
+
 14. Exercises: The following ia a description of Mohr’s constructions. Check their vadility, Wht do they solve the Mascheroni problem? 
 
     1). On a segment AB of length p erect a perpendicular segment BC. (Hint: Extend AB by a point D such that AB = BD. Draw arbitrary circles around A and D and thus determine C .)
 
+    Given segment $$ AB $$, extend it to $$ D $$ such that $$ AB = BD $$. Draw circles centered at $$ A $$ and $$ D $$ with arbitrary radii intersecting at $$ C $$. Then $$ BC $$ is perpendicular to $$ AB $$.
+
     2). Two segments of length $$p$$ and $$q$$ with $$p > q$$ are given somewhere in the plane. Find a segment of the length $$x=\sqrt{p^2-q^2}$$ by making use of 1).
 
-    3). From a given segment a construct the segment $$a/ \sqrt{2}$$. (Hint: Observe that $$(a\sqrt{2})^2 = (a\sqrt{3})^2 -a^2$$.)
+    Construct a right triangle (based on the construction above) with hypotenuse $$ p $$ and one leg $$ q $$. The other leg will have length $$ x = \sqrt{p^2 - q^2} $$.
 
-    4). With given segments p and q find a segment $$x=\sqrt{p^2-q^2}$$. (Hint: Use the relation $$x^2 =2p^2 — (p^2 — (p^2-q^2)$$.) Find other similar constructions.
+    3). From a given segment a construct the segment $$a\sqrt{2}$$. (Hint: Observe that $$(a\sqrt{2})^2 = (a\sqrt{3})^2 -a^2$$.)
+
+    Construct a right triangle with both legs are a, and the hypotenuse will be $$a\sqrt{2}$$.
+
+    4). With given segments p and q find a segment $$x=\sqrt{p^2+q^2}$$. (Hint: Use the relation $$x^2 =2p^2 — (p^2 — (p^2-q^2)$$.) Find other similar constructions.
+
+    Construct a right triangle with p and q as the legs, the hypotenuse is x. 
 
     5) Using the previous results, find segments of length $$p + q$$ and $$p — q$$ if segments of length $$p$$ and $$q$$ are given somewhere in the plane.
 
+    To construct $$ p + q $$, align $$ p $$ and $$ q $$ end-to-end using the compass. For $$ p - q $$, mark $$ q $$ along $$ p $$ and measure the remaining segment.
+
     6) Check and prove the following construction for the midpoint $$M$$ of a given segment $$AB$$ of length $$a$$. On the extension of $$AB$$ find $$C$$ and $$D$$ such that $$CA = AB = BD$$. Construct the isosceles triangle $$ECD$$ with $$EC = ED = 2a$$, and find $$M$$ as the intersection of the circles with diameters $$EC$$ and $$ED$$.
+
+    Extend $$ AB $$ to $$ C $$ and $$ D $$ such that $$ CA = AB = BD $$. Make a perpendicular line Q to AB at point M, then use compass to use length 2a, draw a circle from center C and D, the intersection between the circles and Q is point E. 
 
     7) Find the orthogonal projection of a point $$A$$ on a line $$BC$$.
 
+    Find M of BC, then draw a circle with radii AM centered at $$ A $$ intersecting $$ BC $$ at another point D. find the middle point O of MD, and O is the orthogonal projection a point $$A$$ on a line $$BC$$.
+
     8) Find $$x$$ such that $$x:a=p:q$$. if $$a$$, $$p$$ and $$q$$ are given segments. 
+
+    Use similar triangles or proportional scaling to construct $$ x $$, Construct a triangle ABC where $$\angle ABC$$ is right angle, $$AB=q$$, $$AC=p$$ make a segment AD on AB where $$AD=a$$, and make a point E on AC where ED is perpendicular to AB, and $$AE=x$$, we can easily see $$\triangle ABC \sim \triangle AED$$, and the ratio can be found obviously.
 
     9) Find $$x = ab$$, if $$a$$ and $$b$$ are given segments.
 
-## Constructible Number and Number Fields 
+    Use proportional scaling and to construct similar triangle and can easily get $$ x = ab $$. (but do we have unit length 1?)
+
+
 
