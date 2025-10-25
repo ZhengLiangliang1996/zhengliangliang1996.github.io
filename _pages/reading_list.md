@@ -14,11 +14,8 @@ toc:
 ## 🔗 Machine Learning & Deep Learning
   - **[🔗 Machine Learning 50 to read paper](https://www.latent.space/p/2025-papers)**
 
-## 🔗 Math
-### 🔗 
-
-## 🔗 Software Engineering 
-- **[🔗 Personal Notes from Algorithm to Machine Learning]()**
+## 🔗 Notes 
+- **[🔗 Machine Learning Notes](https://drive.google.com/file/d/1Z-zajyV6RJSORPkl2fKZYSaAGTR1patC/view?usp=drive_link)**
 
 
 ## 🔗 Misc
