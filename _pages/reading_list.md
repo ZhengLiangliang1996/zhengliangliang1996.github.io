@@ -20,7 +20,7 @@ toc:
 
 ## 🔗 Misc
 ### 📖 Books 
-- **[📖 List of books I read](https://www.goodreads.com/review/list/185671592?page=1&ref=nav_mybooks)**
+- **[📖 List of books I read](https://www.goodreads.com/review/list/185671592-liangliang-zheng?ref=nav_mybooks&shelf=read)**
 
 ### 🔗 Movies 
 - **[🔗 List of Movies I watched](https://letterboxd.com/liangliang1997/films/)**
