@@ -114,11 +114,16 @@
     },
       {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Working Proficiency",
       "icon": ""
       },
     {
         "language": "French",
+        "fluency": "B1",
+        "icon": ""
+      },
+      {
+        "language": "Dutch",
         "fluency": "Basic",
         "icon": ""
       }

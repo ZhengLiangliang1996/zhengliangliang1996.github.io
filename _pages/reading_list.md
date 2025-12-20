@@ -40,6 +40,7 @@ toc:
 - **[🎧 响声播客 - 友的听：一个人的古典音乐入门｜维塔利，拉赫马尼诺夫，莫扎特，贝多芬，维瓦尔弟](https://www.xiaoyuzhoufm.com/episode/633cf74a2a992d56e91e55a0?utm_source=rss)** 
 
 ### 🔗 Music: I humbly recommend this list
+- **[🎥 Ravel – Bonus "The Alchemy of the Piano"](https://www.youtube.com/watch?v=5iZjbXjbAoA)**
 - **[🎥 Chopin Nocturne Op. 15 No. 1 in F Major (Arthur Rubinstein)](https://www.youtube.com/watch?v=lin5uA0LSaM)**
 - **[🎥 Daniil Trifonov - Rachmaninov: Rhapsody on a Theme of Paganini, Op. 43](https://www.youtube.com/watch?v=8dJhYCxAmv4&list=LL&index=4)**
 - **[🎥 CHLOE CHUA / Menuhin Competition 2018, Junior finals](https://www.youtube.com/watch?v=WT9jOZLFaEY&list=LL&index=25)**
