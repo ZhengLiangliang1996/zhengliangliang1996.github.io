@@ -1,6 +1,5 @@
 ---
 giscus_comments: true
-tikzjax: true
 layout: post
 title: "What is Mathematics: Solution Chapter 4"
 date: "2025-04-08"
@@ -18,36 +17,7 @@ The solution presented on the blog is my personal solutions for the exercises in
 That the cross-ratio of four points remains unchanged by a *parallel* projection follows from elementary properties of similar triangles. The proof is left to the reader as an exercise.
 
 <figure class="tikz-figure">
-<script type="text/tikz">
-\begin{tikzpicture}[scale=1.75, line width=0.7pt,
-                    dot/.style={circle,fill=black,inner sep=0pt,minimum size=3pt},
-                    foot/.style={circle,fill=red,inner sep=0pt,minimum size=3pt},
-                    perp/.style={red,dashed,line width=0.9pt}]
-  % the two transversals, which just fail to meet inside the picture
-  \draw (1.815,3.30) -- (-0.3025,-0.55);
-  \draw (1.960,3.30) -- (5.0400,-0.55);
-  \node[below left] at (-0.3025,-0.55) {$l$};
-  \node[below right] at (5.04,-0.55) {$l'$};
-  % the four parallel rays of the projection, all bound for infinity
-  \draw[->] (1.65,3) -- (5.6,3);
-  \draw[->] (1.10,2) -- (5.6,2);
-  \draw[->] (0.55,1) -- (5.6,1);
-  \draw[->] (0.00,0) -- (5.6,0);
-  % the four points on l and their four images on l'
-  \node[dot,label=above left:$A$] at (1.65,3) {};
-  \node[dot,label=above left:$B$] at (1.10,2) {};
-  \node[dot,label=above left:$C$] at (0.55,1) {};
-  \node[dot,label=above left:$D$] at (0.00,0) {};
-  \node[dot,label=above right:$A'$] at (2.20,3) {};
-  \node[dot,label=above right:$B'$] at (3.00,2) {};
-  \node[dot,label=above right:$C'$] at (3.80,1) {};
-  \node[dot,label=above right:$D'$] at (4.60,0) {};
-  % brace gathering the rays at their common point at infinity
-  \draw (5.85,3.25) .. controls (6.2,3.25) and (5.95,2.05) .. (6.3,1.5)
-                    .. controls (5.95,0.95) and (6.2,-0.25) .. (5.85,-0.25);
-  \node[right] at (6.4,1.5) {$\infty$};
-\end{tikzpicture}
-</script>
+{% include figures/cross-ratio-projection.svg %}
 <figcaption>Invariance of cross-ratio under parallel projection.</figcaption>
 </figure>
 
@@ -62,56 +32,7 @@ The projecting lines $$AA'$$, $$BB'$$, $$CC'$$, $$DD'$$ are parallel — that is
 A line perpendicular to one projecting line is perpendicular to all four. Draw it through $$A$$: it meets $$BB'$$, $$CC'$$, $$DD'$$ at $$O$$, $$O'$$, $$O''$$. Draw it through $$A'$$: it meets them at $$P$$, $$P'$$, $$P''$$.
 
 <figure class="tikz-figure">
-<script type="text/tikz">
-\begin{tikzpicture}[scale=1.75, line width=0.7pt,
-                    dot/.style={circle,fill=black,inner sep=0pt,minimum size=3pt},
-                    foot/.style={circle,fill=red,inner sep=0pt,minimum size=3pt},
-                    perp/.style={red,dashed,line width=0.9pt}]
-  % the two transversals, which just fail to meet inside the picture
-  \draw (1.815,3.30) -- (-0.3025,-0.55);
-  \draw (1.960,3.30) -- (5.0400,-0.55);
-  \node[below left] at (-0.3025,-0.55) {$l$};
-  \node[below right] at (5.04,-0.55) {$l'$};
-  % the four parallel rays of the projection, all bound for infinity
-  \draw[->] (1.65,3) -- (5.6,3);
-  \draw[->] (1.10,2) -- (5.6,2);
-  \draw[->] (0.55,1) -- (5.6,1);
-  \draw[->] (0.00,0) -- (5.6,0);
-  % the two perpendiculars, one through A and one through A'
-  \draw[perp] (1.65,3) -- (1.65,0);
-  \draw[perp] (2.20,3) -- (2.20,0);
-  \node[foot] at (1.65,2) {};
-  \node[foot] at (1.65,1) {};
-  \node[foot] at (1.65,0) {};
-  \node[foot] at (2.20,2) {};
-  \node[foot] at (2.20,1) {};
-  \node[foot] at (2.20,0) {};
-  \node[red,above left] at (1.65,2) {$O$};
-  \node[red,above left] at (1.65,1) {$O'$};
-  \node[red,above left] at (1.65,0) {$O''$};
-  \node[red,above right] at (2.20,2) {$P$};
-  \node[red,above right] at (2.20,1) {$P'$};
-  \node[red,above right] at (2.20,0) {$P''$};
-  % the angle each transversal makes with the direction of projection
-  \draw (0.55,0) arc (0:61.2:0.55);
-  \node at (0.675,0.39) {$\theta$};
-  \draw (4.256,0.429) arc (128.7:180:0.55);
-  \node at (3.881,0.351) {$\theta'$};
-  % the four points on l and their four images on l'
-  \node[dot,label=above left:$A$] at (1.65,3) {};
-  \node[dot,label=above left:$B$] at (1.10,2) {};
-  \node[dot,label=above left:$C$] at (0.55,1) {};
-  \node[dot,label=above left:$D$] at (0.00,0) {};
-  \node[dot,label=above right:$A'$] at (2.20,3) {};
-  \node[dot,label=above right:$B'$] at (3.00,2) {};
-  \node[dot,label=above right:$C'$] at (3.80,1) {};
-  \node[dot,label=above right:$D'$] at (4.60,0) {};
-  % brace gathering the rays at their common point at infinity
-  \draw (5.85,3.25) .. controls (6.2,3.25) and (5.95,2.05) .. (6.3,1.5)
-                    .. controls (5.95,0.95) and (6.2,-0.25) .. (5.85,-0.25);
-  \node[right] at (6.4,1.5) {$\infty$};
-\end{tikzpicture}
-</script>
+{% include figures/cross-ratio-construction.svg %}
 <figcaption>One perpendicular through A and one through A', each cutting the three other projecting lines. Corresponding segments on the two perpendiculars are equal, because they are cut off by the same pairs of parallel lines.</figcaption>
 </figure>
 
