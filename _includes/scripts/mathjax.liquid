@@ -6,6 +6,12 @@
         tex: {
           tags: 'ams',
         },
+        chtml: {
+          // MathJax's math font renders capital letters visually larger than
+          // the surrounding body text at the same nominal font-size, so scale
+          // the whole output down slightly to match.
+          scale: 0.82,
+        },
       };
     </script>
     <script

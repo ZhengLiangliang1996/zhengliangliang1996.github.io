@@ -1,0 +1,32 @@
+/*******************************************************************************
+ * Hand-authored SVG figures
+ *
+ * Unlike TikZJax output (see _tikzjax.scss), these SVGs are not
+ * single-colour line art repainted wholesale by CSS: they carry their own
+ * multi-colour palette baked directly into fill/stroke as var(--global-...)
+ * custom properties, so they already track the light/dark theme on their
+ * own. This class only handles centring and the caption.
+ ******************************************************************************/
+
+.svg-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem 0;
+  text-align: center;
+  overflow-x: auto;
+
+  svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  figcaption {
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+}

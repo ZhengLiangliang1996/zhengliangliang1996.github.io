@@ -1,0 +1,41 @@
+/*******************************************************************************
+ * Problem / solution write-ups (math posts)
+ *
+ * The question should read as the main thing on the page; the solution is
+ * reference material underneath it, so it runs smaller and any headings used
+ * to break it into steps (Setting, Step 1, Conclusion, ...) are demoted to
+ * look like small labels rather than full section headers.
+ ******************************************************************************/
+
+.problem {
+  margin: 1.75rem 0 1rem;
+  font-size: 1.1em;
+  line-height: 1.5;
+
+  p {
+    font-size: inherit;
+  }
+}
+
+.solution {
+  margin-bottom: 2rem;
+  font-size: 0.92em;
+
+  > p:first-child {
+    margin-bottom: 1rem;
+    color: var(--global-text-color-light);
+    font-weight: 600;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+}

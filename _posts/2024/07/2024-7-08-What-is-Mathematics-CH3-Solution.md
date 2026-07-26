@@ -376,7 +376,7 @@ Calculate the coordinates of their point of intersection, and verify that these 
     \end{equation*}
     $$ 
 
-    and continuing this process iteratively $n$ times, we reach the desired expression 
+    and continuing this process iteratively $$n$$ times, we reach the desired expression 
     
     $$\sqrt{2-\sqrt{2+\sqrt{2+\dots+\sqrt{2}}}}$$
 
