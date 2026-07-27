@@ -171,8 +171,6 @@ $$
 
 so after the displacement the correspondence *is* the simple projection from $$O$$. $$\mathrm{Q.E.D.}$$
 
-{% comment %}
-TODO: under review — re-enable after checking Part 2.
 
 ### Part 2
 
@@ -221,7 +219,6 @@ $$
 $$
 
 That is, $$\Phi$$ is realized by first projecting $$l$$ onto $$l''$$ from the ordinary center $$O$$, then projecting $$l''$$ onto $$l'$$ by the parallel projection in direction $$-v$$ — two projections in all, no matter how many projections $$n$$ were used in the original chain. $$\mathrm{Q.E.D.}$$
-{% endcomment %}
 
 </div>
 
