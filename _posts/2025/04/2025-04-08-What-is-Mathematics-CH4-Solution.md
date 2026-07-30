@@ -222,4 +222,67 @@ That is, $$\Phi$$ is realized by first projecting $$l$$ onto $$l''$$ from the or
 
 </div>
 
+<div class="problem" markdown="1">
+**Problem 3** Given a segment $$AB$$ and a region $$R$$ blocking the line to the right of $$B$$, continue the line $$AB$$ beyond $$R$$ using the straightedge alone, without the straightedge ever crossing $$R$$.
+</div>
 
+<div class="solution" markdown="1">
+**Solution.**
+
+**Construction.**
+1. Choose $$C, C'$$ on segment $$AB$$, both between the midpoint and $$B$$, close enough to the midpoint that (by the formula above) their conjugates will clear $$R$$.
+2. Choose an auxiliary point $$E$$ above the line, and draw $$EA$$, $$EB$$, $$EC$$, $$EC'$$ — all within the region left of $$R$$.
+3. Quadrilateral for $$C$$: mark $$G$$ on $$EC$$; let $$F = AG \cap EB$$ and $$I = BG \cap EA$$; the line $$IF$$, extended down to the base line, lands at $$D$$, the harmonic conjugate of $$C$$. By placing $$E$$ high and $$G$$ suitably, the line $$IF$$ descends to $$D$$ passing **above** $$R$$.
+4. Repeat with $$C'$$ (the same $$E$$ may be reused, with a point $$G'$$ on $$EC'$$), obtaining $$D'$$ beyond $$R$$.
+5. Draw the line $$D'D$$ and extend it to the right: this is the continuation of $$AB$$.
+
+
+<figure class="svg-figure">
+{% include figures/extending_line_past_obstacle.svg %}
+</figure>
+
+</div>
+
+<div class="problem" markdown="1">
+**Problem 4.** What is the cross-ratio of four lines $$l_1, l_2, l_3, l_4$$ if they are parallel? What is the cross-ratio if $$l_4$$ is the line at infinity?
+</div>
+
+<div class="solution" markdown="1">
+**Solution.**
+
+### Part 1: four parallel lines
+
+Four parallel lines form a pencil whose center is a point at infinity — the common "point" all four pass through is the ideal point of their shared direction. The cross-ratio of a pencil is defined as the cross-ratio of the four points in which any transversal cuts it, so let a transversal $$t$$ meet the lines in $$A_1, A_2, A_3, A_4$$ and define
+
+$$
+(l_1, l_2; l_3, l_4) = (A_1, A_2; A_3, A_4) = \frac{A_1A_3 / A_3A_2}{A_1A_4 / A_4A_2}.
+$$
+
+<figure class="svg-figure">
+{% include figures/parallel_lines_cross_ratio.svg %}
+</figure>
+
+**This is well defined** — the transversal doesn't matter — precisely by Problem 1: if a second transversal $$t'$$ cuts the lines in $$B_1, B_2, B_3, B_4$$, then the correspondence $$A_i \mapsto B_i$$ *is* a parallel projection from $$t$$ to $$t'$$ (its projecting rays are the four given lines themselves, which are parallel), and Problem 1 says parallel projection preserves cross-ratio. So $$(A_1,A_2;A_3,A_4) = (B_1,B_2;B_3,B_4)$$.
+
+In particular one may take the transversal **perpendicular** to the four lines. Writing $$h_1, h_2, h_3, h_4$$ for signed positions of the lines along that common perpendicular,
+
+$$
+(l_1, l_2; l_3, l_4) = \frac{(h_3 - h_1)/(h_2 - h_3)}{(h_4 - h_1)/(h_2 - h_4)}:
+$$
+
+the cross-ratio of four parallel lines is the cross-ratio of their (signed) mutual distances. This is the limiting form of the $$\sin$$-formula for a pencil with ordinary center: as the center recedes to infinity, the sines of the angles at the center become proportional to the distances between the lines.
+
+### Part 2: $$l_4$$ the line at infinity
+
+For the four lines to form a pencil, $$l_1, l_2, l_3, l_4$$ must share a common point. The line at infinity passes through every ideal point, so the shared point is the ideal point of $$l_1, l_2, l_3$$ — that is, $$l_1, l_2, l_3$$ are parallel to one another, and $$l_4 = l_\infty$$ completes their pencil.
+
+Cut with a transversal $$t$$: it meets $$l_1, l_2, l_3$$ at $$A_1, A_2, A_3$$, and it meets $$l_\infty$$ at its own point at infinity, $$A_4 = \infty$$. In the cross-ratio the factor involving $$A_4$$ tends to $$1$$:
+
+$$
+(l_1, l_2; l_3, l_\infty) = \lim_{A_4 \to \infty} \frac{A_1A_3 / A_3A_2}{A_1A_4 / A_4A_2} = \frac{A_1A_3}{A_3A_2} = \frac{h_3 - h_1}{h_2 - h_3},
+$$
+
+the **simple ratio** in which $$l_3$$ divides the strip between $$l_1$$ and $$l_2$$, measured by distances.
+
+**Special case worth noting:** $$(l_1, l_2; l_3, l_\infty) = -1$$ exactly when $$h_3 = \tfrac{1}{2}(h_1 + h_2)$$, i.e. when $$l_3$$ is the midline of the strip. This is the line-version of the fact used throughout these solutions: *the harmonic conjugate of the midline with respect to two parallel lines is the line at infinity* — dual to "the harmonic conjugate of a midpoint with respect to the endpoints is the point at infinity."
+</div>

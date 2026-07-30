@@ -1,0 +1,54 @@
+<svg viewBox="0 0 520 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="figparalleltitle" style="max-width:520px;width:100%;height:auto;display:block;margin:1.5rem auto;">
+  <title id="figparalleltitle">Four parallel lines cut by two transversals</title>
+  <style>
+    .fg   { stroke: var(--global-text-color, currentColor); }
+    .fgf  { fill:   var(--global-text-color, currentColor); }
+    .mut  { stroke: var(--global-text-color, currentColor); opacity: 0.45; }
+    .acc  { stroke: #e06038; }
+    .accf { fill:   #e06038; }
+    .lbl  { fill: var(--global-text-color, currentColor);
+            font-family: inherit; font-size: 14px; }
+    .lbls { fill: var(--global-text-color, currentColor);
+            font-family: inherit; font-size: 12px; opacity: 0.85; }
+  </style>
+
+  <!-- the four parallel lines -->
+  <line class="fg" x1="100" y1="40" x2="100" y2="260" stroke-width="1.4"/>
+  <line class="fg" x1="220" y1="40" x2="220" y2="260" stroke-width="1.4"/>
+  <line class="fg" x1="300" y1="40" x2="300" y2="260" stroke-width="1.4"/>
+  <line class="fg" x1="440" y1="40" x2="440" y2="260" stroke-width="1.4"/>
+  <text class="lbl" x="100" y="28" text-anchor="middle">l&#8321;</text>
+  <text class="lbl" x="220" y="28" text-anchor="middle">l&#8322;</text>
+  <text class="lbl" x="300" y="28" text-anchor="middle">l&#8323;</text>
+  <text class="lbl" x="440" y="28" text-anchor="middle">l&#8324;</text>
+
+  <!-- transversal t -->
+  <line class="acc" x1="60" y1="120" x2="480" y2="190" stroke-width="1.3"/>
+  <text class="lbls" x="490" y="194" text-anchor="start">t</text>
+
+  <!-- transversal t' (dashed) -->
+  <line class="mut" x1="60" y1="228" x2="480" y2="207" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text class="lbls" x="490" y="209" text-anchor="start">t&#8242;</text>
+
+  <!-- intersection points on t -->
+  <circle class="accf" cx="100" cy="126.7" r="3.2"/>
+  <circle class="accf" cx="220" cy="146.7" r="3.2"/>
+  <circle class="accf" cx="300" cy="160"   r="3.2"/>
+  <circle class="accf" cx="440" cy="183.3" r="3.2"/>
+  <text class="lbls" x="106" y="118" text-anchor="start">A&#8321;</text>
+  <text class="lbls" x="226" y="138" text-anchor="start">A&#8322;</text>
+  <text class="lbls" x="306" y="151" text-anchor="start">A&#8323;</text>
+  <text class="lbls" x="446" y="175" text-anchor="start">A&#8324;</text>
+
+  <!-- intersection points on t' -->
+  <circle class="fgf" cx="100" cy="226" r="2.8" opacity="0.7"/>
+  <circle class="fgf" cx="220" cy="220" r="2.8" opacity="0.7"/>
+  <circle class="fgf" cx="300" cy="216" r="2.8" opacity="0.7"/>
+  <circle class="fgf" cx="440" cy="209" r="2.8" opacity="0.7"/>
+  <text class="lbls" x="106" y="244" text-anchor="start">B&#8321;</text>
+  <text class="lbls" x="226" y="238" text-anchor="start">B&#8322;</text>
+  <text class="lbls" x="306" y="234" text-anchor="start">B&#8323;</text>
+  <text class="lbls" x="446" y="227" text-anchor="start">B&#8324;</text>
+
+  <text class="lbls" x="260" y="288" text-anchor="middle">(A&#8321;,A&#8322;;A&#8323;,A&#8324;) = (B&#8321;,B&#8322;;B&#8323;,B&#8324;): the two sections correspond under parallel projection along the lines</text>
+</svg>

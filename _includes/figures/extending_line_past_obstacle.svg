@@ -1,0 +1,74 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fig82title" style="max-width:680px;width:100%;height:auto;display:block;margin:1.5rem auto;">
+  <title id="fig82title">Extending line AB past an obstacle R via two harmonic conjugate points</title>
+  <style>
+    .fg   { stroke: var(--global-text-color, currentColor); }
+    .fgf  { fill:   var(--global-text-color, currentColor); }
+    .mut  { stroke: var(--global-text-color, currentColor); opacity: 0.45; }
+    .blob { fill:   var(--global-text-color, currentColor); opacity: 0.18;
+            stroke: var(--global-text-color, currentColor); stroke-opacity: 0.4; }
+    .teal { stroke: #2aa17c; }
+    .vio  { stroke: #8b7fe8; }
+    .acc  { stroke: #e06038; }
+    .accf { fill:   #e06038; }
+    .lbl  { fill: var(--global-text-color, currentColor);
+            font-family: inherit; font-size: 15px; }
+    .lbls { fill: var(--global-text-color, currentColor);
+            font-family: inherit; font-size: 12.5px; opacity: 0.85; }
+  </style>
+
+  <!-- given segment AB and constructed extension beyond R -->
+  <path class="fg" d="M35,330 L292,330" fill="none" stroke-width="1.8"/>
+  <path class="fg" d="M400,330 L640,330" fill="none" stroke-width="1.8"/>
+
+  <!-- obstacle R -->
+  <path class="blob" d="M343,296 C368,293 386,308 383,330 C386,352 366,367 342,364 C316,368 303,350 305,329 C302,309 318,299 343,296 Z" stroke-width="1"/>
+  <text class="lbl" x="343" y="336" text-anchor="middle">R</text>
+
+  <!-- rays from E to A, B, C, C' -->
+  <line class="mut" x1="262.75" y1="111.5" x2="50"    y2="330" stroke-width="1"/>
+  <line class="mut" x1="262.75" y1="111.5" x2="280"   y2="330" stroke-width="1"/>
+  <line class="mut" x1="262.75" y1="111.5" x2="199.5" y2="330" stroke-width="1"/>
+  <line class="mut" x1="262.75" y1="111.5" x2="211"   y2="330" stroke-width="1"/>
+
+  <!-- quadrilateral for C (teal): AG->F and BG->I -->
+  <line class="teal" x1="50"  y1="330" x2="269.5" y2="197.6" stroke-width="1.3"/>
+  <line class="teal" x1="280" y1="330" x2="207.6" y2="168.2" stroke-width="1.3"/>
+
+  <!-- quadrilateral for C' (violet): AG'->F' and BG'->I' -->
+  <line class="vio" x1="50"  y1="330" x2="267.5" y2="171.3" stroke-width="1.3"/>
+  <line class="vio" x1="280" y1="330" x2="233.2" y2="141.9" stroke-width="1.3"/>
+
+  <!-- lines IF -> D and I'F' -> D', clearing R -->
+  <line class="acc" x1="207.6" y1="168.2" x2="548.3" y2="330" stroke-width="1.4"/>
+  <line class="acc" x1="233.2" y1="141.9" x2="452.5" y2="330" stroke-width="1.4"/>
+
+  <!-- points -->
+  <circle class="fgf" cx="50"     cy="330"   r="3.5"/>
+  <circle class="fgf" cx="280"    cy="330"   r="3.5"/>
+  <circle class="fgf" cx="199.5"  cy="330"   r="3"/>
+  <circle class="fgf" cx="211"    cy="330"   r="3"/>
+  <circle class="fgf" cx="262.75" cy="111.5" r="3.5"/>
+  <circle cx="231.1" cy="220.75" r="3" fill="#2aa17c"/>
+  <circle cx="269.5" cy="197.6"  r="3" fill="#2aa17c"/>
+  <circle cx="207.6" cy="168.2"  r="3" fill="#2aa17c"/>
+  <circle cx="244.6" cy="187.9"  r="3" fill="#8b7fe8"/>
+  <circle cx="267.5" cy="171.3"  r="3" fill="#8b7fe8"/>
+  <circle cx="233.2" cy="141.9"  r="3" fill="#8b7fe8"/>
+  <circle class="accf" cx="452.5" cy="330" r="4"/>
+  <circle class="accf" cx="548.3" cy="330" r="4"/>
+
+  <!-- labels -->
+  <text class="lbl"  x="46"     y="352" text-anchor="middle">A</text>
+  <text class="lbl"  x="284"    y="352" text-anchor="middle">B</text>
+  <text class="lbls" x="193"    y="350" text-anchor="end">C</text>
+  <text class="lbls" x="217"    y="350" text-anchor="start">C&#8242;</text>
+  <text class="lbl"  x="262.75" y="97"  text-anchor="middle">E</text>
+  <text class="lbls" x="219"    y="226" text-anchor="end">G</text>
+  <text class="lbls" x="256"    y="186" text-anchor="start">G&#8242;</text>
+  <text class="lbls" x="281"    y="200" text-anchor="start">F</text>
+  <text class="lbls" x="279"    y="168" text-anchor="start">F&#8242;</text>
+  <text class="lbls" x="196"    y="164" text-anchor="end">I</text>
+  <text class="lbls" x="222"    y="138" text-anchor="end">I&#8242;</text>
+  <text class="lbl"  x="452.5"  y="352" text-anchor="middle">D&#8242;</text>
+  <text class="lbl"  x="548.3"  y="352" text-anchor="middle">D</text>
+</svg>
