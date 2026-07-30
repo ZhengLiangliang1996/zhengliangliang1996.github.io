@@ -283,6 +283,4 @@ $$
 $$
 
 the **simple ratio** in which $$l_3$$ divides the strip between $$l_1$$ and $$l_2$$, measured by distances.
-
-**Special case worth noting:** $$(l_1, l_2; l_3, l_\infty) = -1$$ exactly when $$h_3 = \tfrac{1}{2}(h_1 + h_2)$$, i.e. when $$l_3$$ is the midline of the strip. This is the line-version of the fact used throughout these solutions: *the harmonic conjugate of the midline with respect to two parallel lines is the line at infinity* — dual to "the harmonic conjugate of a midpoint with respect to the endpoints is the point at infinity."
 </div>
